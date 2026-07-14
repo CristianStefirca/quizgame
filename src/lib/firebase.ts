@@ -1,73 +1,33 @@
-import {
-  initializeApp,
-  applicationDefault,
-  cert,
-  type App,
-} from "firebase-admin/app";
-import { getFirestore as getFirestoreSdk, type Firestore } from "firebase-admin/firestore";
+import { initializeApp, type FirebaseApp } from "firebase/app";
+import { getFirestore, type Firestore } from "firebase/firestore";
 
-let app: App | null = null;
+const firebaseConfig = {
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY ?? "",
+  authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ?? "",
+  projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID ?? "",
+  storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET ?? "",
+  messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID ?? "",
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID ?? "",
+};
+
+let app: FirebaseApp | null = null;
 let db: Firestore | null = null;
-let initError: string | null = null;
 
-function tryInit(): void {
-  if (app || initError) return;
-
-  const serviceAccountJson =
-    process.env.FIREBASE_SERVICE_ACCOUNT ??
-    process.env.GOOGLE_APPLICATION_CREDENTIALS_JSON;
-
-  if (serviceAccountJson) {
-    try {
-      const parsed = JSON.parse(serviceAccountJson) as {
-        projectId?: string;
-        clientEmail?: string;
-        privateKey?: string;
-      };
-      if (!parsed.projectId || !parsed.clientEmail || !parsed.privateKey) {
-        initError = "FIREBASE_BAD_SERVICE_ACCOUNT";
-        return;
-      }
-      app = initializeApp({
-        credential: cert({
-          projectId: parsed.projectId,
-          clientEmail: parsed.clientEmail,
-          privateKey: parsed.privateKey.replace(/\\n/g, "\n"),
-        }),
-      });
-      db = getFirestoreSdk(app);
-      return;
-    } catch (err) {
-      console.error("[firebase] init from FIREBASE_SERVICE_ACCOUNT failed:", err);
-      initError = "FIREBASE_INIT_FAILED";
-      return;
-    }
+export function getFirebaseApp(): FirebaseApp | null {
+  if (!firebaseConfig.apiKey || !firebaseConfig.projectId) return null;
+  if (!app) {
+    app = initializeApp(firebaseConfig);
   }
-
-  const credentialPath = process.env.GOOGLE_APPLICATION_CREDENTIALS;
-  if (credentialPath) {
-    try {
-      app = initializeApp({ credential: applicationDefault() });
-      db = getFirestoreSdk(app);
-      return;
-    } catch (err) {
-      console.error("[firebase] init from GOOGLE_APPLICATION_CREDENTIALS failed:", err);
-      initError = "FIREBASE_INIT_FAILED";
-      return;
-    }
-  }
-
-  initError = "FIREBASE_NOT_CONFIGURED";
+  return app;
 }
 
-export function getFirestore(): Firestore | null {
-  tryInit();
+export function getFirebaseDb(): Firestore | null {
+  const firebaseApp = getFirebaseApp();
+  if (!firebaseApp) return null;
+  if (!db) {
+    db = getFirestore(firebaseApp);
+  }
   return db;
-}
-
-export function getInitError(): string | null {
-  tryInit();
-  return initError;
 }
 
 export const PROGRESS_DOC = "single";

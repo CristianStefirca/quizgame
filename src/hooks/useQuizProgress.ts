@@ -1,6 +1,12 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import {
+  doc,
+  getDoc,
+  setDoc,
+} from "firebase/firestore";
+import { getFirebaseDb, PROGRESS_COLLECTION, PROGRESS_DOC } from "@/lib/firebase";
 
 const STORAGE_KEY = "admin-quiz-progress-v2";
 
@@ -70,12 +76,13 @@ function pickMoreComplete(
   return b;
 }
 
-async function fetchFromServer(): Promise<QuizProgress | null> {
+async function fetchFromFirestore(): Promise<QuizProgress | null> {
+  const db = getFirebaseDb();
+  if (!db) return null;
   try {
-    const res = await fetch("/api/progress", { cache: "no-store" });
-    if (!res.ok) return null;
-    const data = (await res.json()) as Partial<QuizProgress>;
-    if (!data || typeof data !== "object") return null;
+    const snap = await getDoc(doc(db, PROGRESS_COLLECTION, PROGRESS_DOC));
+    if (!snap.exists()) return null;
+    const data = snap.data() as Partial<QuizProgress>;
     return {
       wrongQuestionIds: data.wrongQuestionIds ?? [],
       scoresBySection: data.scoresBySection ?? {},
@@ -86,17 +93,18 @@ async function fetchFromServer(): Promise<QuizProgress | null> {
   }
 }
 
-async function pushToServer(progress: QuizProgress): Promise<void> {
-  if (typeof window === "undefined") return;
+async function pushToFirestore(progress: QuizProgress): Promise<void> {
+  const db = getFirebaseDb();
+  if (!db) return;
   try {
-    await fetch("/api/progress", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(progress),
-      keepalive: true,
+    await setDoc(doc(db, PROGRESS_COLLECTION, PROGRESS_DOC), {
+      wrongQuestionIds: progress.wrongQuestionIds,
+      scoresBySection: progress.scoresBySection,
+      lastRuns: progress.lastRuns,
+      updatedAt: Date.now(),
     });
   } catch {
-    /* offline or network error; localStorage already has the data */
+    /* offline or permission error; localStorage already has the data */
   }
 }
 
@@ -109,7 +117,7 @@ export function useQuizProgress() {
     const local = readFromStorage();
 
     async function hydrate() {
-      const remote = await fetchFromServer();
+      const remote = await fetchFromFirestore();
       if (cancelled) return;
 
       let merged: QuizProgress;
@@ -121,7 +129,7 @@ export function useQuizProgress() {
           merged.lastRuns.length !== remote.lastRuns.length ||
           sectionWeight(merged) !== sectionWeight(remote)
         ) {
-          void pushToServer(merged);
+          void pushToFirestore(merged);
         }
       } else {
         merged = local;
@@ -139,7 +147,7 @@ export function useQuizProgress() {
 
   const persist = useCallback((next: QuizProgress) => {
     writeToStorage(next);
-    void pushToServer(next);
+    void pushToFirestore(next);
   }, []);
 
   const recordRun = useCallback(
@@ -190,7 +198,7 @@ export function useQuizProgress() {
 
   const clearAll = useCallback(() => {
     writeToStorage(EMPTY);
-    void pushToServer(EMPTY);
+    void pushToFirestore(EMPTY);
     setProgress(EMPTY);
   }, []);
 
