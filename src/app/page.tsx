@@ -148,8 +148,8 @@ export default function Home() {
       </header>
 
       <main className="mx-auto w-full max-w-5xl flex-1 px-4 pb-24 pt-12 sm:px-6 sm:pt-20">
-        <div className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
-          <FadeIn className="flex flex-col">
+        <div className="grid min-w-0 gap-8 lg:grid-cols-[1.1fr_0.9fr]">
+          <FadeIn className="flex min-w-0 flex-col">
             <p className="eyebrow mb-3 flex items-center gap-2">
               <Sparkles className="size-3.5 text-primary" />
               Grădinița cu program prelungit „Pescăruș” Mangalia
@@ -293,7 +293,7 @@ export default function Home() {
             </Card>
           </FadeIn>
 
-          <FadeIn delay={0.08} className="flex flex-col gap-4">
+          <FadeIn delay={0.08} className="flex min-w-0 flex-col gap-4">
             {hasResume && (
               <Card className="ring-1 ring-primary/20">
                 <CardContent className="flex items-center gap-4 py-5">
@@ -451,10 +451,10 @@ function Stat({
   value: string;
 }) {
   return (
-    <div className="flex flex-col gap-1.5 bg-card px-4 py-4">
-      <span className="flex items-center gap-1.5 text-[0.625rem] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
-        <span className="text-primary">{icon}</span>
-        {label}
+    <div className="flex min-w-0 flex-col gap-1.5 bg-card px-3 py-4 sm:px-4">
+      <span className="flex min-w-0 items-center gap-1.5 text-[0.625rem] font-semibold uppercase tracking-[0.16em] text-muted-foreground">
+        <span className="shrink-0 text-primary">{icon}</span>
+        <span className="truncate">{label}</span>
       </span>
       <span className="font-heading text-2xl font-semibold tabular text-foreground">
         {value}

@@ -44,7 +44,7 @@ function readFromStorage(): QuizProgress {
     if (!raw) return EMPTY;
     const parsed = JSON.parse(raw) as Partial<QuizProgress>;
     return {
-      wrongQuestionIds: parsed.wrongQuestionIds ?? [],
+      wrongQuestionIds: Array.from(new Set(parsed.wrongQuestionIds ?? [])),
       scoresBySection: parsed.scoresBySection ?? {},
       lastRuns: parsed.lastRuns ?? [],
     };
@@ -86,7 +86,7 @@ async function fetchFromFirestore(): Promise<QuizProgress | null> {
     if (!snap.exists()) return null;
     const data = snap.data() as Partial<QuizProgress>;
     return {
-      wrongQuestionIds: data.wrongQuestionIds ?? [],
+      wrongQuestionIds: Array.from(new Set(data.wrongQuestionIds ?? [])),
       scoresBySection: data.scoresBySection ?? {},
       lastRuns: data.lastRuns ?? [],
     };
