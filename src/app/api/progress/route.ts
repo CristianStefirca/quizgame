@@ -1,82 +1,99 @@
 import { NextResponse } from "next/server";
 
-import { redis, PROGRESS_KEY } from "@/lib/redis";
+import {
+  getFirestore,
+  getInitError,
+  PROGRESS_COLLECTION,
+  PROGRESS_DOC,
+} from "@/lib/firebase";
 import type { QuizProgress } from "@/hooks/useQuizProgress";
 
 export const dynamic = "force-dynamic";
 export const runtime = "nodejs";
 
+const EMPTY_PROGRESS: QuizProgress = {
+  wrongQuestionIds: [],
+  scoresBySection: {},
+  lastRuns: [],
+};
+
+function notConfigured() {
+  const err = getInitError() ?? "FIREBASE_NOT_CONFIGURED";
+  return NextResponse.json({ error: err }, { status: 503 });
+}
+
 export async function GET() {
-  if (!redis) {
-    return NextResponse.json(
-      { error: "KV_NOT_CONFIGURED" },
-      { status: 503 },
-    );
-  }
+  const db = getFirestore();
+  if (!db) return notConfigured();
+
   try {
-    const raw = await redis.get<QuizProgress | null>(PROGRESS_KEY);
-    const progress: QuizProgress = raw ?? {
-      wrongQuestionIds: [],
-      scoresBySection: {},
-      lastRuns: [],
+    const snap = await db
+      .collection(PROGRESS_COLLECTION)
+      .doc(PROGRESS_DOC)
+      .get();
+    if (!snap.exists) {
+      return NextResponse.json(EMPTY_PROGRESS, {
+        headers: { "Cache-Control": "no-store, max-age=0" },
+      });
+    }
+    const data = snap.data() as Partial<QuizProgress>;
+    const progress: QuizProgress = {
+      wrongQuestionIds: data.wrongQuestionIds ?? [],
+      scoresBySection: data.scoresBySection ?? {},
+      lastRuns: data.lastRuns ?? [],
     };
     return NextResponse.json(progress, {
       headers: { "Cache-Control": "no-store, max-age=0" },
     });
   } catch (err) {
     console.error("[/api/progress] GET failed:", err);
-    return NextResponse.json(
-      { error: "KV_READ_FAILED" },
-      { status: 502 },
-    );
+    return NextResponse.json({ error: "FIRESTORE_READ_FAILED" }, { status: 502 });
   }
 }
 
 export async function POST(req: Request) {
-  if (!redis) {
-    return NextResponse.json(
-      { error: "KV_NOT_CONFIGURED" },
-      { status: 503 },
-    );
-  }
+  const db = getFirestore();
+  if (!db) return notConfigured();
+
   let body: QuizProgress;
   try {
     body = (await req.json()) as QuizProgress;
   } catch {
-    return NextResponse.json(
-      { error: "INVALID_JSON" },
-      { status: 400 },
-    );
+    return NextResponse.json({ error: "INVALID_JSON" }, { status: 400 });
   }
 
-  if (!body || !Array.isArray(body.wrongQuestionIds) ||
-      !body.scoresBySection || !Array.isArray(body.lastRuns)) {
-    return NextResponse.json(
-      { error: "INVALID_SHAPE" },
-      { status: 400 },
-    );
+  if (
+    !body ||
+    !Array.isArray(body.wrongQuestionIds) ||
+    !body.scoresBySection ||
+    !Array.isArray(body.lastRuns)
+  ) {
+    return NextResponse.json({ error: "INVALID_SHAPE" }, { status: 400 });
   }
 
   if (body.wrongQuestionIds.length > 5000) {
-    return NextResponse.json(
-      { error: "PAYLOAD_TOO_LARGE" },
-      { status: 413 },
-    );
+    return NextResponse.json({ error: "PAYLOAD_TOO_LARGE" }, { status: 413 });
   }
   if (body.lastRuns.length > 50) {
     body.lastRuns = body.lastRuns.slice(0, 50);
   }
 
   try {
-    await redis.set(PROGRESS_KEY, JSON.stringify(body));
-    return NextResponse.json({ ok: true }, {
-      headers: { "Cache-Control": "no-store, max-age=0" },
-    });
+    await db
+      .collection(PROGRESS_COLLECTION)
+      .doc(PROGRESS_DOC)
+      .set({
+        wrongQuestionIds: body.wrongQuestionIds,
+        scoresBySection: body.scoresBySection,
+        lastRuns: body.lastRuns,
+        updatedAt: Date.now(),
+      });
+    return NextResponse.json(
+      { ok: true },
+      { headers: { "Cache-Control": "no-store, max-age=0" } },
+    );
   } catch (err) {
     console.error("[/api/progress] POST failed:", err);
-    return NextResponse.json(
-      { error: "KV_WRITE_FAILED" },
-      { status: 502 },
-    );
+    return NextResponse.json({ error: "FIRESTORE_WRITE_FAILED" }, { status: 502 });
   }
 }

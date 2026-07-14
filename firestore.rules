@@ -1,0 +1,11 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Single shared progress document for the one user of this app.
+    // The Admin SDK bypasses these rules, so they only matter if the
+    // client SDK is ever used directly. Until then, deny all client access.
+    match /progress/{doc} {
+      allow read, write: if false;
+    }
+  }
+}

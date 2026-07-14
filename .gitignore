@@ -33,6 +33,11 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 
+# Firebase / GCP service account keys — never commit these
+serviceAccount*.json
+*service-account*.json
+firebase-service-account*.json
+
 # vercel
 .vercel
 
