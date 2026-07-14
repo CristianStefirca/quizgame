@@ -247,7 +247,11 @@ export default function QuizPage() {
         </span>
       </header>
 
-      <div className="mb-2 flex h-1.5 w-full gap-0.5">
+      <div
+        className={`mb-2 flex h-1.5 w-full overflow-hidden rounded-full ${
+          run.questions.length <= 60 ? "gap-0.5" : "gap-0"
+        }`}
+      >
         {run.questions.map((qq) => {
           const a = answers.find((x) => x.questionId === qq.id);
           const color = !a
@@ -258,7 +262,9 @@ export default function QuizPage() {
           return (
             <div
               key={qq.id}
-              className={`h-full flex-1 rounded-full transition-colors duration-300 ${color}`}
+              className={`h-full min-w-0 flex-1 transition-colors duration-300 ${
+                run.questions.length <= 60 ? "rounded-full" : ""
+              } ${color}`}
             />
           );
         })}
