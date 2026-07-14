@@ -38,6 +38,11 @@ serviceAccount*.json
 *service-account*.json
 firebase-service-account*.json
 
+# Firebase build outputs
+out/
+functions/lib/
+functions/node_modules/
+
 # vercel
 .vercel
 
