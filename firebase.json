@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "try-tutorial-f9b44",
     "public": "out",
     "ignore": [
       "firebase.json",
