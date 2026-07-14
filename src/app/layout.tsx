@@ -1,7 +1,8 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist_Mono, Noto_Sans, Playfair_Display } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { AuthGate } from "@/components/AuthGate";
 
 const playfairDisplayHeading = Playfair_Display({
   subsets: ["latin"],
@@ -27,6 +28,14 @@ export const metadata: Metadata = {
     "Test de antrenament pentru postul de Administrator II / studii medii, Grădinița cu program prelungit „Pescăruș” Mangalia.",
 };
 
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  viewportFit: "cover",
+  themeColor: "#f5faf7",
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -42,7 +51,9 @@ export default function RootLayout({
         geistMono.variable,
       )}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <AuthGate>{children}</AuthGate>
+      </body>
     </html>
   );
 }

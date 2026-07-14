@@ -30,5 +30,5 @@ export function getFirebaseDb(): Firestore | null {
   return db;
 }
 
-export const PROGRESS_DOC = "single";
 export const PROGRESS_COLLECTION = "progress";
+export const ACTIVE_RUN_COLLECTION = "activeRun";

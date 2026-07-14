@@ -4,5 +4,8 @@ service cloud.firestore {
     match /progress/{doc} {
       allow read, write: if true;
     }
+    match /activeRun/{doc} {
+      allow read, write: if true;
+    }
   }
 }

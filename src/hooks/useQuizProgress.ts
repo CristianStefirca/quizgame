@@ -6,7 +6,8 @@ import {
   getDoc,
   setDoc,
 } from "firebase/firestore";
-import { getFirebaseDb, PROGRESS_COLLECTION, PROGRESS_DOC } from "@/lib/firebase";
+import { getFirebaseDb, PROGRESS_COLLECTION } from "@/lib/firebase";
+import { getUserCode } from "@/lib/auth";
 
 const STORAGE_KEY = "admin-quiz-progress-v2";
 
@@ -21,6 +22,7 @@ export type LastRunSummary = {
   total: number;
   scorePercent: number;
   result: "ADMIS" | "RESPINS";
+  durationMs?: number;
 };
 
 export type QuizProgress = {
@@ -38,7 +40,7 @@ const EMPTY: QuizProgress = {
 function readFromStorage(): QuizProgress {
   if (typeof window === "undefined") return EMPTY;
   try {
-    const raw = window.localStorage.getItem(STORAGE_KEY);
+    const raw = window.localStorage.getItem(`${STORAGE_KEY}:${getUserCode()}`);
     if (!raw) return EMPTY;
     const parsed = JSON.parse(raw) as Partial<QuizProgress>;
     return {
@@ -54,7 +56,7 @@ function readFromStorage(): QuizProgress {
 function writeToStorage(progress: QuizProgress) {
   if (typeof window === "undefined") return;
   try {
-    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+    window.localStorage.setItem(`${STORAGE_KEY}:${getUserCode()}`, JSON.stringify(progress));
   } catch {
     /* ignore quota errors */
   }
@@ -80,7 +82,7 @@ async function fetchFromFirestore(): Promise<QuizProgress | null> {
   const db = getFirebaseDb();
   if (!db) return null;
   try {
-    const snap = await getDoc(doc(db, PROGRESS_COLLECTION, PROGRESS_DOC));
+    const snap = await getDoc(doc(db, PROGRESS_COLLECTION, getUserCode()));
     if (!snap.exists()) return null;
     const data = snap.data() as Partial<QuizProgress>;
     return {
@@ -97,7 +99,7 @@ async function pushToFirestore(progress: QuizProgress): Promise<void> {
   const db = getFirebaseDb();
   if (!db) return;
   try {
-    await setDoc(doc(db, PROGRESS_COLLECTION, PROGRESS_DOC), {
+    await setDoc(doc(db, PROGRESS_COLLECTION, getUserCode()), {
       wrongQuestionIds: progress.wrongQuestionIds,
       scoresBySection: progress.scoresBySection,
       lastRuns: progress.lastRuns,

@@ -4,22 +4,31 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { QuestionCard } from "@/components/QuestionCard";
+import { QuestionNav } from "@/components/QuestionNav";
 import { questions } from "@/data/questions";
 import { generateTestRun, getScorePercent, getPassFail } from "@/lib/quiz";
 import type {
   AnswerRecord,
   RunMeta,
-} from "@/lib/run-store";
+} from "@/lib/active-run-store";
 import {
-  clearRun,
-  loadAnswers,
-  loadMeta,
-  loadRun,
-  saveAnswers,
-  saveRun,
-} from "@/lib/run-store";
+  clearActiveRun,
+  loadLocal,
+  loadRemote,
+  persistState,
+  startRun,
+} from "@/lib/active-run-store";
 import { useQuizProgress } from "@/hooks/useQuizProgress";
 import type { TestRun } from "@/lib/quiz-types";
+
+function formatDuration(ms: number): string {
+  const totalSec = Math.max(0, Math.floor(ms / 1000));
+  const h = Math.floor(totalSec / 3600);
+  const m = Math.floor((totalSec % 3600) / 60);
+  const s = totalSec % 60;
+  const pad = (n: number) => String(n).padStart(2, "0");
+  return h > 0 ? `${h}:${pad(m)}:${pad(s)}` : `${m}:${pad(s)}`;
+}
 
 export default function QuizPage() {
   const router = useRouter();
@@ -30,29 +39,52 @@ export default function QuizPage() {
   const [hydrated, setHydrated] = useState(false);
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState<AnswerRecord[]>([]);
-  const [lastSelectedIds, setLastSelectedIds] = useState<string[]>([]);
   const [finishing, setFinishing] = useState(false);
+  const [elapsedMs, setElapsedMs] = useState(0);
 
   useEffect(() => {
-    const r = loadRun();
-    const m = loadMeta();
-    if (!r) {
-      // eslint-disable-next-line react-hooks/set-state-in-effect
-      setHydrated(true);
-      return;
+    if (!run) return;
+    function tick() {
+      setElapsedMs(Date.now() - run!.createdAt);
     }
-     
-    setRun(r);
-     
-    setMeta(m);
-    const saved = loadAnswers();
-     
-    setAnswers(saved);
-     
-    setCurrent(Math.min(saved.length, r.questions.length));
-     
-    setHydrated(true);
+    tick();
+    const id = window.setInterval(tick, 1000);
+    return () => window.clearInterval(id);
+  }, [run]);
+
+  useEffect(() => {
+    let cancelled = false;
+
+    function applyState(s: {
+      run: TestRun;
+      meta: RunMeta;
+      answers: AnswerRecord[];
+      current: number;
+    }) {
+      setRun(s.run);
+      setMeta(s.meta);
+      setAnswers(s.answers);
+      setCurrent(Math.min(s.current, s.run.questions.length));
+    }
+
+    const local = loadLocal();
+    if (local) applyState(local);
+
+    async function hydrate() {
+      const remote = await loadRemote();
+      if (cancelled) return;
+      if (remote && (!local || remote.updatedAt > local.updatedAt)) {
+        applyState(remote);
+      }
+      setHydrated(true);
+    }
+
+    void hydrate();
+    return () => {
+      cancelled = true;
+    };
   }, []);
+
 
   const q = useMemo(
     () => (run ? run.questions[current] ?? null : null),
@@ -64,20 +96,28 @@ export default function QuizPage() {
       setAnswers((prev) => {
         const without = prev.filter((a) => a.questionId !== questionId);
         const next = [...without, { questionId, selectedIds, correct }];
-        saveAnswers(next);
+        if (run && meta) {
+          persistState({ run, meta, answers: next, current, updatedAt: Date.now() });
+        }
         return next;
       });
     },
-    [],
+    [run, meta, current],
   );
 
-  function handleAnswerLocked(wasCorrect: boolean, questionId: string) {
+  function handleAnswerLocked(
+    wasCorrect: boolean,
+    questionId: string,
+    selectedIds: string[],
+  ) {
     if (!q || q.id !== questionId) return;
-    addOrUpdateAnswer(questionId, lastSelectedIds, wasCorrect);
+    addOrUpdateAnswer(questionId, selectedIds, wasCorrect);
   }
 
-  function handleSelectChange(ids: string[]) {
-    setLastSelectedIds(ids);
+  function goToIndex(index: number) {
+    if (!run || !meta) return;
+    setCurrent(index);
+    persistState({ run, meta, answers, current: index, updatedAt: Date.now() });
   }
 
   function handleNext() {
@@ -85,9 +125,19 @@ export default function QuizPage() {
     if (current + 1 >= run.questions.length) {
       setFinishing(true);
     } else {
-      setCurrent((c) => c + 1);
-      setLastSelectedIds([]);
+      goToIndex(current + 1);
     }
+  }
+
+  function handlePrev() {
+    if (current === 0) return;
+    goToIndex(current - 1);
+  }
+
+  function handleJump(index: number) {
+    if (!run) return;
+    if (index < 0 || index >= run.questions.length) return;
+    goToIndex(index);
   }
 
   const finish = useCallback(() => {
@@ -112,10 +162,11 @@ export default function QuizPage() {
         total,
         scorePercent,
         result,
+        durationMs: Date.now() - run.createdAt,
       },
       wrongIdsFromRun,
     );
-    clearRun();
+    clearActiveRun();
     router.push("/rezultat");
   }, [run, meta, answers, recordRun, router]);
 
@@ -134,11 +185,10 @@ export default function QuizPage() {
         ? answers.filter((a) => !a.correct).map((a) => a.questionId)
         : undefined,
     });
-    saveRun(newRun, meta);
+    startRun(newRun, meta);
     setRun(newRun);
     setAnswers([]);
     setCurrent(0);
-    setLastSelectedIds([]);
   }
 
   if (!hydrated) {
@@ -172,25 +222,57 @@ export default function QuizPage() {
   }
 
   const isLast = current + 1 === run.questions.length;
+  const existingAnswer = answers.find((a) => a.questionId === q.id);
+  const correctSoFar = answers.filter((a) => a.correct).length;
+  const wrongSoFar = answers.filter((a) => !a.correct).length;
 
   return (
-    <main className="mx-auto w-full max-w-3xl px-4 py-8 sm:py-12">
-      <header className="mb-6 flex items-center justify-between">
+    <main className="mx-auto w-full max-w-3xl px-4 py-4 pb-28 sm:py-12 sm:pb-12">
+      <header className="mb-4 flex items-center justify-between gap-2 sm:mb-6 sm:gap-3">
         <Link href="/" className="text-sm text-slate-500 underline">
           ← Renunță
         </Link>
-        <span className="text-sm text-slate-500">
+        <QuestionNav
+          total={run.questions.length}
+          current={current}
+          answers={answers}
+          questionIds={run.questions.map((qq) => qq.id)}
+          onJump={handleJump}
+        />
+        <span className="flex items-center gap-2 text-xs text-slate-500 sm:gap-3 sm:text-sm">
+          <span className="tabular-nums" title="Timp scurs">
+            ⏱ {formatDuration(elapsedMs)}
+          </span>
           {current + 1} / {run.questions.length}
         </span>
       </header>
 
-      <div className="mb-6 h-1.5 w-full overflow-hidden rounded bg-slate-200">
-        <div
-          className="h-full bg-emerald-500 transition-all"
-          style={{
-            width: `${Math.round((current / run.questions.length) * 100)}%`,
-          }}
-        />
+      <div className="mb-2 flex h-1.5 w-full gap-0.5">
+        {run.questions.map((qq) => {
+          const a = answers.find((x) => x.questionId === qq.id);
+          const color = !a
+            ? "bg-slate-200"
+            : a.correct
+              ? "bg-emerald-500"
+              : "bg-red-500";
+          return (
+            <div
+              key={qq.id}
+              className={`h-full flex-1 rounded-full transition-colors duration-300 ${color}`}
+            />
+          );
+        })}
+      </div>
+
+      <div className="mb-6 flex items-center justify-end gap-3 text-xs text-slate-500">
+        <span className="flex items-center gap-1">
+          <span className="inline-block h-2.5 w-2.5 rounded-full border border-emerald-300 bg-emerald-100" />
+          {correctSoFar} corecte
+        </span>
+        <span className="flex items-center gap-1">
+          <span className="inline-block h-2.5 w-2.5 rounded-full border border-red-300 bg-red-100" />
+          {wrongSoFar} greșite
+        </span>
       </div>
 
       <div className="rounded-xl border border-slate-200 bg-white p-6 shadow-sm">
@@ -202,7 +284,10 @@ export default function QuizPage() {
           isLast={isLast}
           onAnswerLocked={handleAnswerLocked}
           onNext={handleNext}
-          onSelectChange={handleSelectChange}
+          onPrev={handlePrev}
+          canGoPrev={current > 0}
+          initialSelectedIds={existingAnswer?.selectedIds}
+          initialLocked={!!existingAnswer}
         />
       </div>
 

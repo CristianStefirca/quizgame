@@ -6,7 +6,7 @@ import { useMemo, useState } from "react";
 import { ScoreSummary } from "@/components/ScoreSummary";
 import { questions } from "@/data/questions";
 import { generateTestRun } from "@/lib/quiz";
-import { saveRun } from "@/lib/run-store";
+import { startRun } from "@/lib/active-run-store";
 import { useQuizProgress } from "@/hooks/useQuizProgress";
 
 export default function ResultsPage() {
@@ -32,7 +32,7 @@ export default function ResultsPage() {
 
   function newRandom() {
     const run = generateTestRun({ bank: questions, count: 50 });
-    saveRun(run, { section: "all", count: run.questions.length, onlyWrong: false });
+    startRun(run, { section: "all", count: run.questions.length, onlyWrong: false });
     router.push("/test");
   }
 
@@ -43,12 +43,12 @@ export default function ResultsPage() {
       onlyWrongIds: progress.wrongQuestionIds,
       count: progress.wrongQuestionIds.length,
     });
-    saveRun(run, {
+    startRun(run, {
       section: "wrong",
       count: run.questions.length,
       onlyWrong: true,
     });
-    router.push("/quiz");
+    router.push("/test");
   }
 
   if (!lastRun) {
@@ -92,6 +92,7 @@ export default function ResultsPage() {
         total={lastRun.total}
         scorePercent={lastRun.scorePercent}
         result={lastRun.result}
+        durationMs={lastRun.durationMs}
         onRepeatMistakes={repeatMistakes}
         onNewRandom={newRandom}
         onReview={() => setShowReview((v) => !v)}

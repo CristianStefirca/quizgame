@@ -11,9 +11,17 @@ export type QuestionCardProps = {
   index: number;
   total: number;
   onNext: () => void;
-  onAnswerLocked?: (wasCorrect: boolean, questionId: string) => void;
+  onPrev?: () => void;
+  canGoPrev?: boolean;
+  onAnswerLocked?: (
+    wasCorrect: boolean,
+    questionId: string,
+    selectedIds: string[],
+  ) => void;
   onSelectChange?: (selectedIds: string[]) => void;
   isLast: boolean;
+  initialSelectedIds?: string[];
+  initialLocked?: boolean;
 };
 
 export function QuestionCard({
@@ -21,12 +29,18 @@ export function QuestionCard({
   index,
   total,
   onNext,
+  onPrev,
+  canGoPrev,
   onAnswerLocked,
   onSelectChange,
   isLast,
+  initialSelectedIds,
+  initialLocked,
 }: QuestionCardProps) {
-  const [selectedIds, setSelectedIds] = useState<string[]>([]);
-  const [locked, setLocked] = useState(false);
+  const [selectedIds, setSelectedIds] = useState<string[]>(
+    initialSelectedIds ?? [],
+  );
+  const [locked, setLocked] = useState(initialLocked ?? false);
   const multi = question.type === "multi";
 
   const wasCorrect = useMemo(
@@ -50,7 +64,7 @@ export function QuestionCard({
       updateSelection([id]);
       setLocked(true);
       const correct = isCorrectAnswer([id], question.correctOptionIds);
-      onAnswerLocked?.(correct, question.id);
+      onAnswerLocked?.(correct, question.id, [id]);
     }
   }
 
@@ -58,7 +72,7 @@ export function QuestionCard({
     if (locked || selectedIds.length === 0) return;
     setLocked(true);
     const correct = isCorrectAnswer(selectedIds, question.correctOptionIds);
-    onAnswerLocked?.(correct, question.id);
+    onAnswerLocked?.(correct, question.id, selectedIds);
   }
 
   function handleNext() {
@@ -70,9 +84,22 @@ export function QuestionCard({
   return (
     <section className="w-full">
       <div className="mb-3 flex items-center justify-between text-sm text-slate-600">
-        <span>
-          Întrebarea {index + 1} din {total}
-        </span>
+        <div className="flex items-center gap-2">
+          {onPrev && (
+            <button
+              type="button"
+              onClick={onPrev}
+              disabled={!canGoPrev}
+              aria-label="Întrebarea anterioară"
+              className="rounded-full border border-slate-300 px-2 py-0.5 text-xs font-semibold text-slate-600 hover:bg-slate-50 disabled:opacity-30"
+            >
+              ← Anterioara
+            </button>
+          )}
+          <span>
+            Întrebarea {index + 1} din {total}
+          </span>
+        </div>
         <span className="rounded-full bg-slate-100 px-2 py-0.5 text-xs">
           {question.section}
         </span>
@@ -96,17 +123,6 @@ export function QuestionCard({
         ))}
       </div>
 
-      {multi && !locked && (
-        <button
-          type="button"
-          onClick={handleConfirmMulti}
-          disabled={selectedIds.length === 0}
-          className="mt-4 rounded-lg bg-slate-900 px-4 py-2 text-sm font-semibold text-white disabled:opacity-40"
-        >
-          Confirmă răspunsurile
-        </button>
-      )}
-
       {locked && (
         <TooltipWhy
           tooltipCorrect={question.tooltipCorrect}
@@ -115,22 +131,38 @@ export function QuestionCard({
         />
       )}
 
-      {locked && (
-        <div className="mt-4 flex items-center justify-between">
-          <span
-            className={`text-sm font-semibold ${wasCorrect ? "text-emerald-700" : "text-red-700"}`}
-          >
-            {wasCorrect ? " CORECT" : "Greșit"}
-          </span>
-          <button
-            type="button"
-            onClick={handleNext}
-            className="rounded-lg bg-slate-900 px-5 py-2 text-sm font-semibold text-white hover:bg-slate-700"
-          >
-            {isLast ? "Finalizează testul" : "Următoarea →"}
-          </button>
+      {(multi && !locked) || locked ? (
+        <div className="mobile-action-bar">
+          <div className="mx-auto flex w-full max-w-3xl items-center gap-3">
+            {multi && !locked && (
+              <button
+                type="button"
+                onClick={handleConfirmMulti}
+                disabled={selectedIds.length === 0}
+                className="ml-auto w-full rounded-lg bg-slate-900 px-4 py-3 text-base font-semibold text-white transition-colors disabled:opacity-40 sm:w-auto sm:py-2 sm:text-sm"
+              >
+                Confirmă răspunsurile
+              </button>
+            )}
+            {locked && (
+              <>
+                <span
+                  className={`text-sm font-semibold ${wasCorrect ? "text-emerald-700" : "text-red-700"}`}
+                >
+                  {wasCorrect ? "CORECT" : "Greșit"}
+                </span>
+                <button
+                  type="button"
+                  onClick={handleNext}
+                  className="ml-auto rounded-lg bg-slate-900 px-5 py-3 text-base font-semibold text-white transition-colors hover:bg-slate-700 sm:py-2 sm:text-sm"
+                >
+                  {isLast ? "Finalizează testul" : "Următoarea →"}
+                </button>
+              </>
+            )}
+          </div>
         </div>
-      )}
+      ) : null}
     </section>
   );
 }

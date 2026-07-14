@@ -67,7 +67,7 @@ describe("QuestionCard - single", () => {
   it("blochează la click pe o variantă single", async () => {
     const { onAnswerLocked } = renderCard(singleCorrectA);
     await userEvent.click(screen.getByText("Răspuns corect"));
-    expect(onAnswerLocked).toHaveBeenCalledWith(true, "QC-1");
+    expect(onAnswerLocked).toHaveBeenCalledWith(true, "QC-1", ["A"]);
     expect(screen.getByText(/De ce era corect/)).toBeInTheDocument();
     expect(screen.getByText("tooltip corect")).toBeInTheDocument();
   });
@@ -107,7 +107,7 @@ describe("QuestionCard - multi", () => {
     await userEvent.click(screen.getByText("Răspuns greșit C"));
     expect(onAnswerLocked).not.toHaveBeenCalled();
     await userEvent.click(screen.getByRole("button", { name: /Confirmă răspunsurile/ }));
-    expect(onAnswerLocked).toHaveBeenCalledWith(true, "QC-2");
+    expect(onAnswerLocked).toHaveBeenCalledWith(true, "QC-2", ["A", "C"]);
   });
 
   it("toggle pe mai multe opțiuni multi", async () => {
@@ -115,13 +115,13 @@ describe("QuestionCard - multi", () => {
     await userEvent.click(screen.getByText("Răspuns corect"));
     await userEvent.click(screen.getByText("Răspuns greșit C"));
     await userEvent.click(screen.getByRole("button", { name: /Confirmă răspunsurile/ }));
-    expect(onAnswerLocked).toHaveBeenCalledWith(true, "QC-2");
+    expect(onAnswerLocked).toHaveBeenCalledWith(true, "QC-2", ["A", "C"]);
   });
 
   it("multi greșit dacă selectezi doar unul din cele două corecte", async () => {
     const { onAnswerLocked } = renderCard(multiCorrectAC);
     await userEvent.click(screen.getByText("Răspuns corect"));
     await userEvent.click(screen.getByRole("button", { name: /Confirmă răspunsurile/ }));
-    expect(onAnswerLocked).toHaveBeenCalledWith(false, "QC-2");
+    expect(onAnswerLocked).toHaveBeenCalledWith(false, "QC-2", ["A"]);
   });
 });

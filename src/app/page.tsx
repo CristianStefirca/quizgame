@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import {
   ArrowRight,
@@ -19,7 +19,7 @@ import {
 import { questions } from "@/data/questions";
 import { generateTestRun, PASS_PERCENT } from "@/lib/quiz";
 import { getSections, ALL_SECTION } from "@/lib/sections";
-import { saveRun, loadRun, loadMeta } from "@/lib/run-store";
+import { startRun, loadLocal, loadRemote } from "@/lib/active-run-store";
 import { useQuizProgress } from "@/hooks/useQuizProgress";
 import { cn } from "@/lib/utils";
 
@@ -77,7 +77,24 @@ export default function Home() {
     ? poolForSelection.length
     : Math.min(count, poolForSelection.length);
   const wrongCount = progress.wrongQuestionIds.length;
-  const hasResume = hydrated ? Boolean(loadRun() && loadMeta()) : false;
+  const [hasResume, setHasResume] = useState(false);
+
+  useEffect(() => {
+    if (!hydrated) return;
+    let cancelled = false;
+    if (loadLocal()) {
+      setHasResume(true);
+      return;
+    }
+    async function checkRemote() {
+      const remote = await loadRemote();
+      if (!cancelled && remote) setHasResume(true);
+    }
+    void checkRemote();
+    return () => {
+      cancelled = true;
+    };
+  }, [hydrated]);
 
   function start() {
     const testCount = count === ALL_COUNT ? poolForSelection.length : count;
@@ -88,7 +105,7 @@ export default function Home() {
           count: progress.wrongQuestionIds.length || testCount,
         })
       : generateTestRun({ bank: questions, section, count: testCount });
-    saveRun(run, {
+    startRun(run, {
       section: onlyWrong ? "wrong" : section,
       count: run.questions.length,
       onlyWrong,

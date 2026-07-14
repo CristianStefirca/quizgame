@@ -7,6 +7,7 @@ export type ScoreSummaryProps = {
   total: number;
   scorePercent: number;
   result: "ADMIS" | "RESPINS";
+  durationMs?: number;
   onRepeatMistakes: () => void;
   onNewRandom: () => void;
   onReview: () => void;
@@ -14,11 +15,21 @@ export type ScoreSummaryProps = {
   hasStoredMistakes: boolean;
 };
 
+function formatDuration(ms: number): string {
+  const totalSec = Math.max(0, Math.floor(ms / 1000));
+  const h = Math.floor(totalSec / 3600);
+  const m = Math.floor((totalSec % 3600) / 60);
+  const s = totalSec % 60;
+  const pad = (n: number) => String(n).padStart(2, "0");
+  return h > 0 ? `${h}:${pad(m)}:${pad(s)}` : `${m}:${pad(s)} min`;
+}
+
 export function ScoreSummary({
   correctCount,
   total,
   scorePercent,
   result,
+  durationMs,
   onRepeatMistakes,
   onNewRandom,
   onReview,
@@ -52,6 +63,11 @@ export function ScoreSummary({
         <p className="mt-1 text-base text-slate-700">
           Scor: {scorePercent}% · Prag de promovare: {PASS_PERCENT}%
         </p>
+        {typeof durationMs === "number" && (
+          <p className="mt-1 text-sm text-slate-500">
+            Timp: {formatDuration(durationMs)}
+          </p>
+        )}
         {mistakesCount > 0 && (
           <p className="mt-2 text-sm text-slate-600">
             Ai greșit {mistakesCount} {mistakesCount === 1 ? "întrebare" : "întrebări"} în acest test.
