@@ -44,7 +44,8 @@ import {
 import { Switch } from "@/components/ui/switch";
 import { FadeIn, Stagger, StaggerItem } from "@/components/motion/motion";
 
-const COUNT_OPTIONS = [25, 40, 50, 100];
+const COUNT_OPTIONS = [25, 40, 50, 100] as const;
+const ALL_COUNT = -1;
 
 export default function Home() {
   const router = useRouter();
@@ -60,7 +61,7 @@ export default function Home() {
   );
 
   const [section, setSection] = useState<string>(ALL_SECTION);
-  const [count, setCount] = useState<number>(50);
+  const [count, setCount] = useState<number>(ALL_COUNT);
   const [onlyWrong, setOnlyWrong] = useState<boolean>(false);
 
   const poolForSelection = useMemo(() => {
@@ -72,18 +73,21 @@ export default function Home() {
     return questions.filter((q) => q.section === section);
   }, [section, onlyWrong, progress.wrongQuestionIds]);
 
-  const effectiveCount = Math.min(count, poolForSelection.length);
+  const effectiveCount = count === ALL_COUNT
+    ? poolForSelection.length
+    : Math.min(count, poolForSelection.length);
   const wrongCount = progress.wrongQuestionIds.length;
   const hasResume = hydrated ? Boolean(loadRun() && loadMeta()) : false;
 
   function start() {
+    const testCount = count === ALL_COUNT ? poolForSelection.length : count;
     const run = onlyWrong
       ? generateTestRun({
           bank: questions,
           onlyWrongIds: progress.wrongQuestionIds,
-          count: progress.wrongQuestionIds.length || count,
+          count: progress.wrongQuestionIds.length || testCount,
         })
-      : generateTestRun({ bank: questions, section, count });
+      : generateTestRun({ bank: questions, section, count: testCount });
     saveRun(run, {
       section: onlyWrong ? "wrong" : section,
       count: run.questions.length,
@@ -214,13 +218,14 @@ export default function Home() {
                   </div>
                   <div className="grid grid-cols-4 gap-2">
                     {COUNT_OPTIONS.map((c) => {
-                      const disabled = c > poolForSelection.length;
-                      const active = count === c;
+                      const isAll = c === 100;
+                      const disabled = !isAll && c > poolForSelection.length;
+                      const active = isAll ? count === ALL_COUNT : count === c;
                       return (
                         <button
                           key={c}
                           type="button"
-                          onClick={() => setCount(c)}
+                          onClick={() => setCount(isAll ? ALL_COUNT : c)}
                           disabled={disabled || onlyWrong}
                           className={cn(
                             "h-11 rounded-md border text-sm font-semibold tabular transition-all",
@@ -231,7 +236,7 @@ export default function Home() {
                               "cursor-not-allowed opacity-40",
                           )}
                         >
-                          {c}
+                          {isAll ? "Toate" : c}
                         </button>
                       );
                     })}
