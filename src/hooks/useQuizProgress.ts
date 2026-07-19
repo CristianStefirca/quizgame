@@ -153,14 +153,19 @@ export function useQuizProgress() {
   }, []);
 
   const recordRun = useCallback(
-    (summary: LastRunSummary, wrongIdsFromRun: string[]) => {
+    (
+      summary: LastRunSummary,
+      wrongIdsFromRun: string[],
+      correctIdsFromRun: string[] = [],
+    ) => {
       setProgress((prev) => {
         const wrongSet = new Set(prev.wrongQuestionIds);
         for (const id of wrongIdsFromRun) wrongSet.add(id);
+        for (const id of correctIdsFromRun) wrongSet.delete(id);
         const next: QuizProgress = {
           wrongQuestionIds: Array.from(wrongSet),
           scoresBySection: { ...prev.scoresBySection },
-          lastRuns: [summary, ...prev.lastRuns].slice(0, 20),
+          lastRuns: [summary, ...prev.lastRuns].slice(0, 100),
         };
         persist(next);
         return next;

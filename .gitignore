@@ -51,3 +51,6 @@ next-env.d.ts
 # local agent artifacts
 .abacusai/
 .firebase/
+
+# question-generation scratch / digest artifacts
+src/data/_gen/

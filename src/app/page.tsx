@@ -21,6 +21,7 @@ import { generateTestRun, PASS_PERCENT } from "@/lib/quiz";
 import { getSections, ALL_SECTION } from "@/lib/sections";
 import { startRun, loadLocal, loadRemote } from "@/lib/active-run-store";
 import { useQuizProgress } from "@/hooks/useQuizProgress";
+import { RunHistory } from "@/components/RunHistory";
 import { cn } from "@/lib/utils";
 
 import {
@@ -42,7 +43,7 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Switch } from "@/components/ui/switch";
-import { FadeIn, Stagger, StaggerItem } from "@/components/motion/motion";
+import { FadeIn } from "@/components/motion/motion";
 
 const COUNT_OPTIONS = [25, 40, 50, 100] as const;
 const ALL_COUNT = -1;
@@ -366,49 +367,7 @@ export default function Home() {
                 ) : null}
 
                 {hydrated && progress.lastRuns.length > 0 ? (
-                  <Stagger className="mt-6 flex flex-col">
-                    <p className="eyebrow mb-3">Ultimele rulări</p>
-                    <ul className="flex flex-col gap-1">
-                      {progress.lastRuns.slice(0, 5).map((r) => (
-                        <StaggerItem
-                          key={r.runId}
-                          className="flex items-center gap-3 rounded-md px-2 py-2 transition-colors hover:bg-secondary/60"
-                        >
-                          <span
-                            className={cn(
-                              "size-1.5 shrink-0 rounded-full",
-                              r.result === "ADMIS" ? "bg-success" : "bg-destructive",
-                            )}
-                          />
-                          <div className="min-w-0 flex-1">
-                            <p className="truncate text-sm font-medium text-foreground">
-                              {r.section === "wrong"
-                                ? "Doar greșeli"
-                                : r.section === "all"
-                                  ? "Toate capitolele"
-                                  : r.section}
-                            </p>
-                            <p className="tabular text-[0.6875rem] text-muted-foreground">
-                              {new Date(r.createdAt).toLocaleDateString("ro-RO", {
-                                day: "2-digit",
-                                month: "short",
-                                hour: "2-digit",
-                                minute: "2-digit",
-                              })}
-                            </p>
-                          </div>
-                          <div className="text-right">
-                            <p className="tabular text-sm font-semibold text-foreground">
-                              {r.scorePercent}%
-                            </p>
-                            <p className="tabular text-[0.6875rem] text-muted-foreground">
-                              {r.correctCount}/{r.total}
-                            </p>
-                          </div>
-                        </StaggerItem>
-                      ))}
-                    </ul>
-                  </Stagger>
+                  <RunHistory runs={progress.lastRuns} className="mt-6" />
                 ) : null}
 
                 {hydrated && wrongCount > 0 ? (

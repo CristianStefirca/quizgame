@@ -151,6 +151,7 @@ export default function QuizPage() {
     const scorePercent = getScorePercent(correctCount, total);
     const result = getPassFail(scorePercent);
     const wrongIdsFromRun = indexed.filter((a) => !a.correct).map((a) => a.questionId);
+    const correctIdsFromRun = indexed.filter((a) => a.correct).map((a) => a.questionId);
 
     recordRun(
       {
@@ -165,6 +166,7 @@ export default function QuizPage() {
         durationMs: Date.now() - run.createdAt,
       },
       wrongIdsFromRun,
+      correctIdsFromRun,
     );
     clearActiveRun();
     router.push("/rezultat");

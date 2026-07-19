@@ -6,8 +6,8 @@ describe("banca de întrebări - calitate (spec secțiunea 10)", () => {
     expect(questions.length).toBeGreaterThanOrEqual(300);
   });
 
-  test("banca are cele 420 întrebări declarate", () => {
-    expect(questions.length).toBe(420);
+  test("banca are cele 503 întrebări declarate", () => {
+    expect(questions.length).toBe(503);
   });
 
   test("nu există ID-uri duplicate", () => {
@@ -59,7 +59,7 @@ describe("banca de întrebări - calitate (spec secțiunea 10)", () => {
     }
     expect(counts.get("Bibliografie și limite de materie")).toBe(4);
     expect(counts.get("Dotări minimale - Ordin 4143/2022")).toBe(80);
-    expect(counts.get("Alimentație sănătoasă - Ordin 1563/2008 și Legea 123/2008")).toBe(77);
+    expect(counts.get("Alimentație sănătoasă - Ordin 1563/2008 și Legea 123/2008")).toBe(160);
     expect(counts.get("SSM - Legea 319/2006")).toBe(59);
     expect(counts.get("PSI - Legea 307/2006")).toBe(61);
     expect(counts.get("Informații clasificate - HG 585/2002 și HG 781/2002")).toBe(74);
