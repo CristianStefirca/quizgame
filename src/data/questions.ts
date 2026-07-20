@@ -12,23 +12,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Predarea directă a copiilor și elaborarea curriculumului pentru grupa mică."
-      },
-      {
-        "id": "B",
-        "text": "Coordonarea activităților instructiv-educative ale educatoarelor din unitate."
-      },
-      {
-        "id": "C",
         "text": "Gestionarea administrativă a bunurilor, aprovizionarea, inventarul, depozitarea și aplicarea normelor de igienă/SSM/PSI, fără atribuții didactice."
       },
       {
+        "id": "B",
+        "text": "În temeiul normelor în vigoare, predarea directă a copiilor și elaborarea curriculumului pentru grupa mică."
+      },
+      {
+        "id": "C",
+        "text": "Potrivit regulamentului intern, doar supravegherea copiilor în curte în timpul pauzelor, fără răspunderi de gestionare."
+      },
+      {
         "id": "D",
-        "text": "Doar supravegherea copiilor în curte în timpul pauzelor, fără răspunderi de gestionare."
+        "text": "Potrivit regulamentului intern, coordonarea activităților instructiv-educative ale educatoarelor din unitate."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "A"
     ],
     "explanation": "Administrator II este post administrativ (gestiune, aprovizionare, inventar, norme igienice/SSM/PSI), NU post didactic. Confuzia duce la învățarea unei materii care NU se examinează, deci la respingere.",
     "tooltipCorrect": "Postul este administrativ, NU didactic; materia examenului reflectă atribuțiile reale de gestiune, nu pe cele de educator."
@@ -44,23 +44,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Niciun risc, pentru că blogurile sintetizează mai clar decât actele oficiale."
+        "text": "Pe baza dispozițiilor curente, niciun risc, pentru că blogurile sintetizează mai clar decât actele oficiale și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Risc redus, atâta timp cât rezumatele sunt datate recent."
-      },
-      {
-        "id": "C",
         "text": "Risc major: rezumatele neoficiale pot omite modificările/completările actelor și pot inventa praguri; materia examenului se bazează pe suportul de învățare + tematica/bibliografia oficială din anunț."
       },
       {
+        "id": "C",
+        "text": "Potrivit reglementării aplicabile, risc doar pentru partea de acte normative; pentru SSM/PSI orice sursă este acceptată ca măsură curentă de gestiune."
+      },
+      {
         "id": "D",
-        "text": "Risc doar pentru partea de acte normative; pentru SSM/PSI orice sursă este acceptată."
+        "text": "Conform practicii administrative curente, risc redus, atâta timp cât rezumatele sunt datate recent și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "B"
     ],
     "explanation": "Banca de întrebări urmărește materia din suportul de învățare și tematica oficială. Rezumatele neoficiale pot prezenta forme învechite sau eronate ale actelor și praguri greșite, generând răspunsuri incorecte la examen.",
     "tooltipCorrect": "Materia de examen = suportul de învățare + tematica/bibliografia oficială; sursele neoficiale riscă să omită modificări și să inventeze praguri."
@@ -76,11 +76,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Forma modificată ulterior, pentru că este cea mai nouă și „mai corectă”."
+        "text": "Potrivit normei, forma modificată ulterior, pentru că este cea mai nouă și „mai corectă”."
       },
       {
         "id": "B",
-        "text": "Prima formă publicată inițial, fără nicio modificare ulterioară."
+        "text": "Orice formă găsită pe prima pagină a unui motor de căutare, indiferent de dată."
       },
       {
         "id": "C",
@@ -88,7 +88,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "Orice formă găsită pe prima pagină a unui motor de căutare, indiferent de dată."
+        "text": "Conform procedurii, prima formă publicată inițial, fără nicio modificare ulterioară."
       }
     ],
     "correctOptionIds": [
@@ -108,23 +108,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Copia xerox este suficientă dacă are ștampila unității pe ea."
+        "text": "Potrivit regulamentului intern, descarcă orice PDF care conține numărul actului, indiferent de sursă sau dată."
       },
       {
         "id": "B",
-        "text": "Caută actul pe Portalul Legislativ și folosește „forma printabilă”/actualizată, care reflectă modificările valabile până la data anunțului."
+        "text": "Pe baza dispozițiilor curente, se bazează exclusiv pe varianta memorată de un coleg care a susținut examenul în alt an."
       },
       {
         "id": "C",
-        "text": "Descarcă orice PDF care conține numărul actului, indiferent de sursă sau dată."
+        "text": "În temeiul normelor în vigoare, copia xerox este suficientă dacă are ștampila unității pe ea și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Se bazează exclusiv pe varianta memorată de un coleg care a susținut examenul în alt an."
+        "text": "Caută actul pe Portalul Legislativ și folosește „forma printabilă”/actualizată, care reflectă modificările valabile până la data anunțului."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Portalul Legislativ oferă forma consolidată/actualizată a actului prin „forma printabilă”. Copiile neoficiale sau învechite pot prezenta texte fără modificări, generând răspunsuri greșite la grile.",
     "tooltipCorrect": "Portalul Legislativ + „forma printabilă”/actualizată este sursa fiabilă; copiile învechite pot omite modificările și duc la erori."
@@ -140,23 +140,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Raportează conducerii că nu sunt suficiente resurse și inventarul este complet."
-      },
-      {
-        "id": "B",
         "text": "Semnalează lipsa dotărilor din categoriile neacoperite conducerii, deoarece existența tuturor dotărilor din Anexa 2 este obligatorie pentru serviciile 0–6 ani."
       },
       {
+        "id": "B",
+        "text": "În temeiul normelor în vigoare, așteaptă ca grădiniță să depășească capacitatea máximă înainte de a completa dotările."
+      },
+      {
         "id": "C",
-        "text": "Consideră că unitatea poate funcționa cu 6 categorii dacă grupele sunt mici."
+        "text": "Pe baza evaluării de rutină, consideră că unitatea poate funcționa cu 6 categorii dacă grupele sunt mici și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Așteaptă ca grădiniță să depășească capacitatea máximă înainte de a completa dotările."
+        "text": "Conform procedurii interne, raportează conducerii că nu sunt suficiente resurse și inventarul este complet și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2 stabilește că existența tuturor dotărilor obligatorii este imperativă; cantitățile se ajustează după nevoi și nr. copii, dar toate categoriile trebuie prezente. Administrator-ul semnalează conducerii lipsa dotărilor conform reglementărilor.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2, stabilește obligativitatea tuturor dotărilor; cantitățile le stabilește unitatea în funcție de nevoi și nr. copii."
@@ -172,23 +172,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Cumpără scaunele imediat, deoarece standardele prevăd scauni cu dimensiuni 21-20-20 și numărul se stabilește de unitate după nr. copii."
+        "text": "Pe baza dispozițiilor curente, refuză, deoarece Anexa 2 stabilește numărul exact: 4 scauni per grupă."
       },
       {
         "id": "B",
-        "text": "Refuză, deoarece Anexa 2 stabilește numărul exact: 4 scauni per grupă."
+        "text": "Cumpără scaunele imediat, deoarece standardele prevăd scauni cu dimensiuni 21-20-20 și numărul se stabilește de unitate după nr. copii."
       },
       {
         "id": "C",
-        "text": "Cumpără doar 6 scauni pentru a economisi bugete."
+        "text": "Conform practicii administrative curente, cumpără doar 6 scauni pentru a economisi bugete și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Așteaptă ordinul superintendentului școlelor înainte de a procura scaunele."
+        "text": "Conform procedurii interne, așteaptă ordinul superintendentului școlelor înainte de a procura scaunele."
       }
     ],
     "correctOptionIds": [
-      "A"
+      "B"
     ],
     "explanation": "Ordinul 4143/2022, Anexa 2, prevede că cantitățile dotărilor le stabilește unitatea în funcție de nevoile lor și nr. de copii din grupă. Dimensiunile scaunelor pt antepreșcolari sunt 21-20-20; administrator-ul aprovizionează în baza necesităților educatorului.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: cantitățile se stabilesc de unitate după nevoi și nr. copii; dimensiuni antepreșcolar 21-20-20."
@@ -204,11 +204,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar grupa de antepreșcolari, conform Anexei 2."
+        "text": "Conform practicii administrative curente, ambele grupe, dar la preșcolari nu sunt dimensiunile standard."
       },
       {
         "id": "B",
-        "text": "Ambele grupe, dar la preșcolari nu sunt dimensiunile standard."
+        "text": "Conform procedurii interne, doar grupa de antepreșcolari, conform Anexei 2 și se consemnează în evidentă."
       },
       {
         "id": "C",
@@ -216,7 +216,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "Nici una, deoarece din ordinul 4143 sunt restricții de utilizare a scaunelor pe nivele."
+        "text": "Pe baza dispoziției, nici una, deoarece din ordinul 4143 sunt restricții de utilizare a scaunelor pe nivele."
       }
     ],
     "correctOptionIds": [
@@ -236,23 +236,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, lungimea mesei nu contează; copiii se pot adapta."
+        "text": "Potrivit procedurii stabilite, da, lungimea mesei nu contează; copiii se pot adapta."
       },
       {
         "id": "B",
-        "text": "Nu, deoarece pt antepreșcolari (0–3) lungimea mesei trebuie să fie 43 cm; masa de 52 cm este pt preșcolari (3–6)."
+        "text": "În aplicarea măsurilor prevăzute, da, 52 cm este dimensiunea standard pt orice vârstă."
       },
       {
         "id": "C",
-        "text": "Doar dacă educatoarea aprobă folosirea lor."
+        "text": "În aplicarea instrucțiunilor unității, doar dacă educatoarea aprobă folosirea lor."
       },
       {
         "id": "D",
-        "text": "Da, 52 cm este dimensiunea standard pt orice vârstă."
+        "text": "Nu, deoarece pt antepreșcolari (0–3) lungimea mesei trebuie să fie 43 cm; masa de 52 cm este pt preșcolari (3–6)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 2 stabilește: pentru antepreșcolari (0–3 ani), mese pt 4 copii cu lungimea 43 cm; pentru preșcolari (3–6), mese pt 4 copii cu lungimi 47 și 52 cm. Dimensiunile sunt diferite și adaptat la talia copiilor.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: mese antepreșcolar (I=43); mese preșcolar (I=47, II=52)."
@@ -268,23 +268,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Procură fierul de călcat, deoarece este parte din dotarea obligatorie pentru orice grupă."
-      },
-      {
-        "id": "B",
         "text": "Refuză procurarea, deoarece fierul de călcat în Joc de rol este prevăzut în Anexa 2 DOAR pt preșcolari (3–6 ani), nu pt antepreșcolari."
       },
       {
+        "id": "B",
+        "text": "Conform procedurii interne, procură fierul de călcat, deoarece este parte din dotarea obligatorie pentru orice grupă."
+      },
+      {
         "id": "C",
-        "text": "Cumpără fierul după o evaluare internă a nevoilor grupei."
+        "text": "Potrivit regulamentului intern, cumpără fierul după o evaluare internă a nevoilor grupei și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Solicită permisiune părinților înainte de a cumpăra."
+        "text": "Pe baza evaluării de rutină, solicită permisiune părinților înainte de a cumpăra și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2 enumeră dotări specifice pentru antepreșcolar și preșcolar. Fierul de călcat în centrul de Joc de rol este DOAR la preșcolari (3–6). Pentru antepreșcolari (0–3), dotările de Joc de rol includ: păpuși, cărucior, veselă, miniechipamente casnice (aragaz, mașină de spălat, chiuvetă), set îngrijire plante, dar NU fier de călcat.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: fier de călcat în Joc de rol DOAR la preșcolar (3–6)."
@@ -300,7 +300,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Pentru ambele grupe, deoarece microscopia este importantă la orice vârstă."
+        "text": "Potrivit normei, pentru antepreșcolari, deoarece copiii mici au nevoie mai mult de explorare senzorială."
       },
       {
         "id": "B",
@@ -308,11 +308,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Pentru antepreșcolari, deoarece copiii mici au nevoie mai mult de explorare senzorială."
+        "text": "Potrivit reglementării aplicabile, pentru ambele grupe, deoarece microscopia este importantă la orice vârstă."
       },
       {
         "id": "D",
-        "text": "Doar pentru grupa cu mai mulți copii."
+        "text": "În temeiul normelor în vigoare, doar pentru grupa cu mai mulți copii urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -332,23 +332,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Verifică dacă sunt și Logic II și planșe sistem solar, care lipsesc și sunt obligatorii la preșcolar conform Anexei 2."
+        "text": "Potrivit regulamentului intern, comandă doar suplimente la planșele existente, fără a adăuga materiale noi."
       },
       {
         "id": "B",
-        "text": "Consideră inventarul complet, deoarece Logic I este suficient pentru preșcolari."
+        "text": "Conform procedurii, consideră inventarul complet, deoarece Logic I este suficient pentru preșcolari."
       },
       {
         "id": "C",
-        "text": "Comandă doar suplimente la planșele existente, fără a adăuga materiale noi."
+        "text": "Verifică dacă sunt și Logic II și planșe sistem solar, care lipsesc și sunt obligatorii la preșcolar conform Anexei 2."
       },
       {
         "id": "D",
-        "text": "Semnalează că centrul de Știință nu trebuie să aibă atât de mult material."
+        "text": "Potrivit procedurii stabilite, semnalează că centrul de Știință nu trebuie să aibă atât de mult material."
       }
     ],
     "correctOptionIds": [
-      "A"
+      "C"
     ],
     "explanation": "Anexa 2 prevede pentru preșcolar: Logic I ȘI Logic II, mulaje, planșe sistem solar ȘI anotimpuri. La antepreșcolar se găsește doar Logic I. Administrator-ul verifică completitudinea și semnalează orice lipsuri conducerii.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: preșcolar cu Logic I + II, mulaje, planșe solar + anotimpuri."
@@ -364,23 +364,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Cumpără imediat, deoarece sunt materiale standard pt mișcare la orice vârstă."
+        "text": "Conform procedurii interne, achizitionează doar cercuri, nu și jaloane ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Refuză, deoarece jaloane, coardă, cercuri și stegulețe sunt prevăzute în Anexa 2 DOAR pt preșcolari (3–6), nu pt antepreșcolari (0–3)."
+        "text": "Potrivit regulamentului intern, așteaptă cazul unei accidentări înainte de a introduce jalonauri."
       },
       {
         "id": "C",
-        "text": "Achizitionează doar cercuri, nu și jaloane."
+        "text": "Potrivit procedurii stabilite, cumpără imediat, deoarece sunt materiale standard pt mișcare la orice vârstă."
       },
       {
         "id": "D",
-        "text": "Așteaptă cazul unei accidentări înainte de a introduce jalonauri."
+        "text": "Refuză, deoarece jaloane, coardă, cercuri și stegulețe sunt prevăzute în Anexa 2 DOAR pt preșcolari (3–6), nu pt antepreșcolari (0–3)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 2 stabilește că jaloane, coardă, cercuri și stegulețe sunt echipamente de mișcare DOAR pentru preșcolari (3–6). Pentru antepreșcolari (0–3), echipamentele de mișcare sunt: tobogan, tunel de târâre, bază de atracții, saltea, spalier, popice, mingi (min. 2 dimensiuni), triciclete, trotinete, minicoș de baschet, minipoartă de fotbal.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: jaloane, coardă, cercuri, stegulețe DOAR la preșcolar (3–6)."
@@ -396,23 +396,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Consideră că doar preșcolarii au nevoie de bază de atracții și eliminină din inventar."
-      },
-      {
-        "id": "B",
         "text": "Verifică conform Anexei 2 că baza de atracții este prevăzută DOAR pt antepreșcolari (0–3), limitează accesul copiilor la echipamentul defect și semnalează defecțiunea conducerii cu prioritate pt reparații SSM/PSI."
       },
       {
+        "id": "B",
+        "text": "Potrivit procedurii stabilite, comandă o nouă bază de atracții fără a verifica defecțiunea și se consemnează în evidentă."
+      },
+      {
         "id": "C",
-        "text": "Lasă copiii să continue joacă, deoarece educatoarea va supraveghea."
+        "text": "În aplicarea instrucțiunilor unității, consideră că doar preșcolarii au nevoie de bază de atracții și eliminină din inventar urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Comandă o nouă bază de atracții fără a verifica defecțiunea."
+        "text": "Pe baza dispozițiilor curente, lasă copiii să continue joacă, deoarece educatoarea va supraveghea și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2 prevede bază de atracții DOAR pentru antepreșcolari (0–3). Administrator-ul II asigură că echipamentele sunt verificate periodic (fără suruburi ieșite, rugină, lemn aschiat, muchii periculoase). Dacă sunt defecte, limitează accesul și semnalează conducerii cu prioritate.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: bază de atracții pt antepreșcolar; administr. verific. periodic și limit. acces la defecte."
@@ -428,7 +428,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Neaga, deoarece mingiile de tenis sunt suficiente; nu sunt alte dimensiuni prevăzute."
+        "text": "Potrivit normei, neaga, deoarece mingiile de tenis sunt suficiente; nu sunt alte dimensiuni prevăzute."
       },
       {
         "id": "B",
@@ -436,11 +436,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Solicită aprobarea părinților pentru a cumpăra mingi suplimentare."
+        "text": "În temeiul normelor în vigoare, procedează la inventar anual fără a completa mingiile."
       },
       {
         "id": "D",
-        "text": "Procedează la inventar anual fără a completa mingiile."
+        "text": "Potrivit regulamentului intern, solicită aprobarea părinților pentru a cumpăra mingi suplimentare."
       }
     ],
     "correctOptionIds": [
@@ -460,23 +460,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Aprobă oferta, deoarece copiii pot cere cărți educatoarei."
+        "text": "Potrivit reglementării aplicabile, cumpără ambele, biblioteca închisă și una joasă deschisă ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Refuză și solicită o bibliotecă JOASĂ cu RAFTURI DESCHISE (oblice), conform Anexei 2, pt a asigura accesul copiilor la materiale și stimularea autonomiei."
+        "text": "Potrivit regulamentului intern, acceptă biblioteca închisă dacă are o dulap suplimentar pt jucării și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Acceptă biblioteca închisă dacă are o dulap suplimentar pt jucării."
+        "text": "Refuză și solicită o bibliotecă JOASĂ cu RAFTURI DESCHISE (oblice), conform Anexei 2, pt a asigura accesul copiilor la materiale și stimularea autonomiei."
       },
       {
         "id": "D",
-        "text": "Cumpără ambele, biblioteca închisă și una joasă deschisă."
+        "text": "În temeiul normelor în vigoare, aprobă oferta, deoarece copiii pot cere cărți educatoarei ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 2 prevede bibliotecă JOASĂ cu RAFTURI DESCHISE (oblice) pt a facilita accesul copiilor la cărți. Standardul 4.1.1 afirmă că copiii trebuie să aibă acces la materiale, iar jucăriile/cărțile se aranjează pe rafturi JOASE.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2 + Standard 4.1.1: bibliotecă joasă cu rafturi deschise oblice, accesibil copiilor."
@@ -492,23 +492,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Situația e OK, deoarece scaunele sunt suficiente pt citit."
+        "text": "Conform practicii administrative curente, se pot folosi perne din dormitor pt a adapta centrul și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Lipsesc pernuțele individuale, care sunt obligatorii pt centrul de Bibliotecă conform Anexei 2, creindu-se spații confortabile de citit."
+        "text": "Conform procedurii interne, situația e OK, deoarece scaunele sunt suficiente pt citit ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se pot folosi perne din dormitor pt a adapta centrul."
+        "text": "Conform practicii administrative curente, pernuțele sunt opționale și nu sunt în normativ și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Pernuțele sunt opționale și nu sunt în normativ."
+        "text": "Lipsesc pernuțele individuale, care sunt obligatorii pt centrul de Bibliotecă conform Anexei 2, creindu-se spații confortabile de citit."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 2 prevede pernuțe individuale pt șezut în centrul de Bibliotecă. Acestea asigură confort și creează atmosferă de lectură plăcută. Administrator-ul le procură pt a completa dotarea obligatorie.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: pernuțe individuale pt șezut în centrul Bibliotecă sunt obligatorii."
@@ -524,23 +524,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu, doar one dintre ele; administrator-ul alege funcția mai potrivit."
-      },
-      {
-        "id": "B",
         "text": "Da, conform Anexei 2, categoria 'Aparatură tehnologică' prevede AMBELE: All-in-One/Laptop cu internet (varianta OR), Display interactiv, Scaner, Sistem sunet, Masă luminoasă, Aparat foto."
       },
       {
+        "id": "B",
+        "text": "Potrivit reglementării aplicabile, doar Laptop, deoarece e mai portabil și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Doar Laptop, deoarece e mai portabil."
+        "text": "În temeiul normelor în vigoare, nu, doar one dintre ele; administrator-ul alege funcția mai potrivit ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Niciuna, deoarece copiii nu trebuie să folosească calculatoare."
+        "text": "Conform procedurii interne, niciuna, deoarece copiii nu trebuie să folosească calculatoare urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2 enumeră aparatura tehnologică obligatorie: All-in-One VAGY Laptop cu internet (alternativa), Display interactiv, Scaner documente portabil, Sistem sunet, Masă luminoasă, Aparat foto digital pt copii. Administrator-ul asigură prezența acestor echipamente.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: Aparatură tehnologică include All-in-One VAGY Laptop internet, Display, Scaner, Sunet, Masă luminoasă, Aparat foto."
@@ -556,7 +556,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu, Display interactiv e prea complex pentru antepreșcolari."
+        "text": "În aplicarea măsurilor prevăzute, doar dacă școala are o sală de calculatoare separată ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -564,11 +564,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Doar pt grădinițe mari cu mai mult de 3 grupe."
+        "text": "În aplicarea măsurilor prevăzute, doar pt grădinițe mari cu mai mult de 3 grupe și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Doar dacă școala are o sală de calculatoare separată."
+        "text": "Pe baza evaluării de rutină, nu, Display interactiv e prea complex pentru antepreșcolari ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -588,23 +588,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Aparat foto digital; scanerul nu e necesar."
+        "text": "În aplicarea instrucțiunilor unității, aparat foto + Display interactiv; scanerul nu e listat."
       },
       {
         "id": "B",
-        "text": "Scaner documente portabil, care face parte din echipamentele obligatorii din Anexa 2 pt digitaliza documente pe hârtie."
+        "text": "Pe baza evaluării de rutină, aparat foto digital; scanerul nu e necesar ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Doar Laptop cu camera încorporată."
+        "text": "Scaner documente portabil, care face parte din echipamentele obligatorii din Anexa 2 pt digitaliza documente pe hârtie."
       },
       {
         "id": "D",
-        "text": "Aparat foto + Display interactiv; scanerul nu e listat."
+        "text": "În aplicarea măsurilor prevăzute, doar Laptop cu camera încorporată urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 2 prevede Scaner documente portabil ca echipament obligatoriu pentru digitalizarea eficientă a documentelor pe hârtie. Administrator-ul o folosește pt documentație administrativă și arhivare.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: Scaner documente portabil e obligatoriu pt digitalizare."
@@ -620,23 +620,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e importantă; masa se poate folosi fără lumină."
+        "text": "În aplicarea măsurilor prevăzute, E opțională și se folosește doar la solicitarea educatoarei urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "E importantă, deoarece Masa luminoasă este echipament obligatoriu din Anexa 2 pt stimularea explorării senzoriale și a creativității; reparația se efectuează urgent."
+        "text": "Potrivit procedurii stabilite, nu e importantă; masa se poate folosi fără lumină și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Se cumpără una nouă abia după inventar anual."
+        "text": "Pe baza dispozițiilor curente, se cumpără una nouă abia după inventar anual urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "E opțională și se folosește doar la solicitarea educatoarei."
+        "text": "E importantă, deoarece Masa luminoasă este echipament obligatoriu din Anexa 2 pt stimularea explorării senzoriale și a creativității; reparația se efectuează urgent."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 2 prevede Masă luminoasă ca echipament obligatoriu din categoria Aparatură tehnologică. Ea facilitează explorarea senzorială (cu slide-uri, materiale transparente, obiecte). Administrator-ul asigură funcționarea și reparații urgente.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: Masă luminoasă e echipament obligatoriu pt explorare senzorială."
@@ -652,23 +652,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză; doar educatoarea poate fotografia, nu copiii."
-      },
-      {
-        "id": "B",
         "text": "Permite accesul copiilor sub supraveghere, deoarece Aparat foto digital pt copii e echipament obligatoriu din Anexa 2, destinat explorării fotografice și dezvoltării creativității."
       },
       {
+        "id": "B",
+        "text": "Pe baza evaluării de rutină, refuză; doar educatoarea poate fotografia, nu copiii urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Permite, dar doar după cursuri de fotografie."
+        "text": "Potrivit regulamentului intern, permite, dar doar după cursuri de fotografie ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Sugereaza folosirea Laptopului în locul aparatului de foto."
+        "text": "Pe baza dispozițiilor curente, sugereaza folosirea Laptopului în locul aparatului de foto și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2 prevede Aparat foto digital pt copii ca echipament obligatoriu din categoria Aparatură tehnologică. Acesta facilitează explorarea fotografică și stimulează creativitatea copiilor sub supravegherea educatoarei.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: Aparat foto digital pt copii e echipament obligatoriu."
@@ -680,11 +680,11 @@ export const questions = [
     "difficulty": "medium",
     "sourceAct": "Ordinul ME nr. 4143/2022, Anexa 2",
     "type": "single",
-    "question": "Educatoarea cere o instalaţie sunet pt joc muzical. Administrator-ul II constată că Sistemul sunet din Anexa 2 este obligatoriu, dar e defect. Prioritate?",
+    "question": "Educatoarea cere o instalație sunet pt joc muzical. Administrator-ul II constată că Sistemul sunet din Anexa 2 este obligatoriu, dar e defect. Prioritate?",
     "options": [
       {
         "id": "A",
-        "text": "Nu e urgent; grădiniță poate funcționa fără muzică."
+        "text": "În aplicarea instrucțiunilor unității, sugestia: folosește Laptopul pt muzică în locul unui sistem sunet dedicat."
       },
       {
         "id": "B",
@@ -692,11 +692,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se repară doar dacă educatoare va folosi-o zilnic."
+        "text": "În aplicarea măsurilor prevăzute, nu e urgent; grădiniță poate funcționa fără muzică ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Sugestia: folosește Laptopul pt muzică în locul unui sistem sunet dedicat."
+        "text": "Conform practicii administrative curente, se repară doar dacă educatoare va folosi-o zilnic și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -716,23 +716,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Educatoarea trebuie să supravegheze; dulapul este OK deschis."
+        "text": "În temeiul normelor în vigoare, educatoarea trebuie să supravegheze; dulapul este OK deschis și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Administrator-ul semnalează și asigură aranjamentul conform Anexei 2: dulapul pt jucării/materiale trebuie să aibă ușă (nu rămâne deschis), materiale dăunătoare/periculoase inaccesibile copiilor, și rafturi organizate sigur."
+        "text": "Pe baza evaluării de rutină, se mută dulapul mai sus, pt a fi inaccesibil urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Dulapul deschis e bun; copiii invață să-și găsească jucăriile."
+        "text": "Administrator-ul semnalează și asigură aranjamentul conform Anexei 2: dulapul pt jucării/materiale trebuie să aibă ușă (nu rămâne deschis), materiale dăunătoare/periculoase inaccesibile copiilor, și rafturi organizate sigur."
       },
       {
         "id": "D",
-        "text": "Se mută dulapul mai sus, pt a fi inaccesibil."
+        "text": "Potrivit reglementării aplicabile, dulapul deschis e bun; copiii invață să-și găsească jucăriile și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 2 prevede dulapul pt jucării/materiale. Administrator-ul asigură că acesta este închis (ușă), conținut organizat sigur, și materiale periculoase inaccesibile copiilor. Standardele 4.1.1 și regulamentele SSM/PSI cere aranjamente sigure.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: dulap jucării cu ușă, aranjament sigur, materiale periculoase inaccesibile."
@@ -748,23 +748,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Copiii se odihnesc pe paturi fără saltele; saltele nu sunt obligatorii."
+        "text": "Conform practicii administrative curente, copiii se odihnesc pe paturi fără saltele; saltele nu sunt obligatorii și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Lipsesc atât paturi cât și saltele individuale. Anexa 2 prevede paturi/saltele individuale pt odihnă. Administrator-ul procură saltele lipsă și mai adaugă paturi conform nr. copii din grupă."
+        "text": "Potrivit procedurii stabilite, copiii mai mari nu au nevoie de odihnă; doar cei mici dorm ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se folosesc piuțe în locul saltelor."
+        "text": "În aplicarea măsurilor prevăzute, se folosesc piuțe în locul saltelor ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Copiii mai mari nu au nevoie de odihnă; doar cei mici dorm."
+        "text": "Lipsesc atât paturi cât și saltele individuale. Anexa 2 prevede paturi/saltele individuale pt odihnă. Administrator-ul procură saltele lipsă și mai adaugă paturi conform nr. copii din grupă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 2 prevede paturi/saltele individuale pt zona de odihnă. Sunt obligatorii, higienic și ergonomic. Administrator-ul asigură nr. suficient pentru toți copii din grupă și starea lor (material impermeabil pt antepreșcolari, curățare regulată).",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: paturi/saltele individuale pt odihnă obligatorii."
@@ -780,23 +780,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Centrul Construcții are doar cărămizi și cuburi; alte materiale sunt opționale."
-      },
-      {
-        "id": "B",
         "text": "Anexa 2 prevede centre de Construcții cu materiale variate: cărămizi, cuburi, țevi, dar și alte elemente constructive (placi, bare, elemente metalice ușoare, etc.) pt a stimula invenția și creativitatea. Educatoarea ar trebui să specifice ce lipsește."
       },
       {
+        "id": "B",
+        "text": "În aplicarea instrucțiunilor unității, centrul de Construcții nu e obligatoriu dacă grădiniță e mică și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Centrul de Construcții nu e obligatoriu dacă grădiniță e mică."
+        "text": "Conform practicii administrative curente, centrul Construcții are doar cărămizi și cuburi; alte materiale sunt opționale și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Materialele în centrul de Construcții sunt doar din plastic."
+        "text": "În aplicarea măsurilor prevăzute, materialele în centrul de Construcții sunt doar din plastic și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2 menționează centrul de Construcții cu materiale diverse pt a stimula creativitatea și gândirea spațială. Administrator-ul inventariază și completeaza materialele necesare conform nevoilor și solicitărilor educatorilor.",
     "tooltipCorrect": "Ordinul ME nr. 4143/2022, Anexa 2: centrul Construcții cu materiale variate obligatoriu."
@@ -812,7 +812,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Centrul de Artă necesită doar vopsele acrilice și hârtie; vopsele de ulei sunt prea avansate."
+        "text": "În aplicarea instrucțiunilor unității, centrul de Artă necesită doar vopsele acrilice și hârtie; vopsele de ulei sunt prea avansate și se raportează conducerii."
       },
       {
         "id": "B",
@@ -820,11 +820,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Centrul de Artă nu necesită atât de mult material."
+        "text": "În aplicarea măsurilor prevăzute, centrul de Artă nu necesită atât de mult material și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Doar vopsele acrilice și hârtie; pensulele nu sunt esențiale."
+        "text": "În aplicarea măsurilor prevăzute, doar vopsele acrilice și hârtie; pensulele nu sunt esențiale urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -844,23 +844,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e problemă; educatoarea distribuie jucăriile; copiii nu trebuie să le acceseze singuri."
+        "text": "Conform procedurii interne, rafturi înalte sunt bune; copiii invață să ceară ajutor urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "E problemă! Standard 4.1.1 (Ordinul 4143/2022, Anexa 2) prevede că copiii trebuie să aibă ACCES la materiale. Soluție: administrator-ul reorganizează, pun rafturi JOASE pe care copiii pot lua singuri materialele, stimulând autonomia și explorarea."
+        "text": "În aplicarea măsurilor prevăzute, copiii nu ar trebui să acceseze materiale singuri din motive de siguranță; racle înalte sunt OK și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Copiii nu ar trebui să acceseze materiale singuri din motive de siguranță; racle înalte sunt OK."
+        "text": "E problemă! Standard 4.1.1 (Ordinul 4143/2022, Anexa 2) prevede că copiii trebuie să aibă ACCES la materiale. Soluție: administrator-ul reorganizează, pun rafturi JOASE pe care copiii pot lua singuri materialele, stimulând autonomia și explorarea."
       },
       {
         "id": "D",
-        "text": "Rafturi înalte sunt bune; copiii invață să ceară ajutor."
+        "text": "Potrivit procedurii stabilite, nu e problemă; educatoarea distribuie jucăriile; copiii nu trebuie să le acceseze singuri urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Standard 4.1.1 (Ordinul ME nr. 4143/2022, Anexa 2) stabilește că copiii trebuie să aibă ACCES la materiale pentru a participa activ la joacă și învățare. Materialele se aranjează pe RAFTURI JOASE, accesibile. Administrator-ul asigură acest aranjament în toate centrele de activitate.",
     "tooltipCorrect": "Standard 4.1.1: copiii au acces la materiale; rafturi joase, aranjament sigur și accesibil."
@@ -876,23 +876,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Consideră OK; copiii trebuie să se întâlnească cu diverse materiale."
+        "text": "Pe baza dispozițiilor curente, consideră OK; copiii trebuie să se întâlnească cu diverse materiale urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "E problemă! Standard 4.1.1 cere ca materiale pe rafturi joase să fie aranjate SIGUR și ACCESIBIL. Administrator-ul: (1) separă piesele mici (pericol inghițire la 0–3), (2) izolează piese cu muchii ascuțite, (3) organiza grupe de materiale sigure după vârstă/tip. Semnalează conducerii necesitatea revizuirii aranjamentelor."
+        "text": "Pe baza evaluării de rutină, piese mici nu sunt periculoase dacă educatoarea supraveghează și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Piese mici nu sunt periculoase dacă educatoarea supraveghează."
+        "text": "În aplicarea măsurilor prevăzute, aranjamentul amestec e bun; copiii invață despre diversitate și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Aranjamentul amestec e bun; copiii invață despre diversitate."
+        "text": "E problemă! Standard 4.1.1 cere ca materiale pe rafturi joase să fie aranjate SIGUR și ACCESIBIL. Administrator-ul: (1) separă piesele mici (pericol inghițire la 0–3), (2) izolează piese cu muchii ascuțite, (3) organiza grupe de materiale sigure după vârstă/tip. Semnalează conducerii necesitatea revizuirii aranjamentelor."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Standard 4.1.1 (Ordinul ME nr. 4143/2022, Anexa 2) nu numai că prevede ACCES, ci și SIGURANȚA. Materialele pe rafturi joase trebuie organizate de grup (piese mici separate - pericol inghițire pt 0–3; piese cu muchii ascuțite izolate). Administrator-ul și educatoarea asigură și supraveghere și aranjament sigur în raport cu vârstă.",
     "tooltipCorrect": "Standard 4.1.1: acces copiilor PLUS siguranță; materiale grupate după vârstă, pericole izolate."
@@ -908,23 +908,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimănui; planșele găsite sunt suficiente."
-      },
-      {
-        "id": "B",
         "text": "Lipsesc planșe/jetoane/albume pe teme educative specifice: EDUCAȚIE SANITARĂ, ECOLOGICĂ, RUTIERĂ, STEAM și VALORI (conform Standard 4.1.2). Administrator-ul procură materiale pe aceste teme obligatorii."
       },
       {
+        "id": "B",
+        "text": "Potrivit regulamentului intern, cărți de povești sunt suficiente; alte teme sunt opționale și se consemnează în evidentă."
+      },
+      {
         "id": "C",
-        "text": "Cărți de povești sunt suficiente; alte teme sunt opționale."
+        "text": "Pe baza evaluării de rutină, nimănui; planșele găsite sunt suficiente ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Planșele de obiecte sunt suficiente; pe alte teme copiii învață oral."
+        "text": "Potrivit regulamentului intern, planșele de obiecte sunt suficiente; pe alte teme copiii învață oral și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Standard 4.1.2 (Ordinul ME nr. 4143/2022, Anexa 2) prevede planșe/jetoane/albume pe teme educative: educație sanitară, ecologică, rutieră, STEAM și valori. Acestea sunt obligatorii pt a sprijini învățarea pe teme importante. Administrator-ul asigură completitudinea.",
     "tooltipCorrect": "Standard 4.1.2: planșe/jetoane/albume tematicecobligatorii pe: sanitară, ecologică, rutieră, STEAM, valori."
@@ -940,7 +940,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Educație rutieră nu e tema obligatorie pt grădiniță."
+        "text": "În aplicarea măsurilor prevăzute, tema e importantă, dar se poate integrate fără materiale dedicate ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -948,11 +948,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Copiii învață circulația pe stradă, nu din planșe."
+        "text": "În temeiul normelor în vigoare, copiii învață circulația pe stradă, nu din planșe și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Tema e importantă, dar se poate integrate fără materiale dedicate."
+        "text": "Conform practicii administrative curente, educație rutieră nu e tema obligatorie pt grădiniță și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -972,23 +972,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "OK, deoarece educație sanitară și ecologică sunt majore; STEAM e opțional."
+        "text": "Potrivit regulamentului intern, OK, deoarece educație sanitară și ecologică sunt majore; STEAM e opțional ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "NU e OK. Standard 4.1.2 prevede planșe/jetoane pe 5 teme: sanitară, ecologică, rutieră, STEAM și valori. Lipsesc materiale pe STEAM. Administrator-ul procură imediat."
+        "text": "Conform procedurii interne, planșe pe sanitară și ecologică sunt suficiente; alte teme sunt suplimentare și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "STEAM se invață prin proiecte, nu din planșe."
+        "text": "NU e OK. Standard 4.1.2 prevede planșe/jetoane pe 5 teme: sanitară, ecologică, rutieră, STEAM și valori. Lipsesc materiale pe STEAM. Administrator-ul procură imediat."
       },
       {
         "id": "D",
-        "text": "Planșe pe sanitară și ecologică sunt suficiente; alte teme sunt suplimentare."
+        "text": "Pe baza evaluării de rutină, STEAM se invață prin proiecte, nu din planșe și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Standard 4.1.2 (Ordinul ME nr. 4143/2022, Anexa 2) stipulează 5 teme obligatorii: educație sanitară, ecologică, rutieră, STEAM și valori. Fiecare temă trebuie reprezentată prin planșe/jetoane/albume. Administrator-ul asigură completitudinea pe toate 5 teme.",
     "tooltipCorrect": "Standard 4.1.2: 5 teme obligatorii: sanitară, ecologică, rutieră, STEAM, valori."
@@ -1004,23 +1004,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "E o formalitate administrativă; nu influența activitatea."
+        "text": "Potrivit procedurii stabilite, E doar pt contabilitate; educatorii nu sunt implicați urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "E esențial! Inventarul asigură: (1) evidența stării dotărilor, (2) identificarea lipsurilor/degradărilor, (3) planificarea aprovizionării, (4) documentație de gestiune. Administrator-ul verifica completitudinea conform Anexei 2 și semnalează conducerii."
+        "text": "Potrivit reglementării aplicabile, se face doar când apare o problemă, nu anual ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "E doar pt contabilitate; educatorii nu sunt implicați."
+        "text": "Pe baza evaluării de rutină, E o formalitate administrativă; nu influența activitatea și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Se face doar când apare o problemă, nu anual."
+        "text": "E esențial! Inventarul asigură: (1) evidența stării dotărilor, (2) identificarea lipsurilor/degradărilor, (3) planificarea aprovizionării, (4) documentație de gestiune. Administrator-ul verifica completitudinea conform Anexei 2 și semnalează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, impune respectarea dotărilor obligatorii. Administrator-ul II gestionează bunurile și ține inventarul. Inventarul anual asigură: evidență, identificare lipsuri/degradări, planificarea aprovizionării și documentație SSM/PSI.",
     "tooltipCorrect": "Administrator-ul: ține inventar anual pt dotări; identifică lipsuri/degradări; planifica aprovizionări."
@@ -1036,23 +1036,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Spune că nu e buget; copiii se joacă cu scaunele."
-      },
-      {
-        "id": "B",
         "text": "Tricicletele sunt în Anexa 2 ca echipament obligatoriu de mișcare. Administrator-ul: (1) planifica reparații pt cele 2 degradate, (2) procura triciclete suplimentare conform nr. copii din grupă (min. 1 pe 2–3 copii), (3) planifica în buget anual."
       },
       {
+        "id": "B",
+        "text": "În aplicarea instrucțiunilor unității, achizionează doar 3 triciclete, cel mai ieftin model și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Achizionează doar 3 triciclete, cel mai ieftin model."
+        "text": "Potrivit regulamentului intern, spune că tricicletele sunt opționale dacă grădiniță are alte jocuri urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Spune că tricicletele sunt opționale dacă grădiniță are alte jocuri."
+        "text": "Conform practicii administrative curente, spune că nu e buget; copiii se joacă cu scaunele urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2 prevede triciclete în echipamentele de mișcare. Administrator-ul II aprovizionează conform nevoilor grupei și stării bunurilor. Gestionează aprovizionarea, reparațiile și planificarea bugetului. Consulta educatoarele pt nr. necesar.",
     "tooltipCorrect": "Anexa 2: triciclete obligatorii; administrator planifica aprovizionare și reparații."
@@ -1068,7 +1068,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lasă copiii să se joace; supraveghetoarea va fi atentă."
+        "text": "Potrivit regulamentului intern, lasă copiii să se joace; supraveghetoarea va fi atentă și se raportează conducerii."
       },
       {
         "id": "B",
@@ -1076,11 +1076,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se va repara după joacă, în weekend."
+        "text": "Pe baza dispozițiilor curente, se va repara după joacă, în weekend urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Rugozitatea e firească; nu e problemă."
+        "text": "Potrivit reglementării aplicabile, rugozitatea e firească; nu e problemă și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -1100,23 +1100,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar educatoarea; nu e responsabilitatea administratorului."
+        "text": "În aplicarea măsurilor prevăzute, se reparează singur tac; conducerea nu trebuie anunțată și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Administrator-ul SEMNALEAZĂ IMEDIAT CONDUCERII (director, responsabil dotări) prin raport scris: defecte echipamente, lipsuri, neconformități cu Anexa 2. Menționează prioritatea (siguranță pt Display, necesitate imediat pt scaune și bibliotecă) și propune soluții."
+        "text": "Pe baza evaluării de rutină, se așteaptă plângerea părinților pt a se interveni ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se reparează singur tac; conducerea nu trebuie anunțată."
+        "text": "Administrator-ul SEMNALEAZĂ IMEDIAT CONDUCERII (director, responsabil dotări) prin raport scris: defecte echipamente, lipsuri, neconformități cu Anexa 2. Menționează prioritatea (siguranță pt Display, necesitate imediat pt scaune și bibliotecă) și propune soluții."
       },
       {
         "id": "D",
-        "text": "Se așteaptă plângerea părinților pt a se interveni."
+        "text": "În aplicarea instrucțiunilor unității, doar educatoarea; nu e responsabilitatea administratorului și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, și regulile administrative impun ca Administrator-ul II să SEMNALEZE CONDUCERII: (1) defectele echipamentelor, (2) lipsurile de dotări, (3) neconformități cu normativul. Raportul trebuie scris, cu prioritizare (SSM/PSI > nevoie funcționare > completare optionall).",
     "tooltipCorrect": "Administrator semnalează scris conducerii: defecte, lipsuri, neconformități; prioritizează siguranță."
@@ -1132,23 +1132,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "O lasă în uz; copiii vor folosi și alte saltele."
+        "text": "Conform procedurii interne, O lasă și o monitorizează zilnic; s-ar putea să se usuce ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "LIMITEAZĂ IMEDIAT ACCESUL la salteaua defectă, o retrage din uz. Paturi/saltele individuale sunt obligatorii (Anexa 2); aceasță coşia nu mai îndeplinește condiții higieno-sanitare. Administrator-ul: (1) izolează-o, (2) procură înlocuitoare, (3) documentează incidentul."
+        "text": "Conform procedurii interne, O lasă în uz; copiii vor folosi și alte saltele și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "O lasă și o monitorizează zilnic; s-ar putea să se usuce."
+        "text": "Potrivit regulamentului intern, copiii vor folosi pernele în locul saltelor pt o zi și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Copiii vor folosi pernele în locul saltelor pt o zi."
+        "text": "LIMITEAZĂ IMEDIAT ACCESUL la salteaua defectă, o retrage din uz. Paturi/saltele individuale sunt obligatorii (Anexa 2); aceasță coșia nu mai îndeplinește condiții higieno-sanitare. Administrator-ul: (1) izolează-o, (2) procură înlocuitoare, (3) documentează incidentul."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, prevede paturi/saltele individuale în dormitor. Acestea trebuie în stare corespunzătoare (impermeabil pt antepreșcolari, curățe regulat). Defectele (cuzenet, mucegai) necesită retragere IMEDIATĂ din uz și înlocuire. Administrator-ul limitează accesul la dotări defecte periculoase.",
     "tooltipCorrect": "Dotări defecte periculoase: retragere imediat, limitare acces, înlocuire, documentare."
@@ -1164,23 +1164,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "E OK; substanțele sunt în sticle închise."
-      },
-      {
-        "id": "B",
         "text": "NU E CONFORM! Anexa 2 și regulile SSM cere: substanțe periculoase INACCESIBILE copiilor. Administrator-ul: (1) MUTĂ substanțele într-un dulap ÎNCHIS CU LACĂT într-o cameră inaccesibilă copiilor, (2) LIMITEAZĂ ACCESUL DOAR la personal autorizat, (3) ETICHETEAZĂ clar periculul, (4) ASIGURĂ echipament protecție personalului."
       },
       {
+        "id": "B",
+        "text": "Conform procedurii interne, educatoarea trebuie să supravegheze; administrator nu e responsabil urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Se pun substanțele pe raft înalt; copiii nu pot ajunge."
+        "text": "Pe baza dispozițiilor curente, E OK; substanțele sunt în sticle închise urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Educatoarea trebuie să supravegheze; administrator nu e responsabil."
+        "text": "În aplicarea măsurilor prevăzute, se pun substanțele pe raft înalt; copiii nu pot ajunge și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, și regulile SSM/PSI impun ca produsele de curățenie și substanțele periculoase să fie INACCESIBILE copiilor. Trebuie: dulap închis cu lacăt, în cameră inaccesibilă, etichetare clară, personal doar autorizat. Administrator-ul asigură conformitate și verifică regulat.",
     "tooltipCorrect": "Substanțe periculoase: INACCESIBILE copiilor; dulap cu lacăt, cameră inaccesibilă, etichetare."
@@ -1196,7 +1196,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nici una; se le dă educatoarei."
+        "text": "În temeiul normelor în vigoare, doar factura; inventarul nu e necesar ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -1204,11 +1204,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Doar factura; inventarul nu e necesar."
+        "text": "În aplicarea instrucțiunilor unității, nici una; se le dă educatoarei și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Se notează pe foaie; computerul nu e obligatoriu."
+        "text": "În aplicarea instrucțiunilor unității, se notează pe foaie; computerul nu e obligatoriu și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -1228,23 +1228,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lipsă doar marginile de protecție la colturi."
+        "text": "În aplicarea instrucțiunilor unității, lipsă doar marginile de protecție la colturi urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Pare CONF conform cu Anexa 2! Administrator-ul: (1) verifica fiecare centru (Joc de rol: fără fier de călcat la antepreșcolar, OK), (2) verifica materiale sigure și accesibile (Standard 4.1.1), (3) verifica planșe/jetoane tematice (Standard 4.1.2), (4) verifica dulap jucării închis cu ușă, materiale periculoase inaccesibile, (5) documentează starea în inventar."
+        "text": "Potrivit regulamentului intern, biblioteca cu rafturi joase e riscantă; ar trebui înaltă și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Sunt prea multe centre; copiii se distrag."
+        "text": "Pare CONF conform cu Anexa 2! Administrator-ul: (1) verifica fiecare centru (Joc de rol: fără fier de călcat la antepreșcolar, OK), (2) verifica materiale sigure și accesibile (Standard 4.1.1), (3) verifica planșe/jetoane tematice (Standard 4.1.2), (4) verifica dulap jucării închis cu ușă, materiale periculoase inaccesibile, (5) documentează starea în inventar."
       },
       {
         "id": "D",
-        "text": "Biblioteca cu rafturi joase e riscantă; ar trebui înaltă."
+        "text": "În aplicarea instrucțiunilor unității, sunt prea multe centre; copiii se distrag urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, prevede în sala de grupă: mobilier conform, 5 centre activate, acces la materiale (Standard 4.1.1), planșe tematice (Standard 4.1.2), dulap sigur. Administrator-ul verifica fiecare element conform normativului și documentează conformitatea.",
     "tooltipCorrect": "Sala grupă: mobilier conf., 5 centre, acces materiale, planșe tematice, dulap sigur."
@@ -1260,23 +1260,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Paturi și saltele sunt prezente; stocarea e în regulă."
+        "text": "În aplicarea măsurilor prevăzute, educatoarea trebuie să aranjeze patul, nu administrator urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "NU E CONFORM! Anexa 2: paturi/saltele trebuie în stare igienică (material impermeabil la antepreșcolari; curățene). Administrator-ul: (1) RETRAGE jucăriile de pe saltele, (2) ASIGURĂ că fiecare saltea e curată și protejată (cearșaf/capetă), (3) INSTITUIE regulă de igienă (jucării în dulapuri, nu pe paturi), (4) VERIFICA și reparează protecția saltelor."
+        "text": "În aplicarea măsurilor prevăzute, E obișnuit ca copiii să lase jucării în pat; nu e problemă și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "E obișnuit ca copiii să lase jucării în pat; nu e problemă."
+        "text": "În aplicarea instrucțiunilor unității, paturi și saltele sunt prezente; stocarea e în regulă și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Educatoarea trebuie să aranjeze patul, nu administrator."
+        "text": "NU E CONFORM! Anexa 2: paturi/saltele trebuie în stare igienică (material impermeabil la antepreșcolari; curățene). Administrator-ul: (1) RETRAGE jucăriile de pe saltele, (2) ASIGURĂ că fiecare saltea e curată și protejată (cearșaf/capetă), (3) INSTITUIE regulă de igienă (jucării în dulapuri, nu pe paturi), (4) VERIFICA și reparează protecția saltelor."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, prevede paturi/saltele individuale în stare corespunzătoare (material impermeabil pt antepreșcolari, curățene regulată). Administrator-ul asigură: igienă, protecție (cearșafuri/capete), organizarea spațiului (jucării în dulapuri, nu pe paturi), și verifica conformitatea regulat.",
     "tooltipCorrect": "Dormitor: paturi/saltele individuale, curate, protejate; jucării în dulapuri."
@@ -1292,23 +1292,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "OK; copiii au acces la îngrijire."
-      },
-      {
-        "id": "B",
         "text": "PARȚIAL OK! Anexa 2 prevede grup sanitar cu dotări conforme. Dar sticle deschise creează risc: (1) evaporare, (2) contaminare, (3) potențial acces periculos. Administrator-ul: (1) INCHIDE sticlele, (2) STOCHEAZĂ în container închis, (3) FOLOSEȘTE dosatoare dispenser, (4) VERIFICA igienă regulat."
       },
       {
+        "id": "B",
+        "text": "Conform procedurii interne, sticle deschise sunt economice și se consemnează în evidentă."
+      },
+      {
         "id": "C",
-        "text": "Sticle deschise sunt economice."
+        "text": "În temeiul normelor în vigoare, OK; copiii au acces la îngrijire și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Educatoarea trebuie să supravegheze; nu e de administrator."
+        "text": "Potrivit procedurii stabilite, educatoarea trebuie să supravegheze; nu e de administrator și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2 prevede grup sanitar. Administrator-ul asigură: mobilier conform vârstei, apa curgătoare, produse de igienă în stare corespunzătoare (închise, protejate). Sticlele deschise sunt risc de contaminare și deteriorare. Se folosesc dosatoare/dispensere pentru control și igienă.",
     "tooltipCorrect": "Grup sanitar: mobilier, apă, produse în dosatoare închise; igienă regulată."
@@ -1324,7 +1324,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu are semnificație; e doar o notă."
+        "text": "În aplicarea instrucțiunilor unității, E despre geamuri; trebuie să aibă lumină naturală urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -1332,11 +1332,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "E despre geamuri; trebuie să aibă lumină naturală."
+        "text": "În aplicarea măsurilor prevăzute, 'Vizibil' înseamnă că copiii pot vedea cine gătește ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "'Vizibil' înseamnă că copiii pot vedea cine gătește."
+        "text": "În aplicarea instrucțiunilor unității, nu are semnificație; e doar o notă și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -1352,27 +1352,27 @@ export const questions = [
     "difficulty": "scenario",
     "sourceAct": "Ordinul ME nr. 4143/2022, Anexa 2",
     "type": "single",
-    "question": "Administrator-ul II inspecționează depozitul: pe raft inferior sunt cutii cu jucării (cu piese mici) lângă saci cu făină deschişi. Evaluare conformitate Anexa 2?",
+    "question": "Administrator-ul II inspecționează depozitul: pe raft inferior sunt cutii cu jucării (cu piese mici) lângă saci cu făină deschiși. Evaluare conformitate Anexa 2?",
     "options": [
       {
         "id": "A",
-        "text": "OK; sunt închiși într-o cameră."
+        "text": "Conform practicii administrative curente, jucării și alimente pot sta lângă; sunt în depozit ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "NU E CONFORM! Anexa 2 cere depozitare organizată pe categorii și sigură. Administrator-ul: (1) SEPARĂ jucării de alimente (contaminarischi, infestare), (2) ÎNCHIDE saci deschişi (protejează de umiditate, insecte), (3) ORGANIZEAZĂ pe rafturi: sus alimente cu protecție, jos jucării în cutii închise, (4) ETICHETE clar, (5) VERIFICĂ lunar."
+        "text": "În aplicarea instrucțiunilor unității, saci deschiși sunt OK; se pot folosi rapid și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Saci deschişi sunt OK; se pot folosi rapid."
+        "text": "NU E CONFORM! Anexa 2 cere depozitare organizată pe categorii și sigură. Administrator-ul: (1) SEPARĂ jucării de alimente (contaminarischi, infestare), (2) ÎNCHIDE saci deschiși (protejează de umiditate, insecte), (3) ORGANIZEAZĂ pe rafturi: sus alimente cu protecție, jos jucării în cutii închise, (4) ETICHETE clar, (5) VERIFICĂ lunar."
       },
       {
         "id": "D",
-        "text": "Jucării și alimente pot sta lângă; sunt în depozit."
+        "text": "În aplicarea instrucțiunilor unității, OK; sunt închiși într-o cameră ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, și regulile SSM impun depozitare organizată și sigură. Administrator-ul asigură: separare alimente de non-alimente, saci/cutii închise (protecție umiditate, insecte, contaminare), organizare logică, etichetare, și verificări regulate.",
     "tooltipCorrect": "Depozit: alimente separate, saci/cutii închise, rafturi organizate, etichetate, verificări regulate."
@@ -1388,23 +1388,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "E complet; toate echipamentele sunt prezente."
+        "text": "În temeiul normelor în vigoare, mingi de o dimensiune sunt suficiente; trotinete sunt periculoase la antepreșcolari și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "LIPSESC: (1) mingi în min. 2 dimensiuni (doar 1 dimensiune găsite), (2) trotinete, (3) minicoș baschet, (4) minipoartă fotbal. Anexa 2 prevede această echipamente la antepreșcolari. Administrator-ul procura cele lipsă."
+        "text": "Potrivit procedurii stabilite, E complet; toate echipamentele sunt prezente urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Sunt suficiente; celelalte sunt pentru grădini mai mari."
+        "text": "În temeiul normelor în vigoare, sunt suficiente; celelalte sunt pentru grădini mai mari ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Mingi de o dimensiune sunt suficiente; trotinete sunt periculoase la antepreșcolari."
+        "text": "LIPSESC: (1) mingi în min. 2 dimensiuni (doar 1 dimensiune găsite), (2) trotinete, (3) minicoș baschet, (4) minipoartă fotbal. Anexa 2 prevede această echipamente la antepreșcolari. Administrator-ul procura cele lipsă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 2 enumeră echipamente obligatorii de mișcare exterior pentru antepreșcolari: tobogan, tunel de târâre, bază de atracții, saltea, spalier, popice, mingi (min. 2 dimensiuni), triciclete, trotinete, minicoș baschet, minipoartă fotbal. Administrator-ul completeaza lipsurile.",
     "tooltipCorrect": "Antepreșcolar mișcare exterior: tobogan, tunel, bază, saltea, spalier, popice, mingi (2 dim.), trotinete, minicoș, minipoartă."
@@ -1420,23 +1420,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuază ambele; sunt prea avansate."
-      },
-      {
-        "id": "B",
         "text": "Aprobă DOAR pt preșcolari! Jaloane, coardă, cercuri, stegulețe sunt în Anexa 2 DOAR pt preșcolari (3–6), NU pt antepreșcolari. Pentru antepreșcolari, se propun alte activități ritm cu echipamentele existente (tobogan, tunel, saltea)."
       },
       {
+        "id": "B",
+        "text": "Pe baza evaluării de rutină, aprobă ambele, deoarece sunt materiale sigure și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Aprobă ambele, deoarece sunt materiale sigure."
+        "text": "Potrivit regulamentului intern, aprobă doar cercuri, nu jaloane ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Aprobă doar cercuri, nu jaloane."
+        "text": "În aplicarea măsurilor prevăzute, refuază ambele; sunt prea avansate ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2 diferențiază echipamentele de mișcare după vârstă. Jaloane, coardă, cercuri și stegulețe sunt DOAR pentru preșcolari (3–6). Pentru antepreșcolari (0–3), se folosesc alte echipamente: tobogan, tunel, saltea, spalier, popice, mingi, triciclete, trotinete, minicoș, minipoartă.",
     "tooltipCorrect": "Jaloane, coardă, cercuri, stegulețe: DOAR preșcolar (3–6)."
@@ -1452,7 +1452,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "OK; mobilierul din hol nu e restricționat."
+        "text": "În aplicarea măsurilor prevăzute, OK; mobilierul din hol nu e restricționat ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -1460,11 +1460,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Banca e convenientă pt copiii care stau în hol."
+        "text": "Conform procedurii interne, banca e convenientă pt copiii care stau în hol și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "E doar un hol; regulile sunt mai puțin stricte."
+        "text": "În aplicarea instrucțiunilor unității, E doar un hol; regulile sunt mai puțin stricte ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -1484,23 +1484,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Prioritate egală; se rezolva în ordinea apariției."
+        "text": "În aplicarea instrucțiunilor unității, prioritate egală; se rezolva în ordinea apariției ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "PRIORITATE: (1) Tobogan lemn aschiat - LIMITEAZĂ ACCES IMEDIAT, reparează URGENT (risc accident pe loc); (2) Display defect - LIMITEAZĂ ACCES pt copiii care l-ar forța (risc electric), reparează în ziua; (3) Pernuțe bibliotecă - PROCURĂ în 1–2 zile (confort, nu risc imediat). Administrator-ul DOCUMENTEAZĂ toate intervenții."
+        "text": "Potrivit regulamentului intern, prioritate Display; sunt echipamente tehnologice și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Prioritate Display; sunt echipamente tehnologice."
+        "text": "PRIORITATE: (1) Tobogan lemn aschiat - LIMITEAZĂ ACCES IMEDIAT, reparează URGENT (risc accident pe loc); (2) Display defect - LIMITEAZĂ ACCES pt copiii care l-ar forța (risc electric), reparează în ziua; (3) Pernuțe bibliotecă - PROCURĂ în 1–2 zile (confort, nu risc imediat). Administrator-ul DOCUMENTEAZĂ toate intervenții."
       },
       {
         "id": "D",
-        "text": "Prioritate Biblioteca; copiii ar trebui să citească."
+        "text": "În aplicarea instrucțiunilor unității, prioritate Biblioteca; copiii ar trebui să citească ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, și regulile SSM/PSI impun ca Administrator-ul să prioritizeze: (1) pericolele imediate (răniri, electrocutare) cu limitare acces urgent; (2) defecte funcționale cu reparație aceeași zi; (3) lipsuri care nu creează pericol cu procurare în 1–2 zile. Documentarea tuturor intervenții e obligatorie.",
     "tooltipCorrect": "Prioritate: pericolele immediate (limitare acces) > defecte funcționale > lipsuri de confort."
@@ -1516,23 +1516,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar dacă copiii se plâng că e defect."
+        "text": "Conform practicii administrative curente, educatoarea verifica zilnic; administrator nu trebuie și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Anexa 2 cere verificare PERIODICĂ. Administrator-ul verifica: (1) suruburi ieșite, (2) rugină/coroziune, (3) lemn aschiat/deteriorat, (4) muchii ascuțite/periculoase, (5) suprafețe care reduc riscul (gumă, ciment) intacte, (6) stabilitate/fixare. Documentează starea și defectele într-un REGISTRU DE VERIFICARE."
+        "text": "Potrivit regulamentului intern, doar dacă copiii se plâng că e defect ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se verifica doar sezonier."
+        "text": "Potrivit procedurii stabilite, se verifica doar sezonier ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Educatoarea verifica zilnic; administrator nu trebuie."
+        "text": "Anexa 2 cere verificare PERIODICĂ. Administrator-ul verifica: (1) suruburi ieșite, (2) rugină/coroziune, (3) lemn aschiat/deteriorat, (4) muchii ascuțite/periculoase, (5) suprafețe care reduc riscul (gumă, ciment) intacte, (6) stabilitate/fixare. Documentează starea și defectele într-un REGISTRU DE VERIFICARE."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, prevede verificări periodice ale echipamentelor de joacă (fără suruburi ieșite, rugină, lemn aschiat, muchii ascuțite, suprafețe sigure). Administrator-ul instituie program lunar, documentează starea și defectele, și corectează urgenta pericolele.",
     "tooltipCorrect": "Echipamente mișcare: verificare lunară pentru suruburi, rugină, muchii, suprafețe; documentare în registru."
@@ -1548,23 +1548,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar pe cheltuielile trecute; continuă cu aceeași sumă."
-      },
-      {
-        "id": "B",
         "text": "Pe INVENTAR anual și NEVOILE identificate: (1) completa lipsuri conform Anexei 2, (2) reparații echipamente defecte, (3) înlocuire deteriorate, (4) upgrade dacă copii au crescut. Se consulta educatoarele pt nevoile fiecărei grupe. Se prioritizează siguranță (SSM/PSI) > funcționare > confort. Se negoziază cu furnizori pt calitate și preț."
       },
       {
+        "id": "B",
+        "text": "Conform practicii administrative curente, nu e responsabilitate administratorului; conducerea decide ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Nu e responsabilitate administratorului; conducerea decide."
+        "text": "Pe baza dispozițiilor curente, doar pe cheltuielile trecute; continuă cu aceeași sumă urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Pe cere educatoarele; administrator nu judecă prioritățile."
+        "text": "Pe baza dispozițiilor curente, pe cere educatoarele; administrator nu judecă prioritățile ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Administrator-ul II gestionează aprovizionarea dotărilor. Planificarea bugetară se bază pe: inventar anual, identificare lipsuri conform Anexei 2, reparații și înlocuiri necesare, și consultare cu educatoarele. Prioritizează siguranță (SSM/PSI), apoi funcționare, apoi confort. Negociază pt calitate și preț.",
     "tooltipCorrect": "Planificare bugetară: inventar + lipsuri Anexa 2 + reparații + consultare educatoare + prioritizare SSM."
@@ -1580,7 +1580,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă imediat; sunt noi și cu certificat."
+        "text": "În temeiul normelor în vigoare, acceptă imediat; sunt noi și cu certificat urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -1588,11 +1588,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Certificatul e dovadă; nu mai verifica."
+        "text": "În aplicarea măsurilor prevăzute, certificatul e dovadă; nu mai verifica ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Educatoarea verifica; administrator doar semnează."
+        "text": "Pe baza dispozițiilor curente, educatoarea verifica; administrator doar semnează și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -1612,23 +1612,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Le lasă în uz; copiii se odihnesc oricum."
+        "text": "Potrivit reglementării aplicabile, se pot dona unei alte grădini dacă e nevoie și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "RETRAGE imediat din uz (risc infecție, alergie); le pun în depozit pentru eliminare conform legislației. PROCURA înlocuitoare care să respecte Anexa 2 (paturi/saltele individuale, material impermeabil pt antepreșcolari, curățene). DOCUMENTEAZĂ retragere și înlocuire în inventar."
+        "text": "Conform procedurii interne, le lasă în uz; copiii se odihnesc oricum și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Le pune într-o cameră care nu se folosește."
+        "text": "RETRAGE imediat din uz (risc infecție, alergie); le pun în depozit pentru eliminare conform legislației. PROCURA înlocuitoare care să respecte Anexa 2 (paturi/saltele individuale, material impermeabil pt antepreșcolari, curățene). DOCUMENTEAZĂ retragere și înlocuire în inventar."
       },
       {
         "id": "D",
-        "text": "Se pot dona unei alte grădini dacă e nevoie."
+        "text": "Potrivit procedurii stabilite, le pune într-o cameră care nu se folosește ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, și regulile igieno-sanitare impun ca dotări uzate/deteriorate cu risc (umiditate, miros, infecție) să fie RETRASE din uz IMEDIAT. Se procura înlocuitoare conforme. Eliminarea se face conform legislației de gestionare deșeuri. Documentarea în inventar și jurnalul de dotări.",
     "tooltipCorrect": "Dotări uzate/degradate: retragere imediat, procurare înlocuitoare, documentare."
@@ -1644,23 +1644,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "E doar pentru documentație; educația e responsabilitate educatoarei."
+        "text": "Potrivit reglementării aplicabile, dotări sunt auxiliare; educația depinde mai mult de educator și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Dotări complete și sigure sunt FUNDAMENTALE pt educație de calitate. Administrator-ul: (1) facilitează centrele de activitate (Bibliotecă, Construcții, Artă, Joc de rol, Știință) în care copiii explorează și invață, (2) asigura acces la materiale (Standard 4.1.1), (3) suportă dezvoltare motorie (echipamente mișcare), (4) protejează sănătate copiilor (material sigur, igienă). Fără dotări, educație e limitată."
+        "text": "Pe baza dispozițiilor curente, E doar pentru documentație; educația e responsabilitate educatoarei și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Dotări sunt auxiliare; educația depinde mai mult de educator."
+        "text": "În temeiul normelor în vigoare, anexa 2 e doar o recomandare; nu e obligatorie pt calitate și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Anexa 2 e doar o recomandare; nu e obligatorie pt calitate."
+        "text": "Dotări complete și sigure sunt FUNDAMENTALE pt educație de calitate. Administrator-ul: (1) facilitează centrele de activitate (Bibliotecă, Construcții, Artă, Joc de rol, Știință) în care copiii explorează și invață, (2) asigura acces la materiale (Standard 4.1.1), (3) suportă dezvoltare motorie (echipamente mișcare), (4) protejează sănătate copiilor (material sigur, igienă). Fără dotări, educație e limitată."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, stabilește normativul de dotări MINIME pentru educația timpurie de calitate. Dotări complete și sigure sunt FUNDAMENTALE. Administrator-ul asigură: mediu potrivit pentru explorare, acces la materiale, dezvoltare motorie, protecție sănătate. Educatoarea folosește dotările pt a implementa curriculum. Sunt complementare.",
     "tooltipCorrect": "Dotări Anexa 2: fundamentale pt calitate educației; facilitează explorare, acces, dezvoltare, protecție."
@@ -1676,23 +1676,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "NU comunică; administator decide singur."
-      },
-      {
-        "id": "B",
         "text": "Comunicare REGULATĂ: (1) ÎNTÂLNIRI lunare/trimestriale cu educatoarele, (2) INVITAȚIE pt sugestii pe dotări (lipsuri, defecte, nevoie upgrade), (3) AUDIT anual al fiecărui centru cu educatoarea, (4) DOCUMENTARE cereri și urmare-up. Transparență și colaborare asigură nevoile reale sunt îndeplinite."
       },
       {
+        "id": "B",
+        "text": "Potrivit regulamentului intern, educatorii nu trebuie să se implice în gestionare dotări urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Doar răspunde la plângeri formale."
+        "text": "Potrivit regulamentului intern, NU comunică; administator decide singur ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Educatorii nu trebuie să se implice în gestionare dotări."
+        "text": "Conform procedurii interne, doar răspunde la plângeri formale și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Administrator-ul II trebuie să comunice regulat cu educatoarele pentru înțelegerea nevoilor reale. Procedura: întâlniri periodice, invitație pentru sugestii (lipsuri, defecte, upgrade), audit anual al fiecărui centru, documentare cereri și follow-up. Colaborare asigură că Anexa 2 e respectată și nevoile sunt satisfăcute.",
     "tooltipCorrect": "Comunicare educatoare: întâlniri regulate, invitație sugestii, audit anual, documentare, follow-up."
@@ -1708,7 +1708,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Copiii curață singuri; nu e responsabilitate."
+        "text": "Pe baza dispozițiilor curente, copiii curață singuri; nu e responsabilitate și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -1716,11 +1716,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se curață trimestrial, e suficient."
+        "text": "Potrivit reglementării aplicabile, jucăriile noi nu se curață; doar vechi se curață ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Jucăriile noi nu se curață; doar vechi se curață."
+        "text": "Conform procedurii interne, se curață trimestrial, e suficient ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -1740,23 +1740,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e necesar; conformitatea e evident."
+        "text": "Potrivit procedurii stabilite, nu e necesar; conformitatea e evident urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "AUDIT INTERN ANUAL: (1) CHECKLIST pe fiecare categorie din Anexa 2 (Mobilier, Materiale, Aparatură tehnologică, Mișcare), (2) VIZITĂ fiecare spațiu (sala de grupă, dormitor, grup sanitar, oficiu, depozit, curte), (3) VERIFICA Standard 4.1.1 (acces materiale) și 4.1.2 (planșe tematice), (4) DOCUMENTARE lipsuri și defecte, (5) RAPORT conducerii cu recomandări și urgență, (6) FOLLOW-UP pâna la remediere. Anual."
+        "text": "În aplicarea măsurilor prevăzute, audit este responsabilitate doar a inspectoratului urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Audit este responsabilitate doar a inspectoratului."
+        "text": "AUDIT INTERN ANUAL: (1) CHECKLIST pe fiecare categorie din Anexa 2 (Mobilier, Materiale, Aparatură tehnologică, Mișcare), (2) VIZITĂ fiecare spațiu (sala de grupă, dormitor, grup sanitar, oficiu, depozit, curte), (3) VERIFICA Standard 4.1.1 (acces materiale) și 4.1.2 (planșe tematice), (4) DOCUMENTARE lipsuri și defecte, (5) RAPORT conducerii cu recomandări și urgență, (6) FOLLOW-UP pâna la remediere. Anual."
       },
       {
         "id": "D",
-        "text": "Se face audit doar dacă sunt probleme raportate."
+        "text": "Pe baza dispozițiilor curente, se face audit doar dacă sunt probleme raportate și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Administrator-ul II trebuie să instituie audit intern anual. Etape: checklist per categorie din Anexa 2, vizită fiecare spațiu, verificare Standards 4.1.1 și 4.1.2, documentare lipsuri/defecte, raport conducerii, follow-up pâna la remediere. Aceasta asigură conformitate continuă și proactivitate (nu doar reactivă la plângeri).",
     "tooltipCorrect": "Audit intern anual: checklist Anexa 2, vizite spații, verifica Standards, documentare, raport, follow-up."
@@ -1772,23 +1772,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Copilul trebuie să se adapteze la spațiul existent."
+        "text": "Conform practicii administrative curente, copilul trebuie să se adapteze la spațiul existent urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Anexa 2 prevede dotări MINIME. Administrator-ul trebuie să ADAPTEZE spațiul: (1) coridor suficient pt scaun cu rotile, (2) MESE/SCAUNE accesibile (nu doar fixate), (3) CENTRE activation accesibile (nu doar pe rafturi înalte), (4) GRUP SANITAR cu bare de susținere dacă e nevoie. Colabora cu educatoare și părinți pt a personaliza spațiul. LEGE: educație incluzivă."
+        "text": "Pe baza dispozițiilor curente, E responsabilitate părintelui să-și adapteze copilul ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Spațiul nu se modifică; copilul se încadrează."
+        "text": "În aplicarea instrucțiunilor unității, spațiul nu se modifică; copilul se încadrează ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "E responsabilitate părintelui să-și adapteze copilul."
+        "text": "Anexa 2 prevede dotări MINIME. Administrator-ul trebuie să ADAPTEZE spațiul: (1) coridor suficient pt scaun cu rotile, (2) MESE/SCAUNE accesibile (nu doar fixate), (3) CENTRE activation accesibile (nu doar pe rafturi înalte), (4) GRUP SANITAR cu bare de susținere dacă e nevoie. Colabora cu educatoare și părinți pt a personaliza spațiul. LEGE: educație incluzivă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 2 prevede dotări minime; Administrator-ul trebuie să asigure accesibilitate pentru toți copiii, inclusiv cei cu nevoi speciale. Adaptări: coridoare libere pt scaun cu rotile, mese/scaune modulabile, centre activation accesibile, echipamente suplimentare dacă e nevoie (bare, rampe). Colaborare cu educatoare și părinți. Aceasta e obligație legală de incluziune.",
     "tooltipCorrect": "Accesibilitate copii nevoi speciale: coridoare, mese modulabile, centre accesibile, echipamente adapt."
@@ -1804,23 +1804,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "OK; aparatele funcționează, deci sunt sigure."
-      },
-      {
-        "id": "B",
         "text": "NU E CONFORM SSM/PSI! Administrator-ul: (1) DECONECTEAZA imediat prelungitorul improvizat, (2) VERIFICA instalație electrică (tablou principal), (3) INSTALEAZĂ prize standard cu pământare corespunzătoare pt fiecare echipament, (4) Nici o prelungitor improvizată, nici supraîncărcări. (5) VERIFICA cabluri (nicio deteriorare, nicio expunere), (6) PRINDERE cabluri pt a evita zvarcituri."
       },
       {
+        "id": "B",
+        "text": "Pe baza evaluării de rutină, OK; aparatele funcționează, deci sunt sigure urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Prelungitoarele improvizate sunt economice; se pot folosi."
+        "text": "În temeiul normelor în vigoare, încingerea e normală; aparatele sunt vechi și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Încingerea e normală; aparatele sunt vechi."
+        "text": "Pe baza dispozițiilor curente, prelungitoarele improvizate sunt economice; se pot folosi ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, și regulile PSI/SSM impun siguranță electrică pentru echipamentele tehnologice. Administrator-ul asigură: prize standard cu pământare corespunzătoare, nici prelungitoare improvizate, nici supraîncărcări, cabluri integre și fixate. Verifică anual instalația electrică. Pericolele electrice (încingere) sunt semn de defect urgent.",
     "tooltipCorrect": "Aparatură tehnologică: prize standard pământate, fără prelungitoare improvizate, cabluri sigure, verificare electrică."
@@ -1836,7 +1836,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "OK; foțile sunt doar pt activități educative."
+        "text": "Potrivit regulamentului intern, copii sunt sub supraveghere; datele lor sunt sigure urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -1844,11 +1844,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Copii sunt sub supraveghere; datele lor sunt sigure."
+        "text": "Pe baza evaluării de rutină, OK; foțile sunt doar pt activități educative ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Foți din grădiniță nu sunt date sensibile."
+        "text": "Pe baza dispozițiilor curente, foți din grădiniță nu sunt date sensibile ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -1868,23 +1868,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "OK; se va curața după ce se înșiră alte activități."
+        "text": "În temeiul normelor în vigoare, OK; se va curața după ce se înșiră alte activități și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "NU E CONFORM! Echipament tehnologic folosit cu materiale senzoriale trebuie curățat ZILNIC după utilizare: (1) ȘTERGE masa luminoasă cu cărpă moale, ușor umedă, (2) CURAȚĂ slide-uri și materiale cu apă + săpun, (3) USUCĂ complet înainte de reîncepere, (4) STOCHEAZĂ materiale în cutii închise, curate. (5) DESINFECTEAZĂ săptămânal. IGIENĂ = SSM."
+        "text": "Conform procedurii interne, masa luminoasă e echipament; copiii nu trebuie s-o atingă dacă e murdară urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Materiale senzoriale se curață la sfârșit de săptămână."
+        "text": "NU E CONFORM! Echipament tehnologic folosit cu materiale senzoriale trebuie curățat ZILNIC după utilizare: (1) ȘTERGE masa luminoasă cu cărpă moale, ușor umedă, (2) CURAȚĂ slide-uri și materiale cu apă + săpun, (3) USUCĂ complet înainte de reîncepere, (4) STOCHEAZĂ materiale în cutii închise, curate. (5) DESINFECTEAZĂ săptămânal. IGIENĂ = SSM."
       },
       {
         "id": "D",
-        "text": "Masa luminoasă e echipament; copiii nu trebuie s-o atingă dacă e murdară."
+        "text": "În temeiul normelor în vigoare, materiale senzoriale se curață la sfârșit de săptămână urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Ordinul ME nr. 4143/2022, Anexa 2, și regulile igieno-sanitare impun igienă pentru toate echipamentele și materiale folosite cu copiii. Masa luminoasă și materialele senzoriale se curață zilnic după utilizare (ștergere, apă + săpun, uscare), dezinfectate săptămânal, și stocate în cutii curate. Aceasta previne infecții și alergie.",
     "tooltipCorrect": "Masă luminoasă și materiale senzoriale: curățate zilnic după joacă, dezinfectate săptămânal."
@@ -1900,23 +1900,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e nevoie; se procură cum se poate anual."
+        "text": "Pe baza evaluării de rutină, doar conducerea face planuri; administrator execută ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "PLANIFICARE PE TERMEN LUNG: (1) AUDIT Anexa 2 actual (lipsuri, defecte estimate), (2) PROIECTARE în 3–5 ani: ce se va uzura, ce upgrade e necesar (ex. copii cresc → mese mai mari), (3) BUGETE ANUAL pe baza proiecției, (4) PRIORITIZARE: siguranță > funcționare > confort, (5) CĂUTARE fonduri suplimentare (proiecte, donații), (6) COMUNICARE cu conducere + părinți. Transparență și planificare asigură consistență."
+        "text": "Potrivit reglementării aplicabile, nu e nevoie; se procură cum se poate anual și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Doar conducerea face planuri; administrator execută."
+        "text": "Potrivit regulamentului intern, planificare pe termen lung e prea complicat; se face doar urgent și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Planificare pe termen lung e prea complicat; se face doar urgent."
+        "text": "PLANIFICARE PE TERMEN LUNG: (1) AUDIT Anexa 2 actual (lipsuri, defecte estimate), (2) PROIECTARE în 3–5 ani: ce se va uzura, ce upgrade e necesar (ex. copii cresc → mese mai mari), (3) BUGETE ANUAL pe baza proiecției, (4) PRIORITIZARE: siguranță > funcționare > confort, (5) CĂUTARE fonduri suplimentare (proiecte, donații), (6) COMUNICARE cu conducere + părinți. Transparență și planificare asigură consistență."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Administrator-ul II trebuie să gândească strategiv. Planificare pe termen lung: audit actual, proiectare 3–5 ani (uzură estimată, upgrade după creștere copii), bugete anuale, prioritizare SSM, căutare fonduri suplimentare, comunicare. Transparență și planificare asigură consistență și evită deficite de dotări.",
     "tooltipCorrect": "Planificare termen lung: audit, proiectare 3–5 ani, bugete anuale, prioritizare, fonduri, comunicare."
@@ -1932,23 +1932,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se cumpără doar cele mai ieftine opțiuni."
-      },
-      {
-        "id": "B",
         "text": "STRATEGII APROVIZIONARE: (1) LICITAȚII DESCHISE (negociază preț, asigură calitate), (2) PARTENERIATE cu furnizori locali (scont pt cantitate, plată pe rate), (3) DONAȚII de la comunitate (părinți, ONG-uri), (4) PROIECTE EUROPENE (granturi pentru educație timpurie), (5) RECONDIȚIONARE echipamente vechi (pt a economisi), (6) ÎMPRUMUTURI între unități (temporar). Calitate și siguranță NU se compromit; doar preț se negoziază."
       },
       {
+        "id": "B",
+        "text": "Potrivit regulamentului intern, se cumpără doar cele mai ieftine opțiuni ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Bugetul limitat; grădiniță trebuie să funcționeze cu mai puțin."
+        "text": "Potrivit regulamentului intern, bugetul limitat; grădiniță trebuie să funcționeze cu mai puțin și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Nu e rolul administratorului; conducerea se ocupă."
+        "text": "Pe baza evaluării de rutină, nu e rolul administratorului; conducerea se ocupă și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Administrator-ul II trebuie să găsească strategii pentru aprovizionare eficientă cu buget limitat: licitații deschise, parteneriate, donații, proiecte europene, recondiționare, împrumuturi. Nici o compromis pe calitate și siguranță conform Anexei 2. Negociază preț, nu standard.",
     "tooltipCorrect": "Aprovizionare eficientă: licitații, parteneriate, donații, proiecte, recondiționare, împrumuturi."
@@ -1964,7 +1964,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Facturi; restul nu e obligatoriu."
+        "text": "În aplicarea instrucțiunilor unității, E prea mult; doar inventar și facturi urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -1972,11 +1972,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "E prea mult; doar inventar și facturi."
+        "text": "Conform practicii administrative curente, documentația e responsabilitate contabilitate, nu administrator urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Documentația e responsabilitate contabilitate, nu administrator."
+        "text": "Pe baza dispozițiilor curente, facturi; restul nu e obligatoriu și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -1996,23 +1996,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Sunt independente; Anexa 2 e doar pentru educație."
+        "text": "Pe baza evaluării de rutină, SSM e responsabilitate medicului de muncă; dotări e responsabilitate administrator și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "INTEGRARE STRÂNSĂ! Dotări minime Anexa 2 sunt ELEMENTUL FIZIC al SSM: (1) Echipamente verificate periodic, fără pericoluri (SSM), (2) Materiale sigure pt copii (toxic test), (3) Spații igienice și curățe (SSM), (4) Substanțe periculoase inaccesibile (SSM). Administrator-ul asigură: Anexa 2 PLUS Legea SSM = mediu sigur pt copii. SSM și dotări = inseparabile."
+        "text": "În temeiul normelor în vigoare, annexa 2 e 100% educație; SSM e 0% legat și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "SSM e responsabilitate medicului de muncă; dotări e responsabilitate administrator."
+        "text": "INTEGRARE STRÂNSĂ! Dotări minime Anexa 2 sunt ELEMENTUL FIZIC al SSM: (1) Echipamente verificate periodic, fără pericoluri (SSM), (2) Materiale sigure pt copii (toxic test), (3) Spații igienice și curățe (SSM), (4) Substanțe periculoase inaccesibile (SSM). Administrator-ul asigură: Anexa 2 PLUS Legea SSM = mediu sigur pt copii. SSM și dotări = inseparabile."
       },
       {
         "id": "D",
-        "text": "Annexa 2 e 100% educație; SSM e 0% legat."
+        "text": "Potrivit reglementării aplicabile, sunt independente; Anexa 2 e doar pentru educație ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 2 (dotări minime) și Legea SSM sunt INTEGRAT. Dotări conforme Anexei 2 sunt elementul fizic al SSM: echipamente verificate periodic, fără pericoluri, materiale sigure, spații igienice, substanțe inaccesibile. Administrator-ul asigură ambele. SSM și dotări = inseparabile.",
     "tooltipCorrect": "Anexa 2 + SSM: integrat; dotări conforme = mediu sigur; verificări, materiale sigure, igienă, inaccesibilitate."
@@ -2028,23 +2028,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Toți se rezolvă după audit anual complet."
+        "text": "Pe baza dispozițiilor curente, toți se rezolvă după audit anual complet ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "PRIORITATE IMEDIATĂ (SSM): (1) Tobogan muchii ascuțite = LIMITEAZĂ ACCES, REPAREAZĂ urgent (risc rănire). (2) Dulap deschis lângă grup sanitar = INCHIDE ușă, VERIFICA conținut (siguranță copii). (3) Biblioteca rafturi înalte = SEMNALEAZĂ URGENT pt înlocuire (Standard 4.1.1). (4) Planșe tematice lipsă = PROCURĂ în 1–2 zile (Standard 4.1.2). DOCUMENTEAZĂ DIN AUDIT, RAPORTEAZĂ CONDUCERII, FOLLOW-UP."
+        "text": "În aplicarea instrucțiunilor unității, educatoarea trebuie să remediere; nu e sarcina administrator și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Se prioritizează doar topoglanul; celelalte pot aștepta."
+        "text": "Conform practicii administrative curente, se prioritizează doar topoglanul; celelalte pot aștepta și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Educatoarea trebuie să remediere; nu e sarcina administrator."
+        "text": "PRIORITATE IMEDIATĂ (SSM): (1) Tobogan muchii ascuțite = LIMITEAZĂ ACCES, REPAREAZĂ urgent (risc rănire). (2) Dulap deschis lângă grup sanitar = INCHIDE ușă, VERIFICA conținut (siguranță copii). (3) Biblioteca rafturi înalte = SEMNALEAZĂ URGENT pt înlocuire (Standard 4.1.1). (4) Planșe tematice lipsă = PROCURĂ în 1–2 zile (Standard 4.1.2). DOCUMENTEAZĂ DIN AUDIT, RAPORTEAZĂ CONDUCERII, FOLLOW-UP."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Audit anual de conformitate Anexa 2. Administrator-ul prioritizează: (1) Pericolele imediate (SSM) cu limitare acces urgent și reparație aceeași zi (tobogan muchii ascuțite, dulap deschis). (2) Neconformități Standard 4.1.1/4.1.2 cu semnalare și procurare urgent (1–2 zile). Documentare din audit, raport conducerii, follow-up confirmă remediere.",
     "tooltipCorrect": "Audit conformitate: prioritate SSM (limitare acces, reparații urgent) > Standards (semnalare, procurare 1–2 zile)."
@@ -2060,23 +2060,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Neagă responsabilitatea; scaunele sunt în folosință normală."
-      },
-      {
-        "id": "B",
         "text": "PROCEDURĂ RESPONSABILITATE: (1) ASCULTĂ plângerea și colectează date (data, loc, copil, detalii rănire), (2) VERIFICA scaunele în audit SSM urgent, (3) DOCUMENTEAZĂ starea (fotografie, înscrierea în registru defecte), (4) LIMITEAZĂ IMEDIAT ACCESUL la scaunele deteriorate, (5) INFORMEAZĂ CONDUCEREA și PĂRINȚI pe care au drept să știe, (6) PROCURĂ ÎNLOCUITOARE urgent, (7) COOPEREAZĂ cu medic pt rănire copil (dacă e cazul). RESPONSABILITATE ADMINISTRATORULUI = Anexa 2 + SSM."
       },
       {
+        "id": "B",
+        "text": "Pe baza evaluării de rutină, neagă responsabilitatea; scaunele sunt în folosință normală și se consemnează în evidentă."
+      },
+      {
         "id": "C",
-        "text": "Părinții sunt responsabili de supravegherea copiilor; nu grădiniță."
+        "text": "Pe baza evaluării de rutină, răniri din joacă se ignică; sunt accidente normale și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Răniri din joacă se ignică; sunt accidente normale."
+        "text": "Potrivit regulamentului intern, părinții sunt responsabili de supravegherea copiilor; nu grădiniță și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Administrator-ul II este responsabil pentru conformitate Anexei 2 și SSM. La plângere despre scaune deteriorate: asculta, verifica, documenteaza, limiteaza acces, informa conducere/parinti, procura inlocuitoare, coopereaza pt rănire. Responsabilitate administratorului = echipamente sigure conform Anexei 2.",
     "tooltipCorrect": "Plângere dotări defecte: ascultă, verifica urgent, documentează, limitează acces, raportează, procură înlocuitoare."
@@ -2092,7 +2092,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se-le aruncă la gunoi; gestionarea e responsabilitate gunoierului."
+        "text": "Potrivit regulamentului intern, se-le aruncă la gunoi; gestionarea e responsabilitate gunoierului ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -2100,11 +2100,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Ecologia nu e responsabilitate grădiniței; doar să funcționeze."
+        "text": "Pe baza dispozițiilor curente, ecologia nu e responsabilitate grădiniței; doar să funcționeze și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Se donează tuturor; reciclarea nu e necesară."
+        "text": "În aplicarea măsurilor prevăzute, se donează tuturor; reciclarea nu e necesară urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -2124,23 +2124,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu sunt indicatori; totul e OK."
+        "text": "În aplicarea instrucțiunilor unității, doar conform/neconform; procentaje nu sunt relevante și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "INDICATORI CALITATE: (1) % Conformitate = (dotări prezente / dotări obligatorii Anexa 2) x 100; ex. 95% = 1 lipsă din 20. (2) % Funcționare = (echipamente funcționale / total) x 100; ex. 85% = 3 defecte. (3) % Remediate = (defecte reparate în 7 zile / total defecte) x 100; ex. 80% = 4 din 5 reparate. RAPORT LUNAR/TRIMESTRIAL conducerii. Indicatori arată EFICIENȚĂ administrării."
+        "text": "Potrivit procedurii stabilite, indicatori sunt prea complicate; administrativa nu trebuie să măsoare urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Indicatori sunt prea complicate; administrativa nu trebuie să măsoare."
+        "text": "INDICATORI CALITATE: (1) % Conformitate = (dotări prezente / dotări obligatorii Anexa 2) x 100; ex. 95% = 1 lipsă din 20. (2) % Funcționare = (echipamente funcționale / total) x 100; ex. 85% = 3 defecte. (3) % Remediate = (defecte reparate în 7 zile / total defecte) x 100; ex. 80% = 4 din 5 reparate. RAPORT LUNAR/TRIMESTRIAL conducerii. Indicatori arată EFICIENȚĂ administrării."
       },
       {
         "id": "D",
-        "text": "Doar conform/neconform; procentaje nu sunt relevante."
+        "text": "Pe baza evaluării de rutină, nu sunt indicatori; totul e OK și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Administrator-ul II calculeaza indicatori pe calitate: (1) % Conformitate Anexa 2 (prezente/obligatorii); (2) % Funcționare (funcționale/total); (3) % Remediate (reparate-în-7-zile/total). Rapoarte lunare/trimestriale conducerii. Indicatori arata eficiența administrării și necesitate fonduri.",
     "tooltipCorrect": "Indicatori calitate: % conformitate Anexa 2, % funcționare echipamente, % defecte remediate în 7 zile."
@@ -2156,23 +2156,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se apelează la service doar în caz de defect."
+        "text": "În temeiul normelor în vigoare, educatoare verifica echipamentul zilnic; nu e nevoie de service și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "CONTRACT SERVICE ANUAL: (1) NEGOCIAZĂ cu furnizor, (2) INCLUE verificări preventive (2x anual: verificare funcționare, curatare, update soft), (3) ASIGURĂ răspuns RAPID la defecte (max 48h), (4) STABILEȘTE termenul de GARANȚIE (ex. 2 ani), (5) CLAUZULĂ: service respectă Anexa 2 (echipamente trebuie operaționale pt educație), (6) DOCUMENTEAZĂ intervențiile în REGISTRU SERVICE. Mentenanța preventivă = costuri mai mici pe termen lung."
+        "text": "Potrivit reglementării aplicabile, service e luxu; grădiniță cumpără echipament și-l folosește pâna se strica și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Service e luxu; grădiniță cumpără echipament și-l folosește pâna se strica."
+        "text": "Pe baza evaluării de rutină, se apelează la service doar în caz de defect și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Educatoare verifica echipamentul zilnic; nu e nevoie de service."
+        "text": "CONTRACT SERVICE ANUAL: (1) NEGOCIAZĂ cu furnizor, (2) INCLUE verificări preventive (2x anual: verificare funcționare, curatare, update soft), (3) ASIGURĂ răspuns RAPID la defecte (max 48h), (4) STABILEȘTE termenul de GARANȚIE (ex. 2 ani), (5) CLAUZULĂ: service respectă Anexa 2 (echipamente trebuie operaționale pt educație), (6) DOCUMENTEAZĂ intervențiile în REGISTRU SERVICE. Mentenanța preventivă = costuri mai mici pe termen lung."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Administrator-ul II negociază contract service anual cu furnizor: verificări preventive (2x/an), răspuns rapid la defecte (max 48h), garanție, și documentare. Mentenanța preventivă reduce costuri pe termen lung și asigură conformitate Anexei 2.",
     "tooltipCorrect": "Contract service echipamente: verificări preventive (2x/an), răspuns rapid, garanție, documentare."
@@ -2188,23 +2188,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e nevoie să se pregătească; grădiniță e sub control."
-      },
-      {
-        "id": "B",
         "text": "PREGĂTIRE AUDIT EXTERN: (1) FINALIZEAZĂ audit intern (checklist Anexa 2, documentare lipsuri), (2) REMEDIERE urgentă a neconformităților identificate, (3) PREGĂTIRE DOCUMENTE: inventar anual, registre verificări, rapoarte defecte, facturi, chitanțe, contracte service, (4) SPAȚII curate și organizate (dotări accesibile, aparente), (5) INFORMARE educatori că vor fi interviști pe dotări, (6) RAPORT SCRIS pe remedieri după audit intern. TRANSPARENȚĂ asigură audit OK."
       },
       {
+        "id": "B",
+        "text": "Conform practicii administrative curente, se cumpără dotări noi inainte de audit și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Se cumpără dotări noi inainte de audit."
+        "text": "Conform procedurii interne, nu e nevoie să se pregătească; grădiniță e sub control și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Nu se pregătește; se oferă doar tura facilităților."
+        "text": "Conform practicii administrative curente, nu se pregătește; se oferă doar tura facilităților urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Administrator-ul II se pregătește pentru audit extern: audit intern urgent, remediere neconformități, pregătire documente (inventar, registre, rapoarte), spații curate, informare educatori, raport scris. Transparență și proactivitate asigură audit OK și demonstreaza seriozitate.",
     "tooltipCorrect": "Pregătire audit extern: audit intern urgent, remediere neconformități, documente, spații curate, informare educatori."
@@ -2220,7 +2220,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se usucă; se pot folosi din nou."
+        "text": "Potrivit regulamentului intern, se usucă; se pot folosi din nou și se raportează conducerii."
       },
       {
         "id": "B",
@@ -2228,11 +2228,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se curață și se continuă joacă normal."
+        "text": "Conform procedurii interne, se așteaptă asigurarea; grădiniță nu face nimic ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Se așteaptă asigurarea; grădiniță nu face nimic."
+        "text": "Conform procedurii interne, se curață și se continuă joacă normal urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -2252,23 +2252,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Mingiile sunt pentru toți; copilul nu le folosește."
+        "text": "În aplicarea instrucțiunilor unității, mingiile sunt pentru toți; copilul nu le folosește și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "ADAPTARE MEDICAL: (1) COLECTEAZĂ DATE de la familie pe alergia copilului, (2) COORDONEAZĂ cu medic școlii, (3) ASIGURĂ MINGI ALTERNATIVE (non-latex) pt copil și alte copii sensibili, (4) DOCUMENTEAZĂ în fișa copilului, (5) INFORMEAZĂ EDUCATOARE și colegi de joacă pe siguranța alternativei. INCLUZIUNE = adaptare pentru sănătate copilului. Anexa 2 flexible pe materiale, nu pe numere."
+        "text": "Pe baza dispozițiilor curente, mingiile sunt conforme Anexa 2; nu se schimbă urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Mingiile sunt conforme Anexa 2; nu se schimbă."
+        "text": "ADAPTARE MEDICAL: (1) COLECTEAZĂ DATE de la familie pe alergia copilului, (2) COORDONEAZĂ cu medic școlii, (3) ASIGURĂ MINGI ALTERNATIVE (non-latex) pt copil și alte copii sensibili, (4) DOCUMENTEAZĂ în fișa copilului, (5) INFORMEAZĂ EDUCATOARE și colegi de joacă pe siguranța alternativei. INCLUZIUNE = adaptare pentru sănătate copilului. Anexa 2 flexible pe materiale, nu pe numere."
       },
       {
         "id": "D",
-        "text": "Părintele trebuie să găsească mingii non-latex acasă."
+        "text": "Potrivit reglementării aplicabile, părintele trebuie să găsească mingii non-latex acasă ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Administrator-ul II asigură incluziune pentru copii cu alergii: colectează date, coordonează cu medic, procura alternative (mingi non-latex), documentează, informează educatori. Anexa 2 specifica tipuri de dotări, nu necesara material exact; flexibility este posibil pt sănătate copilului.",
     "tooltipCorrect": "Alergii copii: date medicale, alternative procurate, documentare, informare educatori, incluziune."
@@ -2284,23 +2284,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Dulapul pentru jucării; doar preșcolari au."
+        "text": "Potrivit reglementării aplicabile, dulapul pentru jucării; doar preșcolari au urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Microscop digital - DOAR preșcolar are; antepreșcolar nu are. (Alte diferențe: scaune/mese dimensiuni diferite, Logic I vs I+II, jaloane/coardă/cercuri/stegulețe DOAR preșcolar, fier de călcat în Joc de rol DOAR preșcolar, bază atracții DOAR antepreșcolar.)"
+        "text": "Conform procedurii interne, mingi; doar preșcolari au ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Biblioteca; doar antepreșcolari au rafturi joase."
+        "text": "Potrivit procedurii stabilite, biblioteca; doar antepreșcolari au rafturi joase ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Mingi; doar preșcolari au."
+        "text": "Microscop digital - DOAR preșcolar are; antepreșcolar nu are. (Alte diferențe: scaune/mese dimensiuni diferite, Logic I vs I+II, jaloane/coardă/cercuri/stegulețe DOAR preșcolar, fier de călcat în Joc de rol DOAR preșcolar, bază atracții DOAR antepreșcolar.)"
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Microscop digital este DOAR preșcolar conform Anexei 2. Alte diferențe: dimensiuni scaune/mese, Logic I vs I+II, jaloane/coardă/cercuri/stegulețe DOAR preșcolar, fier de călcat Joc de rol DOAR preșcolar, bază atracții DOAR antepreșcolar. Administrator-ul cunoaște bine diferențele pe vârstă.",
     "tooltipCorrect": "Microscop digital DOAR preșcolar; jaloane/cercuri/stegulețe DOAR preșcolar; bază atracții DOAR antepreșcolar."
@@ -2316,23 +2316,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "E estetică; copiii se adaptează la orice."
-      },
-      {
-        "id": "B",
         "text": "Dimensionare ERGONOMICĂ și SIGURANȚĂ: scaune 21-20-20 (antepreșcolar) și mese 43 sunt calculate pt înălțimea și proporțiile copiilor mic (0–3). Scaunele mari (26-24-23 / 30-29-26 preșcolar) ar fi periculoase (copilul nu ating pământ = presiune pe picioare + cădere). Mese mari copiii nu ajung pe suprafață = frustrare. Dimensionare corectă = siguranță + dezvoltare."
       },
       {
+        "id": "B",
+        "text": "Potrivit regulamentului intern, dimensionarea nu contează; copiii se obișnuiesc urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Dimensionarea nu contează; copiii se obișnuiesc."
+        "text": "Pe baza evaluării de rutină, E estetică; copiii se adaptează la orice și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "E doar standard; nu e obligatoriu pe stict."
+        "text": "Potrivit reglementării aplicabile, E doar standard; nu e obligatoriu pe stict și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Dimensionare mobilier conform Anexei 2 este ERGONOMICĂ și de SIGURANȚĂ. Scaune mici (21-20-20 antepreșcolar) și mese 43 sunt calculate pt proporții copii mic. Scaunele mari: pericol de cădere și presiune pe picioare. Mese mari: copii nu ajung. Administrator-ul asigură dimensionare corecta pe vârstă.",
     "tooltipCorrect": "Mobilier antepreșcolar: 21-20-20 scaune, 43 mese (ergonomie + siguranță copii mic)."
@@ -2348,7 +2348,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu se pot tote; spațiu e prea mic."
+        "text": "Potrivit procedurii stabilite, sîn spații mici; unitatea nu trebuie respecte Anexa 2 și se raportează conducerii."
       },
       {
         "id": "B",
@@ -2356,11 +2356,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se limitează la 3 centre; restul se ignică."
+        "text": "În aplicarea măsurilor prevăzute, nu se pot tote; spațiu e prea mic urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Sîn spații mici; unitatea nu trebuie respecte Anexa 2."
+        "text": "În temeiul normelor în vigoare, se limitează la 3 centre; restul se ignică și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -2380,23 +2380,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu se acceptă donații de la părinți; grădiniță cumpără oficial."
+        "text": "În aplicarea măsurilor prevăzute, nu se acceptă donații de la părinți; grădiniță cumpără oficial și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "DONAȚII ORGANIZ ATE: (1) COMUNICARE CLARĂ pe ce sunt NECESARE (conform Anexa 2 - ex. mingi, cărți, materiale artă), (2) CRITERII CALITATE: noi sau in stare excelentă, sigure (nici expuse toxice, nici defecte), (3) VERIFICARE ÎNAINTE DE ACCEPTARE (siguranta copii), (4) DOCUMENTARE donație (cine, ce, data), (5) MULȚUMIRE PUBLIC (transparență, motivație). Donații = comunitate implicată, bugete mai ample pt nevoie majore."
+        "text": "În temeiul normelor în vigoare, se acceptă orice părinții donează; nu se verifica și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Se acceptă orice părinții donează; nu se verifica."
+        "text": "DONAȚII ORGANIZ ATE: (1) COMUNICARE CLARĂ pe ce sunt NECESARE (conform Anexa 2 - ex. mingi, cărți, materiale artă), (2) CRITERII CALITATE: noi sau in stare excelentă, sigure (nici expuse toxice, nici defecte), (3) VERIFICARE ÎNAINTE DE ACCEPTARE (siguranta copii), (4) DOCUMENTARE donație (cine, ce, data), (5) MULȚUMIRE PUBLIC (transparență, motivație). Donații = comunitate implicată, bugete mai ample pt nevoie majore."
       },
       {
         "id": "D",
-        "text": "Părinți nu trebuie să se implice în dotări."
+        "text": "Potrivit procedurii stabilite, părinți nu trebuie să se implice în dotări și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Administrator-ul II poate organiza donații din comunitate, dar cu criterii clare: necesități din Anexa 2, calitate și siguranță (verificare înainte de acceptare), documentare, și mulțumire publică. Donații + bugete oficiale = resurse mai ample si comunitate implicată.",
     "tooltipCorrect": "Donații părinți: necesități Anexa 2, criterii calitate, verificare sigurană, documentare, mulțumire publică."
@@ -2412,23 +2412,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "PSI verifica doar căile de evacuare; dotări nu-i interesează."
+        "text": "Conform practicii administrative curente, PSI verifica doar căile de evacuare; dotări nu-i interesează și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "PSI verifica DOTĂRI sub aspect PSI: (1) CĂILE EVACUARE libere de mobilier (ușe, coridoare, scări), (2) STINGĂTOARE accesibil, vizibil, verificat periodic, (3) CABLURI ELECTRICE echipamente integre (nici deteriorate, nici improvizate), (4) MATERIALE COMBUSTIBILE stocate sigur (nici lângă surse căldură), (5) SPAȚII inaccesibile copiilor pt substanțe periculoase. Administrator-ul asigură conformitate PSI PLUS Anexa 2."
+        "text": "Pe baza dispozițiilor curente, dotări combustibile sunt OK dacă sunt în depozit ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "PSI e independent de dotări; nu se ocupă."
+        "text": "Conform practicii administrative curente, PSI e independent de dotări; nu se ocupă și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Dotări combustibile sunt OK dacă sunt în depozit."
+        "text": "PSI verifica DOTĂRI sub aspect PSI: (1) CĂILE EVACUARE libere de mobilier (ușe, coridoare, scări), (2) STINGĂTOARE accesibil, vizibil, verificat periodic, (3) CABLURI ELECTRICE echipamente integre (nici deteriorate, nici improvizate), (4) MATERIALE COMBUSTIBILE stocate sigur (nici lângă surse căldură), (5) SPAȚII inaccesibile copiilor pt substanțe periculoase. Administrator-ul asigură conformitate PSI PLUS Anexa 2."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "PSI verifica dotări sub aspect incendii: căi de evacuare libere, stingătoare accesibil, cabluri sigure, materiale combustibile sigur stocate, inaccesibilitate copiilor pt substanțe. Administrator-ul asigură conformitate PSI PLUS Anexa 2 (sunt complementare).",
     "tooltipCorrect": "PSI verifica dotări: căi evacuare libere, stingătoare accesibil, cabluri sigure, materiale sigur stocate."
@@ -2444,23 +2444,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Instruire nu e necesară; dotările sunt intuitive."
-      },
-      {
-        "id": "B",
         "text": "INSTRUIRE PERSONALULUI ANUAL: (1) UTILIZARE SIGURĂ echipamente (Display, Masă luminoasă, Scaner), (2) PROCEDURE CURĂȚENIE jucării și materiale, (3) REGULI ACCES spații depozit (substanțe periculoase inaccesibile), (4) VERIFICARE PERIODICĂ echipamente, (5) RAPORTARE DEFECTE conducerii urgent, (6) MĂSURI SSM (nici suruburi ieșite, nici muchii ascuțite). Instructajul DOCUMENTAT; semnează prezență și înțelegere."
       },
       {
+        "id": "B",
+        "text": "În aplicarea măsurilor prevăzute, instruire se face doar când apare un defect și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Educatoarele se instruiesc singure; nu e sarcina administrator."
+        "text": "Conform procedurii interne, instruire nu e necesară; dotările sunt intuitive ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Instruire se face doar când apare un defect."
+        "text": "În temeiul normelor în vigoare, educatoarele se instruiesc singure; nu e sarcina administrator și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Administrator-ul II instruiește personalul anual pe: utilizare sigură echipamente, curățenie proceduri, reguli acces depozit, verificare periodică, raportare defecte, măsuri SSM. Instructaj documentat cu prezență și semnături. Aceasta asigură practici consistente și SSM.",
     "tooltipCorrect": "Instruire personalului anual: utilizare echipamente, curățenie, acces depozit, verificări, raportare, SSM."
@@ -2476,7 +2476,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar o listă cu ce s-a cumpărat."
+        "text": "Pe baza dispozițiilor curente, doar o listă cu ce s-a cumpărat urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -2484,11 +2484,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Raportul nu e necesar; conducerea vede singură."
+        "text": "Potrivit procedurii stabilite, raport doar dacă sunt probleme urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Raport doar dacă sunt probleme."
+        "text": "În temeiul normelor în vigoare, raportul nu e necesar; conducerea vede singură și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -2508,23 +2508,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Dotări sunt auxiliare; curriculum depinde de educator."
+        "text": "Pe baza dispozițiilor curente, educatorul improvizează; nu e nevoie de dotări și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "RELAȚIE CURRICULUM-DOTĂRI: Centrul Construcții → gândire spațială, Logic I/II. Centrul Artă → expresie creativă, motricitate fină. Centrul Știință → explorare, STEAM. Centrul Bibliotecă → literație. Mișcare → dezvoltare motorie grosieră. Dotări Anexa 2 sunt INSTRUMENTUL curriculum; fără dotări, curriculum nu poate fi implementat. Administrator-ul ca PARTENER educator."
+        "text": "În aplicarea instrucțiunilor unității, dotări sunt auxiliare; curriculum depinde de educator urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Curriculum scris; dotări nu e parte din el."
+        "text": "RELAȚIE CURRICULUM-DOTĂRI: Centrul Construcții → gândire spațială, Logic I/II. Centrul Artă → expresie creativă, motricitate fină. Centrul Știință → explorare, STEAM. Centrul Bibliotecă → literație. Mișcare → dezvoltare motorie grosieră. Dotări Anexa 2 sunt INSTRUMENTUL curriculum; fără dotări, curriculum nu poate fi implementat. Administrator-ul ca PARTENER educator."
       },
       {
         "id": "D",
-        "text": "Educatorul improvizează; nu e nevoie de dotări."
+        "text": "În temeiul normelor în vigoare, curriculum scris; dotări nu e parte din el și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Dotări Anexa 2 sunt ESENȚIALE pt curriculum timpuriu. 5 centre activate = 5 domenii de învățare. Administrator-ul care asigură dotări este PARTENER educator în implementarea curriculum. Dotări + educator = educație de calitate.",
     "tooltipCorrect": "Dotări Anexa 2 = instrumente curriculum; 5 centre = 5 domenii; Administrator-ul = partener educator."
@@ -2540,23 +2540,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e posibil; zona defavorizată nu poate avea dotări complete."
+        "text": "Potrivit reglementării aplicabile, dotări complete sunt privileg pentru grădinițe bogate și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "STRATEGIE INCLUZIVĂ: (1) PARTENERIAȚI LOCALE (ONG-uri, primărie, comunitate), (2) DONAȚII ORGANIZATE (părinți, firme locale), (3) PROGRAME EUROPENE fondare (educație timpurie), (4) RECYCLARE materiale (reparații creative, repurposing), (5) VOLUNTARIAT (părinți, seniori pt montare, reparații), (6) PRIORITATE SSM (sigurană) > CONFORT. PRINCIPIU: incluziune = toți copii merită Anexa 2, indiferent de economie. Administrator-ul = PROBLEM SOLVER + ADVOCATE."
+        "text": "Potrivit regulamentului intern, zona defavorizată trebuie să accepte mai puține dotări urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Zona defavorizată trebuie să accepte mai puține dotări."
+        "text": "Conform procedurii interne, nu e posibil; zona defavorizată nu poate avea dotări complete urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Dotări complete sunt privileg pentru grădinițe bogate."
+        "text": "STRATEGIE INCLUZIVĂ: (1) PARTENERIAȚI LOCALE (ONG-uri, primărie, comunitate), (2) DONAȚII ORGANIZATE (părinți, firme locale), (3) PROGRAME EUROPENE fondare (educație timpurie), (4) RECYCLARE materiale (reparații creative, repurposing), (5) VOLUNTARIAT (părinți, seniori pt montare, reparații), (6) PRIORITATE SSM (sigurană) > CONFORT. PRINCIPIU: incluziune = toți copii merită Anexa 2, indiferent de economie. Administrator-ul = PROBLEM SOLVER + ADVOCATE."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Chiar în zone defavorizate, Administrator-ul II asigură Anexa 2 prin: parteneriate locale, donații, programe europene, reciclare, voluntariat. Incluziune înseamnă toți copii merită educație de calitate cu dotări conforme, indiferent de economie. Administrator = problem-solver și advocate pentru copii.",
     "tooltipCorrect": "Zone defavorizate: parteneriate, donații, programe europene, reciclare, voluntariat; incluziune = toți copii."
@@ -2572,23 +2572,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Dotări minimale sunt fixe; nu se vor schimba."
-      },
-      {
-        "id": "B",
         "text": "EVOLUȚIE POSIBILĂ: (1) TEHNOLOGIE (deja Display interactiv, aparat foto; viitor = VR didactică?), (2) SUSTAINABILITY (echipamente eco-friendly, materiale reciclate), (3) INCLUSIVITATE (mai multe adaptări copii nevoi speciale), (4) STEM → STEAM (mai multă artă + tehnologie), (5) BINE-FIINȚĂ (spații relax, materiale senzoriale expanded). Administrator-ul RĂMÂNE FLEXIBIL, documentează inovații, și propune actualizări conducerii conform evoluției normelor."
       },
       {
+        "id": "B",
+        "text": "Conform procedurii interne, dotări vor rămâne la nivel anilor 2000 și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Inovația nu e responsabilitate administrator; doar respecta Anexa 2."
+        "text": "În aplicarea instrucțiunilor unității, dotări minimale sunt fixe; nu se vor schimba și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Dotări vor rămâne la nivel anilor 2000."
+        "text": "Pe baza evaluării de rutină, inovația nu e responsabilitate administrator; doar respecta Anexa 2 și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2 stabilește minime; viitorul poate evolua: mai multă tehnologie, sustainability, inclusivitate, STEAM expandat, bine-ființă. Administrator-ul rămâne flexibil, documentează inovații, și propune actualizări conducerii conform evoluției normelor și nevoilor copiilor.",
     "tooltipCorrect": "Evoluție dotări: tehnologie, sustainability, inclusivitate, STEAM, bine-ființă; Administrator flexibil și inovativ."
@@ -2604,7 +2604,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă reducerea; conducerea decide bugetul."
+        "text": "În temeiul normelor în vigoare, reduce tac tac; nu-și cere nimeni acordul și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -2612,11 +2612,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Reduce tac tac; nu-și cere nimeni acordul."
+        "text": "Conform practicii administrative curente, raportează problem părinților să se plâng conducerii ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Raportează problem părinților să se plâng conducerii."
+        "text": "Pe baza evaluării de rutină, acceptă reducerea; conducerea decide bugetul și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -2636,23 +2636,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar a-și ține inventarul."
+        "text": "Pe baza dispozițiilor curente, doar a-și ține inventarul urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "COMPETENȚE ESENȚIALE: (1) CUNOAȘTERE Anexa 2 (în detaliu, pe vârstă), (2) GESTIONARE BUNURI (inventar, aprovizionare, reparații), (3) SIGURANȚĂ SSM/PSI (verificări, remedieri urgente), (4) COMUNICARE conducere/educatori/părinți, (5) PROBLEM-SOLVING creativ (bugete limitate, soluții inovative), (6) LEADERSHIP soft (motivare voluntariat, parteneriate), (7) DOCUMENTARE (rapoarte, registre, audit). Development = cursuri SSM, legislație, management. Administrator-ul = PROFESSIONAL."
+        "text": "Potrivit reglementării aplicabile, E doar de executare; fără competențe speciale urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "E doar de executare; fără competențe speciale."
+        "text": "COMPETENȚE ESENȚIALE: (1) CUNOAȘTERE Anexa 2 (în detaliu, pe vârstă), (2) GESTIONARE BUNURI (inventar, aprovizionare, reparații), (3) SIGURANȚĂ SSM/PSI (verificări, remedieri urgente), (4) COMUNICARE conducere/educatori/părinți, (5) PROBLEM-SOLVING creativ (bugete limitate, soluții inovative), (6) LEADERSHIP soft (motivare voluntariat, parteneriate), (7) DOCUMENTARE (rapoarte, registre, audit). Development = cursuri SSM, legislație, management. Administrator-ul = PROFESSIONAL."
       },
       {
         "id": "D",
-        "text": "Competențele se învață pe parcurs; training nu e necesar."
+        "text": "Conform practicii administrative curente, competențele se învață pe parcurs; training nu e necesar ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Administrator-ul II care gestionează dotări trebuie: cunoștință Anexa 2, gestionare bunuri, SSM/PSI, comunicare, problem-solving, leadership, documentare. Development profesional: cursuri SSM, legislație, management. Administrator = professional cu competențe continue.",
     "tooltipCorrect": "Competențe Administrator: Anexa 2, gestionare bunuri, SSM/PSI, comunicare, problem-solving, leadership, documentare."
@@ -2668,23 +2668,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e crucial; e doar de administrație."
+        "text": "Pe baza evaluării de rutină, nu e crucial; e doar de administrație și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "CRUCIAL! Administrator-ul asigură: (1) MEDIU SIGUR (SSM + PSI), (2) DOTĂRI CONFORME curriculum (5 centre activate), (3) ACCES copiilor la materiale (Standard 4.1.1), (4) PLANȘE TEMATICE (Standard 4.1.2), (5) CONTINUITATE EDUCAȚIE (mecanisme reparații, upgrades). FĂRĂ dotări conforme, educație DE CALITATE NU E POSIBILĂ. Administrator = FONDAMENT educației timpurii. Postul e STRATEGIC, NU rutinar."
+        "text": "În aplicarea instrucțiunilor unității, educatoarea e crucială; administrator e auxiliar și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Educatoarea e crucială; administrator e auxiliar."
+        "text": "Conform practicii administrative curente, dotări nu influențează calitatea educației și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Dotări nu influențează calitatea educației."
+        "text": "CRUCIAL! Administrator-ul asigură: (1) MEDIU SIGUR (SSM + PSI), (2) DOTĂRI CONFORME curriculum (5 centre activate), (3) ACCES copiilor la materiale (Standard 4.1.1), (4) PLANȘE TEMATICE (Standard 4.1.2), (5) CONTINUITATE EDUCAȚIE (mecanisme reparații, upgrades). FĂRĂ dotări conforme, educație DE CALITATE NU E POSIBILĂ. Administrator = FONDAMENT educației timpurii. Postul e STRATEGIC, NU rutinar."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Administrator-ul II este CRUCIAL în educația timpurie. Asigură: mediu sigur (SSM/PSI), dotări conforme curriculum, acces copiilor, planșe tematice, continuitate educație. Fără dotări conforme, educație de calitate NU e posibilă. Postul e STRATEGIC, nu rutinar. Administrator-ul + Educatoarea = PARTENERIAT pt copii.",
     "tooltipCorrect": "Administrator-ul: crucial pt mediu sigur, dotări conforme, acces materiale, continuitate; postul = STRATEGIC."
@@ -2700,23 +2700,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză lotul, deoarece 14,8 g depășește pragul de 15 g/100 g."
-      },
-      {
-        "id": "B",
         "text": "Acceptă lotul pe criteriul zahăr (sub 15 g), dar verifică și grăsimile/sarea și integritatea ambalajului."
       },
       {
+        "id": "B",
+        "text": "Pe baza dispozițiilor curente, acceptă necondiționat, dacă ambalajul este intact."
+      },
+      {
         "id": "C",
-        "text": "Acceptă necondiționat, dacă ambalajul este intact."
+        "text": "Potrivit reglementării aplicabile, refuză; orice produs cu zahăr adăugat este nerecomandat."
       },
       {
         "id": "D",
-        "text": "Refuză; orice produs cu zahăr adăugat este nerecomandat."
+        "text": "În temeiul normelor în vigoare, refuză lotul, deoarece 14,8 g depășește pragul de 15 g/100 g."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Pragul Anexei 1 (Ordinul 1563/2008) pt zahăr este >15 g/100 g; la 14,8 g lotul NU e nerecomandat pe zahăr, dar administratorul verifică TOATE criteriile (grăsimi, sare, calorii/unitate) și integritatea ambalajului la recepție.",
     "tooltipCorrect": "Sub 15 g zaharuri/100 g NU declanșează criteriul zahăr; se verifică însă restul criteriilor din Anexa 1."
@@ -2732,7 +2732,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă, sprijinindu-se pe incredere și relație lungă cu furnizor."
+        "text": "Potrivit reglementării aplicabile, acceptă, sprijinindu-se pe incredere și relație lungă cu furnizor și se raportează conducerii."
       },
       {
         "id": "B",
@@ -2740,11 +2740,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Acceptă, dar o depozitează separat și o verifică după cateva zile."
+        "text": "În aplicarea instrucțiunilor unității, acceptă, dar o depozitează separat și o verifică după cateva zile."
       },
       {
         "id": "D",
-        "text": "Refuză imediat pentru că orice produs neeticheta e interzis în scopuri religioase."
+        "text": "În aplicarea măsurilor prevăzute, refuză imediat pentru că orice produs neeticheta e interzis în scopuri religioase."
       }
     ],
     "correctOptionIds": [
@@ -2764,23 +2764,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză, deoarece 18 g depășește pragul de 20 g grăsimi."
+        "text": "Potrivit normei, refuză, deoarece 18 g depășește pragul de 20 g grăsimi."
       },
       {
         "id": "B",
-        "text": "Acceptă; grăsimile sunt sub 20 g și acizii sunt sub pragurile de saturate (5 g) și trans (1 g)."
+        "text": "Refuză, pentru că orice produs cu acizi grași e interzis pt copii sub 6 ani."
       },
       {
         "id": "C",
-        "text": "Acceptă, dar o foloseşte numai în pudinguri, nu în alte rețete."
+        "text": "Acceptă; grăsimile sunt sub 20 g și acizii sunt sub pragurile de saturate (5 g) și trans (1 g)."
       },
       {
         "id": "D",
-        "text": "Refuză, pentru că orice produs cu acizi grași e interzis pt copii sub 6 ani."
+        "text": "În aplicarea regulii, acceptă, dar o folosește numai în pudinguri, nu în alte rețete."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 1 interzice produse cu >20 g grăsimi/100 g ȘI (saturate >5 g SAU trans >1 g). 18 g grăsimi + 4 g saturate + 0,8 g trans = se încadrează în limitele acceptable.",
     "tooltipCorrect": "Ambele condiții trebuie verificate cumulativ: grăsimi totale ȘI saturate/trans; sub praguri = acceptabil."
@@ -2792,27 +2792,27 @@ export const questions = [
     "difficulty": "medium",
     "sourceAct": "Ordinul MS nr. 1563/2008, anexa nr. 1",
     "type": "single",
-    "question": "Sosește o sarcină de peşte congelat etichetat. Etichetă: 1,45 g sare/100 g (sau 0,58 g sodiu/100 g). Integritate ambalaj OK. Ce decide administratorul?",
+    "question": "Sosește o sarcină de pește congelat etichetat. Etichetă: 1,45 g sare/100 g (sau 0,58 g sodiu/100 g). Integritate ambalaj OK. Ce decide administratorul?",
     "options": [
       {
         "id": "A",
-        "text": "Refuză, deoarece sarea 1,45 g este sub 1,5 g dar sodiul este sub 0,6 g."
+        "text": "Potrivit normei, refuză, deoarece sarea 1,45 g este sub 1,5 g dar sodiul este sub 0,6 g."
       },
       {
         "id": "B",
-        "text": "Acceptă; atât sarea (1,45 g < 1,5 g) cât și sodiul (0,58 g < 0,6 g) sunt sub pragurile Anexei 1."
+        "text": "Potrivit normei, acceptă, dar cere și o analiză microbiologică din partea furnizorului."
       },
       {
         "id": "C",
-        "text": "Refuză, pentru că pesciul congelat e interzis în grădinițe."
+        "text": "În aplicarea regulii, refuză, pentru că pesciul congelat e interzis în grădinițe."
       },
       {
         "id": "D",
-        "text": "Acceptă, dar cere și o analiză microbiologică din partea furnizorului."
+        "text": "Acceptă; atât sarea (1,45 g < 1,5 g) cât și sodiul (0,58 g < 0,6 g) sunt sub pragurile Anexei 1."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 1: sare >1,5 g/100 g SAU sodiu >0,6 g/100 g declanșează criteriul. La 1,45 g sare și 0,58 g sodiu = ambii sub praguri = acceptabil.",
     "tooltipCorrect": "Pragurile sării sunt SAU inclusiv pe sare SAU pe sodiu; dacă ambii sunt sub praguri, produsul se acceptă."
@@ -2824,7 +2824,7 @@ export const questions = [
     "difficulty": "basic",
     "sourceAct": "Ordinul MS nr. 1563/2008, anexa nr. 1",
     "type": "single",
-    "question": "Administratorul primeşte o ofertă: 20 cutii de apă minerală îmbuteliată și 10 cutii de suc natural 100% fruct. Ce acceptă?",
+    "question": "Administratorul primește o ofertă: 20 cutii de apă minerală îmbuteliată și 10 cutii de suc natural 100% fruct. Ce acceptă?",
     "options": [
       {
         "id": "A",
@@ -2832,15 +2832,15 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "Ambele sunt interzise pt că sunt băuturi."
+        "text": "În temeiul normelor în vigoare, acceptă doar ceaiul neîndulcit."
       },
       {
         "id": "C",
-        "text": "Apă minerală da, sucul doar în proporție de 1/3 din cantitate."
+        "text": "Potrivit normei, ambele sunt interzise pt că sunt băuturi."
       },
       {
         "id": "D",
-        "text": "Acceptă doar ceaiul neîndulcit."
+        "text": "În aplicarea regulii, apă minerală da, sucul doar în proporție de 1/3 din cantitate."
       }
     ],
     "correctOptionIds": [
@@ -2860,7 +2860,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză, deoarece 23 g depășește pragul de 15 g zaharuri."
+        "text": "Potrivit normei, refuză; bananele sunt prea energice pt copii mici."
       },
       {
         "id": "B",
@@ -2868,11 +2868,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Acceptă, dar o foloseşte cu moderație."
+        "text": "În aplicarea regulii, refuză, deoarece 23 g depășește pragul de 15 g zaharuri."
       },
       {
         "id": "D",
-        "text": "Refuză; bananele sunt prea energice pt copii mici."
+        "text": "Potrivit reglementării aplicabile, acceptă, dar o folosește cu moderație."
       }
     ],
     "correctOptionIds": [
@@ -2892,23 +2892,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză, deoarece 290 kcal este aproape de 300 kcal."
+        "text": "Refuză; batonurile proteice nu sunt produse recomandate nici sub 300 kcal."
       },
       {
         "id": "B",
-        "text": "Acceptă; pragul din Anexa 1 este >300 kcal/unitate; la 290 kcal lotul se acceptă."
-      },
-      {
-        "id": "C",
         "text": "Acceptă, dar distribui cu restrângeri (maxim 1 baton pe copil/zi)."
       },
       {
+        "id": "C",
+        "text": "Acceptă; pragul din Anexa 1 este >300 kcal/unitate; la 290 kcal lotul se acceptă."
+      },
+      {
         "id": "D",
-        "text": "Refuză; batonurile proteice nu sunt produse recomandate nici sub 300 kcal."
+        "text": "Potrivit normei, refuză, deoarece 290 kcal este aproape de 300 kcal."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 1: \"Calorii pe unitatea de vânzare: peste 300 kcal pe unitatea de vânzare.\" La 290 kcal/baton NU se declanșează criteriul.",
     "tooltipCorrect": "Pragul e >300 kcal; la 290 kcal acceptă; la 301 kcal refuză. Numerele la limită se verifică cu exactitate."
@@ -2924,23 +2924,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Numai morcovii și cartofii; bananele neambalate sunt interzise."
+        "text": "În temeiul normelor în vigoare, numai morcovii și cartofii; bananele neambalate sunt interzise."
       },
       {
         "id": "B",
-        "text": "Numai morcovii; bananele și cartofii sunt neambalate și interzisi."
+        "text": "Pe baza evaluării de rutină, toate trei; dacă produsele sunt proaspete, ambalajul nu e obligatoriu."
       },
       {
         "id": "C",
-        "text": "Morcovii și bananele; Anexa 1 acceptă fructele proaspete neambalate. Cartofii prăjiți refuză (grăsimi >20 g + neambalați)."
+        "text": "Potrivit regulamentului intern, numai morcovii; bananele și cartofii sunt neambalate și interzisi."
       },
       {
         "id": "D",
-        "text": "Toate trei; dacă produsele sunt proaspete, ambalajul nu e obligatoriu."
+        "text": "Morcovii și bananele; Anexa 1 acceptă fructele proaspete neambalate. Cartofii prăjiți refuză (grăsimi >20 g + neambalați)."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 1: \"Alimente neambalate: alimente vrac, sandvișuri neambalate. Excepție: bananele și citricele.\" Cartofii prăjiți sunt și neambalați și depășesc pragul grăsimi (>20 g) și calorii (>300 kcal).",
     "tooltipCorrect": "Excepția neambalării se aplică bananelor și citricelor; alte fructe/legume vrac se acceptă. Cartofii prăjiți = combinație de criterii (grăsimi, calorii, ambalaj)."
@@ -2960,15 +2960,15 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "O primesc direct de la MSP."
+        "text": "O redactez singur pe baza experienței."
       },
       {
         "id": "C",
-        "text": "O primesc de la Inspecția Sanitară de Stat."
+        "text": "Pe baza dispoziției, O primesc direct de la MSP."
       },
       {
         "id": "D",
-        "text": "O redactez singur pe baza experienței."
+        "text": "O primesc de la Inspecția Sanitară de Stat."
       }
     ],
     "correctOptionIds": [
@@ -2988,23 +2988,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Aprobă singur, dacă i se pare în regulă."
+        "text": "Potrivit reglementării aplicabile, aprobă dacă mâncarea e calorice suficiente pe hârtie și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Respinge și cere bucătarului să schimbe, fără alt proces."
-      },
-      {
-        "id": "C",
         "text": "Meniurile trebuie AVIZATE de personalul medical și APROBATE de conducător. Cere aviz medical; dacă medical refuză, se exclud mâncările (carne prăjită, maioneză sunt conflictuale)."
       },
       {
+        "id": "C",
+        "text": "Potrivit regulamentului intern, aprobă singur, dacă i se pare în regulă ca măsură curentă de gestiune."
+      },
+      {
         "id": "D",
-        "text": "Aprobă dacă mâncarea e calorice suficiente pe hârtie."
+        "text": "În aplicarea măsurilor prevăzute, respinge și cere bucătarului să schimbe, fără alt proces ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "B"
     ],
     "explanation": "Art. 11 din Legea 123/2008: \"Meniurile din cantine/locații asimilate sunt avizate de personalul medical și aprobate de conducătorul unității.\" Procesul e dublat: aviz medical + aprobare conducător.",
     "tooltipCorrect": "Meniurile necesită aviz medical (nutriție) și aprobare conducători; ambele sunt obligatorii și documentate."
@@ -3020,23 +3020,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Comercializarea alimentelor nerecomandate."
+        "text": "În aplicarea regulii, numai vânzarea; distribuirea profesională e acceptă."
       },
       {
         "id": "B",
-        "text": "Prepararea, comercializarea ȘI distribuirea alimentelor din lista nerecomandata."
+        "text": "În aplicarea regulii, doar în cazul alimentelor cu gram trans."
       },
       {
         "id": "C",
-        "text": "Numai vânzarea; distribuirea profesională e acceptă."
+        "text": "Prepararea, comercializarea ȘI distribuirea alimentelor din lista nerecomandata."
       },
       {
         "id": "D",
-        "text": "Doar în cazul alimentelor cu gram trans."
+        "text": "Pe baza dispoziției, comercializarea alimentelor nerecomandate."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Art. 10 din Legea 123/2008: \"în incinta unităților sunt interzise prepararea, comercializarea și distribuirea alimentelor din listă.\" Trei acțiuni interzise: preparare + comercializare + distribuire.",
     "tooltipCorrect": "Interdicția e asupra toate trei activități (nu doar o parte): NU se prepară, NU se comercializează, NU se distribuie."
@@ -3052,23 +3052,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Conducătorul unității."
+        "text": "Administratorul, pe baza verificării proprii."
       },
       {
         "id": "B",
-        "text": "Inspectoratul școlar."
+        "text": "În aplicarea regulii, conducătorul unității."
       },
       {
         "id": "C",
-        "text": "Inspecția Sanitară de Stat din MSP."
+        "text": "În aplicarea regulii, inspectoratul școlar."
       },
       {
         "id": "D",
-        "text": "Administratorul, pe baza verificării proprii."
+        "text": "Inspecția Sanitară de Stat din MSP."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Art. 15 din Legea 123/2008: \"Constatarea încălcărilor și sancționarea → Inspecția Sanitară de Stat din MSP.\"",
     "tooltipCorrect": "Controlul și sancționarea sunt responsabilitatea Inspecției Sanitare de Stat, nu a conducerii unitare; administratorul semnalează și cooperează."
@@ -3084,23 +3084,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar comercializarea fără documente."
-      },
-      {
-        "id": "B",
         "text": "Lista nerecomandate (9), preparare/comercializare/distribuire (10), meniuri avizate (11), alte dispoziții (12)."
       },
       {
+        "id": "B",
+        "text": "Pe baza dispozițiilor curente, doar meniurile neaprobate ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Doar meniurile neaprobate."
+        "text": "Potrivit reglementării aplicabile, nerespectarea ambalajelor și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Nerespectarea ambalajelor."
+        "text": "În temeiul normelor în vigoare, doar comercializarea fără documente și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Art. 16: \"Contravenții = încălcarea art. 9–12\" (difuzare lista, interdicție preparare/comercializare/distribuire, meniuri avizate, alte norme).",
     "tooltipCorrect": "Contravenția acoperă: nerespectarea listei, prepararea/vânzarea/distribuirea interzise, meniuri fără aviz medical/aprobare conducător."
@@ -3116,7 +3116,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Imediat după publicare."
+        "text": "La 1 ianuarie al anului următor."
       },
       {
         "id": "B",
@@ -3124,11 +3124,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "La 1 ianuarie al anului următor."
+        "text": "În aplicarea regulii, imediat după publicare."
       },
       {
         "id": "D",
-        "text": "La discreția MSP."
+        "text": "Conform procedurii, la discreția MSP."
       }
     ],
     "correctOptionIds": [
@@ -3152,11 +3152,11 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "Da; hârtia e specificație de la producător, acceptă conform art. 7."
+        "text": "Parțial; se acceptă dacă mai cere și buletin de analiză."
       },
       {
         "id": "C",
-        "text": "Parțial; se acceptă dacă mai cere și buletin de analiză."
+        "text": "Da; hârtia e specificație de la producător, acceptă conform art. 7."
       },
       {
         "id": "D",
@@ -3164,7 +3164,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Art. 7 din Ordinul 1563/2008: \"Dovada compoziției prin etichetă, specificații de la producător sau buletin de analiză.\" Hârtia producătorului cu conținut nutrițional = specificație acceptabilă.",
     "tooltipCorrect": "Art. 7 acceptă trei forme: etichetă pe produs, specificații de la producător, buletin analiză; una e suficientă."
@@ -3180,11 +3180,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; grăsimile saturate și trans sunt sub pragurile 5 g și 1 g."
+        "text": "Refuză; margarinele sunt interzise total în grădinițe."
       },
       {
         "id": "B",
-        "text": "Refuză; grăsimile totale 21 g depășesc pragul de 20 g/100 g."
+        "text": "Acceptă; grăsimile saturate și trans sunt sub pragurile 5 g și 1 g."
       },
       {
         "id": "C",
@@ -3192,11 +3192,11 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "Refuză; margarinele sunt interzise total în grădinițe."
+        "text": "Refuză; grăsimile totale 21 g depășesc pragul de 20 g/100 g."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 1: grăsimi >20 g/100 g sunt nerecomandate. La 21 g grăsimi totale (chiar dacă saturate/trans sunt OK) = DEPĂȘIRE pe grăsimi totale.",
     "tooltipCorrect": "Criteriul grăsimi se aplică pe totalul grăsimilor; dacă >20 g, e nerecomandat, indiferent de compoziția saturate/trans."
@@ -3212,23 +3212,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; grăsimile totale 19 g sunt sub 20 g."
-      },
-      {
-        "id": "B",
         "text": "Refuză; pragul pentru grăsimile SATURATE >5 g e depășit (8 g saturate)."
       },
       {
+        "id": "B",
+        "text": "Potrivit normei, acceptă; grăsimile totale 19 g sunt sub 20 g."
+      },
+      {
         "id": "C",
-        "text": "Acceptă, dar o foloseşte în rețete cu calorii scăzute."
+        "text": "Refuză; carnea roșie e interzisă în scopuri nutriționale."
       },
       {
         "id": "D",
-        "text": "Refuză; carnea roșie e interzisă în scopuri nutriționale."
+        "text": "Potrivit normei, acceptă, dar o folosește în rețete cu calorii scăzute."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 1: \"Grăsimi: peste 20 g grăsimi/100 g, din care cumulativ grăsimi saturate peste 5 g SAU acizi grași trans peste 1 g.\" La 8 g saturate (>5 g) = satisface una din condiții de nerecomandat.",
     "tooltipCorrect": "Criteriul se satisface dacă grăsimi TOTALE >20 ȘI (saturate >5 SAU trans >1); la grăsimi 19 dar saturate 8 = NU satisface „grăsimi >20\" deci SE ACCEPTĂ."
@@ -3244,7 +3244,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză; 1,5 g e pragul exact, deci depășire."
+        "text": "În aplicarea regulii, refuză; chips sunt interzise indiferent de sare."
       },
       {
         "id": "B",
@@ -3252,11 +3252,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Refuză; chips sunt interzise indiferent de sare."
+        "text": "Acceptă, dar le ține în depozit separat de alte alimente."
       },
       {
         "id": "D",
-        "text": "Acceptă, dar le ține în depozit separat de alte alimente."
+        "text": "Pe baza dispoziției, refuză; 1,5 g e pragul exact, deci depășire."
       }
     ],
     "correctOptionIds": [
@@ -3276,15 +3276,15 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză; sodiul 0,6 g depășește pragul de sare/sodiu."
+        "text": "Conform procedurii, refuză; sodiul 0,6 g depășește pragul de sare/sodiu."
       },
       {
         "id": "B",
-        "text": "Acceptă; pragul e >0,6 g sodiu; la 0,6 g exact se acceptă conform Anexei 1."
+        "text": "Refuză; pâinea e carbohidrat pe care nu-l verifică. Doar grăsimi/sare."
       },
       {
         "id": "C",
-        "text": "Refuză; pâinea e carbohidrat pe care nu-l verifică. Doar grăsimi/sare."
+        "text": "Acceptă; pragul e >0,6 g sodiu; la 0,6 g exact se acceptă conform Anexei 1."
       },
       {
         "id": "D",
@@ -3292,7 +3292,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 1: sare >1,5 g SAU sodiu >0,6 g. Pragul sodiu e \"peste 0,6\", nu \"de la 0,6\". La 0,6 g exact = la limita, acceptabil.",
     "tooltipCorrect": "Sodiu >0,6 g = refuză. La 0,6 g = acceptă. Cuvântul \"peste\" e esențial."
@@ -3308,23 +3308,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză; zahărul 15 g depășește pragul."
+        "text": "Pe baza dispoziției, refuză; biscuiții sunt interzisi total."
       },
       {
         "id": "B",
-        "text": "Acceptă; pragul e >15 g zaharuri; la exact 15 g se acceptă."
+        "text": "Potrivit normei, refuză; zahărul 15 g depășește pragul."
       },
       {
         "id": "C",
-        "text": "Refuză; biscuiții sunt interzisi total."
+        "text": "Potrivit normei, acceptă, dar le ține sub cheie."
       },
       {
         "id": "D",
-        "text": "Acceptă, dar le ține sub cheie."
+        "text": "Acceptă; pragul e >15 g zaharuri; la exact 15 g se acceptă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 1: zaharuri >15 g/100 g. Pragul e \"peste 15\", nu \"de la 15\". La 15 g exact = la limita, acceptabil.",
     "tooltipCorrect": "Zahăr >15 g = refuză. La 15 g = acceptă. Precisia numerelor e critică."
@@ -3340,23 +3340,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză; 300 kcal depășește pragul."
-      },
-      {
-        "id": "B",
         "text": "Acceptă; pragul e >300 kcal; la 300 kcal exact se acceptă."
       },
       {
+        "id": "B",
+        "text": "Potrivit normei, refuză; batonele energetice sunt interzise."
+      },
+      {
         "id": "C",
-        "text": "Refuză; batonele energetice sunt interzise."
+        "text": "Conform procedurii, acceptă, dar le dă copiilor la anumite orare."
       },
       {
         "id": "D",
-        "text": "Acceptă, dar le dă copiilor la anumite orare."
+        "text": "În aplicarea regulii, refuză; 300 kcal depășește pragul."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 1: calorii >300 kcal pe unitate de vânzare. Pragul e \"peste 300\", la 300 kcal exact = acceptabil.",
     "tooltipCorrect": "Calorii >300 = refuză. La 300 = acceptă. Granița se verifică strict."
@@ -3372,7 +3372,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Ignora alergia; meniul e obligatoriu pentru toți."
+        "text": "Potrivit reglementării aplicabile, ignora alergia; meniul e obligatoriu pentru toți și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -3380,11 +3380,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Înlocuiește din propria inițiativă lapte cu apă."
+        "text": "Potrivit procedurii stabilite, înlocuiește din propria inițiativă lapte cu apă și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Anulează mâncărurile cu lapte pt tot grupul."
+        "text": "Conform procedurii interne, anulează mâncărurile cu lapte pt tot grupul și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -3404,23 +3404,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; zahărul e sub 15 g, deci e OK."
+        "text": "Pe baza dispozițiilor curente, refuză; ciocolata e nerecomandata indiferent de cifre."
       },
       {
         "id": "B",
-        "text": "Refuză; zahărul e OK dar grăsimile 28 g depășesc pragul 20 g și saturate 18 g depășesc 5 g. Se verifică TOATE criteriile."
+        "text": "În aplicarea instrucțiunilor unității, acceptă; zahărul e sub 15 g, deci e OK și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Acceptă, dar o dă copiilor în proporție mică."
+        "text": "Refuză; zahărul e OK dar grăsimile 28 g depășesc pragul 20 g și saturate 18 g depășesc 5 g. Se verifică TOATE criteriile."
       },
       {
         "id": "D",
-        "text": "Refuză; ciocolata e nerecomandata indiferent de cifre."
+        "text": "În aplicarea instrucțiunilor unității, acceptă, dar o dă copiilor în proporție mică urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 1 cere verificare cumulativă: zahăr, grăsimi, sare, calorii. Un singur criteriu nerespectat = refuză. La ciocolată: zahăr OK, dar grăsimi >20 g ȘI saturate >5 g = nerecomandat.",
     "tooltipCorrect": "Verificare cumulativă: chiar dacă zahărul e OK, restul criteriilor (grăsimi, sare, calorii) se controlează; un singur nerespectă = refuză."
@@ -3436,23 +3436,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă, sprijinindu-se pe garanția furnizorului."
+        "text": "Conform procedurii interne, acceptă, dar ține lotul în carantină 5 zile și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Refuză; art. 7 cere dovada compoziției (etichetă/specificații/buletin). Fără acestea, NU acceptă. Cere documente de la furnizor."
+        "text": "Potrivit procedurii stabilite, acceptă; pastele simple nu au etichetă nutrițională și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Acceptă, dar ține lotul în carantină 5 zile."
+        "text": "Pe baza evaluării de rutină, acceptă, sprijinindu-se pe garanția furnizorului și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Acceptă; pastele simple nu au etichetă nutrițională."
+        "text": "Refuză; art. 7 cere dovada compoziției (etichetă/specificații/buletin). Fără acestea, NU acceptă. Cere documente de la furnizor."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Art. 7 din Ordinul 1563: operatorii trebuie să dovedească compoziția prin etichetă, specificații sau buletin. Fără dovadă = NU se acceptă, indiferent de relație cu furnizor.",
     "tooltipCorrect": "Dovada compoziție e obligatorie și non-negociabilă; administrator refuză ferm și cere documente."
@@ -3468,23 +3468,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; e apă, nu importă sursa."
-      },
-      {
-        "id": "B",
         "text": "Refuză; Anexa 1 acceptă \"apă potabilă/minerală îmbuteliată\". Apă din alt surse, chiar în sticle, nu corespunde. Cere apă îmbuteliată oficială."
       },
       {
+        "id": "B",
+        "text": "În aplicarea măsurilor prevăzute, acceptă, cu condiția unei analize microbiologice lunare și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Acceptă, cu condiția unei analize microbiologice lunare."
+        "text": "În temeiul normelor în vigoare, acceptă; e apă, nu importă sursa urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Acceptă; apă dinainte era obișnuita în grădinițe."
+        "text": "Potrivit reglementării aplicabile, acceptă; apă dinainte era obișnuita în grădinițe și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 1: băuturi cu excepție apei potabile/minerale îmbuteliate. Cuvântul \"îmbuteliată\" indică sursă sigură, înregistrată. Apă de alt sursă, oricât de pură, nu satisface criteriul.",
     "tooltipCorrect": "Apă îmbuteliată = apă potabilă/minerală din sursă înregistrată și sigilată. Apă din puț, chiar în sticle, nu e acceptabilă conform Anexei 1."
@@ -3500,7 +3500,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză; termenul e prea aproape."
+        "text": "Potrivit regulamentului intern, refuză; termenul e prea aproape și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -3508,18 +3508,18 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Acceptă, dar o ține în hladă maxim 1 zi."
+        "text": "Potrivit procedurii stabilite, refuză; laptele se primește cu minim 7 zile termen și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Refuză; laptele se primește cu minim 7 zile termen."
+        "text": "Potrivit regulamentului intern, acceptă, dar o ține în hladă maxim 1 zi și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
       "B"
     ],
     "explanation": "Recepție: verifica termen, ambalaj, etichetă, integritate. La 1 august, termen 2 august = valid (1 zi disponibil). Administratorul acceptă și gestionează pe baza termenului.",
-    "tooltipCorrect": "Termen valid = data recepției < data expirare. Acceptă și dokumentează; cu cât mai puțin timp, cu atât mai repede foloseşte."
+    "tooltipCorrect": "Termen valid = data recepției < data expirare. Acceptă și dokumentează; cu cât mai puțin timp, cu atât mai repede folosește."
   },
   {
     "id": "ALI-027",
@@ -3532,23 +3532,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; crăpătura e mică, NU afectează siguranța."
+        "text": "În aplicarea regulii, acceptă; crăpăturile se lipesc cu scotch."
       },
       {
         "id": "B",
-        "text": "Refuză; ambalaj defect = risc contaminare, expunere umiditate, NU se acceptă."
+        "text": "Potrivit normei, acceptă; crăpătura e mică, NU afectează siguranța."
       },
       {
         "id": "C",
-        "text": "Acceptă, dar o depozitează la partea de sus, protejata."
+        "text": "Refuză; ambalaj defect = risc contaminare, expunere umiditate, NU se acceptă."
       },
       {
         "id": "D",
-        "text": "Acceptă; crăpăturile se lipesc cu scotch."
+        "text": "În aplicarea regulii, acceptă, dar o depozitează la partea de sus, protejata."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Recepție verifică integritate ambalaj. Crăpătură = risc contaminare microbiologică, deteriorare produs, expunere la umiditate. Se refuză lot cu ambalaj defect.",
     "tooltipCorrect": "Ambalaj = barieră; defect = NU se acceptă. Administrator nu reparează; cere lot nou intreg."
@@ -3564,23 +3564,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Toate în același dulap, pe rafturi."
+        "text": "Potrivit procedurii stabilite, toate în același dulap, pe rafturi ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Uscate (orez) la temperatura camerei; brânzele și carnea în frigider/congelator pe rafturi separate; legumele proaspete într-o cămară răcoroasă. Separare obligatorie pe categorie, cu etichete de dată recepție."
+        "text": "Potrivit procedurii stabilite, carne la congelator, restul oricunde urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Carne la congelator, restul oricunde."
+        "text": "În temeiul normelor în vigoare, după culoare pentru ușurință vizuală urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "După culoare pentru ușurință vizuală."
+        "text": "Uscate (orez) la temperatura camerei; brânzele și carnea în frigider/congelator pe rafturi separate; legumele proaspete într-o cămară răcoroasă. Separare obligatorie pe categorie, cu etichete de dată recepție."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Igienă și siguranță alimentară: depozitare pe categorii (uscate, refrigerate, congelate, proaspete) evită contaminare încrucișată. Fiecare categorie cu condiții proprii de temperatură/umiditate și etiquetare dată recepție.",
     "tooltipCorrect": "Depozitare = separare rigidă pe categorie. Uscate 15-20°C; brânzeturi/carne 0-4°C; congelate <-18°C; legume în cămară răcoroasă. Fiecare lot etichetat cu dată și termen."
@@ -3600,15 +3600,15 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "Într-o cămară, dar pe aceeași parte cu alimentele."
+        "text": "Potrivit regulamentului intern, într-un dulap deschis pe care doar personalul îl cunoaște și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Într-un dulap deschis pe care doar personalul îl cunoaște."
+        "text": "În aplicarea măsurilor prevăzute, sub chiuvetă, lângă apă și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Sub chiuvetă, lângă apă."
+        "text": "Potrivit procedurii stabilite, într-o cămară, dar pe aceeași parte cu alimentele și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -3628,23 +3628,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Ignora și o distribuie copiilor, dacă nu au sesizat."
+        "text": "Conform practicii administrative curente, O servește primului copil ca test ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "O servește primului copil ca test."
-      },
-      {
-        "id": "C",
         "text": "NU O FOLOSEȘTE. O izolează. Anunță conducătorul și nutriționistul. Notează lot, dată, motiv. Sesizează Inspecția Sanitară dacă riscul e mare. Cere investigație furnizor."
       },
       {
+        "id": "C",
+        "text": "Potrivit procedurii stabilite, O fierbe înainte de servire și se raportează conducerii."
+      },
+      {
         "id": "D",
-        "text": "O fierbe înainte de servire."
+        "text": "Pe baza dispozițiilor curente, ignora și o distribuie copiilor, dacă nu au sesizat ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "B"
     ],
     "explanation": "Precauție: suspiciune = suspensiune folosire. Art. 10 (interzicere distribuire alimente nerecomandate/contamnate). Administratorul e garant siguranța; anunță, documentează, nu riscă.",
     "tooltipCorrect": "Suspiciune contaminare = STOP imediat. Izolează, notează, anunță, investigă. NU servi copiilor în nicio situație."
@@ -3660,23 +3660,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Aprobă; carnea e nutrientă."
+        "text": "Potrivit regulamentului intern, O servește, dar cu salată urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Refuză; art. 10 interzice distribuirea alimentelor nerecomandate. Carnea prăjită depășite praguri grăsimi/calorii. Cere carne fiartă sau grilă."
+        "text": "Pe baza dispozițiilor curente, aprobă dacă e o dată pe lună ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Aprobă dacă e o dată pe lună."
+        "text": "Refuză; art. 10 interzice distribuirea alimentelor nerecomandate. Carnea prăjită depășite praguri grăsimi/calorii. Cere carne fiartă sau grilă."
       },
       {
         "id": "D",
-        "text": "O serveşte, dar cu salată."
+        "text": "În temeiul normelor în vigoare, aprobă; carnea e nutrientă ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Carne prăjită = grăsimi >20 g/100 g, calorii >300 kcal/porție, acizi grași trans potențiali. Art. 10 interzice în incintă. Prepară gătit sănătos (fiartă, grilă).",
     "tooltipCorrect": "Carne prăjită = nerecomandat cumul. Art. 10 interzice; administrator refuză și cere alternativă sănătoasă."
@@ -3696,19 +3696,19 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "Sunt interzise total, indiferent de anotimp."
+        "text": "Se acceptă dacă sunt preparate zilnic."
       },
       {
         "id": "C",
-        "text": "Sunt acceptate, dar cu moderație."
+        "text": "În aplicarea regulii, sunt acceptate, dar cu moderație."
       },
       {
         "id": "D",
-        "text": "Se acceptă dacă sunt preparate zilnic."
+        "text": "Sunt interzise total, indiferent de anotimp."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 2, cap. 3, p. 8: \"Sunt interzise cremele cu ouă și frișcă și maionezele, indiferent de anotimp.\" Interzicere absolută.",
     "tooltipCorrect": "Maioneză + cremă cu ouă + frișcă = interzise total, toate anotimpurile. Administrator NU permite nici o excepție."
@@ -3728,15 +3728,15 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "Ochiuri prăjite în ulei."
-      },
-      {
-        "id": "C",
         "text": "Ochiuri românești prăjite."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Omletă prăjită în tigaie."
+      },
+      {
+        "id": "D",
+        "text": "Ochiuri prăjite în ulei."
       }
     ],
     "correctOptionIds": [
@@ -3756,7 +3756,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Tocăturile sunt interzise total."
+        "text": "Potrivit reglementării aplicabile, tocăturile sunt interzise total."
       },
       {
         "id": "B",
@@ -3764,11 +3764,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se acceptă daca sunt dintr-o zonă de calitate."
+        "text": "În temeiul normelor în vigoare, se acceptă dacă sunt congelajte."
       },
       {
         "id": "D",
-        "text": "Se acceptă dacă sunt congelajte."
+        "text": "În aplicarea regulii, se acceptă daca sunt dintr-o zonă de calitate."
       }
     ],
     "correctOptionIds": [
@@ -3788,26 +3788,26 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Cu suplimente vitaminice sintetice."
+        "text": "Pe baza dispoziției, cu alune și semințe."
       },
       {
         "id": "B",
-        "text": "Cu salate din crudități și legume-frunze în supe/ciorbe."
+        "text": "Pe baza dispoziției, cu fructe deshidratate."
       },
       {
         "id": "C",
-        "text": "Cu fructe deshidratate."
+        "text": "Cu salate din crudități și legume-frunze în supe/ciorbe."
       },
       {
         "id": "D",
-        "text": "Cu alune și semințe."
+        "text": "În aplicarea regulii, cu suplimente vitaminice sintetice."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 2, cap. 3, p. 7: \"Meniul se îmbogățește cu vitamine/minerale prin salate din crudități și legume-frunze în supe/ciorbe.\"",
-    "tooltipCorrect": "Vitamine = salate crudités + legume verzi în supe. Natural, nu suplimente."
+    "tooltipCorrect": "Vitamine = salate de crudități + legume verzi în supe. Natural, nu suplimente."
   },
   {
     "id": "ALI-036",
@@ -3820,23 +3820,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Aprobă; ambele sunt sănătoase."
+        "text": "În aplicarea măsurilor prevăzute, aprobă; copiii au nevoie de proteine și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Refuză; Anexa 2 spune că la cină se evită combinații cu efecte digestive nefavorabile. Fasole + iaurt = incompatibil. Cere fie fasole cu crudități, fie iaurt separat."
+        "text": "În aplicarea măsurilor prevăzute, aprobă; ambele sunt sănătoase ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Aprobă; copiii au nevoie de proteine."
+        "text": "Potrivit regulamentului intern, aprobă, dar doar pentru copii >5 ani urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Aprobă, dar doar pentru copii >5 ani."
+        "text": "Refuză; Anexa 2 spune că la cină se evită combinații cu efecte digestive nefavorabile. Fasole + iaurt = incompatibil. Cere fie fasole cu crudități, fie iaurt separat."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 2, cap. 3, p. 5: \"La cină se evită mâncărurile cu efort digestiv puternic sau combinații cu efecte digestive nefavorabile (ex.: iahnie de fasole cu iaurt/compot).\"",
     "tooltipCorrect": "Cină = evitar combinații grele (fasole + iaurt) pt odihnă normală. Administrator respectă restricții de ore/combinații."
@@ -3852,23 +3852,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Aprobă; ambele sunt acceptabile."
-      },
-      {
-        "id": "B",
         "text": "Refuză; p. 4 din Anexa 2 spune că se evită asocierea alimentelor din aceeași grupă. Pâine + gem = ambii glucide (carbohidraț). Cere: lapte cu pâine și gem, SAU carne/derivate lactate cu pâine."
       },
       {
+        "id": "B",
+        "text": "Pe baza dispozițiilor curente, aprobă; ambele sunt acceptabile ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Aprobă; cina nu e problema."
+        "text": "Potrivit reglementării aplicabile, aprobă; cina nu e problema ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Aprobă cu adaos de zahăr."
+        "text": "Conform practicii administrative curente, aprobă cu adaos de zahăr urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2, cap. 3, p. 4: \"Se evită asocierea alimentelor din aceeași grupă... Ex.: la micul dejun NU ceai cu pâine cu gem, CI cu preparate din carne/derivate lactate; se poate lapte cu pâine+gem/biscuiți.\"",
     "tooltipCorrect": "Mic dejun = diversificare grupe. Pâine+gem (ambii glucide) = NU. Lapte+pâine+gem = OK. Sau carne+pâine."
@@ -3884,7 +3884,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "5%."
+        "text": "30%."
       },
       {
         "id": "B",
@@ -3896,7 +3896,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "30%."
+        "text": "În aplicarea regulii, 5%."
       }
     ],
     "correctOptionIds": [
@@ -3916,11 +3916,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "50–60%."
+        "text": "90–95%."
       },
       {
         "id": "B",
-        "text": "60–70%."
+        "text": "50–60%."
       },
       {
         "id": "C",
@@ -3928,7 +3928,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "90–95%."
+        "text": "60–70%."
       }
     ],
     "correctOptionIds": [
@@ -3948,23 +3948,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu; depășire de 140 ml e excesivă."
+        "text": "Conform practicii administrative curente, se acceptă, dar doar luni."
       },
       {
         "id": "B",
-        "text": "Da; art. 3 din Anexa 4 permite depășire cu până la 20%. 840 ml = 20% mai mult decât 700 ml."
+        "text": "Potrivit procedurii stabilite, nu; rația trebuie exactă ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se acceptă, dar doar luni."
+        "text": "În aplicarea instrucțiunilor unității, nu; depășire de 140 ml e excesivă."
       },
       {
         "id": "D",
-        "text": "Nu; rația trebuie exactă."
+        "text": "Da; art. 3 din Anexa 4 permite depășire cu până la 20%. 840 ml = 20% mai mult decât 700 ml."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 4, art. 3: \"Se permite depășirea rației cu până la 20% la lapte/produse lactate, carne/preparate, pește, legume/fructe.\"",
     "tooltipCorrect": "Depășire ±20% acceptabilă pe anumite grupe (lapte, carne, pești, legume). Administrator verific pe medie 2 săptămâni."
@@ -3984,15 +3984,15 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "Din consum mediu pe lună."
+        "text": "Conform practicii administrative curente, din consumul anual urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Din consumul anual."
+        "text": "Potrivit procedurii stabilite, din estimare anuală a bucătarului ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Din estimare anuală a bucătarului."
+        "text": "În aplicarea măsurilor prevăzute, din consum mediu pe lună și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -4012,7 +4012,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "70 g."
+        "text": "200 g."
       },
       {
         "id": "B",
@@ -4020,7 +4020,7 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "200 g."
+        "text": "70 g."
       },
       {
         "id": "D",
@@ -4044,11 +4044,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "80 g."
+        "text": "100 g."
       },
       {
         "id": "B",
-        "text": "100 g."
+        "text": "80 g."
       },
       {
         "id": "C",
@@ -4076,23 +4076,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "200 ml."
-      },
-      {
-        "id": "B",
         "text": "400 ml."
       },
       {
+        "id": "B",
+        "text": "1000 ml."
+      },
+      {
         "id": "C",
-        "text": "800 ml."
+        "text": "200 ml."
       },
       {
         "id": "D",
-        "text": "1000 ml."
+        "text": "800 ml."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 4, Echivalențe: \"100 g lapte praf integral = 800 ml lapte proaspăt.\"",
     "tooltipCorrect": "Lapte praf = concentr. 100 g praf = 800 ml proaspăt. Administrator reconstituie și calculează rații."
@@ -4108,11 +4108,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "150 g."
+        "text": "400 g."
       },
       {
         "id": "B",
-        "text": "200 g."
+        "text": "150 g."
       },
       {
         "id": "C",
@@ -4120,11 +4120,11 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "400 g."
+        "text": "200 g."
       }
     ],
     "correctOptionIds": [
-      "D"
+      "A"
     ],
     "explanation": "Anexa 4: \"100 g fructe deshidratate = 400 g fructe crude.\"",
     "tooltipCorrect": "Deshidrare = concentrare; 100 g deshidratate = 400 g crude. Administrator compensează cu salate crudite și fructe proaspete."
@@ -4140,7 +4140,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "10 g."
+        "text": "25 g."
       },
       {
         "id": "B",
@@ -4148,11 +4148,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "25 g."
+        "text": "40 g."
       },
       {
         "id": "D",
-        "text": "40 g."
+        "text": "10 g."
       }
     ],
     "correctOptionIds": [
@@ -4172,11 +4172,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "70 g."
+        "text": "80 g."
       },
       {
         "id": "B",
-        "text": "80 g."
+        "text": "70 g."
       },
       {
         "id": "C",
@@ -4204,23 +4204,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "15 g."
-      },
-      {
-        "id": "B",
         "text": "20 g."
       },
       {
+        "id": "B",
+        "text": "50 g."
+      },
+      {
         "id": "C",
-        "text": "30 g."
+        "text": "15 g."
       },
       {
         "id": "D",
-        "text": "50 g."
+        "text": "30 g."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 4: \"Nectar = 30 g zahăr (per 100 ml).\" Clasificat ca băutură; interzis la copii.",
     "tooltipCorrect": "Nectare = băutură, interzisă. 100 ml = 30 g zahăr. Administrator NU acceptă nici în ofertă."
@@ -4236,7 +4236,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "50 g."
+        "text": "80 g."
       },
       {
         "id": "B",
@@ -4244,7 +4244,7 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "80 g."
+        "text": "50 g."
       },
       {
         "id": "D",
@@ -4252,7 +4252,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "C"
+      "A"
     ],
     "explanation": "Anexa 4: \"Miere = 80 g zahăr (per 100 g).\"",
     "tooltipCorrect": "Miere = 80% zahăr natural. Se evită miere la copii <1 an (risc botulism). Pentru mai mari, cu moderație."
@@ -4300,23 +4300,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Calorii scăzute (5-60)."
+        "text": "În aplicarea regulii, calorii scăzute (5-60)."
       },
       {
         "id": "B",
-        "text": "Calorii moderate (60-120)."
-      },
-      {
-        "id": "C",
         "text": "Calorii crescute (120-300)."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "Calorii foarte crescute (>300)."
+      },
+      {
+        "id": "D",
+        "text": "Calorii moderate (60-120)."
       }
     ],
     "correctOptionIds": [
-      "D"
+      "C"
     ],
     "explanation": "Anexa 4, Tabel 2: \"Cartofi prăjiți = foarte crescută peste 300 kcal/100 g.\" Interzis din cauza calorii + grăsimi.",
     "tooltipCorrect": "Cartofi prăjiți = >300 kcal, grăsimi >20 g. Dubla nerespectare. Administrator cere cartofi coapți/fierți."
@@ -4332,15 +4332,15 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Scăzute (5-60)."
+        "text": "Crescute (120-300)."
       },
       {
         "id": "B",
-        "text": "Moderate (60-120)."
+        "text": "Conform procedurii, moderate (60-120)."
       },
       {
         "id": "C",
-        "text": "Crescute (120-300)."
+        "text": "Potrivit normei, scăzute (5-60)."
       },
       {
         "id": "D",
@@ -4368,15 +4368,15 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "Moderate (60-120 kcal)."
+        "text": "Foarte crescute (>300 kcal)."
       },
       {
         "id": "C",
-        "text": "Crescute (120-300 kcal)."
+        "text": "Moderate (60-120 kcal)."
       },
       {
         "id": "D",
-        "text": "Foarte crescute (>300 kcal)."
+        "text": "Crescute (120-300 kcal)."
       }
     ],
     "correctOptionIds": [
@@ -4396,23 +4396,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": ">0,8 g sare/100 g."
+        "text": ">2 g sare/100 g."
       },
       {
         "id": "B",
-        "text": ">1,2 g sare/100 g."
-      },
-      {
-        "id": "C",
         "text": ">1,5 g sare/100 g."
       },
       {
+        "id": "C",
+        "text": ">0,8 g sare/100 g."
+      },
+      {
         "id": "D",
-        "text": ">2 g sare/100 g."
+        "text": ">1,2 g sare/100 g."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "B"
     ],
     "explanation": "Anexa 1: \"Sare: peste 1,5 g sare/100 g (SAU peste 0,6 g sodiu).\" Brânzurile sărate sunt exemple.",
     "tooltipCorrect": "Pragul sare = >1,5 g/100 g. Brânzuri normale 0,8-1,4 g = acceptabile. Brânzuri sărate >1,5 = interzise."
@@ -4428,23 +4428,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar sare."
+        "text": "În aplicarea regulii, sare și calorii și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Sare și calorii."
+        "text": "Pe baza dispoziției, sare, calorii și ambalaj (neambalate vrac)."
       },
       {
         "id": "C",
-        "text": "Sare, calorii și ambalaj (neambalate vrac)."
+        "text": "Sare, grăsimi și calorii; neambalate vrac; neetichetate."
       },
       {
         "id": "D",
-        "text": "Sare, grăsimi și calorii; neambalate vrac; neetichetate."
+        "text": "Conform practicii administrative curente, doar sare."
       }
     ],
     "correctOptionIds": [
-      "D"
+      "C"
     ],
     "explanation": "Anexa 1 listează: chipsuri la sare (>1,5 g sare), grăsimi (>20 g), calorii (>300 kcal), și adesea vrac/neetichetate. Multipli criterii nerespecta.",
     "tooltipCorrect": "Chipsuri = multiplu nerespectare (sare, grăsimi, calorii). Administrator refuză complet."
@@ -4460,23 +4460,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; zahărul și grăsimile sunt sub praguri."
+        "text": "Conform procedurii, acceptă; zahărul și grăsimile sunt sub praguri."
       },
       {
         "id": "B",
-        "text": "Refuză; sarea 1,8 g depășește pragul 1,5 g. De-a lungul, multipli factori."
+        "text": "Conform procedurii, refuză; biscuiții sunt interzisi total."
       },
       {
         "id": "C",
-        "text": "Acceptă, dar distribuie moderat."
+        "text": "În aplicarea măsurilor prevăzute, acceptă, dar distribuie moderat."
       },
       {
         "id": "D",
-        "text": "Refuză; biscuiții sunt interzisi total."
+        "text": "Refuză; sarea 1,8 g depășește pragul 1,5 g. De-a lungul, multipli factori."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 1: sare >1,5 g/100 g. La 1,8 g sare = depășire. Chiar dacă zahăr și grăsimi sunt OK, sarea = nerecomandat. Verificare cumulativă.",
     "tooltipCorrect": "Multipli criterii; un singur nerespectă = refuză. Sarea 1,8 > 1,5 = depășire."
@@ -4492,23 +4492,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; calorii pe porție sunt sub 300 kcal."
-      },
-      {
-        "id": "B",
         "text": "Refuză; sarea 1,9 g depășește pragul 1,5 g/100 g."
       },
       {
+        "id": "B",
+        "text": "Acceptă; calorii pe porție sunt sub 300 kcal."
+      },
+      {
         "id": "C",
-        "text": "Acceptă, dar limita la 1 baston/zi."
+        "text": "Potrivit normei, refuză; sticksurile sunt alimente vrac."
       },
       {
         "id": "D",
-        "text": "Refuză; sticksurile sunt alimente vrac."
+        "text": "Conform procedurii, acceptă, dar limita la 1 baston/zi."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 1: sare >1,5 g/100 g. La 1,9 g sare = depășire. Calorii pe porție sunt separate de calorii pe unitate vânzare (baston 250 kcal < 300).",
     "tooltipCorrect": "Sare >1,5 = nerecomandat. Chiar dacă calorii porție OK, sarea depășite = refuză."
@@ -4524,7 +4524,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; covrigei sunt alimente tradiționale."
+        "text": "Conform procedurii, acceptă, dar 1 covrig pe săptămână."
       },
       {
         "id": "B",
@@ -4532,11 +4532,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Acceptă, dar 1 covrig pe săptămână."
+        "text": "În aplicarea regulii, refuză; sunt neambalați."
       },
       {
         "id": "D",
-        "text": "Refuză; sunt neambalați."
+        "text": "Acceptă; covrigei sunt alimente tradiționale."
       }
     ],
     "correctOptionIds": [
@@ -4556,23 +4556,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; mezelurile sunt proteice."
+        "text": "În aplicarea instrucțiunilor unității, acceptă; mezelurile sunt proteice."
       },
       {
         "id": "B",
-        "text": "Refuză; grăsimi 35 g depășesc 20 g și saturate 22 g depășesc 5 g. Dubla nerespectare."
+        "text": "În temeiul normelor în vigoare, refuză; sunt mezeluri porcine."
       },
       {
         "id": "C",
-        "text": "Acceptă, dar în porții mici."
+        "text": "Refuză; grăsimi 35 g depășesc 20 g și saturate 22 g depășesc 5 g. Dubla nerespectare."
       },
       {
         "id": "D",
-        "text": "Refuză; sunt mezeluri porcine."
+        "text": "În aplicarea instrucțiunilor unității, acceptă, dar în porții mici."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 1: grăsimi >20 g ȘI (saturate >5 g SAU trans >1 g). La 35 g grăsimi + 22 g saturate = dubla nerespectare.",
     "tooltipCorrect": "Salamă grasă = multiplu nerespectare. Administrator cere mezeluri magre (<20 g grăsimi, <5 g saturate)."
@@ -4588,23 +4588,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; brânza e calcică."
+        "text": "Potrivit reglementării aplicabile, acceptă, dar în porții mici pe pâine."
       },
       {
         "id": "B",
-        "text": "Refuză; grăsimi 24 g depășesc 20 g și saturate 14 g depășesc 5 g. Nerecomandat."
+        "text": "În temeiul normelor în vigoare, acceptă; brânza e calcică."
       },
       {
         "id": "C",
-        "text": "Acceptă, dar în porții mici pe pâine."
+        "text": "Pe baza dispoziției, refuză; brânzele topite sunt interzise."
       },
       {
         "id": "D",
-        "text": "Refuză; brânzele topite sunt interzise."
+        "text": "Refuză; grăsimi 24 g depășesc 20 g și saturate 14 g depășesc 5 g. Nerecomandat."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 1: grăsimi >20 g ȘI saturate >5 g. La 24 g grăsimi + 14 g saturate = nerecomandat.",
     "tooltipCorrect": "Brânza topită = grăsimi mari. Administrator cere brânzeturi naturale magre (<20 g grăsimi)."
@@ -4620,23 +4620,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar zahăr."
+        "text": "Grăsimi (>20 g), potențial trans; calorii (>300 kcal/porție); sare (din sos); neambalate/vrac adesea."
       },
       {
         "id": "B",
-        "text": "Grăsimi și calorii."
+        "text": "Conform procedurii interne, grăsimi, sare și calorii; slab ambalate urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Grăsimi, sare și calorii; slab ambalate."
+        "text": "Pe baza evaluării de rutină, grăsimi și calorii și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Grăsimi (>20 g), potențial trans; calorii (>300 kcal/porție); sare (din sos); neambalate/vrac adesea."
+        "text": "Pe baza dispozițiilor curente, doar zahăr ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "D"
+      "A"
     ],
     "explanation": "Anexa 1 listează pizza și hamburger ca exemple de produse cu grăsimi >20 g, acizi grași trans, calorii >300 kcal, sare (din sosuri/condimente).",
     "tooltipCorrect": "Pizza/hamburger = nerecomandat cumulativ. Administrator evită complet."
@@ -4652,7 +4652,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; sunt nutrient densi."
+        "text": "În temeiul normelor în vigoare, acceptă, dar 1 mână pe zi și se raportează conducerii."
       },
       {
         "id": "B",
@@ -4660,11 +4660,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Acceptă, dar 1 mână pe zi."
+        "text": "Potrivit reglementării aplicabile, refuză; sunt alergizante ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Refuză; sunt alergizante."
+        "text": "Conform procedurii interne, acceptă; sunt nutrient densi urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -4684,11 +4684,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză; 80 g grăsimi depășesc masiv pragul 20 g."
+        "text": "Conform procedurii interne, acceptă; acizi trans 0,5 g sunt sub pragul 1 g."
       },
       {
         "id": "B",
-        "text": "Acceptă; acizi trans 0,5 g sunt sub pragul 1 g."
+        "text": "Potrivit reglementării aplicabile, refuză; 80 g grăsimi depășesc masiv pragul 20 g."
       },
       {
         "id": "C",
@@ -4696,7 +4696,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "Acceptă cu unt în proporție egală."
+        "text": "Potrivit regulamentului intern, acceptă cu unt în proporție egală."
       }
     ],
     "correctOptionIds": [
@@ -4716,23 +4716,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză; 82 g depășesc 20 g și saturate 51 g depășesc 5 g."
+        "text": "În aplicarea regulii, refuză; sunt numai grăsimi."
       },
       {
         "id": "B",
-        "text": "Acceptă; untul e ingredient tradițional."
+        "text": "În aplicarea regulii, acceptă în porții sub 10 g pe copil/zi."
       },
       {
         "id": "C",
-        "text": "Acceptă în porții sub 10 g pe copil/zi."
+        "text": "Potrivit normei, acceptă; untul e ingredient tradițional."
       },
       {
         "id": "D",
-        "text": "Refuză; sunt numai grăsimi."
+        "text": "Refuză; 82 g depășesc 20 g și saturate 51 g depășesc 5 g."
       }
     ],
     "correctOptionIds": [
-      "A"
+      "D"
     ],
     "explanation": "Anexa 1: grăsimi >20 g ȘI saturate >5 g. Untul pur = aproape 100% grăsimi, dar se folosește în mici cantități (10-20 g/zi per copil). În rație măsurat pe echivalențe, nu per 100 g.",
     "tooltipCorrect": "Unt pur = 82% grăsimi. În rație: 20-30 g/zi (echivalență), nu 100 g. Administrator măsoară porții mici."
@@ -4780,7 +4780,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; sunt sub praguri."
+        "text": "Potrivit normei, refuză; înghețata e interzisă."
       },
       {
         "id": "B",
@@ -4788,11 +4788,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Refuză; înghețata e interzisă."
+        "text": "Conform procedurii, acceptă; sunt sub praguri."
       },
       {
         "id": "D",
-        "text": "Acceptă, dar vara doar."
+        "text": "Potrivit normei, acceptă, dar vara doar și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -4812,23 +4812,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; zahărul e sub 15 g... ups, 22 g!"
+        "text": "Pe baza dispoziției, acceptă; prăjiturile sunt corespunzătoare băieților activi."
       },
       {
         "id": "B",
-        "text": "Refuză; zahăr 22 g depășește 15 g; calorii 350 kcal depășesc 300 kcal. Multipli criterii."
+        "text": "Conform practicii administrative curente, acceptă; zahărul e sub 15 g... ups, 22 g!"
       },
       {
         "id": "C",
-        "text": "Acceptă, dar o oferă pe anumite zile."
+        "text": "Refuză; zahăr 22 g depășește 15 g; calorii 350 kcal depășesc 300 kcal. Multipli criterii."
       },
       {
         "id": "D",
-        "text": "Acceptă; prăjiturile sunt corespunzătoare băieților activi."
+        "text": "Conform procedurii interne, acceptă, dar o oferă pe anumite zile."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 1: zahăr >15 g ȘI calorii >300 kcal = multipli nerespectare. Prăjiturile tipice nu se acceptă.",
     "tooltipCorrect": "Prăjitură = zahăr + calorii depășite. Refuză. Oferă tort fait maison cu zahăr redus ocazional."
@@ -4844,23 +4844,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; sunt sub praguri."
+        "text": "În aplicarea instrucțiunilor unității, acceptă cu salată ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Refuză; grăsimi 16 g OK, trans 4 g depășesc 1 g pragul. Calorii 270 kcal OK. Dar FORMA + metoda (prăjit) = nerecomandat. Hamburgerul e exemplu Anexei 1."
+        "text": "Pe baza evaluării de rutină, acceptă, dar 1 hamburger pe lună și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Acceptă, dar 1 hamburger pe lună."
+        "text": "Potrivit regulamentului intern, acceptă; sunt sub praguri urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Acceptă cu salată."
+        "text": "Refuză; grăsimi 16 g OK, trans 4 g depășesc 1 g pragul. Calorii 270 kcal OK. Dar FORMA + metoda (prăjit) = nerecomandat. Hamburgerul e exemplu Anexei 1."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 1: hamburger este explicit exemplu la grăsimi/trans. Trans 4 g > 1 g = nerecomandat. Chiar dacă cifrele ies aproape, hamburgerul pe lista exemple = refuză.",
     "tooltipCorrect": "Hamburger = lista explicite nerecomandate. Acizi trans mari (4 g). Refuză complet."
@@ -4876,23 +4876,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă prăjit; copiii îl iubesc."
-      },
-      {
-        "id": "B",
         "text": "Cere grilă sau copt la cuptor. Prăjit = grăsimi >20 g, calorii >300 kcal. Anexa 2 nu prescrie prăjit."
       },
       {
+        "id": "B",
+        "text": "Pe baza evaluării de rutină, acceptă prăjit, dar o echilibrează cu salată."
+      },
+      {
         "id": "C",
-        "text": "Acceptă prăjit, dar o echilibrează cu salată."
+        "text": "Potrivit reglementării aplicabile, acceptă prăjit; copiii îl iubesc ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Cere fierbere."
+        "text": "În aplicarea măsurilor prevăzute, cere fierbere și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2: metoda gătire sănătoasă = fierbere, cuptor, grilă. Prăjit = grăsimi excesive. Administrator refuză și cere alternativă.",
     "tooltipCorrect": "Prăjit = nerecomandat. Grilă/cuptor/fierbere = sănătos. Administrator cere metoda în meniu."
@@ -4908,15 +4908,15 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Zilnic."
-      },
-      {
-        "id": "B",
         "text": "De 3-4 ori pe săptămână."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Ocazional."
+      },
+      {
+        "id": "C",
+        "text": "Conform procedurii, zilnic."
       },
       {
         "id": "D",
@@ -4924,7 +4924,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "C"
+      "B"
     ],
     "explanation": "Anexa 5: \"Carnea roșie se consumă ocazional.\" Piramida recomandă mai mult pui/pește/proteine vegetale.",
     "tooltipCorrect": "Carne roșie = ocazional (1-2/săptămână). Pui, pești, leguminoase = mai frecvent."
@@ -4940,23 +4940,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "5 mg din iaurt."
+        "text": "În temeiul normelor în vigoare, 5 mg din iaurt și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "8-15 mg din carne de vacă/pasăre/porc, fasole, alune, cereale integrale, vegetale-frunze verzi."
+        "text": "Pe baza dispozițiilor curente, 20 mg din vitamina sintetică urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "20 mg din vitamina sintetică."
+        "text": "8-15 mg din carne de vacă/pasăre/porc, fasole, alune, cereale integrale, vegetale-frunze verzi."
       },
       {
         "id": "D",
-        "text": "Nici fier, copiii nu au nevoie."
+        "text": "În temeiul normelor în vigoare, nici fier, copiii nu au nevoie și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 2, cap. 5: \"Fier 8–15 mg/zi (carne de vacă/pasăre/porc, fasole, alune, cereale integrale/fortificate, vegetale cu frunze verzi).\"",
     "tooltipCorrect": "Fier = 8-15 mg/zi. Carne roșie, leguminoase, cereale, vegetale verzi. Administrator diversifică meniu."
@@ -4972,23 +4972,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "5-8%."
+        "text": "Potrivit normei, 5-8%."
       },
       {
         "id": "B",
-        "text": "14-16%."
-      },
-      {
-        "id": "C",
         "text": "25-30%."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "35-40%."
+      },
+      {
+        "id": "D",
+        "text": "14-16%."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 3: \"Proteine totale: 14–16% din valoarea calorică (toate grupele).\"",
     "tooltipCorrect": "Proteine = 14-16% calorii/zi. Carne, pui, pești, ouă, lactate, leguminoase."
@@ -5004,7 +5004,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "15-20%."
+        "text": "35-40%."
       },
       {
         "id": "B",
@@ -5012,15 +5012,15 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "35-40%."
+        "text": "45-50%."
       },
       {
         "id": "D",
-        "text": "45-50%."
+        "text": "15-20%."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "A"
     ],
     "explanation": "Anexa 3: \"Lipide: 35–40% (1–3 ani).\"",
     "tooltipCorrect": "Lipide antepreșcolar = 35-40% calorii. Preșcolar = 30-35%. Școlari = 25-30%."
@@ -5040,19 +5040,19 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "40-50%."
-      },
-      {
-        "id": "C",
         "text": "50-55%."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "55-60%."
+      },
+      {
+        "id": "D",
+        "text": "40-50%."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "B"
     ],
     "explanation": "Anexa 3: \"Glucide: 50–55% (4–6 ani).\"",
     "tooltipCorrect": "Glucide preșcolar = 50-55% calorii. Antepreșcolar = 45-53%. Școlari = 55-60%."
@@ -5068,11 +5068,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "700 mg."
+        "text": "800 mg."
       },
       {
         "id": "B",
-        "text": "800 mg."
+        "text": "1100 mg."
       },
       {
         "id": "C",
@@ -5080,7 +5080,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "1100 mg."
+        "text": "700 mg."
       }
     ],
     "correctOptionIds": [
@@ -5104,7 +5104,7 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "60 mcg."
+        "text": "100 mcg."
       },
       {
         "id": "C",
@@ -5112,11 +5112,11 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "100 mcg."
+        "text": "60 mcg."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 3: \"Iod 1–3 ani: 60 mcg/zi.\"",
     "tooltipCorrect": "Iod antepreșcolar = 60 mcg/zi. Preșcolar = 80 mcg. Școlari = 100+ mcg."
@@ -5132,23 +5132,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se recomandă untura."
-      },
-      {
-        "id": "B",
         "text": "NU se recomandă untura; se folosesc unt sau smântână."
       },
       {
+        "id": "B",
+        "text": "Pe baza dispoziției, untura e opțională."
+      },
+      {
         "id": "C",
-        "text": "Untura e interzisă total."
+        "text": "Potrivit normei, untura e interzisă total."
       },
       {
         "id": "D",
-        "text": "Untura e opțională."
+        "text": "Conform procedurii, se recomandă untura."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 4, art. 3: \"La antepreșcolari și preșcolari NU se recomandă untura, ci numai untul sau smântâna.\"",
     "tooltipCorrect": "Antepreșcolar = unt/smântână. Preșcolar = unt/smântână. Untura = NU."
@@ -5168,19 +5168,19 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "75 g."
-      },
-      {
-        "id": "C",
         "text": "90 g."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "120 g."
+      },
+      {
+        "id": "D",
+        "text": "75 g."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "B"
     ],
     "explanation": "Anexa 5: \"Carne slabă fiartă/grătar = 90 g (porție).\"",
     "tooltipCorrect": "Porție carne = 90 g. Administrator măsoară și dozează conform piramidei."
@@ -5196,11 +5196,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "20 g."
+        "text": "25 g."
       },
       {
         "id": "B",
-        "text": "25 g."
+        "text": "20 g."
       },
       {
         "id": "C",
@@ -5228,23 +5228,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "30 g."
+        "text": "75 g."
       },
       {
         "id": "B",
-        "text": "40 g."
+        "text": "30 g."
       },
       {
         "id": "C",
-        "text": "50 g."
+        "text": "40 g."
       },
       {
         "id": "D",
-        "text": "75 g."
+        "text": "50 g."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 5: \"Mezeluri = 50 g (porție).\" Mezeluri sunt concentrate, deci porție mai mica decât carne proaspătă.",
     "tooltipCorrect": "Porție mezeluri = 50 g. Administrator dozează conform tabelei."
@@ -5260,23 +5260,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Aprobă, deoarece carnea tocată este permisă indiferent de metoda de preparare."
-      },
-      {
-        "id": "B",
         "text": "Sesizează nerespectarea Anexei 2: tocăturile sunt acceptate NUMAI prin fierbere sau la cuptor, NU prin prăjire; cere înlocuirea/prelucrarea corespunzătoare."
       },
       {
+        "id": "B",
+        "text": "Potrivit reglementării aplicabile, aprobă, deoarece carnea tocată este permisă indiferent de metoda de preparare."
+      },
+      {
         "id": "C",
-        "text": "Aprobă dacă se adaugă maioneză, pentru uniformitate și imbunătățire senzorială."
+        "text": "Potrivit procedurii stabilite, aprobă dacă se adaugă maioneză, pentru uniformitate și imbunătățire senzorială."
       },
       {
         "id": "D",
-        "text": "Aprobă doar dacă porția nu depășește 200 kcal pe unitate."
+        "text": "În aplicarea măsurilor prevăzute, aprobă doar dacă porția nu depășește 200 kcal pe unitate și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2 (Ordinul 1563/2008): tocăturile sunt acceptate NUMAI prelucrate termic prin fierbere sau la cuptor; prăjirea NU este admisă pentru grupa preșcolari. De asemenea, Anexa 2 interzice oricând maionezele și cremele cu ouă + frișcă, indiferent de anotimp.",
     "tooltipCorrect": "Tocături: doar fierte sau la cuptor. Maioneză și creme cu ouă + frișcă: interzise oricând. Ouă: omletă la cuptor, NU ochiuri."
@@ -5292,7 +5292,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu observă nimic problematic; ambele alimente sunt permise și sigure."
+        "text": "În temeiul normelor în vigoare, refuză deoarece gem-ul conține prea mult zahăr pentru grădiniță, indiferent de alte alimente ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -5300,11 +5300,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Observă că porția de ceai este prea mică (sub 100 ml)."
+        "text": "Conform practicii administrative curente, nu observă nimic problematic; ambele alimente sunt permise și sigure și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Refuză deoarece gem-ul conține prea mult zahăr pentru grădiniță, indiferent de alte alimente."
+        "text": "Conform practicii administrative curente, observă că porția de ceai este prea mică (sub 100 ml) și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -5324,11 +5324,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Ouăle fierte sunt singura metodă acceptată."
+        "text": "Ochiuri românești dacă se prepară în untură, NU în ulei."
       },
       {
         "id": "B",
-        "text": "Ochiuri românești dacă se prepară în untură, NU în ulei."
+        "text": "Ouăle coapte în coajă sunt permise, dar nu și ochiurile."
       },
       {
         "id": "C",
@@ -5336,7 +5336,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "Ouăle coapte în coajă sunt permise, dar nu și ochiurile."
+        "text": "Ouăle fierte sunt singura metodă acceptată."
       }
     ],
     "correctOptionIds": [
@@ -5356,23 +5356,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Maioneza este permisă doar în lunile reci (noiembrie-februarie), când riscul microbial e mai mic."
+        "text": "În aplicarea regulii, maioneza este permisă, dar numai în porții sub 10 g pe copil."
       },
       {
         "id": "B",
-        "text": "Maioneza este interzisă oricând în colectivități de preșcolari și școlari, conform Anexei 2."
+        "text": "Maioneza nu e interzisă, dar trebuie depozitată la temperatură sub 4°C permanent."
       },
       {
         "id": "C",
-        "text": "Maioneza este permisă, dar numai în porții sub 10 g pe copil."
+        "text": "Maioneza este permisă doar în lunile reci (noiembrie-februarie), când riscul microbial e mai mic."
       },
       {
         "id": "D",
-        "text": "Maioneza nu e interzisă, dar trebuie depozitată la temperatură sub 4°C permanent."
+        "text": "Maioneza este interzisă oricând în colectivități de preșcolari și școlari, conform Anexei 2."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 2 (Ordinul 1563/2008), regula 8: Sunt interzise maionezele și cremele cu ouă și frișcă, indiferent de anotimp. Aceasta este o regulă de protecție a sănătății copiilor, fără excepții sezonale.",
     "tooltipCorrect": "Maioneză și creme cu ouă + frișcă: interzise oricând, indiferent de anotimp sau temperatură."
@@ -5388,23 +5388,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Porția de fasole e prea mică; trebuie dublată pentru a asigura fier suficient."
-      },
-      {
-        "id": "B",
         "text": "La cină se evită mâncărurile cu efort digestiv puternic și combinații nefavorabile; iahnia de fasole + iaurt + compot sunt o combinație care poate cauza inconfort gastric la somn."
       },
       {
+        "id": "B",
+        "text": "Potrivit reglementării aplicabile, porția de fasole e prea mică; trebuie dublată pentru a asigura fier suficient ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Compotul nu trebuie servit după iaurt; trebuie servit întâi, apoi iaurt."
+        "text": "Potrivit procedurii stabilite, compotul nu trebuie servit după iaurt; trebuie servit întâi, apoi iaurt urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Iahnia de fasole nu conține proteine suficiente dacă nu se adaugă carne tocată."
+        "text": "În aplicarea măsurilor prevăzute, iahnia de fasole nu conține proteine suficiente dacă nu se adaugă carne tocată și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 2 (Ordinul 1563/2008), regula 5: La cină se evită mâncărurile cu efort digestiv puternic și combinații cu efecte digestive nefavorabile (ex. iahnie fasole + iaurt/compot). Această combinație poate afecta digestia și somnul copiilor. Cina trebuie mai ușoară și mai ușor digerabilă.",
     "tooltipCorrect": "Cină: evitați efort digestiv puternic. Iahnie fasole + iaurt + compot = combinație nefavorabilă pentru seara."
@@ -5420,7 +5420,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e problemă; copiii primesc vitamine din legume gătite în supe și ciorbe."
+        "text": "Pe baza evaluării de rutină, nu e problemă; copiii primesc vitamine din legume gătite în supe și ciorbe."
       },
       {
         "id": "B",
@@ -5452,7 +5452,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Porția e corectă conform regulei unei linguri per an de vârstă din fiecare grup alimentar."
+        "text": "Porția nu conteaza; se serveste o porție standard egală pentru toți preșcolarii, indiferent de vârstă."
       },
       {
         "id": "B",
@@ -5460,15 +5460,15 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Porția e prea mică; trebuie dublată pentru a asigura proteine suficiente."
+        "text": "Porția e corectă conform regulei unei linguri per an de vârstă din fiecare grup alimentar."
       },
       {
         "id": "D",
-        "text": "Porția nu conteaza; se serveste o porție standard egală pentru toți preșcolarii, indiferent de vârstă."
+        "text": "Porția e prea mică; trebuie dublată pentru a asigura proteine suficiente."
       }
     ],
     "correctOptionIds": [
-      "A"
+      "C"
     ],
     "explanation": "Anexa 2 (Ordinul 1563/2008), regula pentru preșcolar: cantitate practică = o lingură din fiecare grup alimentar pentru fiecare an de vârstă. Pentru copil 5 ani: o lingură (1 cm³) din fiecare grup. Pentru micul dejun care include carne: 5 linguri total întreg micul dejun (carne, pâine, brânză, legume, etc.), NU numai carne.",
     "tooltipCorrect": "Preșcolar: 1 lingură per an de vârstă din FIECARE grup, NU 1 lingură total. Pentru 5 ani = cca. 5 linguri total (mix de alimente)."
@@ -5484,11 +5484,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "1300 kcal."
+        "text": "3100 kcal."
       },
       {
         "id": "B",
-        "text": "1800 kcal."
+        "text": "1300 kcal."
       },
       {
         "id": "C",
@@ -5496,11 +5496,11 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "3100 kcal."
+        "text": "1800 kcal."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 3 (Ordinul 1563/2008): necesarul zilnic mediu pentru copii 4-6 ani este 1800 kcal. Pentru 1-3 ani: 1300 kcal; 7-10 ani: 2400 kcal; 11-14 băieți: 3100 kcal.",
     "tooltipCorrect": "Calorii zilnice: 1-3 ani = 1300; 4-6 ani = 1800; 7-10 = 2400."
@@ -5516,23 +5516,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "10-12%."
-      },
-      {
-        "id": "B",
         "text": "14-16%."
       },
       {
+        "id": "B",
+        "text": "10-12%."
+      },
+      {
         "id": "C",
-        "text": "20-25%."
+        "text": "30-35%."
       },
       {
         "id": "D",
-        "text": "30-35%."
+        "text": "20-25%."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 3 (Ordinul 1563/2008): proteinele totale trebuie să reprezinte 14-16% din valoarea calorică pentru toate grupele de vârstă (1-3, 4-6, 7-10, adolescenți).",
     "tooltipCorrect": "Proteine: 14-16% din totalul calorii pentru orice vârstă."
@@ -5548,23 +5548,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "35-40%."
+        "text": "20-25%."
       },
       {
         "id": "B",
-        "text": "30-35%."
-      },
-      {
-        "id": "C",
         "text": "25-30%."
       },
       {
+        "id": "C",
+        "text": "35-40%."
+      },
+      {
         "id": "D",
-        "text": "20-25%."
+        "text": "30-35%."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "B"
     ],
     "explanation": "Anexa 3 (Ordinul 1563/2008): lipidele: 35-40% (1-3 ani), 30-35% (4-6 ani), 25-30% (școlari/adolescenți, inclusiv 7-10 ani).",
     "tooltipCorrect": "Lipide: 35-40% (1-3), 30-35% (4-6), 25-30% (școlari)."
@@ -5580,23 +5580,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "45-53%."
-      },
-      {
-        "id": "B",
-        "text": "50-55%."
-      },
-      {
-        "id": "C",
         "text": "55-60%."
       },
       {
-        "id": "D",
+        "id": "B",
         "text": "60-65%."
+      },
+      {
+        "id": "C",
+        "text": "50-55%."
+      },
+      {
+        "id": "D",
+        "text": "45-53%."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 3 (Ordinul 1563/2008): glucide: 45-53% (1-3 ani), 50-55% (4-6 ani), 55-60% (școlari).",
     "tooltipCorrect": "Glucide: 45-53% (1-3), 50-55% (4-6), 55-60% (școlari)."
@@ -5612,11 +5612,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "800 mg."
+        "text": "1200 mg."
       },
       {
         "id": "B",
-        "text": "900 mg."
+        "text": "800 mg."
       },
       {
         "id": "C",
@@ -5624,11 +5624,11 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "1200 mg."
+        "text": "900 mg."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 3 (Ordinul 1563/2008): calciu: 1-3 ani 900 mg, 4-6 ani 900 mg, 7-9 ani 1100 mg, 10-12 ani 1200 mg.",
     "tooltipCorrect": "Calciu: 1-3 = 900; 4-6 = 900; 7-9 = 1100 mg/zi."
@@ -5644,23 +5644,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "6 mg."
-      },
-      {
-        "id": "B",
         "text": "8 mg."
       },
       {
+        "id": "B",
+        "text": "6 mg."
+      },
+      {
         "id": "C",
-        "text": "9 mg."
+        "text": "10 mg."
       },
       {
         "id": "D",
-        "text": "10 mg."
+        "text": "9 mg."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 3 (Ordinul 1563/2008): fier: 1-3 ani 8 mg, 4-6 ani 9 mg, 7-9 ani 10 mg/zi.",
     "tooltipCorrect": "Fier: 1-3 = 8; 4-6 = 9; 7-9 = 10 mg/zi."
@@ -5684,11 +5684,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "100 mcg."
+        "text": "120 mcg."
       },
       {
         "id": "D",
-        "text": "120 mcg."
+        "text": "100 mcg."
       }
     ],
     "correctOptionIds": [
@@ -5708,23 +5708,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Pe o zi, în orice lună."
+        "text": "În aplicarea măsurilor prevăzute, pe o zi, în orice lună."
       },
       {
         "id": "B",
-        "text": "Pe 10 zile lucrătoare (2 săptămâni consecutive) în februarie, mai sau octombrie."
+        "text": "Pe baza dispozițiilor curente, pe o lună continuă, în iunie."
       },
       {
         "id": "C",
-        "text": "Pe o lună continuă, în iunie."
+        "text": "Pe 10 zile lucrătoare (2 săptămâni consecutive) în februarie, mai sau octombrie."
       },
       {
         "id": "D",
-        "text": "Pe 5 zile lucrătoare în septembrie, pentru anul școlar viitor."
+        "text": "Potrivit normei, pe 5 zile lucrătoare în septembrie, pentru anul școlar viitor."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), art.2: calculul rații se face pe baza foilor de alimente scoase zilnic din magazie, pe 10 zile lucrătoare (2 săptămâni consecutive), în februarie, mai sau octombrie; apoi se împarte la numărul total de consumatori.",
     "tooltipCorrect": "Calcul rații: 10 zile lucrătoare (2 săpt. consecutive) în februarie, mai SAU octombrie."
@@ -5740,23 +5740,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Depășește cu 6,25%; NU e acceptabilă, trebuie redusă la 800 ml exact."
+        "text": "În aplicarea regulii, depășește cu 6,25%; NU e acceptabilă, trebuie redusă la 800 ml exact."
       },
       {
         "id": "B",
-        "text": "Depășește cu 6,25%; e acceptabilă conform art.3, care permite depășire de până la 20% la lapte/lactate."
+        "text": "În aplicarea instrucțiunilor unității, E acceptabilă oricât ar fi, lapte NU se poate depăși."
       },
       {
         "id": "C",
-        "text": "Depășește cu 50 ml; trebuie redusă imediat, e prea mult lapte pt vârstă."
+        "text": "Pe baza dispoziției, depășește cu 50 ml; trebuie redusă imediat, e prea mult lapte pt vârstă."
       },
       {
         "id": "D",
-        "text": "E acceptabilă oricât ar fi, lapte NU se poate depăși."
+        "text": "Depășește cu 6,25%; e acceptabilă conform art.3, care permite depășire de până la 20% la lapte/lactate."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), art.3: se permite depășirea rației cu până la 20% la lapte/produse lactate, carne/preparate, pește, legume/fructe. 850 ml vs 800 ml = +6,25%, sub limita de 20%; acceptabil.",
     "tooltipCorrect": "Depășire permitută: până 20% la lapte/lactate, carne, pește, legume/fructe. 6,25% ≤ 20% = acceptabil."
@@ -5772,23 +5772,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e problemă; untura e o grăsime permisă pentru orice vârstă."
-      },
-      {
-        "id": "B",
         "text": "Sesizează nerespectarea Anexei 4, art.3: la antepreșcolari și preșcolari NU se recomandă untura, CI numai untul sau smântâna. Cere înlocuire."
       },
       {
+        "id": "B",
+        "text": "Potrivit reglementării aplicabile, E acceptabilă, cu condiția ca unturile să provin de la furnizor certificat."
+      },
+      {
         "id": "C",
-        "text": "Untura e permisă, dar doar în porții sub 10 g pe copil zilnic."
+        "text": "Conform practicii administrative curente, nu e problemă; untura e o grăsime permisă pentru orice vârstă."
       },
       {
         "id": "D",
-        "text": "E acceptabilă, cu condiția ca unturile să provin de la furnizor certificat."
+        "text": "Pe baza dispozițiilor curente, untura e permisă, dar doar în porții sub 10 g pe copil zilnic și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), art.3: la antepreșcolari și preșcolari NU se recomandă untura; se folosește numai unt sau smântână. Untura e grăsime solidă cu conținut ridicat de saturate; copiii mici au digestie mai sensibilă.",
     "tooltipCorrect": "Antepreșcolari/preșcolari: NU untura, CI unt sau smântână NUMAI."
@@ -5804,7 +5804,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "60-70%."
+        "text": "85-95%."
       },
       {
         "id": "B",
@@ -5812,7 +5812,7 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "85-95%."
+        "text": "60-70%."
       },
       {
         "id": "D",
@@ -5836,23 +5836,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "400 ml."
-      },
-      {
-        "id": "B",
         "text": "800 ml."
       },
       {
+        "id": "B",
+        "text": "400 ml."
+      },
+      {
         "id": "C",
-        "text": "1200 ml."
+        "text": "1600 ml."
       },
       {
         "id": "D",
-        "text": "1600 ml."
+        "text": "1200 ml."
       }
     ],
     "correctOptionIds": [
-      "D"
+      "C"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe: 100 g lapte praf integral = 800 ml lapte proaspăt. Deci 200 g = 1600 ml.",
     "tooltipCorrect": "Lapte praf: 100 g = 800 ml lapte proaspăt. 200 g = 1600 ml."
@@ -5868,7 +5868,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "350 ml."
+        "text": "900 ml."
       },
       {
         "id": "B",
@@ -5876,15 +5876,15 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "700 ml."
+        "text": "350 ml."
       },
       {
         "id": "D",
-        "text": "900 ml."
+        "text": "700 ml."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe: 100 g cașcaval = 700 ml echivalent lapte proaspăt.",
     "tooltipCorrect": "Cașcaval: 100 g = 700 ml lapte proaspăt (echivalent)."
@@ -5900,23 +5900,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "350 ml."
-      },
-      {
-        "id": "B",
-        "text": "450 ml."
-      },
-      {
-        "id": "C",
         "text": "550 ml."
       },
       {
-        "id": "D",
+        "id": "B",
         "text": "700 ml."
+      },
+      {
+        "id": "C",
+        "text": "350 ml."
+      },
+      {
+        "id": "D",
+        "text": "450 ml."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "A"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe: 100 g telemea de vacă = 550 ml echivalent lapte proaspăt.",
     "tooltipCorrect": "Telemea vacă: 100 g = 550 ml lapte. Telemea oi: 100 g = 450 ml lapte."
@@ -5936,19 +5936,19 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "100 g."
-      },
-      {
-        "id": "C",
         "text": "125 g."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "150 g."
+      },
+      {
+        "id": "D",
+        "text": "100 g."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "B"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe carne: 100 g mezeluri = 125 g carne naturală.",
     "tooltipCorrect": "Mezeluri: 100 g = 125 g carne. Specialități (șuncă Praga, muschi file): 100 g = 135 g carne."
@@ -5996,11 +5996,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "20 g unt."
+        "text": "80 g unt."
       },
       {
         "id": "B",
-        "text": "40 g unt."
+        "text": "20 g unt."
       },
       {
         "id": "C",
@@ -6008,11 +6008,11 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "80 g unt."
+        "text": "40 g unt."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe: 100 g smântână = 40 g unt.",
     "tooltipCorrect": "Smântână: 100 g = 40 g unt (echivalent)."
@@ -6028,23 +6028,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "40 g."
-      },
-      {
-        "id": "B",
         "text": "60 g."
       },
       {
+        "id": "B",
+        "text": "110 g."
+      },
+      {
         "id": "C",
-        "text": "85 g."
+        "text": "40 g."
       },
       {
         "id": "D",
-        "text": "110 g."
+        "text": "85 g."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), Tabel 1 rații zilnice: carne/preparate: 60 g (1-3 ani), 85 g (4-6 ani), 110 g (7-10 ani).",
     "tooltipCorrect": "Tabel 1 - Carne: 1-3 ani = 60 g; 4-6 = 85 g; 7-10 = 110 g/zi."
@@ -6060,23 +6060,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "0 g (NU se recomandă)."
+        "text": "Pe baza dispoziției, 15 g."
       },
       {
         "id": "B",
-        "text": "15 g."
+        "text": "0 g (NU se recomandă)."
       },
       {
         "id": "C",
-        "text": "25 g."
+        "text": "În aplicarea regulii, 40 g."
       },
       {
         "id": "D",
-        "text": "40 g."
+        "text": "Potrivit normei, 25 g."
       }
     ],
     "correctOptionIds": [
-      "A"
+      "B"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), Tabel 1: pește: 0 g (1-3 ani), 15 g (4-6 ani), 25 g (7-10 ani). Pentru antepreșcolari NU se include pește în rație zilnică recomandată.",
     "tooltipCorrect": "Tabel 1 - Pește: 1-3 ani = 0 g; 4-6 = 15 g; 7-10 = 25 g/zi."
@@ -6092,11 +6092,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "20 g."
+        "text": "40 g."
       },
       {
         "id": "B",
-        "text": "30 g."
+        "text": "20 g."
       },
       {
         "id": "C",
@@ -6104,7 +6104,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "40 g."
+        "text": "30 g."
       }
     ],
     "correctOptionIds": [
@@ -6128,19 +6128,19 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "32 g."
+        "text": "50 g."
       },
       {
         "id": "C",
-        "text": "40 g."
+        "text": "32 g."
       },
       {
         "id": "D",
-        "text": "50 g."
+        "text": "40 g."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), Tabel 1: grăsimi totale: 25 g (1-3 ani), 32 g (4-6 ani), 40 g (7-10 ani).",
     "tooltipCorrect": "Tabel 1 - Grăsimi: 1-3 = 25 g; 4-6 = 32 g; 7-10 = 40 g/zi."
@@ -6156,7 +6156,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "110 g."
+        "text": "150 g."
       },
       {
         "id": "B",
@@ -6164,15 +6164,15 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "150 g."
+        "text": "180 g."
       },
       {
         "id": "D",
-        "text": "180 g."
+        "text": "110 g."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "A"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), Tabel 1: cartofi: 110 g (1-3 ani), 150 g (4-6 ani), 180 g (7-10 ani).",
     "tooltipCorrect": "Tabel 1 - Cartofi: 1-3 = 110 g; 4-6 = 150 g; 7-10 = 180 g/zi."
@@ -6188,15 +6188,15 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "100 g."
-      },
-      {
-        "id": "B",
         "text": "130 g."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "150 g."
+      },
+      {
+        "id": "C",
+        "text": "100 g."
       },
       {
         "id": "D",
@@ -6204,7 +6204,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "C"
+      "B"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), Tabel 1: fructe: 100 g (1-3 ani), 130 g (4-6 ani), 150 g (7-10 ani).",
     "tooltipCorrect": "Tabel 1 - Fructe: 1-3 = 100 g; 4-6 = 130 g; 7-10 = 150 g/zi."
@@ -6220,15 +6220,15 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Sub 5 kcal."
+        "text": "Moderată (60-120 kcal/100g)."
       },
       {
         "id": "B",
-        "text": "Scăzută (5-60 kcal/100g)."
+        "text": "Conform procedurii, sub 5 kcal."
       },
       {
         "id": "C",
-        "text": "Moderată (60-120 kcal/100g)."
+        "text": "Scăzută (5-60 kcal/100g)."
       },
       {
         "id": "D",
@@ -6236,7 +6236,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), Tabel 2: valoare calorică scăzută = 5-60 kcal/100g. Iaurt degresat 40 kcal/100g se încadrează în această categorie. Porția 150g = 60 kcal, corespunde gustării pentru copii.",
     "tooltipCorrect": "Tabel 2: scăzută = 5-60 kcal/100g (iaurt degresat, lapte, legume, fructe proaspete)."
@@ -6252,23 +6252,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "5 g zahăr."
+        "text": "40 g zahăr."
       },
       {
         "id": "B",
-        "text": "15 g zahăr."
-      },
-      {
-        "id": "C",
         "text": "30 g zahăr."
       },
       {
+        "id": "C",
+        "text": "5 g zahăr."
+      },
+      {
         "id": "D",
-        "text": "40 g zahăr."
+        "text": "15 g zahăr."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe zahăr: 100 g compot = 15 g zahăr. Dulceață = 70 g; gem/peltea/marmeladă = 40 g zahăr/100g.",
     "tooltipCorrect": "Compot: 100 g = 15 g zahăr. Gem: 100 g = 40 g zahăr."
@@ -6284,15 +6284,15 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "20 g zahăr + 15 g grăsime vegetală."
+        "text": "50 g zahăr + 30 g grăsime vegetală."
       },
       {
         "id": "B",
-        "text": "30 g zahăr + 25 g grăsime vegetală."
+        "text": "20 g zahăr + 15 g grăsime vegetală."
       },
       {
         "id": "C",
-        "text": "50 g zahăr + 30 g grăsime vegetală."
+        "text": "30 g zahăr + 25 g grăsime vegetală."
       },
       {
         "id": "D",
@@ -6300,7 +6300,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "C"
+      "A"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe: ciocolată 100 g = 50 g zahăr + 30 g grăsime vegetală.",
     "tooltipCorrect": "Ciocolată: 100 g = 50 g zahăr + 30 g grăsime vegetală."
@@ -6316,23 +6316,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "50 g zahăr."
-      },
-      {
-        "id": "B",
-        "text": "70 g zahăr."
-      },
-      {
-        "id": "C",
         "text": "80 g zahăr."
       },
       {
-        "id": "D",
+        "id": "B",
         "text": "90 g zahăr."
+      },
+      {
+        "id": "C",
+        "text": "50 g zahăr."
+      },
+      {
+        "id": "D",
+        "text": "70 g zahăr."
       }
     ],
     "correctOptionIds": [
-      "D"
+      "B"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe zahăr: bomboane 100 g = 90 g zahăr.",
     "tooltipCorrect": "Bomboane: 100 g = 90 g zahăr. Miere: 100 g = 80 g zahăr."
@@ -6348,11 +6348,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "200 g fructe crude."
+        "text": "500 g fructe crude."
       },
       {
         "id": "B",
-        "text": "300 g fructe crude."
+        "text": "200 g fructe crude."
       },
       {
         "id": "C",
@@ -6360,7 +6360,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "500 g fructe crude."
+        "text": "300 g fructe crude."
       }
     ],
     "correctOptionIds": [
@@ -6380,7 +6380,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "1,5 cești."
+        "text": "3 cești."
       },
       {
         "id": "B",
@@ -6388,15 +6388,15 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "2,5 cești."
+        "text": "1,5 cești."
       },
       {
         "id": "D",
-        "text": "3 cești."
+        "text": "2,5 cești."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008): la 1800 kcal (4-6 ani): cereale 180g, legume 2,5 cești, fructe 1,5 cești, lapte 3 cești, carne 150g.",
     "tooltipCorrect": "1800 kcal: legume 2,5 cești, fructe 1,5, lapte 3 cești, carne 150g, cereale 180g."
@@ -6412,7 +6412,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "150 g."
+        "text": "195 g."
       },
       {
         "id": "B",
@@ -6420,7 +6420,7 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "195 g."
+        "text": "150 g."
       },
       {
         "id": "D",
@@ -6428,7 +6428,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "C"
+      "A"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008): la 2400 kcal (11-13 ani): cereale 240g, legume 3 cești, fructe 2 cești, lapte 3 cești, carne 195g.",
     "tooltipCorrect": "2400 kcal (11-13 ani): carne 195g, cereale 240g, legume 3 cești, fructe 2, lapte 3 cești."
@@ -6444,7 +6444,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "50 g pâine sau 50 g cereale."
+        "text": "În aplicarea regulii, 2 felii de pâine sau 1 ceașcă de orez pentru orice fel."
       },
       {
         "id": "B",
@@ -6452,11 +6452,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "100 g pâine sau 1 ceașcă cereale fierte."
+        "text": "Pe baza evaluării de rutină, 100 g pâine sau 1 ceașcă cereale fierte."
       },
       {
         "id": "D",
-        "text": "2 felii de pâine sau 1 ceașcă de orez pentru orice fel."
+        "text": "Pe baza evaluării de rutină, 50 g pâine sau 50 g cereale urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -6476,23 +6476,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "50 ml, echivalent 1/2 ceașcă."
+        "text": "Conform procedurii, 200 ml, echivalent 2 ceașcă."
       },
       {
         "id": "B",
-        "text": "100 ml, echivalent 1 ceașcă (notă: 1 ceașcă = 100 ml)."
+        "text": "În aplicarea regulii, 150 ml, echivalent 1,5 ceașcă."
       },
       {
         "id": "C",
-        "text": "150 ml, echivalent 1,5 ceașcă."
+        "text": "100 ml, echivalent 1 ceașcă (notă: 1 ceașcă = 100 ml)."
       },
       {
         "id": "D",
-        "text": "200 ml, echivalent 2 ceașcă."
+        "text": "Pe baza dispoziției, 50 ml, echivalent 1/2 ceașcă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), mărime porție: lapte degresat/iaurt = 1 ceașcă = 100 ml. Notă: 1 ceașcă = 100 ml pentru toate măsurile din piramidă.",
     "tooltipCorrect": "Porție lapte/iaurt: 1 ceașcă = 100 ml."
@@ -6512,19 +6512,19 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "75 g."
+        "text": "120 g."
       },
       {
         "id": "C",
-        "text": "90 g."
+        "text": "75 g."
       },
       {
         "id": "D",
-        "text": "120 g."
+        "text": "90 g."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), mărime porție: carne slabă fiartă/grătar = 90 g. Porția e standardizată pentru a asigura aport proteic corect.",
     "tooltipCorrect": "Porție carne: 90 g (slabă fiartă/grătar)."
@@ -6540,11 +6540,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "20 g."
+        "text": "30 g."
       },
       {
         "id": "B",
-        "text": "30 g."
+        "text": "50 g."
       },
       {
         "id": "C",
@@ -6552,11 +6552,11 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "50 g."
+        "text": "20 g."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), mărime porție: cașcaval = 30 g. Brânza topită = 35 g. Mezeluri = 50 g.",
     "tooltipCorrect": "Porție cașcaval: 30 g. Brânză topită: 35 g. Mezeluri: 50 g."
@@ -6572,7 +6572,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "1/2 fruct mediu."
+        "text": "150 g fruct tăiat."
       },
       {
         "id": "B",
@@ -6580,11 +6580,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "2 fructe mici."
+        "text": "Potrivit normei, 2 fructe mici."
       },
       {
         "id": "D",
-        "text": "150 g fruct tăiat."
+        "text": "În aplicarea regulii, 1/2 fruct mediu."
       }
     ],
     "correctOptionIds": [
@@ -6608,11 +6608,11 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "1 ceașcă."
+        "text": "1,5 ceașcă."
       },
       {
         "id": "C",
-        "text": "1,5 ceașcă."
+        "text": "1 ceașcă."
       },
       {
         "id": "D",
@@ -6620,7 +6620,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), mărime porție: legume frunze verzi = 1 ceașcă. Legume crude tăiate/fierte = 1/2 ceașcă. Cartof = 1 mediu.",
     "tooltipCorrect": "Porție legume verzi: 1 ceașcă. Legume crude tăiate: 1/2 ceașcă."
@@ -6636,23 +6636,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "4-5 porții/zi."
+        "text": "7-8 porții/zi."
       },
       {
         "id": "B",
-        "text": "5-6 porții/zi."
+        "text": "4-5 porții/zi."
       },
       {
         "id": "C",
-        "text": "6 porții/zi."
+        "text": "5-6 porții/zi."
       },
       {
         "id": "D",
-        "text": "7-8 porții/zi."
+        "text": "6 porții/zi."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), nr. maxim porții/zi: pâine/cereale/paste: 6 (2-6 ani) / 5-6 (7-10) / 6-7 (11-13).",
     "tooltipCorrect": "Porții maxime pâine/cereale: 6 (2-6 ani), 5-6 (7-10), 6-7 (11-13)."
@@ -6668,15 +6668,15 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "2 porții/zi."
-      },
-      {
-        "id": "B",
         "text": "3 porții/zi."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "4 porții/zi."
+      },
+      {
+        "id": "C",
+        "text": "2 porții/zi."
       },
       {
         "id": "D",
@@ -6684,7 +6684,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), nr. maxim porții/zi: lactate: 3 (pentru toate grupele 2-13 ani).",
     "tooltipCorrect": "Porții maxime lactate: 3/zi pentru orice vârstă (2-13 ani)."
@@ -6700,7 +6700,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "5% (nu e obligatoriu, depinde de situație)."
+        "text": "25% din rația energetică zilnică."
       },
       {
         "id": "B",
@@ -6712,7 +6712,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "25% din rația energetică zilnică."
+        "text": "5% (nu e obligatoriu, depinde de situație)."
       }
     ],
     "correctOptionIds": [
@@ -6732,23 +6732,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Pâinea albă și neagră sunt echivalente; proporția nu contează."
+        "text": "În aplicarea măsurilor prevăzute, pâinea neagră nu e permisă pentru preșcolari; doar pâine albă."
       },
       {
         "id": "B",
-        "text": "Se încalcă principiul diversității: preșcolarilor trebuie varietate largă; altern pâini și cereale diferite."
+        "text": "Potrivit procedurii stabilite, proporția e corectă; nu e problemă cu diversitatea."
       },
       {
         "id": "C",
-        "text": "Pâinea neagră nu e permisă pentru preșcolari; doar pâine albă."
+        "text": "Se încalcă principiul diversității: preșcolarilor trebuie varietate largă; altern pâini și cereale diferite."
       },
       {
         "id": "D",
-        "text": "Proporția e corectă; nu e problemă cu diversitatea."
+        "text": "Conform practicii administrative curente, pâinea albă și neagră sunt echivalente; proporția nu contează."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 2 (Ordinul 1563/2008), regula pentru preșcolar: varietate largă (pâine, cereale, orez, paste, vegetale, fructe, lapte/brânză/iaurt, carne, pui, pește, ouă). Proporția 4:2 albă/neagră nu asigură diversitate suficientă; se recomandă mix mai variat de alimente din fiecare grup pe săptămână.",
     "tooltipCorrect": "Preșcolar: varietate largă din toate grupele. Mix pâini e bun, dar cu alte cereale și surse diverse."
@@ -6772,15 +6772,15 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Varietatea e bună; carnea de vită, pui, porc sunt recomandări pentru preșcolari."
+        "text": "În aplicarea regulii, lipsește pește; trebuie inclus cel puțin o dată pe săptămână."
       },
       {
         "id": "D",
-        "text": "Lipsește pește; trebuie inclus cel puțin o dată pe săptămână."
+        "text": "Varietatea e bună; carnea de vită, pui, porc sunt recomandări pentru preșcolari."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 2 (Ordinul 1563/2008), regula preșcolar: varietate largă (carne de vită, pui, porc, pește). Schema prezentată asigură diversitate: 2x vită, 2x pui, 1x porc. E acceptabilă; carnea de vită nu e interzisă (cinc de vită e bună sursă de fier pentru preșcolari).",
     "tooltipCorrect": "Preșcolar: varietate carne. Vită, pui, porc, pești sunt recomandări. Schema cu 2-1-2-1 e bună."
@@ -6796,23 +6796,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Legumele verde sunt prea multe; trebuie mai multa varză roșie."
-      },
-      {
-        "id": "B",
-        "text": "NU încalcă nimic; abundența legumelor verzi e bună pentru vitamina K."
-      },
-      {
-        "id": "C",
         "text": "Se încalcă regula consistență/culori diferite pt stimulare poftei; 5 zile din 5 cu legume coapte/monotone; trebuie salate crudă, fructe colorate, texturi diferite."
       },
       {
+        "id": "B",
+        "text": "Conform practicii administrative curente, legumele verde sunt prea multe; trebuie mai multa varză roșie urmărind respectarea normei."
+      },
+      {
+        "id": "C",
+        "text": "Potrivit procedurii stabilite, NU încalcă nimic; abundența legumelor verzi e bună pentru vitamina K și se raportează conducerii."
+      },
+      {
         "id": "D",
-        "text": "Brocoli e interzis pentru preșcolari; prea fibrosos."
+        "text": "Potrivit reglementării aplicabile, brocoli e interzis pentru preșcolari; prea fibrosos și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "A"
     ],
     "explanation": "Anexa 2 (Ordinul 1563/2008), regula preșcolar: consistență/culori diferite pentru stimularea poftei; legume monotone coapte pe 5 zile nu asigură diversitate vizuală/texturală. Trebuie mix: salate crudă (roșu, verde), fructe (galbene, roșii, portocalii), texturi (gras, pufos, crocant).",
     "tooltipCorrect": "Preșcolar: consistență/culori diverse. Mix crudități, fructe colorate, texturi variate stimulează pofta."
@@ -6828,7 +6828,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "E suficient; legume-frunze coapte în supe conțin aceleași vitamine."
+        "text": "Pe baza evaluării de rutină, E suficient; legume-frunze coapte în supe conțin aceleași vitamine."
       },
       {
         "id": "B",
@@ -6836,11 +6836,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Salata crudă e opțională pentru preșcolari; supa e suficientă."
+        "text": "Potrivit regulamentului intern, vitamina C din supe se pierde; trebuie compensată cu supliment."
       },
       {
         "id": "D",
-        "text": "Vitamina C din supe se pierde; trebuie compensată cu supliment."
+        "text": "Pe baza dispozițiilor curente, salata crudă e opțională pentru preșcolari; supa e suficientă."
       }
     ],
     "correctOptionIds": [
@@ -6860,23 +6860,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "E acceptabil; lapte cu cereale e combinație perfectă de proteine și glucide."
+        "text": "Pe baza dispozițiilor curente, E bine; proteinele din lapte și carbohidrații din cereale sunt essențiali urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Se încalcă regula: nu se combine 2 alimente din aceeași grupă. Lapte + cereale sunt ambele din grupa lactate/cereale cumulativ; trebuie variante cu carne/brânză, nu doar lapte zilnic."
+        "text": "În aplicarea instrucțiunilor unității, NU se incalca nimic; lapte și cereale sunt din grupe diferite și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "E bine; proteinele din lapte și carbohidrații din cereale sunt essențiali."
+        "text": "Se încalcă regula: nu se combine 2 alimente din aceeași grupă. Lapte + cereale sunt ambele din grupa lactate/cereale cumulativ; trebuie variante cu carne/brânză, nu doar lapte zilnic."
       },
       {
         "id": "D",
-        "text": "NU se incalca nimic; lapte și cereale sunt din grupe diferite."
+        "text": "Conform practicii administrative curente, E acceptabil; lapte cu cereale e combinație perfectă de proteine și glucide și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 2 (Ordinul 1563/2008), regula 4: se evită asocierea alimentelor din aceeași grupă. La micul dejun, recomandarea e: alternare între lapte+pâine/biscuiți (o variantă), și preparate carne/brânză (alta variantă), NU lapte zilnic cu cereale. Câteva variante + un favorit pentru preșcolari e mai bun.",
     "tooltipCorrect": "Mic dejun: variante diferite. Lapte + cereale o dată/două. Alt-uri: pâine cu brânză, pâine cu carne."
@@ -6892,23 +6892,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "25-30%."
-      },
-      {
-        "id": "B",
         "text": "30-35%."
       },
       {
+        "id": "B",
+        "text": "40-45%."
+      },
+      {
         "id": "C",
-        "text": "35-40%."
+        "text": "25-30%."
       },
       {
         "id": "D",
-        "text": "40-45%."
+        "text": "35-40%."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 3 (Ordinul 1563/2008): lipide: 35-40% (1-3 ani), 30-35% (4-6 ani), 25-30% (școlari). Copiii mici au nevoie de mai mulți lipizi pentru dezvoltare neurologică.",
     "tooltipCorrect": "Lipide: 35-40% (1-3 ani), 30-35% (4-6), 25-30% (școlari)."
@@ -6924,11 +6924,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "40-45%."
+        "text": "45-53%."
       },
       {
         "id": "B",
-        "text": "45-53%."
+        "text": "40-45%."
       },
       {
         "id": "C",
@@ -6940,7 +6940,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 3 (Ordinul 1563/2008): glucide: 45-53% (1-3 ani), 50-55% (4-6 ani), 55-60% (școlari).",
     "tooltipCorrect": "Glucide: 45-53% (1-3), 50-55% (4-6), 55-60% (școlari)."
@@ -6964,11 +6964,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "800 ml."
+        "text": "900 ml."
       },
       {
         "id": "D",
-        "text": "900 ml."
+        "text": "800 ml."
       }
     ],
     "correctOptionIds": [
@@ -6992,19 +6992,19 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "160 g făină."
+        "text": "280 g făină."
       },
       {
         "id": "C",
-        "text": "230 g făină."
+        "text": "160 g făină."
       },
       {
         "id": "D",
-        "text": "280 g făină."
+        "text": "230 g făină."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), Tabel 1: produse cerealiere (echiv. făină): 90 g (1-3 ani), 160 g (4-6 ani), 230 g (7-10 ani).",
     "tooltipCorrect": "Tabel 1 - Cereale-făină: 1-3 = 90 g; 4-6 = 160 g; 7-10 = 230 g/zi."
@@ -7028,15 +7028,15 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "220 g."
+        "text": "230 g."
       },
       {
         "id": "D",
-        "text": "230 g."
+        "text": "220 g."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), Tabel 1: alte legume: 210 g (1-3 ani), 220 g (4-6 ani), 230 g (7-10 ani).",
     "tooltipCorrect": "Tabel 1 - Alte legume: 1-3 = 210 g; 4-6 = 220 g; 7-10 = 230 g/zi."
@@ -7052,23 +7052,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "35 g."
+        "text": "50 g."
       },
       {
         "id": "B",
-        "text": "40 g."
-      },
-      {
-        "id": "C",
         "text": "45 g."
       },
       {
+        "id": "C",
+        "text": "40 g."
+      },
+      {
         "id": "D",
-        "text": "50 g."
+        "text": "35 g."
       }
     ],
     "correctOptionIds": [
-      "D"
+      "A"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), Tabel 1: zahăr/produse zaharoase: 35 g (1-3 ani), 45 g (4-6 ani), 50 g (7-10 ani).",
     "tooltipCorrect": "Tabel 1 - Zahăr: 1-3 = 35 g; 4-6 = 45 g; 7-10 = 50 g/zi."
@@ -7084,7 +7084,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "150 g cereale."
+        "text": "200 g cereale."
       },
       {
         "id": "B",
@@ -7092,11 +7092,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "200 g cereale."
+        "text": "240 g cereale."
       },
       {
         "id": "D",
-        "text": "240 g cereale."
+        "text": "150 g cereale."
       }
     ],
     "correctOptionIds": [
@@ -7116,23 +7116,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "1/3 ceașcă."
+        "text": "1 ceașcă."
       },
       {
         "id": "B",
-        "text": "1/2 ceașcă."
-      },
-      {
-        "id": "C",
         "text": "3/4 ceașcă."
       },
       {
+        "id": "C",
+        "text": "1/2 ceașcă."
+      },
+      {
         "id": "D",
-        "text": "1 ceașcă."
+        "text": "1/3 ceașcă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), mărime porție: brânză de vacă proaspătă = 1/2 ceașcă. Cașcaval = 30 g. Brânază topită = 35 g.",
     "tooltipCorrect": "Porție brânză vacă: 1/2 ceașcă (proaspătă)."
@@ -7148,23 +7148,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "10 g."
-      },
-      {
-        "id": "B",
-        "text": "15 g."
-      },
-      {
-        "id": "C",
         "text": "20 g."
       },
       {
-        "id": "D",
+        "id": "B",
         "text": "25 g."
+      },
+      {
+        "id": "C",
+        "text": "10 g."
+      },
+      {
+        "id": "D",
+        "text": "15 g."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), mărime porție: ciocolată = 15 g. Dulciuri sunt permise ocazional. Porția mică asigură aport caloric controlat.",
     "tooltipCorrect": "Porție ciocolată: 15 g."
@@ -7180,11 +7180,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "5 felii."
+        "text": "10 felii."
       },
       {
         "id": "B",
-        "text": "10 felii."
+        "text": "20 felii."
       },
       {
         "id": "C",
@@ -7192,11 +7192,11 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "20 felii."
+        "text": "5 felii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), mărime porție: cartofi prăjiți = 10 felii. Porția e limitată pt a controla caloriile (cartofi prăjiți: >300 kcal/100g).",
     "tooltipCorrect": "Porție cartofi prăjiți: 10 felii."
@@ -7212,7 +7212,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Meniu e corect; copiii au nevoie de proteine la cină."
+        "text": "În temeiul normelor în vigoare, pâinea la cină nu e recomandată; ar trebui numai carne + salată ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -7220,11 +7220,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Porția de salată e prea mică; trebuie dublată."
+        "text": "Potrivit procedurii stabilite, meniu e corect; copiii au nevoie de proteine la cină urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Pâinea la cină nu e recomandată; ar trebui numai carne + salată."
+        "text": "Potrivit procedurii stabilite, porția de salată e prea mică; trebuie dublată și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -7244,23 +7244,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Depășire 9,09%; acceptabilă (sub 20% maxim permitut)."
-      },
-      {
-        "id": "B",
-        "text": "Depășire 9,09%; NU acceptabilă pt legume, doar pt lapte/carne."
-      },
-      {
-        "id": "C",
         "text": "Depășire 20 g e prea mult; trebuie redusă imediat la 220 g."
       },
       {
-        "id": "D",
+        "id": "B",
         "text": "Depășire oricât e bună; legume NU se pot depăși."
+      },
+      {
+        "id": "C",
+        "text": "Depășire 9,09%; acceptabilă (sub 20% maxim permitut)."
+      },
+      {
+        "id": "D",
+        "text": "Depășire 9,09%; NU acceptabilă pt legume, doar pt lapte/carne."
       }
     ],
     "correctOptionIds": [
-      "A"
+      "C"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), art.3: depășire permitută până 20% la lapte/lactate, carne, pește, legume/fructe. 240 vs 220 g = 20g = 9,09% (sub 20%); acceptabil pentru legume.",
     "tooltipCorrect": "Depășire legume/fructe: până 20%. 240 vs 220 = +9% ≤ 20% = acceptabil."
@@ -7276,23 +7276,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "70 g făină."
-      },
-      {
-        "id": "B",
         "text": "73 g făină."
       },
       {
+        "id": "B",
+        "text": "80 g făină."
+      },
+      {
         "id": "C",
-        "text": "76 g făină."
+        "text": "70 g făină."
       },
       {
         "id": "D",
-        "text": "80 g făină."
+        "text": "76 g făină."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "D"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe: pâine neagră = 71 g făină/100g; semialbă = 73 g; albă = 76 g făină/100g.",
     "tooltipCorrect": "Pâine: neagră 71g făină, semialbă 73g, albă 76g/100g pâine."
@@ -7308,15 +7308,15 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "60 g zahăr."
+        "text": "80 g zahăr."
       },
       {
         "id": "B",
-        "text": "70 g zahăr."
+        "text": "60 g zahăr."
       },
       {
         "id": "C",
-        "text": "80 g zahăr."
+        "text": "70 g zahăr."
       },
       {
         "id": "D",
@@ -7324,7 +7324,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "C"
+      "A"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe zahăr: miere 100 g = 80 g zahăr.",
     "tooltipCorrect": "Miere: 100 g = 80 g zahăr (echivalent)."
@@ -7340,23 +7340,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "200 g tomate."
+        "text": "800 g tomate."
       },
       {
         "id": "B",
-        "text": "400 g tomate."
-      },
-      {
-        "id": "C",
         "text": "600 g tomate."
       },
       {
+        "id": "C",
+        "text": "400 g tomate."
+      },
+      {
         "id": "D",
-        "text": "800 g tomate."
+        "text": "200 g tomate."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "B"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe: bulion/pastă roșii = 600 g tomate.",
     "tooltipCorrect": "Bulion/pastă roșii: 100 g = 600 g tomate crude."
@@ -7372,15 +7372,15 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "1/4 ceașcă."
+        "text": "1 ceașcă."
       },
       {
         "id": "B",
-        "text": "1/2 ceașcă."
+        "text": "1/4 ceașcă."
       },
       {
         "id": "C",
-        "text": "1 ceașcă."
+        "text": "1/2 ceașcă."
       },
       {
         "id": "D",
@@ -7388,7 +7388,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), mărime porție: suc legume/fructe neîndulcit = 1/2 ceașcă (50 ml din totalul 100 ml/ceașcă).",
     "tooltipCorrect": "Porție suc neîndulcit: 1/2 ceașcă (50 ml)."
@@ -7408,7 +7408,7 @@ export const questions = [
       },
       {
         "id": "B",
-        "text": "1 cartof mediu."
+        "text": "1/2 cartof mediu."
       },
       {
         "id": "C",
@@ -7416,11 +7416,11 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "1/2 cartof mediu."
+        "text": "1 cartof mediu."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), mărime porție: 1 cartof mediu. Porția asigură aport de carbohidrați și amidon pentru energie.",
     "tooltipCorrect": "Porție cartof: 1 mediu."
@@ -7436,15 +7436,15 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "3 porții/zi."
+        "text": "5-6 porții/zi."
       },
       {
         "id": "B",
-        "text": "4-5 porții/zi."
+        "text": "3 porții/zi."
       },
       {
         "id": "C",
-        "text": "5-6 porții/zi."
+        "text": "4-5 porții/zi."
       },
       {
         "id": "D",
@@ -7452,7 +7452,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "C"
+      "A"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), nr. maxim porții/zi: legume: 3 (2-6 ani) / 4-5 (7-10) / 5-6 (11-13).",
     "tooltipCorrect": "Porții maxime legume: 3 (2-6 ani), 4-5 (7-10), 5-6 (11-13)."
@@ -7468,11 +7468,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "1 porție/zi."
+        "text": "4 porții/zi."
       },
       {
         "id": "B",
-        "text": "2 porții/zi."
+        "text": "1 porție/zi."
       },
       {
         "id": "C",
@@ -7480,11 +7480,11 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "4 porții/zi."
+        "text": "2 porții/zi."
       }
     ],
     "correctOptionIds": [
-      "A"
+      "B"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008), nr. maxim porții/zi: carne/pui/pește/fasole/mazăre/ouă: 1 (2-6 ani) / 2 (7-10) / 2-3 (11-13).",
     "tooltipCorrect": "Porții maxime carne: 1 (2-6 ani), 2 (7-10), 2-3 (11-13)."
@@ -7500,11 +7500,11 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Zilnic, 1 porție."
+        "text": "În aplicarea regulii, zilnic, 1 porție."
       },
       {
         "id": "B",
-        "text": "De 3 ori pe săptămână."
+        "text": "Pe baza dispoziției, de 3 ori pe săptămână."
       },
       {
         "id": "C",
@@ -7512,7 +7512,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "2-3 porții pe săptămână."
+        "text": "Conform procedurii, 2-3 porții pe săptămână."
       }
     ],
     "correctOptionIds": [
@@ -7532,23 +7532,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Meniu e ok; paste și mămăligă sunt din cereale, proteic."
+        "text": "Pe baza dispozițiilor curente, propoția e corectă; mămăligă + paste oferă energie suficientă."
       },
       {
         "id": "B",
-        "text": "Se încalcă regula 4: sunt 2 feluri preponderent glucide din cereale (mămăligă + paste); trebuie 1 glucid + legume, NU 2 glucide."
+        "text": "În aplicarea instrucțiunilor unității, mămăliga e prea grea pentru copii; trebuie înlocuită."
       },
       {
         "id": "C",
-        "text": "Mămăliga e prea grea pentru copii; trebuie înlocuită."
+        "text": "Potrivit reglementării aplicabile, meniu e ok; paste și mămăligă sunt din cereale, proteic."
       },
       {
         "id": "D",
-        "text": "Propoția e corectă; mămăligă + paste oferă energie suficientă."
+        "text": "Se încalcă regula 4: sunt 2 feluri preponderent glucide din cereale (mămăligă + paste); trebuie 1 glucid + legume, NU 2 glucide."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 2 (Ordinul 1563/2008), regula 4: la prânz NU sunt permise 2 feluri preponderent glucide din cereale. Se recomandă 1 glucid (mămăligă SAU paste) + legume ca fel 2, NU mămăligă + paste cumulate.",
     "tooltipCorrect": "Prânz: NU 2 glucide din cereale. Corect: 1 glucid + legume/salată."
@@ -7564,23 +7564,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "350 ml."
-      },
-      {
-        "id": "B",
         "text": "450 ml."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "550 ml."
       },
       {
-        "id": "D",
+        "id": "C",
         "text": "650 ml."
+      },
+      {
+        "id": "D",
+        "text": "350 ml."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe: 100 g telemea de oi = 450 ml echivalent lapte proaspăt.",
     "tooltipCorrect": "Telemea oi: 100 g = 450 ml lapte. Telemea vacă: 100 g = 550 ml lapte."
@@ -7596,7 +7596,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "2 porții/zi."
+        "text": "3 porții/zi."
       },
       {
         "id": "B",
@@ -7604,7 +7604,7 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "3 porții/zi."
+        "text": "2 porții/zi."
       },
       {
         "id": "D",
@@ -7628,23 +7628,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "E bună; cartofi prăjiți sunt aceptați în gustare."
+        "text": "În aplicarea instrucțiunilor unității, E acceptabilă dacă se servește cu apă minerală ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Cade în categoria foarte crescută (>300 kcal/100g); gustarea copiilor trebuie sub 60 kcal/100g (scăzută) sau moderată; cartofi prăjiți nu sunt recomandați."
+        "text": "Conform practicii administrative curente, porția e prea mică; trebuie mărită la 100g și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "E acceptabilă dacă se servește cu apă minerală."
+        "text": "Cade în categoria foarte crescută (>300 kcal/100g); gustarea copiilor trebuie sub 60 kcal/100g (scăzută) sau moderată; cartofi prăjiți nu sunt recomandați."
       },
       {
         "id": "D",
-        "text": "Porția e prea mică; trebuie mărită la 100g."
+        "text": "Potrivit procedurii stabilite, E bună; cartofi prăjiți sunt aceptați în gustare și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), Tabel 2: valoare calorică foarte crescută = peste 300 kcal/100g. Cartofi prăjiți, ciocolată, bomboane, dulciuri cu cremă cad în aceasta categorie. Gustările pentru copii trebuie scăzute/moderate (5-120 kcal/100g).",
     "tooltipCorrect": "Tabel 2 - Cartofi prăjiți: >300 kcal (foarte crescută). Gustări: prefer scăzută/moderată."
@@ -7660,23 +7660,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Fier nu e esențial; recomandarea e opțională."
+        "text": "Conform procedurii interne, fier e necesar doar pentru bieți; fetele nu au nevoie și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Fier 8-15 mg/zi previne anemia. Surse: carne de vacă/pasăre/porc, fasole, alune, cereale integrale/fortificate, vegetale cu frunze verzi."
+        "text": "Potrivit reglementării aplicabile, doar suplimentele de fier asigură nivelul corect ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Fier e necesar doar pentru bieți; fetele nu au nevoie."
+        "text": "Potrivit procedurii stabilite, fier nu e esențial; recomandarea e opțională ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Doar suplimentele de fier asigură nivelul corect."
+        "text": "Fier 8-15 mg/zi previne anemia. Surse: carne de vacă/pasăre/porc, fasole, alune, cereale integrale/fortificate, vegetale cu frunze verzi."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 2 (Ordinul 1563/2008), regula școlar: fier 8-15 mg/zi (carne, fasole, alune, cereale integrale, vegetale frunze). Fieul e critic pentru oxigenare tisulară și prevenirea anemiei, mai ales copii în creștere.",
     "tooltipCorrect": "Fier: 8-15 mg/zi din carne, fasole, cereale integrale, vegetale verzi. Previne anemia."
@@ -7692,23 +7692,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "40 g zahăr."
+        "text": "70 g zahăr."
       },
       {
         "id": "B",
-        "text": "50 g zahăr."
-      },
-      {
-        "id": "C",
         "text": "60 g zahăr."
       },
       {
+        "id": "C",
+        "text": "40 g zahăr."
+      },
+      {
         "id": "D",
-        "text": "70 g zahăr."
+        "text": "50 g zahăr."
       }
     ],
     "correctOptionIds": [
-      "D"
+      "A"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), echivalențe zahăr: dulceață = 70 g zahăr/100g.",
     "tooltipCorrect": "Dulceață: 100 g = 70 g zahăr."
@@ -7724,7 +7724,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "50 ml."
+        "text": "200 ml."
       },
       {
         "id": "B",
@@ -7736,7 +7736,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "200 ml."
+        "text": "50 ml."
       }
     ],
     "correctOptionIds": [
@@ -7756,7 +7756,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Depășire 12,94%; acceptabilă (sub 20% maxim)."
+        "text": "Potrivit normei, depășire oricât e bună la carne."
       },
       {
         "id": "B",
@@ -7764,15 +7764,15 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "11 g e prea mult; trebuie redusă imediat."
+        "text": "Depășire 12,94%; acceptabilă (sub 20% maxim)."
       },
       {
         "id": "D",
-        "text": "Depășire oricât e bună la carne."
+        "text": "11 g e prea mult; trebuie redusă imediat."
       }
     ],
     "correctOptionIds": [
-      "A"
+      "C"
     ],
     "explanation": "Anexa 4 (Ordinul 1563/2008), art.3: depășire permitută până 20% la lapte/lactate, CARNE, pește, legume/fructe. 96 vs 85 g = 11g = 12,94% (sub 20%); acceptabilă pentru carne.",
     "tooltipCorrect": "Depășire carne: până 20%. 96 vs 85 = +12,94% ≤ 20% = acceptabil."
@@ -7788,23 +7788,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "1 ceașcă."
-      },
-      {
-        "id": "B",
-        "text": "1,5 cești."
-      },
-      {
-        "id": "C",
         "text": "2 cești."
       },
       {
-        "id": "D",
+        "id": "B",
+        "text": "1 ceașcă."
+      },
+      {
+        "id": "C",
         "text": "2,5 cești."
+      },
+      {
+        "id": "D",
+        "text": "1,5 cești."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Anexa 5 (Ordinul 1563/2008): la 1600 kcal (4-6 ani): cereale 150g, legume 2 cești, fructe 1,5 cești, lapte 3 cești, carne 150g.",
     "tooltipCorrect": "1600 kcal: fructe 1,5 cești, legume 2, lapte 3 cești, cereale 150g, carne 150g."
@@ -7820,23 +7820,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Să îi avertizeze verbal și să verifice din nou peste o lună."
-      },
-      {
-        "id": "B",
         "text": "Să oprească imediat utilizarea echipamentului cu dispozitivul blocat, să restabilească funcționalitatea senzorului, să anunțe deficiența și să instruiască personalul că dispozitivele de siguranță NU pot fi blocate conform Legii 319/2006."
       },
       {
+        "id": "B",
+        "text": "Conform practicii administrative curente, să improvizeze o soluție cu cearcan pentru a înlocui senzorul și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Să improvizeze o soluție cu cearcan pentru a înlocui senzorul."
+        "text": "Pe baza evaluării de rutină, să ceri permisiunea proprietarului clădirii înainte de a lua orice măsură și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Să ceri permisiunea proprietarului clădirii înainte de a lua orice măsură."
+        "text": "Conform procedurii interne, să îi avertizeze verbal și să verifice din nou peste o lună și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006, cap. IV obligă lucrătorul să NU elimine, modifice sau blocheze dispozitivele de siguranță. Administratorul (angajator) trebuie să oprească utilizarea, să restabilească protecția și să instruiască personalul. Senzorul NU e decorativ — previne incendii.",
     "tooltipCorrect": "Dispozitivele de siguranță NU se blochează. Se oprește utilizarea, se restabilește, se anunță, se instruiește."
@@ -7852,7 +7852,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimic — dacă muncitorul spune că n-are nevoie, e decizia lui personală."
+        "text": "Potrivit regulamentului intern, să schimbe muncitorul cu altul și să nu mai abordeze subiectul urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -7860,11 +7860,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Să schimbe muncitorul cu altul și să nu mai abordeze subiectul."
+        "text": "În aplicarea măsurilor prevăzute, nimic — dacă muncitorul spune că n-are nevoie, e decizia lui personală ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Să aștepte până la următoarea inspecție SSM pentru a fi sancționat oficial."
+        "text": "În temeiul normelor în vigoare, să aștepte până la următoarea inspecție SSM pentru a fi sancționat oficial urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -7884,23 +7884,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nici un risc — gresia nu emite substanțe dăunătoare."
+        "text": "Pe baza evaluării de rutină, nici un risc — gresia nu emite substanțe dăunătoare urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Riscul de intoxicație cu vapori din adezivul gresiei; lucrătorul încalcă obligația de a respecta instrucțiunile de lucru din cap. IV."
+        "text": "Conform procedurii, riscul de zgomot excesiv; administratorul trebuie să obțină autorizație de la autoritățile locale."
       },
       {
         "id": "C",
-        "text": "Riscul de zgomot excesiv; administratorul trebuie să obțină autorizație de la autoritățile locale."
+        "text": "Riscul de intoxicație cu vapori din adezivul gresiei; lucrătorul încalcă obligația de a respecta instrucțiunile de lucru din cap. IV."
       },
       {
         "id": "D",
-        "text": "Nici un pericol profesional — doar disconfort termic."
+        "text": "Potrivit reglementării aplicabile, nici un pericol profesional — doar disconfort termic și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006, cap. IV obligă lucrătorul să respecte instrucțiunile de lucru și măsurile de protecție. Lucrul cu materiale care emit vapori (adezivi, soluții) impune ventilație. Administratorul monitorizează conformitatea și investigă încălcări.",
     "tooltipCorrect": "Instrucțiunile de lucru sunt obligatorii. Ventilația nu e opțională pentru manipulare substanțe."
@@ -7916,23 +7916,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, este logic să aștepte când situația e mai liniștit."
+        "text": "Conform procedurii interne, da, cu condiția să poată o seara o notă în jurnal urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Nu. Legea 319/2006, cap. IV obligă anunțarea IMEDIATĂ a conducătorului locului de muncă pentru orice situație care poate produce accident sau îmbolnăvire. Alunecarile pe podeaua udă sunt pericol iminent."
+        "text": "În aplicarea instrucțiunilor unității, nu, dar ar putea anunța pe ceilalți colegi dacă o consideră necesar și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Nu, dar ar putea anunța pe ceilalți colegi dacă o consideră necesar."
+        "text": "Potrivit regulamentului intern, da, este logic să aștepte când situația e mai liniștit și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Da, cu condiția să poată o seara o notă în jurnal."
+        "text": "Nu. Legea 319/2006, cap. IV obligă anunțarea IMEDIATĂ a conducătorului locului de muncă pentru orice situație care poate produce accident sau îmbolnăvire. Alunecarile pe podeaua udă sunt pericol iminent."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006, cap. IV art. privind comunicare: lucrătorul anunță IMEDIAT conducătorului orice situație care poate produce accident. \"După ora de prânz\" e prea târziu — în interval pot aluneca alți angajați sau copii. Imediaticitate = protecție.",
     "tooltipCorrect": "Anunțarea situațiilor periculoase trebuie făcută IMEDIAT, nu mai târziu."
@@ -7948,23 +7948,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Să refuze accesul și să-i cere inspectorului o autorizație scrisă de la prefect."
-      },
-      {
-        "id": "B",
         "text": "Să permită accesul deplin și să coopereze complet. Legea 319/2006, cap. IV obligă cooperarea cu organele de control. Documentele de SSM sunt controlabile de autorități."
       },
       {
+        "id": "B",
+        "text": "Conform procedurii interne, să refuze accesul și să-i cere inspectorului o autorizație scrisă de la prefect și se consemnează în evidentă."
+      },
+      {
         "id": "C",
-        "text": "Să permită accesul numai parțial — doar la registrul de prezență."
+        "text": "Potrivit regulamentului intern, să permită accesul numai parțial — doar la registrul de prezență urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Să cere inspectorului să vină cu avocatul grădiniței."
+        "text": "Potrivit reglementării aplicabile, să cere inspectorului să vină cu avocatul grădiniței ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006, cap. IV obligă lucrătorul și angajatorul să coopereze cu organele de control (inspecții SSM, inspectori ITM, etc.). Registrele de accidente sunt documente obligatorii și controlabile. Refuzul e încălcare graves.",
     "tooltipCorrect": "Cooperarea cu organele de control este obligatorie. Documentele SSM se prezintă la cerere."
@@ -7980,23 +7980,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Capitolul V (supraveghere medicală) — doar medicul poate decide despre protecție."
+        "text": "În aplicarea măsurilor prevăzute, capitolul V (supraveghere medicală) — doar medicul poate decide despre protecție și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Capitolul III (prevenire incendii) — are legătură cu electricitate."
-      },
-      {
-        "id": "C",
         "text": "Capitolul IV: lucrătorul NU poate elimina sau modifica dispozitivele de siguranță. Protecția colțului ascuțit e măsură de prevenire. Acțiunea e prohibită și trebuie restabilită imediat."
       },
       {
+        "id": "C",
+        "text": "Pe baza dispozițiilor curente, capitolul III (prevenire incendii) — are legătură cu electricitate urmărind respectarea normei."
+      },
+      {
         "id": "D",
-        "text": "Nici o prevedere — protecția e decorativă și nu are efect real."
+        "text": "Potrivit procedurii stabilite, nici o prevedere — protecția e decorativă și nu are efect real și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "C"
+      "B"
     ],
     "explanation": "Legea 319/2006, cap. IV explicit: lucrătorul NU elimină, modifică sau blochează dispozitivele de siguranță, alarmele, semnalizările. Protecția colțului e dispozitiv de siguranță. Administratorul o restabilește, anunță deficiența și instruiește.",
     "tooltipCorrect": "NU se elimină dispozitive de siguranță. Nici pentru \"comoditate\" nici pentru \"modă\". Se restabilesc imediat."
@@ -8012,23 +8012,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Pune dezinfectantul imediat în mai multe sticle mici pentru a se distribui și instruiește verbal pe fiecare persoană care îl utilizează."
+        "text": "În temeiul normelor în vigoare, pune dezinfectantul imediat în mai multe sticle mici pentru a se distribui și instruiește verbal pe fiecare persoană care îl utilizează."
       },
       {
         "id": "B",
-        "text": "Returnează substanța furnizorului pentru a obține informații complete (etichetă, fișă de securitate), cere explicații și instruiește personalul înainte de utilizare conform Legii 319/2006, cap. IV."
+        "text": "Pe baza dispozițiilor curente, asteapta să vadă cum îl folosesc lucrătorii și doar atunci o instruiește dacă observă greșeli ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Pune la dispoziție dezinfectantul sub supravegherea conducătorului grupei — copiii NU vor avea acces oricum."
+        "text": "Returnează substanța furnizorului pentru a obține informații complete (etichetă, fișă de securitate), cere explicații și instruiește personalul înainte de utilizare conform Legii 319/2006, cap. IV."
       },
       {
         "id": "D",
-        "text": "Asteapta să vadă cum îl folosesc lucrătorii și doar atunci o instruiește dacă observă greșeli."
+        "text": "Conform procedurii interne, pune la dispoziție dezinfectantul sub supravegherea conducătorului grupei — copiii NU vor avea acces oricum și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006, cap. IV obligă angajatorul să asigure instruire pentru utilizare corectă a substanțelor periculoase. Fără etichetă și fișă de securitate nu se poate respecta această obligație. Returnarea și reaprovizionarea cu documente complete sunt cerințe obligatorii.",
     "tooltipCorrect": "Substanțele periculoase se utilizează numai cu documente complete (etichetă, fișă de siguranță) și instruire de la administrator."
@@ -8044,23 +8044,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar o gloomă — se întâmplă. Se curăță și se reia transportul pe aceeași scară."
+        "text": "Pe baza dispozițiilor curente, problema este doar cu sticla căzută — se cumpără alta și gata și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Incălcare a obligației din Legea 319/2006, cap. IV: lucrătorul trebuie să utilizeze corect mijloace de transport intern (fixare, ritmicitate, drumuri sigure). Administratoarea instruiește despre procedura corectă: fixare sticle, transport pe planuri mai ușoare sau cu asistență."
+        "text": "În aplicarea instrucțiunilor unității, doar o gloomă — se întâmplă. Se curăță și se reia transportul pe aceeași scară ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Problema este doar cu sticla căzută — se cumpără alta și gata."
+        "text": "În aplicarea măsurilor prevăzute, muncitorul e responsabil de accident, dar administratoarea nu trebuie să-l instruiască din nou ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Muncitorul e responsabil de accident, dar administratoarea nu trebuie să-l instruiască din nou."
+        "text": "Incălcare a obligației din Legea 319/2006, cap. IV: lucrătorul trebuie să utilizeze corect mijloace de transport intern (fixare, ritmicitate, drumuri sigure). Administratoarea instruiește despre procedura corectă: fixare sticle, transport pe planuri mai ușoare sau cu asistență."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006, cap. IV obligă utilizare corectă a mijloacelor de transport intern și a oricărui echipament. Transport nesigur (fără fixare, pe scări abrupte) crează risc de vătămare și pierdere de material. Instruirea și supravegherea sunt responsabilități ale administratorului.",
     "tooltipCorrect": "Transportul intern (cărucior, mâini) necesită fixare, ritmicitate și drumuri sigure. Fără asta e risc de accident."
@@ -8076,23 +8076,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "E corect — nu trebuie anunțat decât accidentele grave cu sânge abundent."
-      },
-      {
-        "id": "B",
         "text": "Lucrătorul TREBUIA să anunțe IMEDIAT administratoarea. Legea 319/2006, cap. IV obligă comunicare imediată a accidentelor, indiferent de gravitate aparentă. Umflarea târzie e semn că leziunea era mai gravă."
       },
       {
+        "id": "B",
+        "text": "Conform practicii administrative curente, lucrătorul e vinovat că nu și-a răspândit răbdarea — administratoarea nu e responsabilă și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Lucrătorul e vinovat că nu și-a răspândit răbdarea — administratoarea nu e responsabilă."
+        "text": "Pe baza dispozițiilor curente, accidentul nu e oficial decât dacă sunt martorii — fără martori NU se înregistrează și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Accidentul nu e oficial decât dacă sunt martorii — fără martori NU se înregistrează."
+        "text": "În aplicarea măsurilor prevăzute, E corect — nu trebuie anunțat decât accidentele grave cu sânge abundent ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006, cap. IV art. comunicare: lucrătorul anunță IMEDIAT orice accident (vătămare, chiar mică). Administratorul înregistrează, oferă prim-ajutor și eventul cercetare. Amânare în raportare ascunde riscuri și prejudiciază investigație.",
     "tooltipCorrect": "Accidentele se anunță IMEDIAT, oricât de mici. Comunicare promptă = apărare și documentare."
@@ -8108,7 +8108,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Primul — lucrează cu ce are la mână."
+        "text": "În aplicarea instrucțiunilor unității, primul — sunt experiență de 10 ani pe construcții și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -8116,11 +8116,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Nici și nici — e doar problemă de organizare, nu legală."
+        "text": "În aplicarea instrucțiunilor unității, nici și nici — e doar problemă de organizare, nu legală și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Primul — sunt experiență de 10 ani pe construcții."
+        "text": "Conform procedurii interne, primul — lucrează cu ce are la mână urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -8140,23 +8140,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, cu condiția ca muncitorul să fi lucrat anterior în mediu similar."
+        "text": "În aplicarea măsurilor prevăzute, da, cu condiția ca muncitorul să fi lucrat anterior în mediu similar și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Nu. Administratorul e obligat (cap. IV) să instruiască lucrătorul despre utilizare corectă a substanțelor, echipamentelor, EIP și reguli de lucru ÎNAINTE de a-l pune să lucreze. Lipsa instruirii = încălcare."
+        "text": "Potrivit reglementării aplicabile, da, dacă altă colegă îl privește din departe urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Da, dacă altă colegă îl privește din departe."
+        "text": "Nu. Administratorul e obligat (cap. IV) să instruiască lucrătorul despre utilizare corectă a substanțelor, echipamentelor, EIP și reguli de lucru ÎNAINTE de a-l pune să lucreze. Lipsa instruirii = încălcare."
       },
       {
         "id": "D",
-        "text": "Nu, dar numai dacă are COVID în zona locală."
+        "text": "În temeiul normelor în vigoare, nu, dar numai dacă are COVID în zona locală și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006, cap. IV: lucrătorului trebuie asigurată instruire în legătură cu riscurile locului de muncă și măsuri de protecție. Administratorul e responsabil să instruiască ÎNAINTE de comenzi. Instruire = responsabilitate director.",
     "tooltipCorrect": "Fiecare lucrător nou primește instruire completă înainte de a lucra. E responsabilitate a administratorului."
@@ -8172,23 +8172,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimic — e ușă și se deschide, nu e ușă de sejur."
+        "text": "Pe baza evaluării de rutină, să lase copilul să intre 5 minute dacă ar vrea \"doar o privire\" și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Trebuie să refuze accesul imediat, să explice pericol chimic, și să relocheze semnalizarea dacă nu e vizibilă. Legea 319/2006, cap. IV obligă respectare semnalizării și a regulilor de acces. Părintele nu e \"personal autorizat\"."
+        "text": "Pe baza evaluării de rutină, să schimbe eticheta cu \"Atenție — copii pe propriul risc\" ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Să lase copilul să intre 5 minute dacă ar vrea \"doar o privire\"."
+        "text": "În temeiul normelor în vigoare, nimic — e ușă și se deschide, nu e ușă de sejur și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Să schimbe eticheta cu \"Atenție — copii pe propriul risc\"."
+        "text": "Trebuie să refuze accesul imediat, să explice pericol chimic, și să relocheze semnalizarea dacă nu e vizibilă. Legea 319/2006, cap. IV obligă respectare semnalizării și a regulilor de acces. Părintele nu e \"personal autorizat\"."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006, cap. IV: lucrătorul (și angajatorul) respectă semnalizările și regulile de acces. Substanțe chimice în camere speciale trebuie inaccesibile copiilor. Semnalizare clară și aplicare strictă = protecție.",
     "tooltipCorrect": "Semnalizarea se respectă strict. Substanțele periculoase = acces restricționat, copii NU au voie."
@@ -8204,23 +8204,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, medicină a muncii e costly și greaca nu-și asigură copii așa."
-      },
-      {
-        "id": "B",
         "text": "Nu. Legea 319/2006, cap. V obligă angajator să asigure supraveghere medicală adecvată riscurilor, inclusiv control medical la angajare. Produsele chimice prezintă riscuri pentru angajat (nu doar copii) — dermatite, probleme respiratorii, alergii."
       },
       {
+        "id": "B",
+        "text": "Conform procedurii interne, medicină a muncii se face doar odată la 5 ani urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Da, controlul medical e doar pentru muncitori care lucrează în fabrici, nu în grădiniți."
+        "text": "Potrivit regulamentului intern, da, controlul medical e doar pentru muncitori care lucrează în fabrici, nu în grădiniți ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Medicină a muncii se face doar odată la 5 ani."
+        "text": "Conform practicii administrative curente, da, medicină a muncii e costly și greaca nu-și asigură copii așa urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006, cap. V: lucrul cu substanțe chimice (clor, dezinfectanți, vopsea, adezivi) prezintă riscuri de contact piele, respirator, ochi. Angajatorul obligă control medical la angajare, periodic și după expuneri. Faptul că grădina are copii NU scutește pe angajat.",
     "tooltipCorrect": "Medicină a muncii cu control la angajare e obligatorie pentru orice post cu riscuri (chimice, biologice, fizice)."
@@ -8236,7 +8236,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, copiii sunt sănătoși și nu transmit boli."
+        "text": "Pe baza evaluării de rutină, da, vaccinuri sunt opționale și nu sunt obligație a grădiniței și se raportează conducerii."
       },
       {
         "id": "B",
@@ -8244,11 +8244,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Da, vaccinuri sunt opționale și nu sunt obligație a grădiniței."
+        "text": "În temeiul normelor în vigoare, copiii nici nu transmit boli — doar adulții bolnavi ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Copiii nici nu transmit boli — doar adulții bolnavi."
+        "text": "Potrivit procedurii stabilite, da, copiii sunt sănătoși și nu transmit boli ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -8268,25 +8268,25 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, o dată la angajare e suficient dacă omul nu se plânge."
+        "text": "Pe baza evaluării de rutină, da, controlul periodic e opțional și depinde de voința angajatului și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Nu. Legea 319/2006, cap. V obligă controale periodice de medicină a muncii, nu doar la angajare. Administratorul planifică verificări regulate (anual sau la intervale prescrise) pentru a detecta probleme de sănătate care afectează aptitudine."
+        "text": "Conform practicii administrative curente, controlul medical e obligatoriu doar pentru piloți și șoferi ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Da, controlul periodic e opțional și depinde de voința angajatului."
+        "text": "Nu. Legea 319/2006, cap. V obligă controale periodice de medicină a muncii, nu doar la angajare. Administratorul planifică verificări regulate (anual sau la intervale prescrise) pentru a detecta probleme de sănătate care afectează aptitudine."
       },
       {
         "id": "D",
-        "text": "Controlul medical e obligatoriu doar pentru piloți și șoferi."
+        "text": "Potrivit regulamentului intern, da, o dată la angajare e suficient dacă omul nu se plânge și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
-    "explanation": "Legea 319/2006, cap. V: angajatorul asigură supraveghere medicală printr-un control la angajare și controale periodice. Período între verificări depinde de riscuri, dar neglijare nu e opțiune. Periodice = anual sau la interval recomandat.",
+    "explanation": "Legea 319/2006, cap. V: angajatorul asigură supraveghere medicală printr-un control la angajare și controale periodice. Perioada dintre verificări depinde de riscuri, dar neglijare nu e opțiune. Periodice = anual sau la interval recomandat.",
     "tooltipCorrect": "Controale medicale periodice sunt obligatorii. Angajatorul (administrator) le planifică și urmărește."
   },
   {
@@ -8300,23 +8300,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nici una — alunecări se întâmplă în orice locație."
+        "text": "În aplicarea instrucțiunilor unității, nici una — alunecări se întâmplă în orice locație și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Supraveghere medicală a riscului de căderi. Administratoarea trebuie să evalueze riscul (podea udă = cădere imediată), să asigure măsuri (cojocuri, uscare, EIP anti-alunecare) și să monitorizeze eventele și starea angajaților după căderi."
+        "text": "Potrivit regulamentului intern, E doar problemă de disciplină — vor ști să merg mai rar pe podeaua udă și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Doar muncitorii sunt responsabili pentru alegerea pantofilor."
+        "text": "În temeiul normelor în vigoare, doar muncitorii sunt responsabili pentru alegerea pantofilor urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "E doar problemă de disciplină — vor ști să merg mai rar pe podeaua udă."
+        "text": "Supraveghere medicală a riscului de căderi. Administratoarea trebuie să evalueze riscul (podea udă = cădere imediată), să asigure măsuri (cojocuri, uscare, EIP anti-alunecare) și să monitorizeze eventele și starea angajaților după căderi."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006, cap. V: riscuri fizice în grădiniță includ alunecări și căderi. Administratorul evaluează riscul (podea udă = mare risc), asigură protecție (cojocuri, uscare, EIP), supraveghea angajații și oferă control medical la oricine s-a lovit (evaluare accidentare, limitări temporare).",
     "tooltipCorrect": "Alunecări pe podele ude = risc fizic în grădiniță. Administratorul pune cojocuri, uscare periodică și monitorizează sănătatea angajaților."
@@ -8332,23 +8332,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Cu nici una — lucrul fizic e obligatoriu indiferent de stare medicală."
-      },
-      {
-        "id": "B",
         "text": "Cu supravegherea medicală și evaluarea aptitudinii. Dacă muncitorul are afecțiune medicală relevantă (dureri spinale cronice), trebuie verificare medicală și eventualadaptare a sarcinilor. Legea 319/2006, cap. V obligă adaptare măsuri pentru persoane cu afecțiuni relevante."
       },
       {
+        "id": "B",
+        "text": "În aplicarea instrucțiunilor unității, nu-i obligație a grădiniței — muncitorul trebuie să se întâlnească cu propriul medic particular ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Nu-i obligație a grădiniței — muncitorul trebuie să se întâlnească cu propriul medic particular."
+        "text": "Conform practicii administrative curente, adaptarea e doar pentru persoane cu dizabilități 80%+, nu pentru dureri ordinare și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Adaptarea e doar pentru persoane cu dizabilități 80%+, nu pentru dureri ordinare."
+        "text": "Pe baza dispozițiilor curente, cu nici una — lucrul fizic e obligatoriu indiferent de stare medicală și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006, cap. V obligă angajatorul să adapteze măsuri pentru persoane cu afecțiuni medicale relevante. Dureri spinale cronice = limitație pentru efort fizic. Administratorul solicită evaluare medicală și reduce/adapte sarcini (nu mai ridică grele, nu face lucru pe scări etc.).",
     "tooltipCorrect": "Afecțiuni medicale relevante (spinale, cardiace, etc.) necesită adaptare sarcini. Administratorul evaluează cu medicul și reajustează."
@@ -8364,7 +8364,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nici o obligație — dermatita e cosmetic, nu medical."
+        "text": "Conform procedurii interne, nici o obligație — dermatita e cosmetic, nu medical ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -8372,11 +8372,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Muncitoarea trebuie să-și spele pur și simplu mâinile mai des."
+        "text": "Potrivit reglementării aplicabile, dermatita e responsabilitate personală, nu a grădiniței și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Dermatita e responsabilitate personală, nu a grădiniței."
+        "text": "Pe baza evaluării de rutină, muncitoarea trebuie să-și spele pur și simplu mâinile mai des urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -8396,23 +8396,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, alergia e problema personală și poate lucra dacă vrea."
+        "text": "În aplicarea instrucțiunilor unității, administratoarea ar trebui să-i dea antihistaminic înainte de lucru ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Nu. Legea 319/2006, cap. V obligă evaluare medicală pentru riscuri biologice/alimentare și adaptare măsuri. Muncitoarea cu alergii cunoscute NU trebuie expusă la alergen. Administratoarea trebuie să-o mute pe post fără fructe de mare sau să-i ofere EIP (mănuși)."
+        "text": "Potrivit reglementării aplicabile, da, alergia e problema personală și poate lucra dacă vrea ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Administratoarea ar trebui să-i dea antihistaminic înainte de lucru."
+        "text": "Nu. Legea 319/2006, cap. V obligă evaluare medicală pentru riscuri biologice/alimentare și adaptare măsuri. Muncitoarea cu alergii cunoscute NU trebuie expusă la alergen. Administratoarea trebuie să-o mute pe post fără fructe de mare sau să-i ofere EIP (mănuși)."
       },
       {
         "id": "D",
-        "text": "Alergia e invenție — creveta nu-i alergen real."
+        "text": "Potrivit reglementării aplicabile, alergia e invenție — creveta nu-i alergen real ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006, cap. V: adaptare măsuri pentru persoane cu afecțiuni medicale relevante. Alergie la fructe de mare = risc la locul de muncă cu manipulare alimente. Administratorul evaluează cu medic și adapte (post fără alergene, EIP, rotație) sau mută pe altă sarcină.",
     "tooltipCorrect": "Alergii cunoscute = adaptare post sau sarcini. Administratorul cooperează cu medicul și protejează muncitoarea."
@@ -8424,27 +8424,27 @@ export const questions = [
     "difficulty": "medium",
     "sourceAct": "Legea nr. 319/2006, cap. V",
     "type": "single",
-    "question": "Un muncitor lucrează 3 zile consecutiv în depozit cu ventilație defectuasă, expus la fum și vapori. Administratoarea nu-l trimite la medicul muncii pentru verificare \"dacă e nevoie\". El se plânge de dureri de cap și étourdiements. Cum ar trebui să acționeze?",
+    "question": "Un muncitor lucrează 3 zile consecutiv în depozit cu ventilație defectuasă, expus la fum și vapori. Administratoarea nu-l trimite la medicul muncii pentru verificare \"dacă e nevoie\". El se plânge de dureri de cap și amețeli. Cum ar trebui să acționeze?",
     "options": [
       {
         "id": "A",
-        "text": "Să aștepte ca muncitorul să se intoarcă de acasă sănătos și să reia munca."
+        "text": "Potrivit regulamentului intern, să-i dea Aspirina și să-l lase să se odihnească 2 zile și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Să-l trimită IMEDIAT la control medical după expunere. Legea 319/2006, cap. V obligă verificare aptitudine după expuneri la riscuri. Simptomele (dureri de cap, ameți) sunt semne de efecte — medicul evaluează și decide dacă muncitor e apt sau trebuie tratament."
+        "text": "Conform practicii administrative curente, să aștepte ca muncitorul să se intoarcă de acasă sănătos și să reia munca și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Să-i dea Aspirina și să-l lase să se odihnească 2 zile."
+        "text": "Conform practicii administrative curente, să-i schimbe doar locul de muncă fără control medical urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Să-i schimbe doar locul de muncă fără control medical."
+        "text": "Să-l trimită IMEDIAT la control medical după expunere. Legea 319/2006, cap. V obligă verificare aptitudine după expuneri la riscuri. Simptomele (dureri de cap, ameți) sunt semne de efecte — medicul evaluează și decide dacă muncitor e apt sau trebuie tratament."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006, cap. V: control medical după expuneri la riscuri. Muncitorul expus 3 zile la vapori și fum este expus real la riscuri respiratorii. Simptomele (dureri de cap, ameți) sunt indicii de problemă. Administratorul trimite la medicul muncii pentru evaluare și eventual tratament.",
     "tooltipCorrect": "După expuneri la riscuri, control medical imediat. Medicul evaluează aptitudine și sănătate."
@@ -8460,23 +8460,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Corect — accidentele legale sunt numai cu spitalizare."
-      },
-      {
-        "id": "B",
         "text": "Incorect. Legea 319/2006, cap. VI defineșe accident cu vătămare pe locul de muncă orice incident care produce o vătămare corporală (chiar mică). Lovitura de ciocan = vătămare, deci accident (pân și urme sunt dovadă)."
       },
       {
+        "id": "B",
+        "text": "Conform procedurii interne, corect — accidentele legale sunt numai cu spitalizare ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Accidentele se numără numai dacă omul lips 3 zile de la lucru."
+        "text": "Conform procedurii interne, nu e accident decât dacă e martori ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Nu e accident decât dacă e martori."
+        "text": "În aplicarea măsurilor prevăzute, accidentele se numără numai dacă omul lips 3 zile de la lucru urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006, cap. VI: accident cu vătămare = orice incident pe locul de muncă care produce o vătămare corporală (leziune tisulară, indiferent de amploare). Chiar ușoare loviturile, pân, vânătăi sunt accidente și trebuie anunțate, investigate și înregistrate.",
     "tooltipCorrect": "Accident = orice vătămare corporală pe locul de muncă. Chiar mică. Se anunță și se înregistrează."
@@ -8492,7 +8492,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu trebuie raportat — nu s-a rănit nimeni și nici nu a fost pericol real."
+        "text": "În aplicarea instrucțiunilor unității, scara e doar instrument — clatinarea nu e pericol real urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -8500,11 +8500,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "E incident periculos dar se raportează numai dacă se află un inspector în birou."
+        "text": "Pe baza evaluării de rutină, E incident periculos dar se raportează numai dacă se află un inspector în birou urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Scara e doar instrument — clatinarea nu e pericol real."
+        "text": "Conform procedurii interne, nu trebuie raportat — nu s-a rănit nimeni și nici nu a fost pericol real și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -8524,23 +8524,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, e bine că nu-i deranjează administratoarea cu mica problemă."
+        "text": "Potrivit reglementării aplicabile, da, e bine că nu-i deranjează administratoarea cu mica problemă ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Nu. Legea 319/2006, cap. VI obligă anunțare IMEDIATĂ a conducătorului (administratorului) pentru orice situație care poate produce accident sau îmbolnăvire. Sufocul după clorin = urgent medical. Administratora trebuie să ofere prim-ajutor și să-l trimită la control medical imediat."
+        "text": "În aplicarea instrucțiunilor unității, sufocul trece de obicei în 10 minute — nu e nevoie de anunțare și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Muncitorul ar trebui să-și monitorizeze singur și să-și ia propriul taxi la spital."
+        "text": "Nu. Legea 319/2006, cap. VI obligă anunțare IMEDIATĂ a conducătorului (administratorului) pentru orice situație care poate produce accident sau îmbolnăvire. Sufocul după clorin = urgent medical. Administratora trebuie să ofere prim-ajutor și să-l trimită la control medical imediat."
       },
       {
         "id": "D",
-        "text": "Sufocul trece de obicei în 10 minute — nu e nevoie de anunțare."
+        "text": "Conform practicii administrative curente, muncitorul ar trebui să-și monitorizeze singur și să-și ia propriul taxi la spital și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006, cap. VI: anunțare IMEDIATĂ a conducătorului locului de muncă pentru orice situație ce poate produce accident/îmbolnăvire. Sufoc după expunere la clor = semn de inhalare dăunătoare. Administratorul ofere prim-ajutor (aer curat, poziție), anunță medicul și trimite la control medical urgent.",
     "tooltipCorrect": "Simptomele după expunere (sufoc, ameți, dureri) se anunță IMEDIAT. Nu se așteaptă timp."
@@ -8556,23 +8556,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Colegul are dreptate — cercetarea e costisitoare în timp și bani."
+        "text": "În aplicarea măsurilor prevăzute, cercetarea ar trebui făcută numai de inspecție SSM, nu de administrator ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Incorect. Legea 319/2006, cap. VI obligă cercetare a oricărui accident (cu sau fără vătămare) pentru a identifica cauze și măsuri de prevenire. Fără cercetare, acelaș accident se repetă. Administratoarea cercetează: de ce scara era instabilă? de ce muncitor a cărcat pe scară fără fixare? etc."
+        "text": "Potrivit procedurii stabilite, colegul are dreptate — cercetarea e costisitoare în timp și bani și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Cercetare e opțională dacă muncitorul zice \"nu vreau\"."
+        "text": "În temeiul normelor în vigoare, cercetare e opțională dacă muncitorul zice \"nu vreau\" și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Cercetarea ar trebui făcută numai de inspecție SSM, nu de administrator."
+        "text": "Incorect. Legea 319/2006, cap. VI obligă cercetare a oricărui accident (cu sau fără vătămare) pentru a identifica cauze și măsuri de prevenire. Fără cercetare, acelaș accident se repetă. Administratoarea cercetează: de ce scara era instabilă? de ce muncitor a cărcat pe scară fără fixare? etc."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006, cap. VI: evenimentele (accidente, incidente) se cercetează pentru a identifica cauze și a preveni în viitor. Fără cercetare, riscurile se ignoră și se repetă. Administratorul investigă ORICÂND se produce accident și documentează constatări, cauze și măsuri corecative.",
     "tooltipCorrect": "Orice accident se cercetează pentru cauze și prevenire. E responsabilitate a administratorului."
@@ -8588,23 +8588,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, e bine să se curețe rapid și să se evite stigmatizarea locului."
-      },
-      {
-        "id": "B",
         "text": "Nu. Legea 319/2006, cap. VI prohibit modificare locului evenimentului dacă poate afecta cercetarea și determinarea cauzelor. Administratoarea trebuie să păstreze locul intact pentru cercetare (fotografii, constatări tehnician, eventual inspecție). Curățenie se face DUPĂ cercetare."
       },
       {
+        "id": "B",
+        "text": "În aplicarea măsurilor prevăzute, da, e bine să se curețe rapid și să se evite stigmatizarea locului și se consemnează în evidentă."
+      },
+      {
         "id": "C",
-        "text": "Locul se poate curăța imediat dacă inspecția nu vine în 24 de ore."
+        "text": "Potrivit procedurii stabilite, locul se poate curăța imediat dacă inspecția nu vine în 24 de ore și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Modificare e OK dacă muncitorul spune că nu-i nevoie de cercetare."
+        "text": "Conform procedurii interne, modificare e OK dacă muncitorul spune că nu-i nevoie de cercetare ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006, cap. VI: NU se modifică locul evenimentului dacă poate afecta cercetarea și identificarea cauzelor. Noroi, scară, etiquete de pericol — toate sunt dovezi. Administratorul documentează (fotografii), cercetează cu tehniciani și abia apoi curăță. EXCEPT dacă salva persoane sau îndepărtează pericol iminent (cădere altă persoană).",
     "tooltipCorrect": "Locul accidentului se păstrează intact pentru cercetare. Curățenie doar DUPĂ documentare și investigație."
@@ -8620,7 +8620,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Păstrează locul intact și nu-l mai scoate pe muncitor — protecția scenei e mai importantă."
+        "text": "În aplicarea instrucțiunilor unității, scoate muncitorul și imediat curăță toată zona — nu-i nevoie de dovezi și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -8628,11 +8628,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Scoate muncitorul și imediat curăță toată zona — nu-i nevoie de dovezi."
+        "text": "Potrivit procedurii stabilite, păstrează locul intact și nu-l mai scoate pe muncitor — protecția scenei e mai importantă și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Asteapta inspecție SAM să vină și să dea aprobarea pentru mutare."
+        "text": "Conform practicii administrative curente, asteapta inspecție SAM să vină și să dea aprobarea pentru mutare și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -8652,23 +8652,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, e acord între ei — nu trebuie anunțat."
+        "text": "În temeiul normelor în vigoare, da, e acord între ei — nu trebuie anunțat și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Nu. Legea 319/2006, cap. VI obligă anunțare IMEDIAT și înregistrare a oricărui accident pe locul de muncă, indiferent de acord între parți. Refuzul de anunțare/înregistrare e încălcare graves și expune grădiniță la sancțiuni și entități de control. Muncitorul trebuie informat și protejat (asigurare, salariu în recuperare)."
+        "text": "În aplicarea instrucțiunilor unității, anunțare e opțională dacă vânzări spital sunt mici urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Pot face aranjament dacă muncitor e speriat de pierderea jobului."
+        "text": "Nu. Legea 319/2006, cap. VI obligă anunțare IMEDIAT și înregistrare a oricărui accident pe locul de muncă, indiferent de acord între parți. Refuzul de anunțare/înregistrare e încălcare graves și expune grădiniță la sancțiuni și entități de control. Muncitorul trebuie informat și protejat (asigurare, salariu în recuperare)."
       },
       {
         "id": "D",
-        "text": "Anunțare e opțională dacă vânzări spital sunt mici."
+        "text": "În aplicarea măsurilor prevăzute, pot face aranjament dacă muncitor e speriat de pierderea jobului și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006, cap. VI: anunțare IMEDIAT și înregistrare/raportare evenimentelor sunt obligatorii, indiferent de acord. Refuz de anunțare = încălcare graves. Administratorul trebuie să anunțe conducere, medicul muncii și organele de control (ITM, ISJ). Ascundere = pedeapsă penală și civilă.",
     "tooltipCorrect": "Accidente se anunță și se înregistrează obligatoriu. Ascundere = infracțiune."
@@ -8684,23 +8684,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, are drept la intimitate și nu trebuie să vorbească cu cercetători."
+        "text": "Conform procedurii interne, da, are drept la intimitate și nu trebuie să vorbească cu cercetători și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Nu. Legea 319/2006, cap. IV și VI obligă cooperare cu cercetători și organele de control SSM. Refuzul de a coopera în cercetarea accidentelor e încălcare și poate fi sancționat."
+        "text": "Pe baza evaluării de rutină, poate refuza, dar atunci cercetarea nu e validă și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Poate refuza, dar atunci cercetarea nu e validă."
+        "text": "Potrivit regulamentului intern, lucrătorul trebuie să vorbească cu administator doar dacă se simte că are drept ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Lucrătorul trebuie să vorbească cu administator doar dacă se simte că are drept."
+        "text": "Nu. Legea 319/2006, cap. IV și VI obligă cooperare cu cercetători și organele de control SSM. Refuzul de a coopera în cercetarea accidentelor e încălcare și poate fi sancționat."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006, cap. IV (cooperare) și cap. VI (cercetare): lucrătorului e obligație să coopereze cu cercetători SSM, cu administratorul și cu organele de control. Refuz de cooperare = încălcare. Scopul cercetării e identificarea cauzelor și prevenire — cooperarea protejează angajații din viitor.",
     "tooltipCorrect": "Cooperare în cercetare accidente = obligație. Refuzul e încălcare și poate fi sancționat."
@@ -8716,23 +8716,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, jurnalul personal e suficient pentru înregistrări."
-      },
-      {
-        "id": "B",
         "text": "Nu. Legea 319/2006, cap. VI obligă înregistrare și raportare conform procedurilor legale stabilite. Administratorul ține registru oficial de accidente (conform formularelor și procedurilor) și îl ține la dispoziția organelor de control."
       },
       {
+        "id": "B",
+        "text": "Potrivit reglementării aplicabile, da, jurnalul personal e suficient pentru înregistrări și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Jurnalul e privat și inspecția nu are drept să-l vadă."
+        "text": "În temeiul normelor în vigoare, jurnalul e privat și inspecția nu are drept să-l vadă și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Înregistrări e opțională dacă nu-s accidente grave."
+        "text": "Pe baza evaluării de rutină, înregistrări e opțională dacă nu-s accidente grave și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006, cap. VI: evenimentele (accidente, incidente) se înregistrează și se raportează conform procedurilor legale. Administratorul ține registru oficial (formular standardizat), completează cu date complete (dată, timp, loc, descriere, persoane implicate, martorii, cauze) și îl ține la dispoziția organelor de control (ITM, inspecție SSM).",
     "tooltipCorrect": "Accidente se înregistrează în registru oficial standardizat. Jurnal personal nu e suficient."
@@ -8748,7 +8748,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Administratoarea — nu s-a rănit nimeni, deci nu e raport."
+        "text": "Pe baza dispozițiilor curente, nici una — situații minore nu merita raportare și se raportează conducerii."
       },
       {
         "id": "B",
@@ -8756,11 +8756,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Nici una — situații minore nu merita raportare."
+        "text": "Pe baza evaluării de rutină, administratoarea — nu s-a rănit nimeni, deci nu e raport ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Raportare e doar pentru accidente cu ambulanță."
+        "text": "Conform practicii administrative curente, raportare e doar pentru accidente cu ambulanță ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -8780,23 +8780,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, gravida poate lucra în orice post dacă se simte bine."
+        "text": "Potrivit reglementării aplicabile, da, gravida poate lucra în orice post dacă se simte bine și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Nu. Legea 319/2006, cap. VII obligă adaptare măsuri pentru femei gravide. Riscuri (efort fizic, chimice, alunecări) pot afecta sarcina. Administratoarea trebuie să: retrage din manipulare grele, reduc expunere chimice (mănuși, ventilație), oferă pauze frecvente, adaptează locul pentru ușurare. Medicul muncii evaluează și recomandă restricții."
+        "text": "Potrivit regulamentului intern, gravida ar trebui să-și ia leave de acasă dacă nu e confortabil urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Gravida ar trebui să-și ia leave de acasă dacă nu e confortabil."
+        "text": "Nu. Legea 319/2006, cap. VII obligă adaptare măsuri pentru femei gravide. Riscuri (efort fizic, chimice, alunecări) pot afecta sarcina. Administratoarea trebuie să: retrage din manipulare grele, reduc expunere chimice (mănuși, ventilație), oferă pauze frecvente, adaptează locul pentru ușurare. Medicul muncii evaluează și recomandă restricții."
       },
       {
         "id": "D",
-        "text": "Riscuri de lucru nu afectează bebelușul — placentă protejează."
+        "text": "Conform procedurii interne, riscuri de lucru nu afectează bebelușul — placentă protejează ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006, cap. VII: adaptare măsuri pentru femei gravide. Riscuri documentate în grădiniță (efort fizic, chimice, alunecări, boli infecțioase) pot afecta sarcina. Administratorul luchrează cu medicul muncii pentru a restricționa/adapta sarcini (mut din depozit la birou, reduc chimice, ofere pauze frecvente, picioare ridicate).",
     "tooltipCorrect": "Femei gravide: adaptare măsuri. Reduc efort fizic, chimice, stres. Medicul muncii recomandă restricții."
@@ -8812,23 +8812,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu, clorul nu intra în lapte — nu e risc."
+        "text": "Conform practicii administrative curente, nu, clorul nu intra în lapte — nu e risc și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Corect — poate afecta. Legea 319/2006, cap. VII protejează femei în perioada de alăptare. Clorul și alte chimice nu trebuie să expună alăptare (substanțe pot intra în lapte). Administratoarea trebuie să adapte: mută la birou, reduc chimice, ofere pauze pentru alăptare."
+        "text": "În temeiul normelor în vigoare, riscuri chimice nu intra în lapte matern urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Alăptarea e problema personală a femeii — munca continua normal."
+        "text": "Pe baza evaluării de rutină, alăptarea e problema personală a femeii — munca continua normal urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Riscuri chimice nu intra în lapte matern."
+        "text": "Corect — poate afecta. Legea 319/2006, cap. VII protejează femei în perioada de alăptare. Clorul și alte chimice nu trebuie să expună alăptare (substanțe pot intra în lapte). Administratoarea trebuie să adapte: mută la birou, reduc chimice, ofere pauze pentru alăptare."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006, cap. VII: protecție pentru femei care alăptează. Riscuri documentate (chimice) pot fi absorbite și transferate în lapte. Administratorul adapte măsuri: reduc expunere chimice, ofere pauze pentru alăptare, eventual mut pe post cu risc minim pe perioada alăptării. Medicul muncii recomandă restricții specifice.",
     "tooltipCorrect": "Femei alăptoare: adaptare măsuri. Reduc expunere chimice, ofere pauze. Medicul recomandă restricții."
@@ -8844,23 +8844,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, adolescenți pot lucra cu orice dacă au 16+."
-      },
-      {
-        "id": "B",
         "text": "Nu. Legea 319/2006, cap. VII include tinerii (sub 18 ani) ca grup sensibil. Administratoarea obligată să: asigure instruire specială, supraveghere mai atentă, restricții la munca periculoasă (chimice concentrate, efort fizic greu, riscuri biologice). Medicul muncii evaluează aptitudine."
       },
       {
+        "id": "B",
+        "text": "Potrivit reglementării aplicabile, instruire e opțională dacă tânărul a lucrat înainte urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Instruire e opțională dacă tânărul a lucrat înainte."
+        "text": "Potrivit procedurii stabilite, tinerii nu sunt incluși în categorii sensibile — doar gravide și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Tinerii nu sunt incluși în categorii sensibile — doar gravide."
+        "text": "În temeiul normelor în vigoare, da, adolescenți pot lucra cu orice dacă au 16+ și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006, cap. VII: tinerii (sub 18 ani) sunt grup sensibil. Adolescenții nu sunt coapți biologic/psihologic. Administratorul asigură: instruire specifică, supraveghere cu atenție, restricții munca periculoasă (chimice concentrate, mașini, efort greu). Medicul muncii evaluează apt. și limitări pe vârstă.",
     "tooltipCorrect": "Tineri sub 18 ani: grup sensibil. Instruire specială, supraveghere, restricții munca periculoasă."
@@ -8876,7 +8876,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Dacă nu poate citi etiquete, nu e bun pt depozit — să-l deschidă din grădiniță."
+        "text": "Potrivit procedurii stabilite, angajați cu dizabilități trebuie să accepte orice post și se raportează conducerii."
       },
       {
         "id": "B",
@@ -8884,11 +8884,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Dizabilitatea e problema angajatului — trebuie să-și înlătureze limitările el."
+        "text": "Conform procedurii interne, dacă nu poate citi etiquete, nu e bun pt depozit — să-l deschidă din grădiniță și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Angajați cu dizabilități trebuie să accepte orice post."
+        "text": "Pe baza dispozițiilor curente, dizabilitatea e problema angajatului — trebuie să-și înlătureze limitările el ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -8908,23 +8908,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, asma e condiție medicală personală — grădina nu e responsabilă pentru agravări."
+        "text": "În aplicarea instrucțiunilor unității, muncitor trebuie să ia medicamente și să continue cu aceleași sarcini și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Nu. Legea 319/2006, cap. VII: persoane cu afecțiuni medicale relevante sunt grup sensibil. Asma ocupațională e limitație profesională documentată. Administratoare obligată să evalueze cu medicul și să restricționeze expunere (mut din depozit, ofere masca respiratorie, reduc ore în chimice) conform recomandării medicale."
+        "text": "În aplicarea măsurilor prevăzute, da, asma e condiție medicală personală — grădina nu e responsabilă pentru agravări și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Persoane cu asma nu trebuia angajate în grădiniță."
+        "text": "Nu. Legea 319/2006, cap. VII: persoane cu afecțiuni medicale relevante sunt grup sensibil. Asma ocupațională e limitație profesională documentată. Administratoare obligată să evalueze cu medicul și să restricționeze expunere (mut din depozit, ofere masca respiratorie, reduc ore în chimice) conform recomandării medicale."
       },
       {
         "id": "D",
-        "text": "Muncitor trebuie să ia medicamente și să continue cu aceleași sarcini."
+        "text": "În aplicarea măsurilor prevăzute, persoane cu asma nu trebuia angajate în grădiniță și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006, cap. VII: persoane cu afecțiuni medicale relevante (asma ocupațională) sunt grup sensibil. Administratorul obligat să adaptez măsuri și restricții expunere conform evaluării medicale. Expunere neadaptată la chimice volatile = agravare boală și răspundere juridică.",
     "tooltipCorrect": "Afecțiuni medicale relevante: evaluare medicală și adaptare măsuri. Nu se continuă expunere dacă medicul recomandă restricții."
@@ -8940,23 +8940,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, e egal pentru toți — NU discriminare."
+        "text": "Potrivit procedurii stabilite, da, e egal pentru toți — NU discriminare și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Nu. Legea 319/2006, cap. VII obligă angajator să evalueze riscuri specific pt fiecare grup sensibil (gravide, tineri, dizabilități, alergii). Aceleași riscuri afectează diferit pe fiecare. Administratoare trebuie să: evalueze medical, restricționez/adapte sarcini individual (gravidă mut din depozit, tânăr cu supraveghere + instruire, spinal fără grele, alergii cu masca/filtru)."
+        "text": "În aplicarea instrucțiunilor unității, evaluare individuală e discriminare — trebuie trătat egali pe toți și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Evaluare individuală e discriminare — trebuie trătat egali pe toți."
+        "text": "Conform procedurii interne, riscuri sunt obiective — nu depinde de grup și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Riscuri sunt obiective — nu depinde de grup."
+        "text": "Nu. Legea 319/2006, cap. VII obligă angajator să evalueze riscuri specific pt fiecare grup sensibil (gravide, tineri, dizabilități, alergii). Aceleași riscuri afectează diferit pe fiecare. Administratoare trebuie să: evalueze medical, restricționez/adapte sarcini individual (gravidă mut din depozit, tânăr cu supraveghere + instruire, spinal fără grele, alergii cu masca/filtru)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006, cap. VII: angajatorul obligat să evalueze riscuri și adaptez măsuri individual pt fiecare persoană din grup sensibil. Egalitate ≠ identitate. Tratament egal pentru toți = greșit (ignora nevoile specifice). Tratament diferențiat pe baza riscurilor = corect și obligatoriu. Medicul muncii evaluează și recomandă restricții.",
     "tooltipCorrect": "Grupuri sensibile: evaluare individuală și adaptare măsuri specific pe baza riscurilor."
@@ -8972,23 +8972,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Asteapta pâna mâine și merge la doctor particular — administratoare nu e responsabilă."
-      },
-      {
-        "id": "B",
         "text": "(1) Anunță IMEDIAT administratoare (cap. IV — comunicare imediată), (2) Administrator ofere prim-ajutor și-o trimite la control medical urgent (cap. V — supraveghere medicală după expunere), (3) Cercetează cauza — de ce ventilație era defectă? (cap. VI — cercetare), (4) Documentează și raportează eveniment (cap. VI — înregistrare), (5) Reparează ventilație și instruiește personalul (cap. IV — măsuri prevenire)."
       },
       {
+        "id": "B",
+        "text": "Conform practicii administrative curente, asteapta pâna mâine și merge la doctor particular — administratoare nu e responsabilă urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Administratoare notează în jurnal și amâna cercetarea la sfârsit de lună."
+        "text": "În aplicarea instrucțiunilor unității, muncitoare e responsabil — trebuia să verifice ventilație înainte de lucru urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Muncitoare e responsabil — trebuia să verifice ventilație înainte de lucru."
+        "text": "Pe baza evaluării de rutină, administratoare notează în jurnal și amâna cercetarea la sfârsit de lună urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006: (cap. IV) lucrătorului anunță IMEDIAT situație periculoasă. (Cap. V) Administrator ofere control medical urgent și evaluează riscuri chimice. (Cap. VI) Cercetează cauza (ventilație defectă) și documentează. (Cap. IV) Reparează și instruiește prevenție. Lanț: comunicare → acuzie medicală → investigație → reparație → instruire.",
     "tooltipCorrect": "Accident chimic: anunț → medicină → cercetare → reparație → instruire. Toate obligații cap. IV-VI aplică."
@@ -9004,7 +9004,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Curățenia e mai importantă — move scara și gata."
+        "text": "Pe baza dispozițiilor curente, administratoare poate muta dacă nu-s martorii pe-acolo urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -9012,11 +9012,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Scara e doar instrument — ce dovadă are pentru cercetare?"
+        "text": "Potrivit procedurii stabilite, scara e doar instrument — ce dovadă are pentru cercetare ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Administratoare poate muta dacă nu-s martorii pe-acolo."
+        "text": "Conform procedurii interne, curățenia e mai importantă — move scara și gata urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -9036,23 +9036,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e problema administrației — etichetă e responsabilitate furnizorului."
+        "text": "În temeiul normelor în vigoare, probleme respiratorii sunt allergie personală, nu risc profesional și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "(Cap. IV) NU-și putea folosi chimic fără instrucțiuni corecte — administratoare obligată să cerere etichetă în limba locului și să instruiască. (Cap. V) Obligată să asigure supraveghere medicală pt riscul chimic (control la angajare, periodic, și după expunere/probleme). Trei muncitori cu probleme respiratorii = semnale de expunere neadaptate și necesitate control medical urgent."
+        "text": "Potrivit procedurii stabilite, muncitori au responsabilitate personală de a citi etichete ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Muncitori au responsabilitate personală de a citi etichete."
+        "text": "(Cap. IV) NU-și putea folosi chimic fără instrucțiuni corecte — administratoare obligată să cerere etichetă în limba locului și să instruiască. (Cap. V) Obligată să asigure supraveghere medicală pt riscul chimic (control la angajare, periodic, și după expunere/probleme). Trei muncitori cu probleme respiratorii = semnale de expunere neadaptate și necesitate control medical urgent."
       },
       {
         "id": "D",
-        "text": "Probleme respiratorii sunt allergie personală, nu risc profesional."
+        "text": "Pe baza dispozițiilor curente, nu e problema administrației — etichetă e responsabilitate furnizorului și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006: (cap. IV) substanțe pericolase se folosesc numai cu documente (etichetă, fișă de siguranță) în limba locului și instruire de administrator. Fără etichetă NU se folosește. (Cap. V) Riscuri chimice necesită supraveghere medicală, control periodic și urgent după expunere. Trei muncitori cu probleme = dovadă că măsuri medicale lipseau.",
     "tooltipCorrect": "Substanțe chimice: etichetă obligatorie, instruire obligatorie, medicină obligatorie. Lipsă = infracțiune SSM."
@@ -9068,23 +9068,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Muncitoare trebuie să-și termine turnu — gravida e decizie personală."
+        "text": "Pe baza evaluării de rutină, gaz pe scurt nu dăunează copilul — muncitoare poate continua și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "(Cap. VII) Prioritate: IMEDIAT retrage din expunere chimică (gaz). Femei gravide = grup sensibil — riscuri chimice pot afecta sarcina. (Cap. IV) Anunță IMEDIAT conducere despre expunere la gaz (pericol). (Cap. V) Control medical urgent (evaluare sarcină după expunere). (Cap. IV) Reparează scurgere și instruiește prevenție. Ordinea: retrage din pericol → medicină urgentă → reparație → instruire."
+        "text": "Potrivit procedurii stabilite, administratoare trebuie să-i ofere doar mască de protecție și gata și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Gaz pe scurt nu dăunează copilul — muncitoare poate continua."
+        "text": "Conform procedurii interne, muncitoare trebuie să-și termine turnu — gravida e decizie personală și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Administratoare trebuie să-i ofere doar mască de protecție și gata."
+        "text": "(Cap. VII) Prioritate: IMEDIAT retrage din expunere chimică (gaz). Femei gravide = grup sensibil — riscuri chimice pot afecta sarcina. (Cap. IV) Anunță IMEDIAT conducere despre expunere la gaz (pericol). (Cap. V) Control medical urgent (evaluare sarcină după expunere). (Cap. IV) Reparează scurgere și instruiește prevenție. Ordinea: retrage din pericol → medicină urgentă → reparație → instruire."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006: (cap. VII) femei gravide = grup sensibil protejat. Expunere la gaz = risc iminent pentru sarcină. Prioritate: retrage din pericol IMEDIAT. (Cap. IV) anunț conducere și lucrători despre pericol. (Cap. V) control medical urgent după expunere chimică. (Cap. IV) reparează scurgere și instruiește. Lanț: protecție gravidă → alertă → medicină → reparație.",
     "tooltipCorrect": "Gravide în pericol chimic: retrage IMEDIAT, medicină urgent, reparație, instruire."
@@ -9100,23 +9100,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Muncitor — a refuzat EIP."
-      },
-      {
-        "id": "B",
         "text": "Ambii. (Cap. IV) Administratoare oferse EIP și instruiție — aceea e obligație îndeplinit. (Cap. IV) Muncitor refuza EIP și este încălcare a obligației sale de a-l utiliza. (Cap. VI) Accident se raportează oricare. Responsabilitate mixtă: administratoare nu-l forța pe muncitor să refuze (avea supraveghere?), și muncitor încălcă obligație. În litigiu, instanța evaluează cât fiecare contributed."
       },
       {
+        "id": "B",
+        "text": "Potrivit reglementării aplicabile, muncitor — a refuzat EIP și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Administratoare — nu-i impuse muncitorului."
+        "text": "Potrivit regulamentului intern, nici nu — e accident personal al muncitorului și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Nici nu — e accident personal al muncitorului."
+        "text": "În aplicarea instrucțiunilor unității, administratoare — nu-i impuse muncitorului și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006: (cap. IV) Administratoare obligată să ofere EIP și instruire — ASTA e făcut. (Cap. IV) Muncitor obligat să-l utilizeze corect — refuz = încălcare a obligației. (Cap. VI) Accident se raportează indiferent. Responsabilitate mixtă: administratoare ar trebui să supravegheze și să forțeze utilizare EIP (supraveghea și sancționa refuzul); muncitor încalcă obligație prin refuz. Instanța decide după probă care parte e mai vinovat.",
     "tooltipCorrect": "EIP refuzat: ambii au obligații. Administratoare ofere + supraveghea; muncitor utilizează. Refuzul e încălcare."
@@ -9132,25 +9132,25 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Tânărul — ar trebui să citească și să gândească."
+        "text": "Conform procedurii interne, tânărul NU trebuia angajat în depozit — asta e greșeala inițiala urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Administratore. (Cap. IV) Instruire nu e doar \"citit etichetă\" — trebuie instruire detaliat despre utilizare, compatibilitate, riscuri. (Cap. VII) Tineri = grup sensibil — necesită supraveghere ATENTĂ și instruire SPECIFICĂ (nu-s coapți pt riscuri chimice). Administratoare NU asigurā nici una — pune tânăr în risc fără supraveghiere. Responsabilitate amministrației."
+        "text": "Administratore. (Cap. IV) Instruire nu e doar \"citit etichetă\" — trebuie instruire detaliat despre utilizare, compatibilitate, riscuri. (Cap. VII) Tineri = grup sensibil — necesită supraveghere ATENTĂ și instruire SPECIFICĂ (nu-s coapți pt riscuri chimice). Administratoare NU asigură nicio măsură — pune tânăr în risc fără supraveghiere. Responsabilitate amministrației."
       },
       {
         "id": "C",
-        "text": "Nici nu — muncitor era adult suficient de a lucra."
+        "text": "Potrivit procedurii stabilite, tânărul — ar trebui să citească și să gândească și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Tânărul NU trebuia angajat în depozit — asta e greșeala inițiala."
+        "text": "În aplicarea instrucțiunilor unității, nici nu — muncitor era adult suficient de a lucra și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
       "B"
     ],
-    "explanation": "Legea 319/2006: (cap. IV) instruire detaliată e obligație. \"Citit etichetă\" nu e instruire — trebuie explicare practică. (Cap. VII) tineri (sub 18) = grup sensibil care necesită supraveghere atentă și instruire specifică + restricții. Administratoare omise ambele. Responsabilitate: administratoare nu asigurā instruire nici supraveghere pt grup sensibil.",
+    "explanation": "Legea 319/2006: (cap. IV) instruire detaliată e obligație. \"Citit etichetă\" nu e instruire — trebuie explicare practică. (Cap. VII) tineri (sub 18) = grup sensibil care necesită supraveghere atentă și instruire specifică + restricții. Administratoare omise ambele. Responsabilitate: administratoare nu asigură instruire nici supraveghere pt grup sensibil.",
     "tooltipCorrect": "Tineri: instruire detaliat + supraveghere atentă + restricții. \"Citit etichetă\" nu e instruire."
   },
   {
@@ -9164,23 +9164,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, e bine sa-și termina sarcina întâi."
+        "text": "În aplicarea măsurilor prevăzute, 30 minute nu e delay substanțial dacă gaz e ușor și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Nu. (Cap. IV) Obligație de anunțare IMEDIATĂ pentru orice situație care poate produce accident. Miros de gaz = pericol iminent (explozie, intoxicație). Trebuie anunțat ACUM, nu peste 30 min. Delay risca expunere continuă a altor persoane și persoane. (Cap. VI) Apoi se cercetează sursa."
+        "text": "În aplicarea măsurilor prevăzute, da, e bine sa-și termina sarcina întâi ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "30 minute nu e delay substanțial dacă gaz e ușor."
+        "text": "Nu. (Cap. IV) Obligație de anunțare IMEDIATĂ pentru orice situație care poate produce accident. Miros de gaz = pericol iminent (explozie, intoxicație). Trebuie anunțat ACUM, nu peste 30 min. Delay risca expunere continuă a altor persoane și persoane. (Cap. VI) Apoi se cercetează sursa."
       },
       {
         "id": "D",
-        "text": "Miros de gaz se raportează doar dacă-l simt mai multi oameni."
+        "text": "În aplicarea măsurilor prevăzute, miros de gaz se raportează doar dacă-l simt mai multi oameni și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006: (cap. IV) anunț IMEDIAT conducătorului locului de muncă pentru orice situație ce poate produce accident/îmbolnăvire. Miros de gaz = pericol iminent (explozie, intoxicație, asphixie). Nu se amână. (Cap. VI) după anunț, se cercetează sursa și se întreprind măsuri (evacuare, verificare installer gaz, reparație).",
     "tooltipCorrect": "Miros de gaz = anunț IMEDIAT. Nu se amână. Risc iminent."
@@ -9196,23 +9196,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nici una — alunecări sunt inevitabile în baie."
+        "text": "Conform practicii administrative curente, după 4 alunecări, administratoare ar trebui să închidă grupa sanitară și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "(Cap. IV) Administratoare obligată să asigure locul de muncă sigur — cojocuri antiderapante, uscare periodică, semnalizare. (Cap. V) După fiecare accident, control medical pentru evaluare leziuni și adaptare. După 4 accidente, pattern = risc cronice. Administratoare negligență să ia măsuri și să protejeze personalul. Obligații cap. IV (protecție loc) și cap. V (medicină după accident) sunt încălcate."
+        "text": "În aplicarea măsurilor prevăzute, măsuri sunt responsabilitate muncitorilor — trebuie să meargă mai atent ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Măsuri sunt responsabilitate muncitorilor — trebuie să meargă mai atent."
+        "text": "În aplicarea măsurilor prevăzute, nici una — alunecări sunt inevitabile în baie ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "După 4 alunecări, administratoare ar trebui să închidă grupa sanitară."
+        "text": "(Cap. IV) Administratoare obligată să asigure locul de muncă sigur — cojocuri antiderapante, uscare periodică, semnalizare. (Cap. V) După fiecare accident, control medical pentru evaluare leziuni și adaptare. După 4 accidente, pattern = risc cronice. Administratoare negligență să ia măsuri și să protejeze personalul. Obligații cap. IV (protecție loc) și cap. V (medicină după accident) sunt încălcate."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006: (cap. IV) administratore obligată să asigure locul de muncă sigur — cojocuri, uscare, semnalizare. (Cap. V) riscul de alunecări/căderi = risc fizic care necesită supraveghere medicală și control după accident. După 4 accidente = pattern clar de risc nemanagejat. Administratoare neglijează obligații.",
     "tooltipCorrect": "Alunecări repetate: administratore pune cojocuri, uscare, semnalizare. După accident: control medical pentru angajați."
@@ -9224,27 +9224,27 @@ export const questions = [
     "difficulty": "scenario",
     "sourceAct": "Legea nr. 319/2006, cap. IV, V",
     "type": "single",
-    "question": "Grădina primeste sac cu pulbere neetichetat (destinată curățenie — cineva zice). Administratoare nu știe compoziție, riscuri, cum să-l használ. Pune la dispoziția muncitorilor. Ce prevederi din Legea 319/2006 încalcă?",
+    "question": "Grădina primeste sac cu pulbere neetichetat (destinată curățenie — cineva zice). Administratoare nu știe compoziție, riscuri, cum să-l folosească. Pune la dispoziția muncitorilor. Ce prevederi din Legea 319/2006 încalcă?",
     "options": [
       {
         "id": "A",
-        "text": "Nici una — dacă-i pentru curățenie, nu-i periculos."
-      },
-      {
-        "id": "B",
         "text": "(Cap. IV) Utilizare substanțe — obligație: NUMAI cu documente (etichetă, fișă de siguranță care specifică compoziție, riscuri, EIP, prim-ajutor). Fără documente, NU se folosește. (Cap. V) Riscuri chimice necesită supraveghere medicală. Administratoare nu poate asigura nici una fără cunoștință compoziție. Dacă cineva se rănești, nici prim-ajutor nu se poate offeri. Încălcare graves."
       },
       {
+        "id": "B",
+        "text": "Potrivit regulamentului intern, muncitori trebuie să testeze pe braț și să vadă daca-i sigur ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Muncitori trebuie să testeze pe braț și să vadă daca-i sigur."
+        "text": "Conform procedurii interne, nici una — dacă-i pentru curățenie, nu-i periculos și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Etichetă e doar recomandare, nu obligație."
+        "text": "Pe baza evaluării de rutină, etichetă e doar recomandare, nu obligație ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006: (cap. IV) substanțe periculoase se utilizează NUMAI cu documente complete (etichetă, fișă siguranță) în limba locului. Fără documente = NU se folosește. (Cap. V) riscuri chimice necesită supraveghere medicală și cunoștință despre efecte. Administratore incapabil să asigure nici una. Pericol de rănire și neizbăvitor prim-ajutor.",
     "tooltipCorrect": "Substanțe nedocumentate: NU se folosesc. E obligație să returnezi și să ceri documente complete."
@@ -9260,7 +9260,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Respectă dorința muncitorului — nu-i forța să raporteze."
+        "text": "Conform procedurii interne, muncitor are drept la confidențialitate — nu-i poate obliga sa-și accepte dispozitiv și se raportează conducerii."
       },
       {
         "id": "B",
@@ -9268,11 +9268,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Muncitor are drept la confidențialitate — nu-i poate obliga sa-și accepte dispozitiv."
+        "text": "În aplicarea instrucțiunilor unității, respectă dorința muncitorului — nu-i forța să raporteze ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Detector fals alarme — nu-i pericol real."
+        "text": "Pe baza evaluării de rutină, detector fals alarme — nu-i pericol real ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -9292,23 +9292,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu — administratoare nu-i responsabil de agravări ulterioare."
+        "text": "Potrivit reglementării aplicabile, controlul medical e opțional pentru accidente mici și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Da, poate. (Cap. V) Administratoare obligată să asigure control medical URGENT după accident — oricât de mic par. (Cap. VI) Cercetare și înregistrare accidente sunt obligații. Lipsă control medic = lipsă evaluare leziunii și diagnostic. Delayed care = risc agravare și nedetectare fracturi/lesiuni interne. Tribunal poate susține că administratoare neglijență în SSM și-i obliga la despăgubiri."
+        "text": "Conform practicii administrative curente, nu — administratoare nu-i responsabil de agravări ulterioare urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Muncitor trebuia să-i forțeze administratoare să-l trimită."
+        "text": "Da, poate. (Cap. V) Administratoare obligată să asigure control medical URGENT după accident — oricât de mic par. (Cap. VI) Cercetare și înregistrare accidente sunt obligații. Lipsă control medic = lipsă evaluare leziunii și diagnostic. Delayed care = risc agravare și nedetectare fracturi/lesiuni interne. Tribunal poate susține că administratoare neglijență în SSM și-i obliga la despăgubiri."
       },
       {
         "id": "D",
-        "text": "Controlul medical e opțional pentru accidente mici."
+        "text": "În temeiul normelor în vigoare, muncitor trebuia să-i forțeze administratoare să-l trimită și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006: (cap. V) control medical după accident (oricât de mic) este obligatoriu pt evaluare leziuni. (Cap. VI) înregistrare și cercetare sunt obligații. Lipsă control medic = lipsă diagnostic și eventual mascare leziuni serioase. Delayed care poate agrava stare și deține muncitor. Tribunal poate susține cerere și obliga la despăgubiri.",
     "tooltipCorrect": "După accident: control medical IMEDIAT. Lipsă = neglijență și potențial despăgubiri juridice."
@@ -9324,23 +9324,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Avertisment verbal suficient — nu se poate lua altă măsură."
+        "text": "Pe baza dispozițiilor curente, muncitor are drept de refuza EIP — e decizie personală urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "(Cap. IV) După avertismente și instruiți documentate, muncitorul continuă să refuze = incălcare persistentă a obligației. Administratore trebuie să: (1) Emite avertisment scris cu dată, (2) Suspendă de la sarcini chimice temporar (redirectez pe alt post), (3) Raportez conducerii și organelor de control (ITM, inspecție SSM), (4) Dacă refuzul continua, proces disciplinar poate urma — până la destituire pt incălcare repetată obligații SSM."
+        "text": "Pe baza evaluării de rutină, administratore NU poate suspenda de la sarcini — e discriminare și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Muncitor are drept de refuza EIP — e decizie personală."
+        "text": "Potrivit reglementării aplicabile, avertisment verbal suficient — nu se poate lua altă măsură ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Administratore NU poate suspenda de la sarcini — e discriminare."
+        "text": "(Cap. IV) După avertismente și instruiți documentate, muncitorul continuă să refuze = incălcare persistentă a obligației. Administratore trebuie să: (1) Emite avertisment scris cu dată, (2) Suspendă de la sarcini chimice temporar (redirectez pe alt post), (3) Raportez conducerii și organelor de control (ITM, inspecție SSM), (4) Dacă refuzul continua, proces disciplinar poate urma — până la destituire pt incălcare repetată obligații SSM."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006, cap. IV: utilizare EIP e obligație. Refuzul persistent = incălcare. Administratore documentează (avertisment scris), suspendă de la sarcini riscante, raportează conducere și ITM. Dacă refuza continua, proces disciplinar. Suspensie de post chimice = măsură de protecție, nu discriminare — scop e protecția muncitorului și altora.",
     "tooltipCorrect": "Refuz persistent EIP: avertisment scris, suspensie sarcini riscante, raportare conducere și ITM."
@@ -9356,23 +9356,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "E deal privat între ei — inspecția SSM nu trebuie implicată."
-      },
-      {
-        "id": "B",
         "text": "Grave implicații. (Cap. VI) Anunțare și raportare accidente sunt obligații LEGALE, nu negociabile. Ascundere = încălcare și posibil penal (falsificarea registrelor, sustragere probă). Muncitor e și complice. Administratore risca: sancțiune SSM, amenda contravențională, pedeapsa penală (în cazuri grave), plus responsabilitate civilă pentru despăgubiri muncitorului (dacă leziunile se agravează fără tratament). ITM și inspecție SSM investighez."
       },
       {
+        "id": "B",
+        "text": "Potrivit reglementării aplicabile, ascundere accidente e normal pt a nu afecta imagine grădiniței ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Muncitor e responsabil — administratoare doar încasează zvonuri."
+        "text": "Conform practicii administrative curente, E deal privat între ei — inspecția SSM nu trebuie implicată ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Ascundere accidente e normal pt a nu afecta imagine grădiniței."
+        "text": "Potrivit regulamentului intern, muncitor e responsabil — administratoare doar încasează zvonuri și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006, cap. VI: anunțare și raportare accidente sunt obligații legale absolute, nu negociabile. Ascundere = încălcare penală. Administratore risca pedeapsa penală (fals registru, sustragere probă), amenda contravențională SSM, responsabilitate civila. Muncitor e complice și risca sancțiune disciplinară. ITM investighez și raportează.",
     "tooltipCorrect": "Accidente nu se ascund. Ascundere = infracțiune penală și civila."
@@ -9388,7 +9388,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Administratoare e corect — prefect trebuie să autorizeze inspectii."
+        "text": "Conform practicii administrative curente, cooperare cu inspecție e opțională dacă nu-s infracțiuni grave și se raportează conducerii."
       },
       {
         "id": "B",
@@ -9396,11 +9396,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Registru e proprietate grădiniței și NU poate fi asta cu outsider."
+        "text": "În aplicarea instrucțiunilor unității, administratoare e corect — prefect trebuie să autorizeze inspectii urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Cooperare cu inspecție e opțională dacă nu-s infracțiuni grave."
+        "text": "În aplicarea măsurilor prevăzute, registru e proprietate grădiniței și NU poate fi asta cu outsider ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -9420,23 +9420,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nici una — COVID e pandemi global, nu risc profesional."
+        "text": "Conform practicii administrative curente, nici una — COVID e pandemi global, nu risc profesional urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "(Cap. V) Riscuri biologice în grădiniță (contact infecții) necesită: (1) Supraveghere medicală adecuată (control la angajare, periodic, după expuneri), (2) Evaluare vaccinări și oferta vaccinului (COVID, gripă), (3) EIP corespunzător (masca) cand risc. Administratoare omise toate. Expunere neadaptată + lipsă control medic = neglijență graves SSM."
+        "text": "Pe baza evaluării de rutină, muncitoare e responsabil de propriul statut vaccinare ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Muncitoare e responsabil de propriul statut vaccinare."
+        "text": "(Cap. V) Riscuri biologice în grădiniță (contact infecții) necesită: (1) Supraveghere medicală adecuată (control la angajare, periodic, după expuneri), (2) Evaluare vaccinări și oferta vaccinului (COVID, gripă), (3) EIP corespunzător (masca) cand risc. Administratoare omise toate. Expunere neadaptată + lipsă control medic = neglijență graves SSM."
       },
       {
         "id": "D",
-        "text": "Masca nu-i necesară în copii — nu transmit boli."
+        "text": "Pe baza evaluării de rutină, masca nu-i necesară în copii — nu transmit boli și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006, cap. V: riscuri biologice în grădiniță (contact infecții de la copii) necesită supraveghere medicală, control periodic, oferta vaccinurilor și EIP cand risc. Administratore obligată să evalueze și oferă măsuri. Omitere = neglijență SSM care poate duce la boli profesionale și despăgubiri.",
     "tooltipCorrect": "Riscuri biologice în grădiniță: supraveghere medicală, vaccinuri oferta, masca la risc."
@@ -9452,23 +9452,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Instrucțiunea e suficientă — muncitor trebuie să ghichească."
+        "text": "Pe baza dispozițiilor curente, instrucțiuni lungă sunt împovărătoare — scurt e mai bine și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Muncitor are dreptate. (Cap. IV) Instrucțiuni de lucru trebuie să fie specifice, clare, scrise în limba locului, și să includ: riscuri identificate (chimice, fizice, biologice), metode corecte, EIP necesar, prim-ajutor. \"Nu faceți greșeli\" nu e instrucțiune. Administratoare trebuie să redacteze clar cu detalii."
+        "text": "Potrivit reglementării aplicabile, instrucțiunea e suficientă — muncitor trebuie să ghichească urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Scris ne e suficient — muncitor trebuie doar verbal instruita."
+        "text": "Conform practicii administrative curente, scris ne e suficient — muncitor trebuie doar verbal instruita ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Instrucțiuni lungă sunt împovărătoare — scurt e mai bine."
+        "text": "Muncitor are dreptate. (Cap. IV) Instrucțiuni de lucru trebuie să fie specifice, clare, scrise în limba locului, și să includ: riscuri identificate (chimice, fizice, biologice), metode corecte, EIP necesar, prim-ajutor. \"Nu faceți greșeli\" nu e instrucțiune. Administratoare trebuie să redacteze clar cu detalii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006, cap. IV: instrucțiuni de lucru trebuie să fie clare, specifice și detaliate. Trebuie să includ riscuri (chimice, fizice), metode corecte, EIP, prim-ajutor, acces, reguli. Redactare vagă = ineficace. Administratore trebuie să redacteze și să verifice că muncitorul a înțeles.",
     "tooltipCorrect": "Instrucțiuni de lucru: clare, specifice, cu riscuri, EIP, metode, prim-ajutor. Verbal + scris."
@@ -9484,23 +9484,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, toți trebuie să știe despre medicale muncitorilor."
-      },
-      {
-        "id": "B",
         "text": "Nu. (Cap. V) Informații medicale sunt confidențiale conform legii privității datelor. Administratore NU poate dezvălui diagnostic public. Diagnosticul se comunică NUMAI muncitorului și se utilizează intern (restricții sarcini) confidențial. Dezvălui = încălcare confidențialitate și poate fi sancționat."
       },
       {
+        "id": "B",
+        "text": "În aplicarea măsurilor prevăzute, da, toți trebuie să știe despre medicale muncitorilor și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Diagnostic e informație publică pe locul de muncă."
+        "text": "Conform practicii administrative curente, toți trebuie să evite să dăuneze muncitoare cu asma — trebuie public ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Toți trebuie să evite să dăuneze muncitoare cu asma — trebuie public."
+        "text": "În aplicarea instrucțiunilor unității, diagnostic e informație publică pe locul de muncă și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006, cap. V și legislație privității: informații medicale sunt confidențiale. Administratore poate cunoaște diagnostic pt a lua măsuri, dar NU-l dezvălui public. Comunicare se face privat cu muncitorul și restricții se implementază confidențial. Dezvălui = încălcare confidențialitate și discriminare potențiala.",
     "tooltipCorrect": "Informatii medicale: confidențiale. Administratore le utilizează privat pentru restricții, nu le publică."
@@ -9516,7 +9516,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Administratoare are dreptate — controlul periodic e suficient."
+        "text": "Pe baza evaluării de rutină, administratoare are dreptate — controlul periodic e suficient ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -9524,11 +9524,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Simptome minore — nu justifica control urgent."
+        "text": "Pe baza dispozițiilor curente, simptome minore — nu justifica control urgent și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Muncitor trebuie să meargă la doctor particular dacă-i urgent."
+        "text": "Pe baza dispozițiilor curente, muncitor trebuie să meargă la doctor particular dacă-i urgent ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -9548,23 +9548,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu — ambii sunt egali — neglijență și intenție sunt același nivel de incălcare."
+        "text": "În aplicarea măsurilor prevăzute, neglijența e mai gravă decât intenție în SSM urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Da — e diferență în responsabilitate. (Cap. IV) NU se blochează dispozitive, indiferent intenție. Dar: Neglijență (distragere) = avertisment și instruire. Intenție (deliberat) = încălcare graves, care putea fi sancționată mai aspru (avertisment scris, suspensie temporara, proces disciplinar). Ambii sunt incălcări, dar intenție e mai gravă și risca pedeapsa harsher."
+        "text": "Potrivit regulamentului intern, nu — ambii sunt egali — neglijență și intenție sunt același nivel de incălcare ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Intenție nu contează în SSM — doar acțiunea contează."
+        "text": "Da — e diferență în responsabilitate. (Cap. IV) NU se blochează dispozitive, indiferent intenție. Dar: Neglijență (distragere) = avertisment și instruire. Intenție (deliberat) = încălcare graves, care putea fi sancționată mai aspru (avertisment scris, suspensie temporara, proces disciplinar). Ambii sunt incălcări, dar intenție e mai gravă și risca pedeapsa harsher."
       },
       {
         "id": "D",
-        "text": "Neglijența e mai gravă decât intenție în SSM."
+        "text": "Conform practicii administrative curente, intenție nu contează în SSM — doar acțiunea contează și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006, cap. IV: blocarea dispozitivelor e prohibit, indiferent motivație. Dar în sancționare, Intenție (deliberat) vs. neglijență (distragere) sunt factori. Ambii sunt incălcări, dar intenție e mai gravă și putea duce la sancțiuni mai serioase. Administratore ajustează pedeapsa după context și intenție.",
     "tooltipCorrect": "Blocare dispozitiv: prohibit indiferent. Intenție e mai gravă decât neglijență în sancționare."
@@ -9580,23 +9580,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, înregistrare e numai pentru accidente clar grave."
+        "text": "Pe baza evaluării de rutină, da, înregistrare e numai pentru accidente clar grave ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Nu. (Cap. VI) Orice accident cu vătămare corporală (chiar mic — pân, vânătaie) trebuie înregistrat în registru oficial. Criteriu: a existat contacte și a existat vătămare corporală (chiar mică). Administratore obligată să înregistreze data, ora, loc, descriere, martorii, cauze și investigație."
+        "text": "În temeiul normelor în vigoare, pândor vânătaie nu sunt vătămări — nu se înregistrează și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Registru oficiel e numai pt accidente cu absență de la lucru."
+        "text": "În aplicarea măsurilor prevăzute, registru oficiel e numai pt accidente cu absență de la lucru urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Pândor vânătaie nu sunt vătămări — nu se înregistrează."
+        "text": "Nu. (Cap. VI) Orice accident cu vătămare corporală (chiar mic — pân, vânătaie) trebuie înregistrat în registru oficial. Criteriu: a existat contacte și a existat vătămare corporală (chiar mică). Administratore obligată să înregistreze data, ora, loc, descriere, martorii, cauze și investigație."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006, cap. VI: orice accident cu vătămare corporală se înregistrează în registru oficial. \"Mic\" NU e criteriu de excludere. Pân, vânătaie sunt vătămări și trebuie înregistrate. Administratore documentează complet.",
     "tooltipCorrect": "Orice accident cu vătămare (chiar mic) se înregistrează. Registru oficial = obligatoriu."
@@ -9612,23 +9612,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu — muncitor refuza și pleacă — e decizia lui."
-      },
-      {
-        "id": "B",
         "text": "Administratore e parțial responsabil. (Cap. VI) După accident, administratore obligată să ofere prim-ajutor și control medical. Chiar dacă muncitor refuza, administratore trebuie să: (1) Documente refuzul în scris (semnate), (2) Informează muncitorul despre riscuri non-evaluare (agravare potențiala), (3) Ofere control medical din nou. Lipsă documentare refuzului = neglijență administratorului. Tribunal poate susține cerere muncitorului."
       },
       {
+        "id": "B",
+        "text": "Pe baza evaluării de rutină, muncitor are control total — administratore nu-i responsabil și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Muncitor are control total — administratore nu-i responsabil."
+        "text": "În aplicarea măsurilor prevăzute, agravări ulterioare sunt responsabilitate muncitorului, nu administratorului urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Agravări ulterioare sunt responsabilitate muncitorului, nu administratorului."
+        "text": "Potrivit reglementării aplicabile, nu — muncitor refuza și pleacă — e decizia lui urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 319/2006, cap. VI: administratore obligată să ofere prim-ajutor și control medical după accident. Chiar refuzul muncitorului, administratore trebuie să documenze refuzul (scris), să informeze despre riscuri și să ofere din nou control. Lipsă documentare = neglijență. Tribunal poate susține cerere muncitorului.",
     "tooltipCorrect": "După accident: ofere prim-ajutor și control medical. Refuzul se documentează scris."
@@ -9644,7 +9644,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da — colegii trebuia să anunțe."
+        "text": "În aplicarea măsurilor prevăzute, muncitoare care s-a îmbolnăvit e responsabil — ar trebui să-și păzească sănătatea și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -9652,11 +9652,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Administratore singur e responsabil — colegii nu conteaza."
+        "text": "În temeiul normelor în vigoare, administratore singur e responsabil — colegii nu conteaza urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Muncitoare care s-a îmbolnăvit e responsabil — ar trebui să-și păzească sănătatea."
+        "text": "Pe baza evaluării de rutină, da — colegii trebuia să anunțe ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -9676,23 +9676,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Administratore nu-i obligat să reevalueze — echipament e nou, nu riscuri vecii."
+        "text": "Conform procedurii interne, administratore nu-i obligat să reevalueze — echipament e nou, nu riscuri vecii și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Obligații lipsă. (Cap. IV+V) Schimbare in loc de muncă (echipament, materiale) necesită reevaluare riscuri și re-instruire. Administratore obligată să: (1) Identifice riscuri UV (pericol ochi, piele), (2) Instruieze muncitori despre utilizare sigură, EIP (protecție ochi), pericole, (3) Asigure supraveghere medicală pt riscuri noi (control ochi periodic). Omitere = incălcare și risc accident."
+        "text": "Potrivit procedurii stabilite, echipament UV e sigur — nu-i risc real ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Echipament UV e sigur — nu-i risc real."
+        "text": "Obligații lipsă. (Cap. IV+V) Schimbare in loc de muncă (echipament, materiale) necesită reevaluare riscuri și re-instruire. Administratore obligată să: (1) Identifice riscuri UV (pericol ochi, piele), (2) Instruieze muncitori despre utilizare sigură, EIP (protecție ochi), pericole, (3) Asigure supraveghere medicală pt riscuri noi (control ochi periodic). Omitere = incălcare și risc accident."
       },
       {
         "id": "D",
-        "text": "Muncitori trebuie singuri să citească manual echipament."
+        "text": "Potrivit regulamentului intern, muncitori trebuie singuri să citească manual echipament și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 319/2006, cap. IV+V: schimbări în loc de muncă (echipament, materiale) necesită reevaluare riscuri și re-instruire. Administratore obligată să identifice riscuri (UV pentru ochi și piele), să instruieze muncitori și să asigure supraveghere medicală. Omitere = incălcare și risc accident.",
     "tooltipCorrect": "Schimbări în locul de muncă: reevaluare riscuri, re-instruire, supraveghere medicală."
@@ -9708,23 +9708,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Așteaptă să vadă dacă apare flacără, apoi anunță conducătorului."
+        "text": "Potrivit procedurii stabilite, stinge zona cu apă de la robinetul din grupul sanitar și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Deconectează sursa (fără a se expune), anunță imediat, declanșează evacuarea organizată a copiilor fără panică, fără a-și pune viața în pericol."
+        "text": "În temeiul normelor în vigoare, așteaptă să vadă dacă apare flacără, apoi anunță conducătorului și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Ascunde cutiile de materiale ca să nu se vadă la controlul de securitate."
+        "text": "Conform practicii administrative curente, ascunde cutiile de materiale ca să nu se vadă la controlul de securitate."
       },
       {
         "id": "D",
-        "text": "Stinge zona cu apă de la robinetul din grupul sanitar."
+        "text": "Deconectează sursa (fără a se expune), anunță imediat, declanșează evacuarea organizată a copiilor fără panică, fără a-și pune viața în pericol."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — orice situație ce poate produce incendiu se anunță IMEDIAT; se acționează conform instruirii FĂRĂ a pune viața în pericol; viața copiilor și personalului este prioritatea absolută; căile de evacuare se mențin libere; bunurile pot fi înlocuite, viețile nu.",
     "tooltipCorrect": "Anunț imediat + acționez conform instruajului, prioritate evacuarea organizată a copiilor, NU pun viața în pericol."
@@ -9740,23 +9740,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Curățe priza cu un cârpă și o dă din nou în funcțiune pt a nu deranja activitatea grupei."
-      },
-      {
-        "id": "B",
         "text": "Blochează accesul copiilor prin semnalizare, anunță imediat conducerea, solicita intervenție electricianului, NU permite reactivarea până la reparație/aviz."
       },
       {
+        "id": "B",
+        "text": "În aplicarea instrucțiunilor unității, curățe priza cu un cârpă și o dă din nou în funcțiune pt a nu deranja activitatea grupei."
+      },
+      {
         "id": "C",
-        "text": "Izolează priza cu bandă izolatoare și o lasă copiilor să nu se atingă."
+        "text": "Pe baza dispozițiilor curente, anunță deminenticii conducerea dar permite activităților să continue, va repara după program."
       },
       {
         "id": "D",
-        "text": "Anunță deminenticii conducerea dar permite activităților să continue, va repara după program."
+        "text": "Pe baza dispozițiilor curente, izolează priza cu bandă izolatoare și o lasă copiilor să nu se atingă și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul/conducătorul evalueaza riscurile de incendiu și asigură dotarea, funcționarea și menținerea libere a mijloacelor/instalațiilor. Contactele expuse și scânteile sunt semne de defect periculos. Se blochează imediat, se anunță și se solicita reparație, NU se tolereaza riscul.",
     "tooltipCorrect": "Blochează accesul, anunță imediat, solicita reparație — contacte expuse + scântei = risc incendiu."
@@ -9772,7 +9772,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Este o soluție practică pentru că sala are puțin spațiu și putere, se poate tolera temporar."
+        "text": "Pe baza dispozițiilor curente, îți dai seama că cablul se va răci, verifică din nouă după 2 ore și se raportează conducerii."
       },
       {
         "id": "B",
@@ -9780,11 +9780,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Îți dai seama că cablul se va răci, verifică din nouă după 2 ore."
+        "text": "Potrivit reglementării aplicabile, este o soluție practică pentru că sala are puțin spațiu și putere, se poate tolera temporar urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Deplasează doar cutiile departe, lasă prelungitorul cum e."
+        "text": "Potrivit procedurii stabilite, deplasează doar cutiile departe, lasă prelungitorul cum e ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -9804,23 +9804,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e o problemă, stingătorul e acolo, copiii oricum nu trebuie să-l folosească."
+        "text": "Pe baza dispozițiilor curente, nu e o problemă, stingătorul e acolo, copiii oricum nu trebuie să-l folosească și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Deplasează imediat dulapul, reglează poziția stingătorului să fie clar vizibil și accesibil în caz de urgență, verifica dacă mai sunt alți stingătoare blocați, actualizeaza ronda de verificare."
+        "text": "Potrivit reglementării aplicabile, notează o viitoare reparație, deocamdată nu e urgent urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Notează o viitoare reparație, deocamdată nu e urgent."
+        "text": "Deplasează imediat dulapul, reglează poziția stingătorului să fie clar vizibil și accesibil în caz de urgență, verifica dacă mai sunt alți stingătoare blocați, actualizeaza ronda de verificare."
       },
       {
         "id": "D",
-        "text": "Îl mută pe o rafă mai sigură unde e protejat de accidente accidentale."
+        "text": "Conform procedurii interne, îl mută pe o rafă mai sigură unde e protejat de accidente accidentale ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul asigură ca mijloacele de stingere sunt vizibile, accesibile și funcționale. Un stingător blocat e inutil și încalcă legislația. Se reface imediat accesibilitatea și se verifica toți ceilalți stingătoare.",
     "tooltipCorrect": "Stingătoarele trebuie vizibile și accesibile — deplasez dulapul imediat, verific toți stingătoarele."
@@ -9836,23 +9836,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e încalcare, măsura de securitate este justificată pt bunuri."
+        "text": "În aplicarea instrucțiunilor unității, nu e încalcare, măsura de securitate este justificată pt bunuri ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Căile de evacuare trebuie libere și funcționale în orice moment; încuierea cu cheia = blocare absolută, INTERZISĂ. Se deschide imediat, se monitorizează altfel (CCTV, documente de acces)."
+        "text": "În aplicarea instrucțiunilor unității, se blochează și mai sigur cu barajă de fier pe exterior urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Se poate tolera dacă are cineva cheia mereu la ea."
+        "text": "Conform procedurii interne, se poate tolera dacă are cineva cheia mereu la ea și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Se blochează și mai sigur cu barajă de fier pe exterior."
+        "text": "Căile de evacuare trebuie libere și funcționale în orice moment; încuierea cu cheia = blocare absolută, INTERZISĂ. Se deschide imediat, se monitorizează altfel (CCTV, documente de acces)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — căile de evacuare se mențin libere și funcționale. Încuierea cu cheia blochează evacuarea de urgență. Bunurile sunt secundare față de viață. Se deschide imediat și se găsesc alte măsuri (supraveghere, documente de ieșire).",
     "tooltipCorrect": "Căile de evacuare LIBERE și FUNCȚIONALE întotdeauna — ușa deschidere imediat, nu se mai încuiază cu cheia."
@@ -9868,23 +9868,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Exercițiul nu avea sens, copiii sunt prea mici pt evacuation, se renunță la practică."
-      },
-      {
-        "id": "B",
         "text": "Personalul nu a fost instruibil pe ordine de evacuare, signale, locul de adunare și calmarea copiilor. Administratorul nu a elaborat instrucțiuni PSI clare și nu a verificat că toți le cunosc și le respectă înainte de exercițiu."
       },
       {
+        "id": "B",
+        "text": "Conform practicii administrative curente, se repeată exercițiul fără preparație, pana când se rezolvă pe account singuri ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Copiii se vor obișnui cu practică, nu e nevoie de pregatire specială."
+        "text": "În temeiul normelor în vigoare, copiii se vor obișnui cu practică, nu e nevoie de pregatire specială urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Se repeată exercițiul fără preparație, pana când se rezolvă pe account singuri."
+        "text": "Pe baza evaluării de rutină, exercițiul nu avea sens, copiii sunt prea mici pt evacuation, se renunță la practică și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul elaborează instrucțiuni PSI, stabilește atribuții și verifica că personalul le cunoaște și respecta. Un exercițiu haotic semnalează că pregătirea a fost insuficientă. Se elaborează instrucțiuni clare, se instruieste personalul și copiii, se repeta exercițiile organizat.",
     "tooltipCorrect": "Exercițiul dezorganizat = instrucțiuni PSI insuficiente — elaborez clar, instruiesc personalul pe semnale/ordine/loc de adunare, repet organizat."
@@ -9900,19 +9900,19 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e problemă dacă ajunge la adunare, practica este acceptabilă."
+        "text": "Potrivit regulamentului intern, nu e problemă dacă ajunge la adunare, practica este acceptabilă și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Interzicerea accesului la grup sanitar în timp ce se evacuează și desemnarea unei persoane responsabile cu căutarea și salvarea copiilor rămaşi sunt obligații. Se revizuiesc procedurile, se asigură că personalul cunoaște cine verifica grupa sanitara primă data."
+        "text": "Interzicerea accesului la grup sanitar în timp ce se evacuează și desemnarea unei persoane responsabile cu căutarea și salvarea copiilor rămași sunt obligații. Se revizuiesc procedurile, se asigură că personalul cunoaște cine verifica grupa sanitara primă data."
       },
       {
         "id": "C",
-        "text": "Se închide grupa sanitara pe perioada exercițiilor."
+        "text": "În aplicarea măsurilor prevăzute, se închide grupa sanitara pe perioada exercițiilor urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Se permite accesul, dar copilul ăsta trebuie atenționat că e periculos."
+        "text": "Potrivit regulamentului intern, se permite accesul, dar copilul ăsta trebuie atenționat că e periculos urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -9932,23 +9932,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu sunt obligații speciale pt hidranți, sunt responsabilitate a apei."
+        "text": "Conform procedurii interne, se lasă cum e, firma de apă e responsabilă urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Se menține accesul liber la hidrant, se instaleaza panoul roșu de identificare, se instruieste personalul unde este și cum se folosește. Accesul = obligație de intervenție rapidă."
+        "text": "Pe baza evaluării de rutină, hidrantul e o amenajare decorativă, nu se folosește nici când ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Hidrantul e o amenajare decorativă, nu se folosește nici când."
+        "text": "Se menține accesul liber la hidrant, se instaleaza panoul roșu de identificare, se instruieste personalul unde este și cum se folosește. Accesul = obligație de intervenție rapidă."
       },
       {
         "id": "D",
-        "text": "Se lasă cum e, firma de apă e responsabilă."
+        "text": "În aplicarea instrucțiunilor unității, nu sunt obligații speciale pt hidranți, sunt responsabilitate a apei și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul menține libere căile de evacuare și accesul pt intervenție. Hidranții sunt mijloace de stingere, deci se mențin accesibili, identificabili și se instruieste personalul. Blocarea = încălcare de obligații critice.",
     "tooltipCorrect": "Hidrant accesibil, marcat clar, personalul pe proceduri — aceasta sunt obligații de intervenție."
@@ -9964,23 +9964,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Soluția de depozitare e acceptabilă daca e bine organizat pe rafturi."
+        "text": "Pe baza dispozițiilor curente, se muta vopseaua și diluantul într-o anexa separat, dar alcoolul și produsele de curățenie pot rămâne și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Se separa substanțele inflamabile și chimice în zona distinctă, se etichetează pericolele, se creaza evidență a substanțelor, se instruieste personalul pe manipulare și prim-ajutor. Administratorul evidenționează riscul combinat al substantelor și materialelor inflamabile."
+        "text": "În temeiul normelor în vigoare, soluția de depozitare e acceptabilă daca e bine organizat pe rafturi ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se muta vopseaua și diluantul într-o anexa separat, dar alcoolul și produsele de curățenie pot rămâne."
+        "text": "Potrivit procedurii stabilite, se vopsesc ușile și pereții depozitului cu vopsea de foc-rezistent, asta rezolva și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Se vopsesc ușile și pereții depozitului cu vopsea de foc-rezistent, asta rezolva."
+        "text": "Se separa substanțele inflamabile și chimice în zona distinctă, se etichetează pericolele, se creaza evidență a substanțelor, se instruieste personalul pe manipulare și prim-ajutor. Administratorul evidenționează riscul combinat al substantelor și materialelor inflamabile."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul identifică riscurile de incendiu și evidența substanțelor periculoase, inclusiv modul de intervenție. Proximitatea vopselor, diluantului, alcoolului și materialelor inflamabile multiplică riscul exponențial. Se separa, se etichetează și se instruieste.",
     "tooltipCorrect": "Substanțe inflamabile și materiale se separa, se etichetează, se face evidență, se instruieste personalul."
@@ -9996,23 +9996,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lasă să fumeze, e o pauza normală pentru muncitor."
+        "text": "Stopa imediat, interzice fumatul în perimetrul interior și în apropierea materialelor inflamabile, verifică dacă nu a ramas cenușă, documenta incident. Fumat = sursă de foc necontrolata."
       },
       {
         "id": "B",
-        "text": "Stopa imediat, interzice fumatul în perimetrul interior și în apropierea materialelor inflamabile, verifică dacă nu a ramas cenuşă, documenta incident. Fumat = sursă de foc necontrolata."
+        "text": "Pe baza dispozițiilor curente, îi spune să meargă afară după ce termina treaba, deocamdată e ok și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Îi spune să meargă afară după ce termina treaba, deocamdată e ok."
+        "text": "Pe baza dispozițiilor curente, deschide ferestre pt ventilație și lasă să continue și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Deschide ferestre pt ventilație și lasă să continue."
+        "text": "Pe baza evaluării de rutină, lasă să fumeze, e o pauza normală pentru muncitor și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — salariații și oricine în incintă nu fac surse de foc necontrolate. Fumatul lângă textile = risc incendiu direct. Se stopa imediat, se interzice și se verifica dacă n-a ramas foc. Fumatul lângă materiale combustibile = încalcare gravă.",
     "tooltipCorrect": "Fumatul lângă textile = sursă de foc necontrolata — stop imediat, interzis în apropiere de materiale inflamabile."
@@ -10028,7 +10028,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se mobiliază imediat și se pun copii, nu e nevoie de birocrație specială."
+        "text": "Pe baza evaluării de rutină, se mobiliază imediat și se pun copii, nu e nevoie de birocrație specială și se raportează conducerii."
       },
       {
         "id": "B",
@@ -10036,11 +10036,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se intreaba doar administratia locala daca e okay."
+        "text": "Conform procedurii interne, se intreaba doar administratia locala daca e okay și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Se asteapta o inspecție legala, pana atunci se deschide."
+        "text": "În aplicarea instrucțiunilor unității, se asteapta o inspecție legala, pana atunci se deschide și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -10060,23 +10060,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lasă, poate unii oameni nu sunt ineresi, nu poti obliga pe toți."
+        "text": "Pe baza dispozițiilor curente, îi spune pe ușă că nu e bun, dar îl lasă pe post o vreme ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Instruieste din nou personalul pe regulile/obligațiile specifice, verifica înțelegere, documenta instruire, urmărește respectarea, corectează nepotriviri, iar daca persistente, ia măsuri disciplinare."
+        "text": "În aplicarea măsurilor prevăzute, il amenința cu concediul dacă nu se schimbă imediat urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Il amenința cu concediul dacă nu se schimbă imediat."
+        "text": "Instruieste din nou personalul pe regulile/obligațiile specifice, verifica înțelegere, documenta instruire, urmărește respectarea, corectează nepotriviri, iar daca persistente, ia măsuri disciplinare."
       },
       {
         "id": "D",
-        "text": "Îi spune pe ușă că nu e bun, dar îl lasă pe post o vreme."
+        "text": "Conform procedurii interne, lasă, poate unii oameni nu sunt ineresi, nu poti obliga pe toți și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul elaborează instrucțiuni PSI, verifică că personalul cunoaște și respecta, și asigură conformitate. Dacă respectarea e slaba, trebuie instruire din nou, monitorizare și măsuri progresive, nu pasivitate. Siguranța nu e opțională.",
     "tooltipCorrect": "Instruiesc din nou, verific, documenta, urmăresc respectarea și corectez — siguranța nu e opțională."
@@ -10092,23 +10092,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e problemă, vorbitul e la fel de valid ca scrisul în situații de urgență."
+        "text": "În temeiul normelor în vigoare, nu e problemă, vorbitul e la fel de valid ca scrisul în situații de urgență și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Lipsesc dispoziții scrise formale, care sunt obligatorii. Administratorul trebuie să redacteze și să aducă la cunoștință personalului dispoziția scrisă cu responsabilități în situații de urgență și procedure de evacuare."
+        "text": "Conform procedurii interne, se asteapta să se întamble ceva, apoi se vor face dispoziții și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Se poate emite o dispoziție, dar nu e necesară adusă la cunoștință, toți stiu."
+        "text": "Potrivit reglementării aplicabile, se poate emite o dispoziție, dar nu e necesară adusă la cunoștință, toți stiu și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Se asteapta să se întamble ceva, apoi se vor face dispoziții."
+        "text": "Lipsesc dispoziții scrise formale, care sunt obligatorii. Administratorul trebuie să redacteze și să aducă la cunoștință personalului dispoziția scrisă cu responsabilități în situații de urgență și procedure de evacuare."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul stabilește responsabilități prin dispoziții scrise, aduse la cunoștință personalului. Fără scris și comunicare formala, nu e posibil a verifica cine ce trebuie sa faca și nu se poate documenta conformitate. Dispoziția scrisă e obligatorie și e dovada organizării interne.",
     "tooltipCorrect": "Dispoziție scrisă a responsabilităților PSI, adusă la cunoștință — aceasta e obligatorie."
@@ -10124,23 +10124,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu conteaza verificarea, stingătoarele sunt funcționale din manufacture."
-      },
-      {
-        "id": "B",
         "text": "Stingătoarele expirate și neverificate sunt ineloce și periculoase dacă se încearcă folosire. Se scoate din serviciu, se solicita înlocuire cu stingătoare verificate și conforme, se planifica verificări periodice regulate, se documenta."
       },
       {
+        "id": "B",
+        "text": "Pe baza dispozițiilor curente, nu conteaza verificarea, stingătoarele sunt funcționale din manufacture urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Se vor verifica la următorul audit, deocamdată e ok."
+        "text": "Pe baza dispozițiilor curente, se vor verifica la următorul audit, deocamdată e ok urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Se apasă pe scurt pt a-i testa, daca merge, se lasa."
+        "text": "În aplicarea măsurilor prevăzute, se apasă pe scurt pt a-i testa, daca merge, se lasa și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul asigură funcționarea și dotarea mijloacelor de stingere. Stingătoarele neverificate și expirate sunt ineficace și trebuie înlocuite cu cele verificate, cu certificare curentă. Verificarea regulara și menținerea sunt obligatorii.",
     "tooltipCorrect": "Stingătoare expirate și neverificate — înlocuiesc cu verificate și conforme, planifiez verificări regulate."
@@ -10156,7 +10156,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Eticheta e suficientă, toți știu că nu se aprinde foc lângă incendiu."
+        "text": "Conform procedurii interne, se asteapta să vina un inspector pt a spune cum e bine și se raportează conducerii."
       },
       {
         "id": "B",
@@ -10164,11 +10164,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se pune o tablă de lemn între cutie și tabloul electric."
+        "text": "Potrivit reglementării aplicabile, eticheta e suficientă, toți știu că nu se aprinde foc lângă incendiu ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Se asteapta să vina un inspector pt a spune cum e bine."
+        "text": "Potrivit reglementării aplicabile, se pune o tablă de lemn între cutie și tabloul electric ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -10188,23 +10188,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Cauta să stingi incendiul cu orice mijloace disponibile."
+        "text": "Conform procedurii interne, verifica extinderea incendiului inainte."
       },
       {
         "id": "B",
-        "text": "Anunță imediat autoritățile de urgență (112) și apoi se executa evacuare și instrucțiuni PSI."
+        "text": "În aplicarea regulii, cauta să stingi incendiul cu orice mijloace disponibile."
       },
       {
         "id": "C",
-        "text": "Evacuezi copiii pe o rază departe și abia apoi anunți."
+        "text": "Anunță imediat autoritățile de urgență (112) și apoi se executa evacuare și instrucțiuni PSI."
       },
       {
         "id": "D",
-        "text": "Verifica extinderea incendiului inainte."
+        "text": "Conform procedurii, evacuezi copiii pe o rază departe și abia apoi anunți."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — în caz de incendiu se anunță imediat. Apelul rapid (112) este prioritate, apoi evacuarea și respectarea instrucțiunilor. Nu se riscă o persoană prin știngere în incendii mari.",
     "tooltipCorrect": "Anunț imediat 112, apoi evacuez și acționez conform instructajului."
@@ -10220,23 +10220,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Locul actual e bun, e departe si sigur de clădire."
+        "text": "Potrivit regulamentului intern, se asteapta vremea mai bună sa se mearga în locul departe și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Se identifica un loc de adunare mai apropiat și mai potrivit (ex. curtea grădiniței, un spațiu vecinesc protejat), se verifica accesibilitate, se asigura adăpost în caz de vreme rea, se instruieste personalul pe noul loc."
+        "text": "În aplicarea măsurilor prevăzute, locul actual e bun, e departe si sigur de clădire și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Se asteapta vremea mai bună sa se mearga în locul departe."
+        "text": "Potrivit reglementării aplicabile, copiii se țin în mână și se duc unde s-a spus, indiferent de condiții ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Copiii se țin în mână și se duc unde s-a spus, indiferent de condiții."
+        "text": "Se identifica un loc de adunare mai apropiat și mai potrivit (ex. curtea grădiniței, un spațiu vecinesc protejat), se verifica accesibilitate, se asigura adăpost în caz de vreme rea, se instruieste personalul pe noul loc."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul stabilește proceduri care sunt practice și considerate cu vârstele copiilor. Un loc departe și nepotrivit în vreme rece nu e realist și e nepietăți pentru copii. Se identifica loc apropiat, adăpost și se instruieste personalul.",
     "tooltipCorrect": "Loc de adunare apropiat, potrivit pentru copii, cu adăpost — practicitate și siguranță."
@@ -10252,23 +10252,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Medicul stie ca-și domeniu, nu e nevoie de instrucțiuni scrise."
-      },
-      {
-        "id": "B",
         "text": "Fiecare spațiu (inclusiv cabinet) trebuie să aiba instrucțiuni scrise PSI, respecta caile de evacuare și să fie integral la procedurile de evacuare. Se redactează instrucțiuni specifice pentru cabinet și se instruieste medicul."
       },
       {
+        "id": "B",
+        "text": "Pe baza dispozițiilor curente, se asteapta ca medicul să vorbească cu ceilalți; vorbitul ajunge și se consemnează în evidentă."
+      },
+      {
         "id": "C",
-        "text": "Cabinetul medical nu e relevant pt evacuare, doar sălile de grupă conteaza."
+        "text": "Conform practicii administrative curente, medicul stie ca-și domeniu, nu e nevoie de instrucțiuni scrise urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Se asteapta ca medicul să vorbească cu ceilalți; vorbitul ajunge."
+        "text": "În aplicarea instrucțiunilor unității, cabinetul medical nu e relevant pt evacuare, doar sălile de grupă conteaza și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — instrucțiunile PSI se aplica întregii instituții și fiecărui spațiu, inclusiv cabinet medical. Medicul trebuie să cunoască caile de evacuare, locul de adunare și responsabilități specifice. Instrucțiunile scrise și aduse la cunoștință sunt obligatorii.",
     "tooltipCorrect": "Instrucțiuni scrise PSI în fiecare spațiu, inclusiv cabinet — obligatoriu și aduse la cunoștință."
@@ -10284,7 +10284,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Vag e ok dacă toți stiu că trebuie să acționeze."
+        "text": "Pe baza evaluării de rutină, un anumit salariat e responsabil de totul, pentru că nu trebuie nimeni altcineva implicat ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -10292,11 +10292,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se asteapta în momentul incendiului să se improvizeze."
+        "text": "În aplicarea măsurilor prevăzute, vag e ok dacă toți stiu că trebuie să acționeze urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Un anumit salariat e responsabil de totul, pentru că nu trebuie nimeni altcineva implicat."
+        "text": "Pe baza dispozițiilor curente, se asteapta în momentul incendiului să se improvizeze și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -10316,23 +10316,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e o problemă, se trage și se deschide."
+        "text": "Potrivit procedurii stabilite, nu e o problemă, se trage și se deschide urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Căile de evacuare trebuie să fie libere și funcționale. Ușa care se deschide spre interior în situații de evacuare în masă este periculoasa. Se reorganizează sa se deschidă spre exterior (împinge), dacă nu e posibil se cere soluție alternativă."
+        "text": "Pe baza evaluării de rutină, se forțează ușa până se deschide urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Ușa actuala e ok daca nu e prea multă lume."
+        "text": "Căile de evacuare trebuie să fie libere și funcționale. Ușa care se deschide spre interior în situații de evacuare în masă este periculoasa. Se reorganizează sa se deschidă spre exterior (împinge), dacă nu e posibil se cere soluție alternativă."
       },
       {
         "id": "D",
-        "text": "Se forțează ușa până se deschide."
+        "text": "Pe baza evaluării de rutină, ușa actuala e ok daca nu e prea multă lume și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — căile de evacuare se mențin libere și funcționale. O ușă care se trage în interior și care se poate bloca în situații cu multă lume este neconfprmă și periculoasă. Se reorganizează de urgență pentru deschidere spre exterior.",
     "tooltipCorrect": "Ușa de evacuare se deschide SPRE EXTERIOR — siguranță în masă și situații de urgență."
@@ -10348,23 +10348,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se lasă copiii pe loc, vor fi evacuzați dupa copiii tipici."
+        "text": "Pe baza evaluării de rutină, se lasă copiii pe loc, vor fi evacuzați dupa copiii tipici și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Se elaborează procedură specific pentru copiii cu dificultăți de mobilitate: cine ii transporta, pe care cale alternativă (scară ușoară, rampa, vicetvă), cu ce echipament dacă necesar, se instruieste personalul, se executa exercițiu cu ei pt a-i familiariza."
+        "text": "În aplicarea instrucțiunilor unității, se așteapta situația și se improvizează ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se așteapta situația și se improvizează."
+        "text": "Conform procedurii interne, se cere părinților să-i ia pe copii pt ore de pericol și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Se cere părinților să-i ia pe copii pt ore de pericol."
+        "text": "Se elaborează procedură specific pentru copiii cu dificultăți de mobilitate: cine ii transporta, pe care cale alternativă (scară ușoară, rampa, vicetvă), cu ce echipament dacă necesar, se instruieste personalul, se executa exercițiu cu ei pt a-i familiariza."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul elaborează instrucțiuni de evacuare care sunt practice pentru TOȚI copiii, inclusiv cei cu dificultăți. Se designează proceduri specifice, se instruieste personalul și se executa exerciții. Nicio cale de evacuare = măsură inacceptabilă.",
     "tooltipCorrect": "Procedură specific pentru copii cu dificultăți de mobilitate — cale alternativă, personal desemnat, exercițiu regulat."
@@ -10376,27 +10376,27 @@ export const questions = [
     "difficulty": "scenario",
     "sourceAct": "Legea nr. 307/2006, cap. II, sec. 6",
     "type": "single",
-    "question": "Grădiniță cu program prelungit are copii care dorm noaptea. Sistemul de alarma incendiu este setat sa déclanșeze doar o lumina alba silențioasă în fiecare cameră. Nici o acustică. Se crede că lumina \"nu va speria copiii\". Ce e neconfprm?",
+    "question": "Grădiniță cu program prelungit are copii care dorm noaptea. Sistemul de alarma incendiu este setat să se declanșeze doar o lumina alba silențioasă în fiecare cameră. Nici o acustică. Se crede că lumina \"nu va speria copiii\". Ce e neconfprm?",
     "options": [
       {
         "id": "A",
-        "text": "Lumina silențioasă e ingrijitoare si nu speria."
-      },
-      {
-        "id": "B",
         "text": "Sistemul de avertizare trebuie să fie eficace și clar audibil pt că toți (copii somiori, personal) să perceapă semnalul. Lumina alba silențiosa nu e suficientă. Se instaleaza sirena/claxon cu nivel sonor adecvat, testat regulat."
       },
       {
+        "id": "B",
+        "text": "Potrivit reglementării aplicabile, lumina silențioasă e ingrijitoare si nu speria urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Se poate folosi doar lumina daca se vrea."
+        "text": "Potrivit regulamentului intern, se poate folosi doar lumina daca se vrea și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Se trezesc copiii cu vorba in ureche."
+        "text": "Potrivit reglementării aplicabile, se trezesc copiii cu vorba in ureche urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — instalațiile de avertizare se menține libere și funcționale, și trebuie să fie eficace. Alarma silențioasă NU alertează pe copii somiori sau personal absent din birou. Se instalează avertizare sonoră adecvată nivelului de zgomot al instituției.",
     "tooltipCorrect": "Alarma clara și audibilă pentru toți — silențios nu e suficient. Testat regulat."
@@ -10412,7 +10412,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Anual este suficient, nu e nevoie de documentație."
+        "text": "Pe baza dispozițiilor curente, producătorul e responsabil de verificare și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -10420,11 +10420,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se verifica doar dacă se folosesc."
+        "text": "În aplicarea instrucțiunilor unității, se verifica doar dacă se folosesc urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Producătorul e responsabil de verificare."
+        "text": "Pe baza evaluării de rutină, anual este suficient, nu e nevoie de documentație urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -10444,23 +10444,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar salariatul, pentru că a facut greșala concreta."
+        "text": "În aplicarea instrucțiunilor unității, nici care nu poartă răspundere și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Administratorul poartă răspundere de a asigura că personalul cunoaște și respectă regulile. Dacă salariatul încalcă, administratorul e responsabil de a fi detectat/corectat. Răspundere partajata: salariat pentru acțiune, administrator pentru supraveghere/corecție."
+        "text": "Pe baza evaluării de rutină, doar salariatul, pentru că a facut greșala concreta ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Nici care nu poartă răspundere."
+        "text": "Administratorul poartă răspundere de a asigura că personalul cunoaște și respectă regulile. Dacă salariatul încalcă, administratorul e responsabil de a fi detectat/corectat. Răspundere partajata: salariat pentru acțiune, administrator pentru supraveghere/corecție."
       },
       {
         "id": "D",
-        "text": "Statul poartă răspunderea."
+        "text": "Conform practicii administrative curente, statul poartă răspunderea urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul verifică că personalul respectă instrucțiunile PSI și ia măsuri corective. Dacă regulile sunt călcate și administratorul nu a dispus corecții, e responsabil pentru deficiență de supraveghere. Răspunderea e partajata.",
     "tooltipCorrect": "Răspundere partajata: salariat pentru acțiune, administrator pentru instruire și supraveghere."
@@ -10476,23 +10476,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Testele fără avertisment sunt mai eficace pentru a verifica reaction reala."
+        "text": "Conform procedurii interne, nu se testează deloc, se folosieste doar la incendiu real și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Testele se fac cu avertisment și pregatire prealabila. Alarma se folosieste doar pentru exerciții de evacuare planificat sau incendii reale. Testele fără avertisment sfiarsă copiilor și nu au scop educativ. Se anunța in avans, se executa cu personalul pregătit și copiii instrui."
+        "text": "Potrivit regulamentului intern, se testează in mod aleatoriu când nu-și dau seama părinții și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Nu se testează deloc, se folosieste doar la incendiu real."
+        "text": "În aplicarea instrucțiunilor unității, testele fără avertisment sunt mai eficace pentru a verifica reaction reala și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Se testează in mod aleatoriu când nu-și dau seama părinții."
+        "text": "Testele se fac cu avertisment și pregatire prealabila. Alarma se folosieste doar pentru exerciții de evacuare planificat sau incendii reale. Testele fără avertisment sfiarsă copiilor și nu au scop educativ. Se anunța in avans, se executa cu personalul pregătit și copiii instrui."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul elaborează instrucțiuni de evacuare și exerciții. Testele și exercițiile se fac organizat, cu pregatire și intenție educativă, nu pentru a speria copii. Teste planificate = familiarizare + ordine, teste fără avertisment = panică și dezordine.",
     "tooltipCorrect": "Teste anunțate cu pregatire prealabila, exercițiu organizat — educație și familiarizare, nu panică."
@@ -10508,23 +10508,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e o problemă dacă mai rămâne jumătate din cale."
-      },
-      {
-        "id": "B",
         "text": "Căile de evacuare trebuie să fie LIBERE, adică neopstrue cu depozitare permanenta. Materialele din coridor trebuie mutate, coridorul se curăță, se menține liber permanent. 40% ocupare = blocare de cale."
       },
       {
+        "id": "B",
+        "text": "În aplicarea măsurilor prevăzute, se muta jucăriile doar în zile cu inspectii ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Se poate tolera dacă jucăriile sunt mici."
+        "text": "Potrivit reglementării aplicabile, nu e o problemă dacă mai rămâne jumătate din cale ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Se muta jucăriile doar în zile cu inspectii."
+        "text": "În temeiul normelor în vigoare, se poate tolera dacă jucăriile sunt mici și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — căile de evacuare se menține libere. Depozitarea permanenta în coridor = blocare de cale, indiferent dacă mai rămâne spațiu. Se curăță și se destin coridorul NUMAI pentru evacuare.",
     "tooltipCorrect": "Cale de evacuare LIBERA — nu depozitare permanenta, nu blocaje, nu improvizații."
@@ -10540,7 +10540,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Poate refuza inspectorii și le spune că nu sunt binevenite."
+        "text": "În aplicarea instrucțiunilor unității, poate refuza inspectorii și le spune că nu sunt binevenite și se raportează conducerii."
       },
       {
         "id": "B",
@@ -10548,11 +10548,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Dă acces doar dacă inspectorul are permis de la MAI."
+        "text": "Potrivit regulamentului intern, dă acces doar dacă inspectorul are permis de la MAI și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Se ascund documentele sensibile, se arata doar o parte."
+        "text": "Conform procedurii interne, se ascund documentele sensibile, se arata doar o parte și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -10572,23 +10572,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "E ok dacă s-a descoperit greșeala repede."
+        "text": "Pe baza dispozițiilor curente, copiii pot fi reintroduși dacă un salariat e sigur că e fals-alarm și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Odata declansata evacuarea, aceasta se executa COMPLET. Nu se reintra pana când AUTORITATEA (conducere/pompieri) nu dă ordinul. Reintroducerea prematura = încalcare de protocol și nepregătire. Se asteapta confirmarea că e sigur."
+        "text": "Conform procedurii interne, se evacuează de fiecare dată, dar reintroducerea e la discreție și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Copiii pot fi reintroduși dacă un salariat e sigur că e fals-alarm."
+        "text": "Odata declansata evacuarea, aceasta se executa COMPLET. Nu se reintra pana când AUTORITATEA (conducere/pompieri) nu dă ordinul. Reintroducerea prematura = încalcare de protocol și nepregătire. Se asteapta confirmarea că e sigur."
       },
       {
         "id": "D",
-        "text": "Se evacuează de fiecare dată, dar reintroducerea e la discreție."
+        "text": "În temeiul normelor în vigoare, E ok dacă s-a descoperit greșeala repede și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — evacuarea se executa conform instruirii și se menține până când situația se confirmă ca sigură și autoritatea dă ordinul de reintroducere. Reintrare prematura = ignorare de protocol și risc de tăiere de evacuare într-o urgență reala.",
     "tooltipCorrect": "Evacuare = executa complet pana la ordinul de reintroducere, nu improvizații."
@@ -10604,23 +10604,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nu e defect; salariatul va învăța în timp."
+        "text": "Potrivit regulamentului intern, nu e defect; salariatul va învăța în timp și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Defect gravă: salariatul nu a primit instruire PSI obligatoria (proceduri, caile de evacuare, responsabilități, prim-ajutor). Administratorul nu a documentat instruire. Se instruieste imediat și se ține evidență."
+        "text": "Potrivit procedurii stabilite, inspectorul nu verifică instruire individuala ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Inspectorul nu verifică instruire individuala."
+        "text": "În aplicarea instrucțiunilor unității, se asteapta exercițiul de evacuare ca salariatul să se gândească ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Se asteapta exercițiul de evacuare ca salariatul să se gândească."
+        "text": "Defect gravă: salariatul nu a primit instruire PSI obligatoria (proceduri, caile de evacuare, responsabilități, prim-ajutor). Administratorul nu a documentat instruire. Se instruieste imediat și se ține evidență."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul elaborează instrucțiuni PSI și verifică că personalul le cunoaște. Angajatul nou trebuie instruit la hire și documentat. Fără instruire = neconformitate și risc în urgență.",
     "tooltipCorrect": "Instruire PSI pentru fiecare salariat la angajare, documentata, verificata cunoaștere."
@@ -10636,23 +10636,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Semnalizarea e opțională, copiii se orientează după oameni."
-      },
-      {
-        "id": "B",
         "text": "Semnalizarea căii de evacuare este obligatorie: săgeți, inscripții luminoase, pictograme. Se instalează semnalizare clara pe traseul de evacuare pt orientare în condiții de urgență și fumagie."
       },
       {
+        "id": "B",
+        "text": "Pe baza dispozițiilor curente, se vopsesc pereții cu vopsea fluorescenta urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Se vopsesc pereții cu vopsea fluorescenta."
+        "text": "Pe baza dispozițiilor curente, inspectori vor fi ghizi ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Inspectori vor fi ghizi."
+        "text": "Pe baza evaluării de rutină, semnalizarea e opțională, copiii se orientează după oameni urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — semnalizarea căilor de evacuare și mijloacelor de stingere este parte a obligațiilor administratorului privind funcționarea instalațiilor. Se instalează semnalizare clara (săgeți, inscripții, pictograme) pe fiecare traseu.",
     "tooltipCorrect": "Semnalizare clara pe traseu de evacuare — săgeți, inscripții, pictograme luminoase obligatorii."
@@ -10668,7 +10668,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Așteaptă să vadă dacă crevează vreun intreruptor."
+        "text": "În aplicarea instrucțiunilor unității, așteaptă să vadă dacă crevează vreun intreruptor și se raportează conducerii."
       },
       {
         "id": "B",
@@ -10676,11 +10676,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Versează apă pe tabloul electric pentru a stinge fumul."
+        "text": "Conform practicii administrative curente, versează apă pe tabloul electric pentru a stinge fumul și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Scoate tabloul din priza."
+        "text": "Conform procedurii interne, scoate tabloul din priza și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -10700,23 +10700,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Documentația veche nu e problemă dacă e salvata."
+        "text": "În temeiul normelor în vigoare, dosarul se ține în secret, inspectori nu trebuie să vadă urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Documentația trebuie actualizata regulat. Instrucțiuni de actualizat la fiecare schimbare (personal, clădire, echipament), avize de renew la timp, evidență să fie accesibilă și clara. Administratorul e responsabil de menținerea dosarului actualizat."
+        "text": "În temeiul normelor în vigoare, documentația veche nu e problemă dacă e salvata ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se updated doar dacă vine inspecție."
+        "text": "Documentația trebuie actualizata regulat. Instrucțiuni de actualizat la fiecare schimbare (personal, clădire, echipament), avize de renew la timp, evidență să fie accesibilă și clara. Administratorul e responsabil de menținerea dosarului actualizat."
       },
       {
         "id": "D",
-        "text": "Dosarul se ține în secret, inspectori nu trebuie să vadă."
+        "text": "Pe baza dispozițiilor curente, se updated doar dacă vine inspecție urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul menține dosarul PSI actualizat, instrucțiunile se revizuiesc regulat, avizele se renew la timp, evidența stingătoarelor și alte documente sunt accesibile și clare. Documentație expirata = neconformitate.",
     "tooltipCorrect": "Documentație actualizata, avize renew la timp, evidență clara — obligatoriu."
@@ -10732,23 +10732,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Gazul butană e sigur, nu necesită autorizație."
+        "text": "Potrivit reglementării aplicabile, inspectorul nu verifica folosirea gazului și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Gaz butană = substanță inflamabilă cu risc major. Se evalueaza riscul formal, se obține autorizație PSI dacă e necesara, se stabilesc reguli de depozitare (departe de surse de căldură), se instruieste personalul, se ține evidența butelii cu dată de verificare și înlocuire."
+        "text": "Conform practicii administrative curente, se ține gazul în sac la picioarele mesei de lucru și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Se ține gazul în sac la picioarele mesei de lucru."
+        "text": "În aplicarea măsurilor prevăzute, gazul butană e sigur, nu necesită autorizație și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Inspectorul nu verifica folosirea gazului."
+        "text": "Gaz butană = substanță inflamabilă cu risc major. Se evalueaza riscul formal, se obține autorizație PSI dacă e necesara, se stabilesc reguli de depozitare (departe de surse de căldură), se instruieste personalul, se ține evidența butelii cu dată de verificare și înlocuire."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul identifică și evaluează riscuri de incendiu, inclusiv substanțele inflamabile ca gaz butană. Se obține autorizație PSI dacă e impusă de lege, se depozitează conform reguli, se instruieste personalul și se menține evidență.",
     "tooltipCorrect": "Gaz butană = risc major — evaluez, cer autorizație, depozitez corect, instruiesc, ținuu evidență."
@@ -10764,23 +10764,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Administratorul trebuie să se sacrifice pentru copii."
-      },
-      {
-        "id": "B",
         "text": "Se acționează conform instruirii FĂRĂ a pune viața în pericol. Daca fum = pericol serios, NU se intra. Se anunța urgență, se evacuează ceilalți copii, se lasa pompieri să facă salvarea. O persoană moarta = nu salvează pe nimeni."
       },
       {
+        "id": "B",
+        "text": "Pe baza evaluării de rutină, administratorul trebuie să se sacrifice pentru copii și se consemnează în evidentă."
+      },
+      {
         "id": "C",
-        "text": "Se încearcă salvare orice preț."
+        "text": "Pe baza dispozițiilor curente, se asteapta pompieri înaintea evacuării ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Se asteapta pompieri înaintea evacuării."
+        "text": "Potrivit regulamentului intern, se încearcă salvare orice preț și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — \"fără a pune viața în pericol\" e principiu central. Nici o persoană n-ar trebui să-și pună viața în pericol serios. Evacuare sistematică, anunțarea urgență și lăsarea pompierilor să facă salvări în condiții periculoase sunt obligații.",
     "tooltipCorrect": "Evacuare conform instrucțiunilor, fără a pune viață în pericol — anunț urgență, nu salvare temerara."
@@ -10796,7 +10796,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lasă ușa deschisa și asteapta să dispară mirosul."
+        "text": "Pe baza dispozițiilor curente, lasă ușa deschisa și asteapta să dispară mirosul și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -10804,11 +10804,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se aprinde mereu un chibrit ca să vadă dacă e gaz."
+        "text": "Potrivit regulamentului intern, se verifică mai târziu după program și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Se verifică mai târziu după program."
+        "text": "Pe baza dispozițiilor curente, se aprinde mereu un chibrit ca să vadă dacă e gaz urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -10828,23 +10828,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Distrugerea documentului e ok dacă incidentul era minor."
+        "text": "Potrivit procedurii stabilite, distrugerea documentului e ok dacă incidentul era minor și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Incidentele și evenimentele (chiar minore) se înregistrează și se raportează conform procedurilor. Se menține evidență, se investiga cauza, se ia măsuri. Distrugerea documentului = încălcare de obligații de înregistrare."
+        "text": "Pe baza dispozițiilor curente, autoritatea nu verifică incidente minore ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Numai incidentele grave se raportează."
+        "text": "Incidentele și evenimentele (chiar minore) se înregistrează și se raportează conform procedurilor. Se menține evidență, se investiga cauza, se ia măsuri. Distrugerea documentului = încălcare de obligații de înregistrare."
       },
       {
         "id": "D",
-        "text": "Autoritatea nu verifică incidente minore."
+        "text": "Potrivit regulamentului intern, numai incidentele grave se raportează urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul menține evidență și raportează incidente conform procedurilor. Distrugerea documentelor = ascundere de date și neconformitate cu obligațiile de înregistrare și raportare.",
     "tooltipCorrect": "Evidență și raportare incidente, chiar minore — distrugere de documente = încălcare."
@@ -10860,23 +10860,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Vorbitul e ok dacă toți ascultă și-și amintesc."
+        "text": "Conform practicii administrative curente, vorbitul e ok dacă toți ascultă și-și amintesc urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Instrucțiuni scrise sunt obligatorii: PSI, evacuare, responsabilități. Vorbitul nu e dovada, nu e accesibil tuturor, nu se poate verifica cunoașterea clara. Se redacteaza instrucțiuni scrise și se evidențiaza că personalul le-a primit și înțeles."
+        "text": "Potrivit procedurii stabilite, fiecare salariat trebuie să-și scrie propriile instrucțiuni și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Se scriu instrucțiuni numai daca vine inspecție."
+        "text": "Potrivit reglementării aplicabile, se scriu instrucțiuni numai daca vine inspecție și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Fiecare salariat trebuie să-și scrie propriile instrucțiuni."
+        "text": "Instrucțiuni scrise sunt obligatorii: PSI, evacuare, responsabilități. Vorbitul nu e dovada, nu e accesibil tuturor, nu se poate verifica cunoașterea clara. Se redacteaza instrucțiuni scrise și se evidențiaza că personalul le-a primit și înțeles."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — instrucțiuni PSI trebuie scrise și aduse la cunoștință personalului. Forma scrisa = dovadă, claritate, comunicare uniforma. Vorbitul = neverificabil și pierdut în timp.",
     "tooltipCorrect": "Instrucțiuni scrise PSI obligatorii, aduse la cunoștință personalului, semnat de fiecare."
@@ -10892,23 +10892,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Copilul va fi evacuate și va respira greu, normal."
-      },
-      {
-        "id": "B",
         "text": "Căile de evacuare trebuie libere și funcționale pentru TOȚI, inclusiv copii cu limitări medicale. Ușa umflata = cale defecta. Se reparează sau se înlocuiește urgenta, se asigura cale sigura pentru copil. Și deschidere = obligație de adaptare."
       },
       {
+        "id": "B",
+        "text": "În temeiul normelor în vigoare, ușa umflata va fi reparata după program urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Copilul cu asma poate fi evacuat mai lent."
+        "text": "Conform practicii administrative curente, copilul cu asma poate fi evacuat mai lent și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Ușa umflata va fi reparata după program."
+        "text": "Conform practicii administrative curente, copilul va fi evacuate și va respira greu, normal urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — căile de evacuare se mențin libere și funcționale. Un copil cu asma și o ușă defecta = risc crescut. Se reparează urgenta și se asigura cale deschisa și ușor de deschis pt copilul cu probleme respiratorii.",
     "tooltipCorrect": "Cale de evacuare libera și funcțională pentru TOȚI, inclusiv copii cu limitări medicale — reparare urgenta."
@@ -10924,7 +10924,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Piața libera e ok, copiii nu vor fugi."
+        "text": "Conform procedurii interne, se tine copiii cu mâna pt a nu fuga urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -10932,11 +10932,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se tine copiii cu mâna pt a nu fuga."
+        "text": "Conform practicii administrative curente, piața libera e ok, copiii nu vor fugi și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Piața publica e mai ieftina, se ține asa."
+        "text": "În aplicarea măsurilor prevăzute, piața publica e mai ieftina, se ține asa și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -10956,23 +10956,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Frigidera e ok la exterior daca e îngrijitoare."
+        "text": "În temeiul normelor în vigoare, frigidera e ok la exterior daca e îngrijitoare și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Evaluarea riscurilor trebuie să includa electrocuție și contact cu apă. Se verifica ce echipamente sunt folosite la exterior, se asigura protecție contra umezeli (loc uscat, cablu izolat/adaptor cu protecție), se instruieste personalul să NU atingă echipament/plug dacă e umed."
+        "text": "În aplicarea măsurilor prevăzute, se accepta riscul, copiii/personalul vor fi atenționati și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Se accepta riscul, copiii/personalul vor fi atenționati."
+        "text": "Evaluarea riscurilor trebuie să includa electrocuție și contact cu apă. Se verifica ce echipamente sunt folosite la exterior, se asigura protecție contra umezeli (loc uscat, cablu izolat/adaptor cu protecție), se instruieste personalul să NU atingă echipament/plug dacă e umed."
       },
       {
         "id": "D",
-        "text": "Electrocuție e risc mic, se ignora."
+        "text": "În temeiul normelor în vigoare, electrocuție e risc mic, se ignora și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul evaluează riscuri incluzând electrocuție și contact electric. Echipament electric la exterior în condiții umede = risc crescut. Se ia măsuri: loc uscat, protecție cabluri, instruire personal.",
     "tooltipCorrect": "Evaluez riscuri electrocuție, protejez echipament la exterior, instruiesc personal."
@@ -10988,23 +10988,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Fiecare salariat pentru propria nevoie."
+        "text": "Conform practicii administrative curente, inspectorul PSI, când vine la inspecție."
       },
       {
         "id": "B",
-        "text": "Administratorul/conducătorul instituției, care apoi verifică respectarea de personalul instituției."
+        "text": "Potrivit procedurii stabilite, pompierii locali și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Inspectorul PSI, când vine la inspecție."
+        "text": "În aplicarea măsurilor prevăzute, fiecare salariat pentru propria nevoie."
       },
       {
         "id": "D",
-        "text": "Pompierii locali."
+        "text": "Administratorul/conducătorul instituției, care apoi verifică respectarea de personalul instituției."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — obligațiile administratorului/conducătorului sunt explicite: elaborare instrucțiuni, asigurare funcționare, verificare personal. Salariații au obligații diferite: respectare, utilizare corectă, raportare incidente.",
     "tooltipCorrect": "Administrator: elabora instrucțiuni, asigura funcționare, verifica; Salariat: respecta, raporteaza."
@@ -11016,27 +11016,27 @@ export const questions = [
     "difficulty": "scenario",
     "sourceAct": "Legea nr. 307/2006, cap. II, sec. 1",
     "type": "single",
-    "question": "După un incendiu minor în grădiniță, un copil e ușor rănit și sângerează, iar locul incendiului are cenuşă și reziduuri chimice. Care este succesiunea de obligații conform Legea 307/2006?",
+    "question": "După un incendiu minor în grădiniță, un copil e ușor rănit și sângerează, iar locul incendiului are cenușă și reziduuri chimice. Care este succesiunea de obligații conform Legea 307/2006?",
     "options": [
       {
         "id": "A",
-        "text": "Se curăță imediat și se dă cu antiseptic."
+        "text": "Se evaluează rănit (prim-ajutor/ambulanta dacă grav), se izolează locul incendiului (NU se modifică pana la cercetare), se anunța autorități, se face cercetare cauzelor, se documenta. Cenușă și reziduuri sunt dovezi de investigație."
       },
       {
         "id": "B",
-        "text": "Se evaluează rănit (prim-ajutor/ambulanta dacă grav), se izolează locul incendiului (NU se modifică pana la cercetare), se anunța autorități, se face cercetare cauzelor, se documenta. Cenuşă și reziduuri sunt dovezi de investigație."
+        "text": "În temeiul normelor în vigoare, se dă vina pe o sursă și gata ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se curăță locul ca să nu se vadă la inspecție."
+        "text": "Conform practicii administrative curente, se curăță locul ca să nu se vadă la inspecție urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Se dă vina pe o sursă și gata."
+        "text": "În aplicarea măsurilor prevăzute, se curăță imediat și se dă cu antiseptic ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — evenimentul se cercetează pentru cauze și prevenire; locul NU se modifică dacă afectează cercetarea, cu excepția salvării persoanelor. Și rănit se evaluează medical. Documentare și investigație sunt obligatorii.",
     "tooltipCorrect": "Prim-ajutor rănit, locul incendiu izolat (dovezi), anunț autorități, investigație — NU se curață pre-investigație."
@@ -11052,7 +11052,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Sirena defecta e acceptabila daca mai dă vreun sunet."
+        "text": "Potrivit procedurii stabilite, sirena defecta e acceptabila daca mai dă vreun sunet ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -11060,11 +11060,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se asteapta un incendiu real ca să vina mecanicul."
+        "text": "Conform practicii administrative curente, copii vorbesc prea mult, oricum nu aud sirenă și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Copii vorbesc prea mult, oricum nu aud sirenă."
+        "text": "Pe baza evaluării de rutină, se asteapta un incendiu real ca să vina mecanicul urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -11084,23 +11084,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se tolereaza neglijența pana la angajări noi."
+        "text": "În aplicarea instrucțiunilor unității, inspectorul va critica și va obliga și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Ocuparea nu e scuza. Administratorul reorganizează responsabilități, asigura că obligații PSI se îndeplinesc (priža se reparează imediat, căile se curață), verifica respectarea și ia măsuri disciplinare daca persista. Sigurança e prioritate."
+        "text": "În aplicarea măsurilor prevăzute, se tolereaza neglijența pana la angajări noi și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Salariatul va învăța pe cont propriu că trebuie."
+        "text": "Ocuparea nu e scuza. Administratorul reorganizează responsabilități, asigura că obligații PSI se îndeplinesc (priza se reparează imediat, căile se curață), verifica respectarea și ia măsuri disciplinare daca persista. Sigurança e prioritate."
       },
       {
         "id": "D",
-        "text": "Inspectorul va critica și va obliga."
+        "text": "Conform practicii administrative curente, salariatul va învăța pe cont propriu că trebuie și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul asigură conformitate indiferent de ocupare. Ocupare ≠ scuza pentru neglijență PSI. Se reorganizează sarcini, se instruieste, se monitorizează și se corectează.",
     "tooltipCorrect": "Ocupare NU e scuza pentru neglijență PSI — reorganizez responsabilități, asigur conformitate, verific."
@@ -11116,23 +11116,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Intervenție rapidă cu pompieri."
+        "text": "Potrivit regulamentului intern, intervenție rapidă cu pompieri și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Prevenire: identificare și eliminare riscuri de incendiu, menținere căi de evacuare și mijloace funcționale, instruire personale. Intervenție e ultimă resortă."
+        "text": "Conform procedurii interne, evacuare imediate, nu prevenție ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Evacuare imediate, nu prevenție."
+        "text": "Potrivit reglementării aplicabile, stingere de incendii pe cont propriu ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Stingere de incendii pe cont propriu."
+        "text": "Prevenire: identificare și eliminare riscuri de incendiu, menținere căi de evacuare și mijloace funcționale, instruire personale. Intervenție e ultimă resortă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — scopul este prevenire și limitarea propagării, cu protecția vieții. Prevenire = evitare de incendiu. Intervenție și stingere sunt secundare.",
     "tooltipCorrect": "Accent pe prevenire: elimina riscuri, menține căi libere, instruieste personal — nu stingere."
@@ -11148,23 +11148,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Pomul uscat nu-i pericol."
-      },
-      {
-        "id": "B",
         "text": "Pom uscat = material foarte inflamabil, ușor de aprins. Lângă vopsea și diluant (inflamabile) și alcool (combustibil) = scenariu incendiu catastrofal. Se scoate pomul imediat din depozit."
       },
       {
+        "id": "B",
+        "text": "În aplicarea măsurilor prevăzute, pomul uscat nu-i pericol ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Se lasă unde-i că e decorativ."
+        "text": "În aplicarea instrucțiunilor unității, se va muta după Anul Nou urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Se va muta după Anul Nou."
+        "text": "În aplicarea instrucțiunilor unității, se lasă unde-i că e decorativ ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — identificarea riscurilor include materiale organice uscate (pom, frunze). Pom uscat lângă inflamabile = risc exponențial de incendiu. Se scoate urgent din depozit.",
     "tooltipCorrect": "Pom uscat e material inflamabil — scoate din depozit cu substanțe chimice imediat."
@@ -11180,7 +11180,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Detectorul funcționează, nu e nevoie de schimbare."
+        "text": "În aplicarea instrucțiunilor unității, se cumpără detector nou din 2024 și se raportează conducerii."
       },
       {
         "id": "B",
@@ -11188,11 +11188,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se-a tăcut din nou, deci mai merge."
+        "text": "În aplicarea instrucțiunilor unității, detectorul funcționează, nu e nevoie de schimbare urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Se cumpără detector nou din 2024."
+        "text": "Potrivit procedurii stabilite, se-a tăcut din nou, deci mai merge și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -11212,23 +11212,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Copiii singuri, pentru că-și spun alții."
+        "text": "În aplicarea măsurilor prevăzute, copiii singuri, pentru că-și spun alții și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Personalul instituției (educators, administratori) — prin instruire, supraveghere și corectare comportamentelor copiilor. Copii mici NU au răspundere legala, doar personalul."
+        "text": "Conform practicii administrative curente, nicio pentru că sunt copii ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Părinții din acasă."
+        "text": "Personalul instituției (educators, administratori) — prin instruire, supraveghere și corectare comportamentelor copiilor. Copii mici NU au răspundere legala, doar personalul."
       },
       {
         "id": "D",
-        "text": "Nicio pentru că sunt copii."
+        "text": "Pe baza dispozițiilor curente, părinții din acasă ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — personalul instituției este responsabil de instruire și supraveghere copii. Copii mici nu-și asumă răspundere legala, adulții le-o asigură.",
     "tooltipCorrect": "Personal — instruieste, supraveghează și corectează comportamentul copiilor, nu copii înșiți."
@@ -11244,23 +11244,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Copii sunt curiosi, e normal să-și rănească."
+        "text": "Potrivit regulamentului intern, copii sunt curiosi, e normal să-și rănească urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Personalul NU blochează căi de evacuare și stingătoare, dar NU lasă copii nesupravegheti pe lângă echipament electric/mijloace stingere. Se asigura supraveghere, se blocheza accesul neautorizat la tablou (lacăt), se educă copii să NU atingă."
+        "text": "Potrivit regulamentului intern, se culpă copii pentru curioitate și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Se lasă copii să exploreze liber."
+        "text": "Conform procedurii interne, se lasă copii să exploreze liber urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Se culpă copii pentru curioitate."
+        "text": "Personalul NU blochează căi de evacuare și stingătoare, dar NU lasă copii nesupravegheti pe lângă echipament electric/mijloace stingere. Se asigura supraveghere, se blocheza accesul neautorizat la tablou (lacăt), se educă copii să NU atingă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — personalul supraveghează și protejează copii de pericole. Tablou electric neprotejat și stingătoare accesibile copiilor nesupravegheați = risc. Se asigura supraveghere, se blocheza acces neautorizat și se educă copii.",
     "tooltipCorrect": "Supraveghere, acces blocat la tablou și stingătoare, educație copii — NU explorare liberă lângă pericol."
@@ -11272,27 +11272,27 @@ export const questions = [
     "difficulty": "scenario",
     "sourceAct": "Legea nr. 307/2006, cap. II, sec. 1",
     "type": "single",
-    "question": "Cablurile prelungitoarelor sunt tinute cu banda largă de ţesătură pe perete. Unele sunt ușor deteriorate (izolatia crăpata în locuri). Se crede că \"tabeoul e groasă, protecția nu dispare\". Ce e greșit?",
+    "question": "Cablurile prelungitoarelor sunt tinute cu banda largă de țesătură pe perete. Unele sunt ușor deteriorate (izolatia crăpata în locuri). Se crede că \"tabeoul e groasă, protecția nu dispare\". Ce e greșit?",
     "options": [
       {
         "id": "A",
-        "text": "Banda e suficiente protecție."
-      },
-      {
-        "id": "B",
         "text": "Izolatia crăpata = risc de electrocuție/scurtcircuit. Se înlocuiesc cablurile deteriorate, se folosieste protecție potrivita (canalul plastic), se verifica periodic pentru deteriorare. Improvizații sunt interzise."
       },
       {
+        "id": "B",
+        "text": "Potrivit regulamentului intern, banda e suficiente protecție urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Se asteapta cablurile sa se rupă."
+        "text": "Pe baza evaluării de rutină, banda de țesătură e inginerie suficiente ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Banda de ţesătură e inginerie suficiente."
+        "text": "Pe baza dispozițiilor curente, se asteapta cablurile sa se rupă și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — salariații nu fac improvizații cu cabluri și echipament electric. Izolatia crăpata = risc serios de scurtcircuit și electrocuție. Se înlocuiesc și se protejează corect.",
     "tooltipCorrect": "Izolatia crăpata = risc — înlocuiesc cablurile și protejez cu canalul plastic, verify periodic."
@@ -11308,7 +11308,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Departe de copii e sigur."
+        "text": "În aplicarea instrucțiunilor unității, se deschide ușa dulapului regulat pt ventilație urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -11316,11 +11316,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se ține în cutii de carton pt protecție."
+        "text": "Conform procedurii interne, departe de copii e sigur urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Se deschide ușa dulapului regulat pt ventilație."
+        "text": "În aplicarea instrucțiunilor unității, se ține în cutii de carton pt protecție urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -11340,23 +11340,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Copie de mână e valida cu semnatura."
+        "text": "Pe baza evaluării de rutină, se cere copie de la vecinu care e inspector urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Originale și copii notariale trebuie păstrate și accesibile pt inspecție. Pierderea documentului = defect grav. Se solicita original din nou de la autoritate, se menține în dosar sigur, se ține și copie notariala."
+        "text": "Potrivit reglementării aplicabile, se zice inspectorului că s-a pierdut ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se zice inspectorului că s-a pierdut."
+        "text": "Originale și copii notariale trebuie păstrate și accesibile pt inspecție. Pierderea documentului = defect grav. Se solicita original din nou de la autoritate, se menține în dosar sigur, se ține și copie notariala."
       },
       {
         "id": "D",
-        "text": "Se cere copie de la vecinu care e inspector."
+        "text": "Conform practicii administrative curente, copie de mână e valida cu semnatura și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul menține dosarul cu documente avizelor. Pierderea = neconformitate. Se solicita reemitere de la autoritate și se păstrează în loc sigur.",
     "tooltipCorrect": "Documente în dosar sigur, accesibil pt inspecție — pierderea = defect, solicita reemitere."
@@ -11372,23 +11372,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Asteapta să vadă dacă mai iese fum."
+        "text": "Conform practicii administrative curente, se ignora, ar fi doar o mică problemă și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Anunța imediat, opresec bucătaria (NU foc/aparate active), aereaza zona, contacteaza specialist HVAC/gaz pentru investigație. Fum = pericol potențial de incendiu, cauza trebuie stabila."
+        "text": "Conform procedurii interne, asteapta să vadă dacă mai iese fum urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Se deschide fereastra și gata."
+        "text": "Conform procedurii interne, se deschide fereastra și gata urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Se ignora, ar fi doar o mică problemă."
+        "text": "Anunța imediat, opresec bucătaria (NU foc/aparate active), aereaza zona, contacteaza specialist HVAC/gaz pentru investigație. Fum = pericol potențial de incendiu, cauza trebuie stabila."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — fum din sistem = situație ce poate produce incendiu. Se anunța imediat, se opresec sursele de căldură, se contacteaza specialist și se investigează. NU se ignora.",
     "tooltipCorrect": "Fum din ventilație = anunț imediat, oprez căldură, contactez specialist, investigație."
@@ -11404,23 +11404,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Instrucțiuni scrise sunt destule, rest e responsabilitate personala."
-      },
-      {
-        "id": "B",
         "text": "Scris ≠ executare. Administratorul trebuie să verifica ACTIVE că personalul respecta instrucțiunile, să monitorizeze, să corecteze și să ia măsuri disciplinare dacă e necesar. Scrisul = cerință, verificare = obligație."
       },
       {
+        "id": "B",
+        "text": "În aplicarea instrucțiunilor unității, se distribuie instrucțiuni și gata urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Se distribuie instrucțiuni și gata."
+        "text": "Pe baza evaluării de rutină, instrucțiuni scrise sunt destule, rest e responsabilitate personala și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Inspectorii vor opri nerespectarea."
+        "text": "Conform procedurii interne, inspectorii vor opri nerespectarea urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul nu doar elaborează instrucțiuni, dar verifica și asigura că sunt respectate. Scris fără verificare și corectie = neglijență administrativă. Se monitoriza și se iau măsuri.",
     "tooltipCorrect": "Instrucțiuni scrise + verificare ACTIVA + corectie + măsuri — nu doar scris și gata."
@@ -11436,7 +11436,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se lasă copilul să tușeasc, se observa tabloUl mai târziu."
+        "text": "Potrivit reglementării aplicabile, se lasă copilul să tușeasc, se observa tabloUl mai târziu și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -11444,11 +11444,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se face apa pe tabloul electric."
+        "text": "Potrivit regulamentului intern, se face apa pe tabloul electric și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Se ignora, va disparea fumul singur."
+        "text": "Potrivit reglementării aplicabile, se ignora, va disparea fumul singur ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -11468,23 +11468,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Memoria e suficate daca personalul stie."
+        "text": "Potrivit procedurii stabilite, se lasă dar se verifica des și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Etichete și semnalizare pericol sunt obligatorii pe substanțe chimice. Se adaugă etichete cu pictograme toxicitate, se face inventar scris, se blocheza dulapul cu lacăt dacă accesibil copiilor, se instruieste personal și se evidențiaza pericol."
+        "text": "Potrivit reglementării aplicabile, copii-sunt atenționati verbal ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se lasă dar se verifica des."
+        "text": "Etichete și semnalizare pericol sunt obligatorii pe substanțe chimice. Se adaugă etichete cu pictograme toxicitate, se face inventar scris, se blocheza dulapul cu lacăt dacă accesibil copiilor, se instruieste personal și se evidențiaza pericol."
       },
       {
         "id": "D",
-        "text": "Copii-sunt atenționati verbal."
+        "text": "Pe baza dispozițiilor curente, memoria e suficate daca personalul stie urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — substanțe periculoase trebuie etichetate și evidentiiate. Fără etichete și cu acces copii nesupravegheti = pericol de intoxicare. Se etichetează, se face inventar și se blocheza acces neautorizat.",
     "tooltipCorrect": "Etichetare chimice, etichete pericol, inventar scris, acces blocat — obligatoriu."
@@ -11500,23 +11500,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Exercițiu-ul OK dacă copii ies, indiferent de mod."
+        "text": "Pe baza evaluării de rutină, exerciții nu au sens, sunt doar formaliști urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Evacuare trebuie ORGANIZATA și conform instrucțiuni, nu haotic. Se repeta exercițiul cu pre-instruire, se stabilesc ordine de mars, se desemnează persoane per cale, se instruieste copii și personalul pe discipline și ascultare de semnale."
+        "text": "În temeiul normelor în vigoare, copii sunt prea mici, nu se-pot organiza urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Copii sunt prea mici, nu se-pot organiza."
+        "text": "Potrivit procedurii stabilite, exercițiu-ul OK dacă copii ies, indiferent de mod urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Exerciții nu au sens, sunt doar formaliști."
+        "text": "Evacuare trebuie ORGANIZATA și conform instrucțiuni, nu haotic. Se repeta exercițiul cu pre-instruire, se stabilesc ordine de mars, se desemnează persoane per cale, se instruieste copii și personalul pe discipline și ascultare de semnale."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — evacuarea se face conform instruirii, organizat, fără panică. Un exercițiu haotic cu indiferență la semnale și ordine = nepregătire. Se elaborează instrucțiuni clare, se instruieste, se repeta exercițiile cu discipline.",
     "tooltipCorrect": "Evacuare organizata conform instrucțiuni, discipline și semnale — nu haos și ignorare."
@@ -11532,23 +11532,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Taxa de control e voluntara, nu-i obligatorie."
-      },
-      {
-        "id": "B",
         "text": "Control și inspecții PSI sunt servicii obligatorii, cu taxe asociate. Neachitare = neconformitate și pasibil de sancțiuni (penalități, interzicere funcționare daca gravă). Se regularizeaza neintârziat."
       },
       {
+        "id": "B",
+        "text": "În aplicarea instrucțiunilor unității, inspectorul va uita de neachitare și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Se va plăti pe viitor, acum nu."
+        "text": "Potrivit regulamentului intern, taxa de control e voluntara, nu-i obligatorie ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Inspectorul va uita de neachitare."
+        "text": "Pe baza evaluării de rutină, se va plăti pe viitor, acum nu ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul obtine avizele și autorizațiile obligatorii. Control PSI e serviciu obligatoriu cu taxe. Neachitare = neconformitate și pasibil de sancțiuni. Se regularizeaza.",
     "tooltipCorrect": "Control PSI obligatoriu cu taxe — neachitare = sancțiuni, regularizeaza neintârziat."
@@ -11564,7 +11564,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Instrucțiuni vechi sunt valide pana când cineva zice că sunt greșite."
+        "text": "Conform practicii administrative curente, instrucțiuni vechi sunt valide pana când cineva zice că sunt greșite ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -11572,11 +11572,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se asteapta o inspecție ca să spuna ce-i greșit."
+        "text": "Conform procedurii interne, dacă nimeni nu se-a plâncut, sunt ok ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Dacă nimeni nu se-a plâncut, sunt ok."
+        "text": "Conform procedurii interne, se asteapta o inspecție ca să spuna ce-i greșit ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -11596,23 +11596,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Temporar e ok, se-au scoate seara."
+        "text": "În aplicarea instrucțiunilor unității, se retrage cale la sfârșitul zilei urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Căile de evacuare trebuie libere MEREU, nu \"temporar\". Orice obstacol (chiar temporar) = blocare și risc în cazul urgență. Materiale se mută în loc de depozitare separat imediat, coridorul se curăță permanent."
+        "text": "Conform procedurii interne, temporar e ok, se-au scoate seara urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Se lasă materiale în cale, se mutează când se termina program."
+        "text": "Căile de evacuare trebuie libere MEREU, nu \"temporar\". Orice obstacol (chiar temporar) = blocare și risc în cazul urgență. Materiale se mută în loc de depozitare separat imediat, coridorul se curăță permanent."
       },
       {
         "id": "D",
-        "text": "Se retrage cale la sfârșitul zilei."
+        "text": "Conform procedurii interne, se lasă materiale în cale, se mutează când se termina program și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 1 — căile de evacuare se mențin libere. \"Temporar\" NU e suficient; în caz de urgență de mâine, copii vor întâmpina obstacol. Se menține permanent liber.",
     "tooltipCorrect": "Cale evacuare LIBERA mereu — \"temporar\" NU e acceptat, liber permanent."
@@ -11628,23 +11628,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Salariatul care-a raportat e responsabil că nu-l-a forțat s-o repare."
+        "text": "Conform procedurii interne, nicio pentru că e accident ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Administratorul poarta răspunderea principala: a primit raport, nu-a dispus reparație urgenta. Salariatul și-a făcut datoria prin raportare. Neacțiune = neglijență și răspundere penala/civila pt pagube și răniri."
+        "text": "Conform procedurii interne, cablul e responsabilitate a electricianului, nu al grădiniței și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Cablul e responsabilitate a electricianului, nu al grădiniței."
+        "text": "Conform procedurii interne, salariatul care-a raportat e responsabil că nu-l-a forțat s-o repare ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Nicio pentru că e accident."
+        "text": "Administratorul poarta răspunderea principala: a primit raport, nu-a dispus reparație urgenta. Salariatul și-a făcut datoria prin raportare. Neacțiune = neglijență și răspundere penala/civila pt pagube și răniri."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea nr. 307/2006, cap. II, sec. 6 — administratorul are obligații de a verifica și actiona pe rapoarte de pericol. Neacțiune pe cablul deteriorat cunoscut = neglijență și răspundere legala. Salariatul a făcut datoria prin raportare.",
     "tooltipCorrect": "Administrator răspunde: a primit raport, trebuia reparație urgenta — neacțiune = responsabilitate penala/civila."
@@ -11660,23 +11660,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Secret de stat, pentru că orice document intern nedistribuit public se protejează la acest nivel."
-      },
-      {
-        "id": "B",
         "text": "Secret de serviciu, deoarece divulgarea prejudiciază o persoană juridică de drept public/privat (unitatea), nefiind legat de siguranța națională/apărare — HG 585/2002 art. 4 alin. 3."
       },
       {
+        "id": "B",
+        "text": "Pe baza evaluării de rutină, secret de stat, pentru că orice document intern nedistribuit public se protejează la acest nivel urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Nicio categorie; lista copiilor și contractele sunt informații publice automat."
+        "text": "Potrivit procedurii stabilite, secret de stat nivel „secret”, pentru că implică date cu caracter personal și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Secret de stat nivel „secret”, pentru că implică date cu caracter personal."
+        "text": "Pe baza dispozițiilor curente, nicio categorie; lista copiilor și contractele sunt informații publice automat și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 585/2002 art. 4 alin. 3 definește secretul de serviciu ca informația a cărei divulgare prejudiciază o persoană juridică de drept public sau privat. Secretul de stat (art. 4 alin. 2) vizează siguranța națională/apărarea — nu este cazul unui raport intern de grădiniță. Datele cu caracter personal justifică protecție, dar nu ridică nivelul la secret de stat.",
     "tooltipCorrect": "Secret de serviciu (art. 4 alin. 3): prejudiciază unitatea, nu siguranța națională. Date personale ≠ secret de stat."
@@ -11692,7 +11692,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Două niveluri: „confidențial” și „strict confidențial”."
+        "text": "Pe baza evaluării de rutină, două niveluri: „confidențial” și „strict confidențial” ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -11700,11 +11700,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Patru niveluri: intern, secret, strict secret, top secret."
+        "text": "Pe baza dispozițiilor curente, un singur nivel generic: „secret de stat”, fără subniveluri și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Un singur nivel generic: „secret de stat”, fără subniveluri."
+        "text": "Conform practicii administrative curente, patru niveluri: intern, secret, strict secret, top secret și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -11724,23 +11724,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Fiecare salariat decide singur, după raionament propriu, ce este secret."
+        "text": "În temeiul normelor în vigoare, fiecare salariat decide singur, după raionament propriu, ce este secret și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Autoritatea întocmește un ghid de clasificare, aprobat personal și în scris de împuterniciți/funcționari superiori abilitați; după ghid se clasifică informațiile."
+        "text": "Pe baza evaluării de rutină, ghidul se ia de pe internet, fără aprobare internă urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Ghidul este opțional; clasificarea se face doar la solicitarea ISJ."
+        "text": "Autoritatea întocmește un ghid de clasificare, aprobat personal și în scris de împuterniciți/funcționari superiori abilitați; după ghid se clasifică informațiile."
       },
       {
         "id": "D",
-        "text": "Ghidul se ia de pe internet, fără aprobare internă."
+        "text": "În aplicarea măsurilor prevăzute, ghidul este opțional; clasificarea se face doar la solicitarea ISJ urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 585/2002 art. 5 obligă autoritățile să întocmească un ghid de clasificare, aprobat personal și în scris de împuterniciți/funcționari superiori abilitați. Ghidul este instrumentul pe baza căruia se decide ce se clasează și la ce nivel.",
     "tooltipCorrect": "Ghid de clasificare obligatoriu (art. 5), aprobat în scris de împuterniciți."
@@ -11756,23 +11756,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lista cu secrete de serviciu o aprobă inspectorul ștar; cea cu secrete de stat, prin HG."
+        "text": "Potrivit normei, lista cu secrete de serviciu o aprobă inspectorul ștar; cea cu secrete de stat, prin HG."
       },
       {
         "id": "B",
-        "text": "Lista cu secrete de stat se aprobă/actualizează prin HG; listele cu secrete de serviciu le stabilesc conducătorii unităților."
+        "text": "Pe baza evaluării de rutină, ambele liste le aprobă conducătorul unității, în mod identic."
       },
       {
         "id": "C",
-        "text": "Ambele liste le aprobă conducătorul unității, în mod identic."
+        "text": "Pe baza evaluării de rutină, listele cu secrete de serviciu se publică în Monitorul Oficial."
       },
       {
         "id": "D",
-        "text": "Listele cu secrete de serviciu se publică în Monitorul Oficial."
+        "text": "Lista cu secrete de stat se aprobă/actualizează prin HG; listele cu secrete de serviciu le stabilesc conducătorii unităților."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 585/2002: art. 6 — listele proprii cu secrete de stat se aprobă și se actualizează prin HG; art. 7 — listele cu secrete de serviciu le stabilesc conducătorii unităților. Pentru o grădiniță cu doar secret de serviciu, lista se stabilește de conducătorul unității.",
     "tooltipCorrect": "Secret de stat → HG (art. 6); secret de serviciu → conducătorul unității (art. 7)."
@@ -11788,23 +11788,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Accesul integral se acordă oricărui salariat al unității, indiferent de atribuții."
-      },
-      {
-        "id": "B",
         "text": "Accesul se limitează strict la informațiile necesare îndeplinirii atribuțiilor; educatorului i se comunică doar datele copiilor din grupa sa, nu și adresele/situația financiară a tuturor."
       },
       {
+        "id": "B",
+        "text": "În aplicarea măsurilor prevăzute, accesul se acordă doar după publicarea listei pe site urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Accesul se acordă doar după publicarea listei pe site."
+        "text": "Potrivit procedurii stabilite, accesul se refuză complet, inclusiv pentru grupa proprie, deoarece este secret urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Accesul se refuză complet, inclusiv pentru grupa proprie, deoarece este secret."
+        "text": "Conform procedurii interne, accesul integral se acordă oricărui salariat al unității, indiferent de atribuții urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 585/2002 art. 8 include în secretele de serviciu informații care nu trebuie cunoscute decât de persoanele cărora le sunt necesare pentru îndeplinirea atribuțiilor. Principiul necesității cunoașterii limitează accesul la strictul necesar; educatorul nu are nevoie de adresele/situația financiară a tuturor copiilor.",
     "tooltipCorrect": "Acces strict la ce este necesar atribuțiilor (art. 8), nu acces integral „pentru că suntem colegi”."
@@ -11820,7 +11820,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Clasificarea se face după opinia conducătorului, fără instrumente scrise; verificarea o face emitentul."
+        "text": "Potrivit regulamentului intern, clasificarea se face pe baza unui model de pe internet; verificarea o face ISJ."
       },
       {
         "id": "B",
@@ -11828,11 +11828,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Clasificarea se face pe baza unui model de pe internet; verificarea o face ISJ."
+        "text": "Potrivit regulamentului intern, documentul se clasează automat „strict secret” doar pentru că are și date financiare."
       },
       {
         "id": "D",
-        "text": "Documentul se clasează automat „strict secret” doar pentru că are și date financiare."
+        "text": "Pe baza dispoziției, clasificarea se face după opinia conducătorului, fără instrumente scrise; verificarea o face emitentul."
       }
     ],
     "correctOptionIds": [
@@ -11852,23 +11852,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Toate nivelurile: 30 de ani."
+        "text": "Conform procedurii interne, 50 de ani pentru toate nivelurile și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Strict secret de importanță deosebită — până la 100 ani; strict secret — 50 ani; secret — 30 ani; pot fi prelungite prin HG."
+        "text": "Conform practicii administrative curente, 10 ani pentru secret de serviciu, nelimitat pentru secret de stat."
       },
       {
         "id": "C",
-        "text": "50 de ani pentru toate nivelurile."
+        "text": "Strict secret de importanță deosebită — până la 100 ani; strict secret — 50 ani; secret — 30 ani; pot fi prelungite prin HG."
       },
       {
         "id": "D",
-        "text": "10 ani pentru secret de serviciu, nelimitat pentru secret de stat."
+        "text": "În aplicarea instrucțiunilor unității, toate nivelurile: 30 de ani urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 585/2002 art. 12 stabilește termene: strict secret de importanță deosebită — până la 100 ani; strict secret — 50 ani; secret — 30 ani (dacă nu necesită protecție mai îndelungată). Acestea pot fi prelungite prin HG.",
     "tooltipCorrect": "100 / 50 / 30 ani (strict secret de importanță deosebită / strict secret / secret)."
@@ -11884,23 +11884,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Verificarea periodică și reevaluarea nivelurilor/termenelor sunt obligatorii (art. 13), nu o simplă recomandare."
+        "text": "În aplicarea instrucțiunilor unității, lista rămâne valabilă pe termen nelimitat, fără reevaluare."
       },
       {
         "id": "B",
-        "text": "Lista rămâne valabilă pe termen nelimitat, fără reevaluare."
+        "text": "Conform practicii administrative curente, reevaluarea se face doar dacă intervine un control."
       },
       {
         "id": "C",
-        "text": "Reevaluarea se face doar dacă intervine un control."
+        "text": "Pe baza evaluării de rutină, reevaluarea o solicită doar părinții, în scris și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Reevaluarea o solicită doar părinții, în scris."
+        "text": "Verificarea periodică și reevaluarea nivelurilor/termenelor sunt obligatorii (art. 13), nu o simplă recomandare."
       }
     ],
     "correctOptionIds": [
-      "A"
+      "D"
     ],
     "explanation": "HG 585/2002 art. 13 impune verificarea periodică și reevaluarea nivelurilor și termenelor de clasificare. O listă neactualizată poate duce la supraevaluare (protecție inutilă) sau subevaluare (lipsă de protecție).",
     "tooltipCorrect": "Reevaluare periodică obligatorie (art. 13), chiar și fără control extern."
@@ -11916,23 +11916,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Dosarul se clasează la nivelul celui mai puțin important extras."
-      },
-      {
-        "id": "B",
         "text": "(Documentul prelucrat se clasifică conform noului conținut, putând fi superior originalelor; cumulul neprelucrat de extrase primește nivelul extrasului cu cel mai înalt nivel (art. 14).)"
       },
       {
+        "id": "B",
+        "text": "Pe baza evaluării de rutină, dosarul devine automat nesecret, fiind o compunere urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Dosarul devine automat nesecret, fiind o compunere."
+        "text": "Pe baza evaluării de rutină, dosarul se clasează la nivelul celui mai puțin important extras ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Fiecare pagină păstrează nivelul inițial, fără un nivel de ansamblu."
+        "text": "În aplicarea instrucțiunilor unității, fiecare pagină păstrează nivelul inițial, fără un nivel de ansamblu și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 585/2002 art. 14: (1) documentul rezultat din prelucrarea informațiilor cu niveluri diferite se clasifică conform noului conținut (poate fi superior originalelor); (2) cumulul neprelucrat de extrase primește nivelul extrasului cu cel mai înalt nivel.",
     "tooltipCorrect": "Prelucrat → după conținutul nou; neprelucrat → nivelul celui mai înalt extras (art. 14)."
@@ -11948,7 +11948,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Marcarea este o simplă decorare, fără rol funcțional."
+        "text": "În aplicarea măsurilor prevăzute, marcarea este o simplă decorare, fără rol funcțional."
       },
       {
         "id": "B",
@@ -11956,11 +11956,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Marcarea servește doar arhivei naționale, nu unității."
+        "text": "În aplicarea instrucțiunilor unității, marcarea servește doar arhivei naționale, nu unității."
       },
       {
         "id": "D",
-        "text": "Marcarea înlocuiește complet autorizația de acces."
+        "text": "Potrivit regulamentului intern, marcarea înlocuiește complet autorizația de acces și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -11980,23 +11980,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Supraevaluarea se ignoră, clasificarea e definitivă."
+        "text": "Pe baza evaluării de rutină, administratorul reclasifică unilateral, fără să anunțe emitentul ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Supraevaluările/subevaluările se supun atenției emitentului; dacă reclasifică, informează deținătorii; clasificarea se face doar dacă se impune protecția, iar supra/subevaluarea se poate contesta în contencios administrativ (art. 16–17)."
+        "text": "În aplicarea instrucțiunilor unității, contestarea se face doar penal, nu și administrativ urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Administratorul reclasifică unilateral, fără să anunțe emitentul."
+        "text": "Supraevaluările/subevaluările se supun atenției emitentului; dacă reclasifică, informează deținătorii; clasificarea se face doar dacă se impune protecția, iar supra/subevaluarea se poate contesta în contencios administrativ (art. 16–17)."
       },
       {
         "id": "D",
-        "text": "Contestarea se face doar penal, nu și administrativ."
+        "text": "Pe baza evaluării de rutină, supraevaluarea se ignoră, clasificarea e definitivă și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 585/2002 art. 16: supraevaluările/subevaluările se supun atenției emitentului, care, dacă reclasifică, informează deținătorii. art. 17: informațiile se clasează doar dacă se impune protecția; supra/subevaluarea se poate contesta în contencios administrativ.",
     "tooltipCorrect": "Se atrage atenția emitentului (art. 16); contestare în contencios (art. 17); clasificare doar dacă se impune."
@@ -12012,23 +12012,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Secretul de stat se declasifică prin ordinul administratorului, oricând."
+        "text": "Pe baza evaluării de rutină, declasificarea se face prin decizia adunării generale a părinților și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Secretul de stat se declasifică prin HG, la solicitarea motivată a emitentului; se declasifică dacă: termenul a expirat, dezvăluirea nu mai poate prejudicia, sau clasificarea a fost atribuită de persoană neîmputernicită prin lege (art. 19–20)."
+        "text": "În temeiul normelor în vigoare, declasificarea se face automat la expedierea documentului spre arhivă urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Declasificarea se face automat la expedierea documentului spre arhivă."
+        "text": "În temeiul normelor în vigoare, secretul de stat se declasifică prin ordinul administratorului, oricând ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Declasificarea se face prin decizia adunării generale a părinților."
+        "text": "Secretul de stat se declasifică prin HG, la solicitarea motivată a emitentului; se declasifică dacă: termenul a expirat, dezvăluirea nu mai poate prejudicia, sau clasificarea a fost atribuită de persoană neîmputernicită prin lege (art. 19–20)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 585/2002 art. 19: secretele de stat se declasifică prin HG, la solicitarea motivată a emitentului. art. 20: se declasifică dacă (a) termenul a expirat; (b) dezvăluirea nu mai poate prejudicia; (c) clasificarea a fost atribuită de persoană neîmputernicită prin lege.",
     "tooltipCorrect": "Declasificare secret de stat prin HG (art. 19); cazuri art. 20 — termen expirat / fără prejudiciu / neîmputernicit."
@@ -12044,23 +12044,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nicio neregulă; marcarea pe prima pagină este suficientă."
-      },
-      {
-        "id": "B",
         "text": "Marcarea trebui să figureze pe FIECARE pagină și pe fiecare se înscrie „secret de serviciu”; retragi documentul de pe copiator, limitezi accesul și anunți conducerea, lăsarea pe copiator liber fiind risc de compromitere."
       },
       {
+        "id": "B",
+        "text": "În aplicarea instrucțiunilor unității, faci fotocopii pentru toți educatorii să le folosească în grupă ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Ștergi mențiunea „secret de serviciu” ca să poți circula documentul."
+        "text": "Potrivit reglementării aplicabile, ștergi mențiunea „secret de serviciu” ca să poți circula documentul urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Faci fotocopii pentru toți educatorii să le folosească în grupă."
+        "text": "Conform procedurii interne, nicio neregulă; marcarea pe prima pagină este suficientă urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 2: pentru secretul de serviciu, numărul de înregistrare este precedat de litera „S”, iar pe FIECARE pagină se înscrie „secret de serviciu”. Un document cu marcare incompletă, lăsat liber pe copiator, este risc de compromitere: se retrage, se limitează accesul, se anunță conducerea.",
     "tooltipCorrect": "„Secret de serviciu” pe FIECARE pagină (art. 2); copiator liber = risc de compromitere."
@@ -12076,7 +12076,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar pe ultima pagină, discret."
+        "text": "Conform procedurii interne, doar la registratura județeană, nu la unitate urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -12084,11 +12084,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Doar la registratura județeană, nu la unitate."
+        "text": "În temeiul normelor în vigoare, marcarea dosarului este facultativă dacă paginile sunt marcate."
       },
       {
         "id": "D",
-        "text": "Marcarea dosarului este facultativă dacă paginile sunt marcate."
+        "text": "În aplicarea măsurilor prevăzute, doar pe ultima pagină, discret și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -12108,23 +12108,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Este corect, un singur registru este suficient."
+        "text": "Potrivit procedurii stabilite, secretele de serviciu se amestecă doar cu cele nesecrete, nu cu cele de stat."
       },
       {
         "id": "B",
-        "text": "Evidența documentelor secrete de serviciu se ține SEPARAT de cea a celor secrete de stat și nesecrete, în registrul special."
+        "text": "Potrivit procedurii stabilite, este corect, un singur registru este suficient și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Secretele de serviciu se amestecă doar cu cele nesecrete, nu cu cele de stat."
+        "text": "Evidența documentelor secrete de serviciu se ține SEPARAT de cea a celor secrete de stat și nesecrete, în registrul special."
       },
       {
         "id": "D",
-        "text": "Registrul special se ține doar dacă există și secret de stat."
+        "text": "Pe baza evaluării de rutină, registrul special se ține doar dacă există și secret de stat."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 3: evidența documentelor secrete de serviciu se ține separat de cea a celor secrete de stat și de cea a documentelor nesecrete, în registrul special. Amestecarea crește riscul de divulgare și îngreunează controlul.",
     "tooltipCorrect": "Evidență separată, în registrul special (art. 3) — nu în registrul general."
@@ -12140,23 +12140,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Este permis, dacă dosarul este ținut în geantă."
+        "text": "Conform procedurii interne, este permis, dacă dosarul este ținut în geantă ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Este interzisă scoaterea documentelor secrete de serviciu din incinta unității fără aprobarea conducătorului."
+        "text": "În aplicarea instrucțiunilor unității, este permis dacă administratorul locuiește aproape de unitate."
       },
       {
         "id": "C",
-        "text": "Este permis doar vineri seara, cu condiția revenirii luni."
+        "text": "În aplicarea instrucțiunilor unității, este permis doar vineri seara, cu condiția revenirii luni."
       },
       {
         "id": "D",
-        "text": "Este permis dacă administratorul locuiește aproape de unitate."
+        "text": "Este interzisă scoaterea documentelor secrete de serviciu din incinta unității fără aprobarea conducătorului."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 781/2002 art. 4: scoaterea din incintă a documentelor secrete de serviciu este interzisă fără aprobarea conducătorului. Munca „de acasă” cu astfel de documente este o încălcare și risc de compromitere.",
     "tooltipCorrect": "Scoaterea din incintă fără aprobarea conducătorului = interzisă (art. 4)."
@@ -12172,23 +12172,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Le stabilește inspectoratul școlar, centralizat."
-      },
-      {
-        "id": "B",
         "text": "Funcțiile care presupun acces la secrete de serviciu se stabilesc de conducătorii unităților."
       },
       {
+        "id": "B",
+        "text": "Potrivit regulamentului intern, le stabilește inspectoratul școlar, centralizat."
+      },
+      {
         "id": "C",
-        "text": "Le stabilește secretarul din primărie."
+        "text": "Funcțiile cu acces se deduc automat din fișa postului standard, fără decizie."
       },
       {
         "id": "D",
-        "text": "Funcțiile cu acces se deduc automat din fișa postului standard, fără decizie."
+        "text": "Pe baza evaluării de rutină, le stabilește secretarul din primărie."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 5: funcțiile care presupun acces la secrete de serviciu se stabilesc de conducătorii unităților. Decizia aparține conducerii, nu ISJ sau primăriei.",
     "tooltipCorrect": "Conducătorul unității stabilește funcțiile cu acces (art. 5)."
@@ -12204,7 +12204,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Accesul se acordă verbal, ca să fie operativ."
+        "text": "Potrivit reglementării aplicabile, accesul se acordă verbal, ca să fie operativ urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -12212,11 +12212,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Accesul se acordă prin simpla prezență în local."
+        "text": "Potrivit regulamentului intern, autorizația se emite doar pentru secrete de stat, nu pentru cele de serviciu urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Autorizația se emite doar pentru secrete de stat, nu pentru cele de serviciu."
+        "text": "În aplicarea măsurilor prevăzute, accesul se acordă prin simpla prezență în local urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -12236,23 +12236,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar buletinul, fără alt document."
+        "text": "Potrivit procedurii stabilite, prezintă CV-ul, fără referințe sau angajament și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Prezintă recomandări/referințe despre onestitate/profesionalism de la conducătorii cărora li se subordonează și semnează un angajament de confidențialitate; structura de securitate verifică autenticitatea și prezintă conducătorului propuneri."
+        "text": "Pe baza evaluării de rutină, semnează doar o declarație pe loc, fără verificare ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Semnează doar o declarație pe loc, fără verificare."
+        "text": "Prezintă recomandări/referințe despre onestitate/profesionalism de la conducătorii cărora li se subordonează și semnează un angajament de confidențialitate; structura de securitate verifică autenticitatea și prezintă conducătorului propuneri."
       },
       {
         "id": "D",
-        "text": "Prezintă CV-ul, fără referințe sau angajament."
+        "text": "Potrivit procedurii stabilite, doar buletinul, fără alt document urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 7: pentru eliberarea autorizației, persoana prezintă recomandări/referințe despre onestitate/profesionalism de la conducătorii cărora li se subordonează și semnează un angajament de confidențialitate; structura de securitate verifică autenticitatea și prezintă conducătorului propuneri.",
     "tooltipCorrect": "Recomandari/referințe + angajament de confidențialitate; structura verifică, conducătorul decise (art. 7)."
@@ -12268,23 +12268,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se retrage doar la demisie; autorizația rămâne valabilă altfel."
+        "text": "Conform practicii administrative curente, se retrage doar dacă titularul solicită acest lucru ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Se retrage de conducător dacă: încetează raporturile de muncă/serviciu; atribuțiile postului nu mai presupun acces; titularul a încălcat reglementările; după retragere, structura de securitate distruge autorizația pe bază de proces-verbal."
+        "text": "În aplicarea instrucțiunilor unității, după retragere, autorizația se predă titularului ca suvenir și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Se retrage doar dacă titularul solicită acest lucru."
+        "text": "În temeiul normelor în vigoare, se retrage doar la demisie; autorizația rămâne valabilă altfel și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "După retragere, autorizația se predă titularului ca suvenir."
+        "text": "Se retrage de conducător dacă: încetează raporturile de muncă/serviciu; atribuțiile postului nu mai presupun acces; titularul a încălcat reglementările; după retragere, structura de securitate distruge autorizația pe bază de proces-verbal."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 781/2002 art. 8: retragerea se face de conducător în cazurile — (a) încetarea raporturilor de muncă/serviciu sau a demnității publice; (b) atribuțiile postului nu mai presupun acces; (c) titularul a încălcat reglementările. După retragere, structura de securitate distruge autorizația pe bază de proces-verbal.",
     "tooltipCorrect": "3 cazuri de retragere; după — distrugere pe proces-verbal (art. 8)."
@@ -12300,15 +12300,15 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Pe baza autorizației obișnuite, ca persoanele fizice autohtone."
-      },
-      {
-        "id": "B",
         "text": "Pe baza autorizației speciale de acces."
       },
       {
-        "id": "C",
+        "id": "B",
         "text": "Fără nicio autorizație, ca să nu se blocheze proiectul."
+      },
+      {
+        "id": "C",
+        "text": "Pe baza autorizației obișnuite, ca persoanele fizice autohtone."
       },
       {
         "id": "D",
@@ -12316,7 +12316,7 @@ export const questions = [
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 9: accesul cetățenilor străini, cu dublă cetățenie sau apatrizi la informații secrete se face pe baza autorizației speciale de acces — nu pe autorizația obișnuită și nu verbal.",
     "tooltipCorrect": "Străini/dublă cetățenie/apatrizi → autorizație specială de acces (art. 9)."
@@ -12332,7 +12332,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Oricum, prin orice curier, important este să ajungă."
+        "text": "În temeiul normelor în vigoare, prin poșă electronică, nedeschisă."
       },
       {
         "id": "B",
@@ -12340,11 +12340,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Doar cu mașina personală a administratorului, fără altă formă."
+        "text": "În aplicarea regulii, oricum, prin orice curier, important este să ajungă."
       },
       {
         "id": "D",
-        "text": "Prin poșă electronică, nedeschisă."
+        "text": "În aplicarea regulii, doar cu mașina personală a administratorului, fără altă formă."
       }
     ],
     "correctOptionIds": [
@@ -12364,23 +12364,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se ignoră, dacă fotografiile au puține vizualizări."
+        "text": "Conform practicii administrative curente, se șterge contul de social media și nu mai este nevoie de nimic și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Conducătorii dispun cercetarea administrativă pentru a stabili condițiile, responsabilitățile și posibilitățile de recuperare/limitare; aduc imediat la cunoștință instituțiilor cu atribuții de coordonare/control; pentru recuperarea prejudiciilor se pot adresa instanțelor."
+        "text": "În aplicarea măsurilor prevăzute, se ignoră, dacă fotografiile au puține vizualizări ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se șterge contul de social media și nu mai este nevoie de nimic."
+        "text": "Conducătorii dispun cercetarea administrativă pentru a stabili condițiile, responsabilitățile și posibilitățile de recuperare/limitare; aduc imediat la cunoștință instituțiilor cu atribuții de coordonare/control; pentru recuperarea prejudiciilor se pot adresa instanțelor."
       },
       {
         "id": "D",
-        "text": "Doar persoana care a fotografiat răspunde, unitatea nu are obligații."
+        "text": "Pe baza evaluării de rutină, doar persoana care a fotografiat răspunde, unitatea nu are obligații și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 11: în caz de compromitere, conducătorii dispun cercetarea administrativă (condiții, responsabilități, recuperare/limitare), informează imediat instituțiile cu atribuții de coordonare/control, iar pentru recuperarea prejudiciilor se pot adresa instanțelor judecătorești.",
     "tooltipCorrect": "Compromitere → cercetare administrativă + informare instituții + posibil instanță (art. 11)."
@@ -12396,23 +12396,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar răspunderea disciplinară, întrucât nu e vorba de secret de stat."
+        "text": "Potrivit normei, doar răspunderea civilă, pentru prejudiciu."
       },
       {
         "id": "B",
-        "text": "Nerespectarea atrage răspundere penală, civilă, contravențională sau disciplinară."
+        "text": "Conform procedurii, doar amendă administrativă, fără alte forme."
       },
       {
         "id": "C",
-        "text": "Doar răspunderea civilă, pentru prejudiciu."
+        "text": "Doar răspunderea disciplinară, întrucât nu e vorba de secret de stat."
       },
       {
         "id": "D",
-        "text": "Doar amendă administrativă, fără alte forme."
+        "text": "Nerespectarea atrage răspundere penală, civilă, contravențională sau disciplinară."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 781/2002 art. 12: nerespectarea reglementărilor atrage răspundere penală, civilă, contravențională sau disciplinară, după caz. Nu se reduce la o singură formă.",
     "tooltipCorrect": "Patru forme de răspundere: penală, civilă, contravențională, disciplinară (art. 12)."
@@ -12428,23 +12428,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Normele proprii sunt facultative, se fac doar la control."
-      },
-      {
-        "id": "B",
         "text": "În 60 de zile de la publicarea HG, unitățile emit norme proprii de aplicare."
       },
       {
+        "id": "B",
+        "text": "Normele se preiau verbatim de la o unitate vecină, fără adaptare."
+      },
+      {
         "id": "C",
-        "text": "Normele se emit în 5 ani de la înființare."
+        "text": "Pe baza dispoziției, normele proprii sunt facultative, se fac doar la control."
       },
       {
         "id": "D",
-        "text": "Normele se preiau verbatim de la o unitate vecină, fără adaptare."
+        "text": "Conform procedurii, normele se emit în 5 ani de la înființare."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 15: în 60 de zile de la publicare, unitățile emit norme proprii de aplicare. Lipsa normelor proprii lasă regimul neaplicat și creează riscuri (marked improper, acces necontrolat).",
     "tooltipCorrect": "Norme proprii în 60 de zile de la publicare (art. 15)."
@@ -12460,7 +12460,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Sancțiunile sunt identice, fără nicio diferență."
+        "text": "În aplicarea măsurilor prevăzute, amenzile se dublează pentru secretele de serviciu ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -12468,11 +12468,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Pentru secrete de serviciu nu există sancțiuni contravenționale."
+        "text": "Pe baza evaluării de rutină, sancțiunile sunt identice, fără nicio diferență și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Amenzile se dublează pentru secretele de serviciu."
+        "text": "Pe baza evaluării de rutină, pentru secrete de serviciu nu există sancțiuni contravenționale și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -12492,23 +12492,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nicio încălcare, ambele sunt permise dacă sunt de scurtă durată."
+        "text": "Potrivit procedurii stabilite, doar răspundere penală, fără sancțiune contravențională urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Nerespectarea art. 4 (scoaterea fără aprobare) și art. 6 alin. 1 (acces fără autorizație) este contravenție, sancționată cu avertisment sau amendă 500.000–10.000.000 lei (lei vechi)."
+        "text": "Potrivit procedurii stabilite, nicio încălcare, ambele sunt permise dacă sunt de scurtă durată și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Doar avertisment scris, fără amendă."
+        "text": "Nerespectarea art. 4 (scoaterea fără aprobare) și art. 6 alin. 1 (acces fără autorizație) este contravenție, sancționată cu avertisment sau amendă 500.000–10.000.000 lei (lei vechi)."
       },
       {
         "id": "D",
-        "text": "Doar răspundere penală, fără sancțiune contravențională."
+        "text": "Pe baza dispozițiilor curente, doar avertisment scris, fără amendă și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 14: nerespectarea art. 4 (scoaterea fără aprobare) și art. 6 alin. 1 (acces fără autorizație) constituie contravenție sancționată cu avertisment sau amendă 500.000–10.000.000 lei (lei vechi).",
     "tooltipCorrect": "Contravenție art. 4 & art. 6 alin. 1 → avertisment sau amendă (art. 14)."
@@ -12524,23 +12524,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Este corect, fiindcă grădinița folosește WhatsApp pentru comunicare."
+        "text": "Potrivit reglementării aplicabile, se permite dacă se șterge mesajul după 24 ore urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Lista fiind secret de serviciu, fotografierea și distribuirea sunt compromitere: retragi/imaginea șterge, dispui cercetare administrativă, informezi conducerea și instituțiile abilitate; datele personale ale altor copii nu se transmit părinților."
+        "text": "Pe baza dispozițiilor curente, este corect, fiindcă grădinița folosește WhatsApp pentru comunicare și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Se permite doar dacă grupul are membri verificați."
+        "text": "Potrivit regulamentului intern, se permite doar dacă grupul are membri verificați ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Se permite dacă se șterge mesajul după 24 ore."
+        "text": "Lista fiind secret de serviciu, fotografierea și distribuirea sunt compromitere: retragi/imaginea șterge, dispui cercetare administrativă, informezi conducerea și instituțiile abilitate; datele personale ale altor copii nu se transmit părinților."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Lista copiilor cu date de contact este secret de serviciu; fotografierea și transmiterea în grup realizează o compromitere (HG 781/2002 art. 11): se retrage/distrug suporturile, se declanșează cercetare administrativă, se informează conducerea și instituțiile cu atribuții de coordonare/control. Datele personale ale altor copii nu se transmit părinților (principiul necesității cunoașterii, art. 8 din HG 585).",
     "tooltipCorrect": "Foto + grup = compromitere (art. 11); cercetare administrativă + informare; datele altor copii nu se distribuie."
@@ -12556,23 +12556,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nicio măsură, fiindcă biroul este al administratorului."
-      },
-      {
-        "id": "B",
         "text": "Securizarea depozitării (dulap încuiat, acces restricționat) pentru a preveni scoaterea/consultarea neautorizată; accesul doar pe autorizație, iar scoaterea din incintă doar cu aprobarea conducătorului (art. 4 respectiv art. 6)."
       },
       {
+        "id": "B",
+        "text": "Conform practicii administrative curente, lăsarea lor pe birou, pentru rapiditate ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Mutarea dosarelor în cancelaria comună."
+        "text": "Conform procedurii interne, mutarea dosarelor în cancelaria comună urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Lăsarea lor pe birou, pentru rapiditate."
+        "text": "Conform practicii administrative curente, nicio măsură, fiindcă biroul este al administratorului și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Secretele de serviciu trebuie depozitate astfel încât să prevină accesul/scoaterea neautorizată (dulap încuiat, spațiu cu acces controlat). HG 781/2002 art. 4 interzice scoaterea din incintă fără aprobarea conducătorului, iar art. 6 condiționează accesul de autorizație. Dulap descuiat într-o încăpere cu curatori creează risc de compromitere.",
     "tooltipCorrect": "Depozitare securizată (încuiat, acces controlat); interzisă scoaterea fără aprobare (art. 4)."
@@ -12588,7 +12588,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuzul nu este motivat; colegii pot vedea orice."
+        "text": "Pe baza dispozițiilor curente, refuzul este motivat doar dacă colegul este din altă unitate și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -12596,11 +12596,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Refuzul este motivat doar dacă colegul este din altă unitate."
+        "text": "Potrivit procedurii stabilite, refuzul nu este motivat; colegii pot vedea orice ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Se permite, cu condiția ca el să nu fotografieze."
+        "text": "Conform procedurii interne, se permite, cu condiția ca el să nu fotografieze și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -12620,23 +12620,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimic; aruncarea la coș este suficientă."
+        "text": "În temeiul normelor în vigoare, trebuia s-o predea titularului și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "După retragere, structura de securitate distruge autorizația pe bază de PROCES-VERBAL, nu prin aruncare simplă."
+        "text": "Pe baza dispozițiilor curente, trebuia doar s-o păstreze intr-un dosar urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Trebuia doar s-o păstreze intr-un dosar."
+        "text": "După retragere, structura de securitate distruge autorizația pe bază de PROCES-VERBAL, nu prin aruncare simplă."
       },
       {
         "id": "D",
-        "text": "Trebuia s-o predea titularului."
+        "text": "Pe baza dispozițiilor curente, nimic; aruncarea la coș este suficientă și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 8: după retragerea autorizației, structura de securitate distruge autorizația pe bază de proces-verbal. Aruncarea simplă nu lasă urmă de evidență și nu dovedește distrugerea, ceea ce îngreunează controlul.",
     "tooltipCorrect": "Distrugerea autorizației pe proces-verbal (art. 8), nu la coș."
@@ -12652,23 +12652,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Niciuna; multiplicarea pe copiator este liberă."
+        "text": "Conform practicii administrative curente, doar dacă multiplicarea se face color și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Regulile de multiplicare și manipulare (art. 1) sunt încălcate: multiplicarea se consemnează și se face în condiții de protecție; copiator liber + lipsă evidență = risc de compromitere (art. 11 context)."
+        "text": "Potrivit procedurii stabilite, doar art. 11, doar dacă se pierd copii ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Doar art. 11, doar dacă se pierd copii."
+        "text": "Conform procedurii interne, niciuna; multiplicarea pe copiator este liberă urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Doar dacă multiplicarea se face color."
+        "text": "Regulile de multiplicare și manipulare (art. 1) sunt încălcate: multiplicarea se consemnează și se face în condiții de protecție; copiator liber + lipsă evidență = risc de compromitere (art. 11 context)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 781/2002 art. 1 aplică secretelor de serviciu regulile de evidență, întocmire, păstrare, procesare, MULTIPLICARE, manipulare etc. Multiplicarea se consemnează și se face în condiții de protecție; pe copiator liber, fără evidență, există copii lăsate/uitate — risc de compromitere (art. 11).",
     "tooltipCorrect": "Multiplicare consemnată + protecție (art. 1); copiator liber fără evidență = risc art. 11."
@@ -12684,23 +12684,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Așteaptă să vadă dacă cineva răspunde, apoi decide."
-      },
-      {
-        "id": "B",
         "text": "Recunoaște compromiterea: solicită retragerea/ștergerea de la toți destinatarii, anunță imediat conducerea și declanșează cercetarea administrativă (art. 11), consemnând transmiterea eronată."
       },
       {
+        "id": "B",
+        "text": "Conform practicii administrative curente, așteaptă să vadă dacă cineva răspunde, apoi decide și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Șterge mesajul doar din „Trimise” propriu."
+        "text": "Pe baza dispozițiilor curente, nu face nimic, fiindcă a fost „din greșeală” urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Nu face nimic, fiindcă a fost „din greșeală”."
+        "text": "În aplicarea măsurilor prevăzute, șterge mesajul doar din „Trimise” propriu urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Transmisia greșită a unui secret de serviciu este o compromitere (HG 781/2002 art. 11): se solicită retragerea/ștergerea la toți destinatarii, se anunță imediat conducerea, se declanșează cercetarea administrativă și se consemnează evenimentul. „Din greșeală” nu elimină compromiterea.",
     "tooltipCorrect": "Compromitere → retragere/ștergere, anunț conducere, cercetare administrativă (art. 11)."
@@ -12716,7 +12716,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Dosarul de personal e public, ca orice document de personal."
+        "text": "Conform practicii administrative curente, doar datele medicale sunt protejate, restul sunt publice și se raportează conducerii."
       },
       {
         "id": "B",
@@ -12724,11 +12724,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Orice salariat poate consulta dosarele de personal ale colegilor."
+        "text": "Conform procedurii interne, orice salariat poate consulta dosarele de personal ale colegilor urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Doar datele medicale sunt protejate, restul sunt publice."
+        "text": "Pe baza evaluării de rutină, dosarul de personal e public, ca orice document de personal ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -12748,23 +12748,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Rămâne clasificat pe termen nelimitat, pentru siguranță."
+        "text": "Pe baza evaluării de rutină, rămâne clasificat pe termen nelimitat, pentru siguranță și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Dacă termenul a expirat, se declasifică (art. 20 lit. a); la solicitarea motivată a emitentului, se declasifică prin HG (art. 19)."
+        "text": "Potrivit procedurii stabilite, se distrug, fără declasificare ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se reclasifică automat la un nivel superior."
+        "text": "Dacă termenul a expirat, se declasifică (art. 20 lit. a); la solicitarea motivată a emitentului, se declasifică prin HG (art. 19)."
       },
       {
         "id": "D",
-        "text": "Se distrug, fără declasificare."
+        "text": "Potrivit procedurii stabilite, se reclasifică automat la un nivel superior urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 585/2002 art. 20 lit. a: se declasifică dacă termenul a expirat; art. 19: secretul de stat se declasifică prin HG, la solicitarea motivată a emitentului. Menținerea clasificării peste termen fără prelungire prin HG este supraevaluare.",
     "tooltipCorrect": "Termen expirat → declasificare (art. 20 lit. a), prin HG la solicitare (art. 19)."
@@ -12780,23 +12780,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză total; dosarul este secret, deci nimeni nu-l vede."
+        "text": "Potrivit regulamentului intern, se refuză fără motivare scrisă ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Accesul părintelui la datele propriului copil se realizează conform legii și procedurii unității, pe bază de solicitare și identitate; acest lucru NU înseamnă acces integral la registrul cu toți copiii, ci strict la cele necesare și justificate legal."
+        "text": "În aplicarea instrucțiunilor unității, refuză total; dosarul este secret, deci nimeni nu-l vede și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Se predă întreg registrul, ca să caute singur."
+        "text": "Pe baza dispozițiilor curente, se predă întreg registrul, ca să caute singur ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Se refuză fără motivare scrisă."
+        "text": "Accesul părintelui la datele propriului copil se realizează conform legii și procedurii unității, pe bază de solicitare și identitate; acest lucru NU înseamnă acces integral la registrul cu toți copiii, ci strict la cele necesare și justificate legal."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Secretul de serviciu protejează registrul (HG 585/2002 art. 8 — informațiile necesare doar celor cu atribuții), dar dreptul părintelui la datele propriului copil se realizează conform legii/procedurii. Accesul este individualizat, nu se deschide registrul integral; accesul intern al altor persoane rămâne pe autorizație (HG 781/2002 art. 6).",
     "tooltipCorrect": "Acces individualizat la datele proprii; nu acces integral la registru (art. 8 + art. 6)."
@@ -12812,23 +12812,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Niciuna; lista veche rămâne valabilă până la un control."
-      },
-      {
-        "id": "B",
         "text": "Verificarea periodică și reevaluarea nivelurilor/termenelor (art. 13): include noile documente în listă, stabilește nivelul și termenul, pentru a evita subevaluarea (lipsă protecție) și supraevaluarea (protecție inutilă)."
       },
       {
+        "id": "B",
+        "text": "În temeiul normelor în vigoare, reevaluarea se face o singură dată, la înființare și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Noile documente se clasează automat „strict secret”."
+        "text": "Conform procedurii interne, niciuna; lista veche rămâne valabilă până la un control ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Reevaluarea se face o singură dată, la înființare."
+        "text": "Conform practicii administrative curente, noile documente se clasează automat „strict secret” urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 585/2002 art. 13 obligă verificarea periodică și reevaluarea nivelurilor și termenelor. Schimbarea atribuțiilor care aduce documente noi sensibile impune actualizarea listei; altfel apar subevaluări (information neprotejat) sau supraevaluări.",
     "tooltipCorrect": "Reevaluare periodică (art. 13) — noile documente se includ în listă, cu nivel/termen."
@@ -12844,7 +12844,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar prin plângere penală."
+        "text": "În aplicarea instrucțiunilor unității, doar la adunarea generală a părinților și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -12852,11 +12852,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Doar la adunarea generală a părinților."
+        "text": "În aplicarea instrucțiunilor unității, doar prin plângere penală și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Nu se poate contesta; clasificarea e definitivă."
+        "text": "Conform practicii administrative curente, nu se poate contesta; clasificarea e definitivă și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -12876,23 +12876,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se aruncă în coșul de hârtie, ca orice deșeu."
+        "text": "Conform practicii administrative curente, se aruncă în coșul de hârtie, ca orice deșeu și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Distrugerea face parte din regula de manipulare (art. 1) și, ca pentru autorizația retrasă (art. 8), se face pe bază de PROCES-VERBAL, cu evidență, nu prin aruncare simplă."
+        "text": "Conform practicii administrative curente, se păstrează la nesfârșit, pentru orice eventualitate ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se donează unei alte unități, fără formă."
+        "text": "Distrugerea face parte din regula de manipulare (art. 1) și, ca pentru autorizația retrasă (art. 8), se face pe bază de PROCES-VERBAL, cu evidență, nu prin aruncare simplă."
       },
       {
         "id": "D",
-        "text": "Se păstrează la nesfârșit, pentru orice eventualitate."
+        "text": "Potrivit reglementării aplicabile, se donează unei alte unități, fără formă ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 1 include regula de distrugere a secretelor de serviciu; distrugerea se face cu evidență, pe bază de proces-verbal (asemeni distrugerii autorizației retrei în art. 8), nu prin aruncare simplă — altfel nu se poate dovedi scoaterea din evidență.",
     "tooltipCorrect": "Distrugere pe proces-verbal, cu evidență (art. 1, principiu art. 8)."
@@ -12908,23 +12908,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Rezumatul devine automat nesecret."
+        "text": "Conform practicii administrative curente, rezumatul se clasifică întotdeauna mai jos decât originalul și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Rezumatele/traducerile/extrasele primesc nivelul corespunzător conținutului lor (art. 14 alin. 3), deci rezumatul păstrează nivelul dacă păstrează informația sensibilă."
+        "text": "Conform procedurii interne, rezumatul devine automat nesecret ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Rezumatul se clasifică întotdeauna mai jos decât originalul."
+        "text": "Conform procedurii interne, rezumatul nu se poate face, fiind interzis urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Rezumatul nu se poate face, fiind interzis."
+        "text": "Rezumatele/traducerile/extrasele primesc nivelul corespunzător conținutului lor (art. 14 alin. 3), deci rezumatul păstrează nivelul dacă păstrează informația sensibilă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 585/2002 art. 14 alin. 3: rezumatele/traducerile/extrasele primesc nivelul corespunzător conținutului. Dacă rezumatul păstrează informația sensibilă, rămâne la nivelul aplicabil — scurtarea nu scade automat nivelul.",
     "tooltipCorrect": "Rezumat/extras/traducere → nivel după conținutul său (art. 14 alin. 3), nu automat mai jos."
@@ -12940,23 +12940,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Delegarea verbală este suficientă pentru concediu."
-      },
-      {
-        "id": "B",
         "text": "Funcțiile cu acces se stabilesc de conducător (art. 5), iar accesul se acordă doar pe AUTORIZAȚIE SCRISĂ emisă de conducător (art. 6); se emite autorizație temporară pentru perioada delegării, cu evidentă în Registru."
       },
       {
+        "id": "B",
+        "text": "Potrivit regulamentului intern, colegul așteaptă până se întoarce administratorul din concediu ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Se predă dulapul descuiat, ca să fie operativ."
+        "text": "În temeiul normelor în vigoare, se predă dulapul descuiat, ca să fie operativ ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Colegul așteaptă până se întoarce administratorul din concediu."
+        "text": "Potrivit regulamentului intern, delegarea verbală este suficientă pentru concediu urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 5: funcțiile cu acces sunt stabilite de conducător; art. 6: accesul se face doar pe autorizație scrisă. Delegarea în concediu cere emiterea unei autorizații (eventual temporare), cu evidentă în Registrul pentru evidența autorizațiilor, nu o predare verbală.",
     "tooltipCorrect": "Delegare = autorizație scrisă temporară de la conducător (art. 5 + art. 6)."
@@ -12972,7 +12972,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Poșta rapidă obișnuită este suficientă."
+        "text": "Potrivit reglementării aplicabile, se scanează și se trimite prin email necriptat, mai simplu urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -12980,11 +12980,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Se trimite doar cu autovehiculul administratorului, fără evidentă."
+        "text": "În temeiul normelor în vigoare, poșta rapidă obișnuită este suficientă urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Se scanează și se trimite prin email necriptat, mai simplu."
+        "text": "Conform practicii administrative curente, se trimite doar cu autovehiculul administratorului, fără evidentă ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -13004,23 +13004,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Le lași pentru a doua zi, ca să le continue cine a inceput."
+        "text": "Conform practicii administrative curente, le refolosești pe spate, ca ciorne și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Le retragi, le securizezi, verifică cine a multiplicat și dacă multiplicarea a fost consemnată; dacă exista risc de compromitere, anunți conducerea și declanșezi cercetare administrativă (art. 11); regula de multiplicare/manipulare (art. 1) a fost încălcată."
+        "text": "Conform procedurii interne, le dai la arhivă împreună cu alte documente și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Le dai la arhivă împreună cu alte documente."
+        "text": "Le retragi, le securizezi, verifică cine a multiplicat și dacă multiplicarea a fost consemnată; dacă exista risc de compromitere, anunți conducerea și declanșezi cercetare administrativă (art. 11); regula de multiplicare/manipulare (art. 1) a fost încălcată."
       },
       {
         "id": "D",
-        "text": "Le refolosești pe spate, ca ciorne."
+        "text": "În aplicarea măsurilor prevăzute, le lași pentru a doua zi, ca să le continue cine a inceput și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 1 impune reguli de multiplicare/manipulare; pagini uitate pe copiator = încălcare și risc de compromitere (art. 11). Întâi se retrag/securizează, se identifică multiplicarea și se verifică evidentă, apoi se anunță conducerea dacă există risc și se declanșează cercetarea administrativă.",
     "tooltipCorrect": "Multiplicare nesupravegheată = risc art. 11; retragere, securizare, evidentă, cercetare (art. 1)."
@@ -13036,23 +13036,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Îi deschide toate dosarele, fiindcă e „audit”."
+        "text": "Conform procedurii interne, refuză fără să verifice nimic și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Accesul se acordă doar pe autorizație scrisă de la conducătorul unității și după verificare (art. 6 și art. 7); mandatul general nu înlocuiește autorizația specifică, iar persoanele externe fără atribuții nu primesc acces."
+        "text": "Pe baza dispozițiilor curente, îi deschide toate dosarele, fiindcă e „audit” ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Refuză fără să verifice nimic."
+        "text": "Potrivit reglementării aplicabile, permisiunea se dă verbal, ca să nu blocheze auditul urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Permisiunea se dă verbal, ca să nu blocheze auditul."
+        "text": "Accesul se acordă doar pe autorizație scrisă de la conducătorul unității și după verificare (art. 6 și art. 7); mandatul general nu înlocuiește autorizația specifică, iar persoanele externe fără atribuții nu primesc acces."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 781/2002 art. 6: accesul la secret de serviciu se face doar pe autorizație scrisă de la conducător; art. 7: pentru eliberare se cer recomandări/referințe și angajament de confidențialitate, iar structura de securitate verifică. Un mandat general de audit nu înlocuiește autorizația specifică și nici accesul celor fără atribuții.",
     "tooltipCorrect": "Audit extern ≠ acces automat; necesită autorizație specifică + verificare (art. 6–7)."
@@ -13068,23 +13068,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Niciuna; contextul justifică amestecarea."
-      },
-      {
-        "id": "B",
         "text": "Evidența se face separat (art. 3), iar cumulul neprelucrat de documente cu niveluri diferite primește nivelul celui mai înalt (HG 585 art. 14 alin. 2); amestecarea Transformă tot dosarul în secret de serviciu și încalcă regula de evidentă separată."
       },
       {
+        "id": "B",
+        "text": "În aplicarea instrucțiunilor unității, doar dacă exista și secret de stat ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Doar dacă exista și secret de stat."
+        "text": "Potrivit procedurii stabilite, este permis, dacă dosarul este încuiat și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Este permis, dacă dosarul este încuiat."
+        "text": "În aplicarea instrucțiunilor unității, niciuna; contextul justifică amestecarea ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 3: evidenta se ține separat (secret de serviciu vs. nesecrete). HG 585/2002 art. 14 alin. 2: cumulul neprelucrat de extrase primește nivelul celui mai înalt. Amestecarea face întregul dosar secret de serviciu și încalcă evidenta separată, îngreunând controlul.",
     "tooltipCorrect": "Evidență separată (art. 3) + nivelul celui mai înalt la cumul (art. 14)."
@@ -13100,7 +13100,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimic; marcarea paginilor este suficientă."
+        "text": "În temeiul normelor în vigoare, trebuia să marcheze doar coperta, nu și paginile ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -13108,11 +13108,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Trebuia să marcheze doar coperta, nu și paginile."
+        "text": "Conform practicii administrative curente, nimic; marcarea paginilor este suficientă ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Marcarea se face doar pe CD, nu pe suport hârtie."
+        "text": "Potrivit procedurii stabilite, marcarea se face doar pe CD, nu pe suport hârtie și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -13132,23 +13132,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nicio particularitate; numerotarea este identică."
+        "text": "Conform procedurii interne, numărul se scrie cu cerneală roșie, fără altă marcă."
       },
       {
         "id": "B",
-        "text": "Numărul de înregistrare este precedat de litera „S”, pentru identificare imediată a regimului."
+        "text": "Potrivit reglementării aplicabile, numerotarea se face doar cu cifre romane."
       },
       {
         "id": "C",
-        "text": "Numărul se scrie cu cerneală roșie, fără altă marcă."
+        "text": "Numărul de înregistrare este precedat de litera „S”, pentru identificare imediată a regimului."
       },
       {
         "id": "D",
-        "text": "Numerotarea se face doar cu cifre romane."
+        "text": "Potrivit procedurii stabilite, nicio particularitate; numerotarea este identică."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 2: pentru identificare, numărul de înregistrare al unui document cu secret de serviciu este precedat de litera „S”. Aceasta permite recunoașterea imediată a regimului și separarea de evidența generală (art. 3).",
     "tooltipCorrect": "Număr precedat de litera „S” (art. 2), pt. identificarea regimului."
@@ -13164,23 +13164,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Colegul răspunde singur; marcarea e problemă lui."
+        "text": "În temeiul normelor în vigoare, colegul răspunde singur; marcarea e problemă lui și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Marcarea atenționează pe cel care gestionează/accesează că trebuie aplicate măsuri specifice (art. 15); lipsa marcării reduce posibilitatea de a-l proteja, dar clasificarea se face dacă se impune (art. 17), iar emitentul răspunde de marcarea corectă."
+        "text": "Potrivit procedurii stabilite, fără marcă, documentul devine automat public și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Fără marcă, documentul devine automat public."
+        "text": "Potrivit regulamentului intern, marcarea e opțională, deci toți sunt liberi să-l difuzeze și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Marcarea e opțională, deci toți sunt liberi să-l difuzeze."
+        "text": "Marcarea atenționează pe cel care gestionează/accesează că trebuie aplicate măsuri specifice (art. 15); lipsa marcării reduce posibilitatea de a-l proteja, dar clasificarea se face dacă se impune (art. 17), iar emitentul răspunde de marcarea corectă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 585/2002 art. 15: marcarea atenționează persoanele care gestionează/accesează de măsurile specifice; art. 17: clasificarea se face doar dacă se impune protecția. Lipsa marcării este deficiență a emitentului, dar nu face documentul public; responsabilul cu emiterea/marcarea răspunde, iar colegul ar fi trebuit să semnaleze.",
     "tooltipCorrect": "Marcarea = atenționare pt. măsuri specifice (art. 15); lipsa ei = deficiență, nuallowed public."
@@ -13196,23 +13196,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimic; caietul manuscris nu intră sub regim."
-      },
-      {
-        "id": "B",
         "text": "Pe fiecare pagină se înscrie „secret de serviciu”, iar la înregistrare numărul este precedat de litera „S”; regimul se aplică indiferent de suport (hârtie, caiet, electronic)."
       },
       {
+        "id": "B",
+        "text": "În temeiul normelor în vigoare, nimic; caietul manuscris nu intră sub regim și se consemnează în evidentă."
+      },
+      {
         "id": "C",
-        "text": "Doar semnătura, fără mențiunea „secret de serviciu”."
+        "text": "Pe baza evaluării de rutină, doar paginii de copertă a caietului și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Doar paginii de copertă a caietului."
+        "text": "Conform practicii administrative curente, doar semnătura, fără mențiunea „secret de serviciu” urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 2: pe fiecare pagină se înscrie „secret de serviciu”, iar numărul de înregistrare este precedat de litera „S”. Regimul nu depinde de suport: manuscris, tipărit sau electronic — dacă informația e clasificată, marcarea se aplică.",
     "tooltipCorrect": "„Secret de serviciu” pe fiecare pagină, indiferent de suport (art. 2)."
@@ -13228,7 +13228,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Niciuna; Registryul este optional."
+        "text": "Potrivit procedurii stabilite, niciuna; Registryul este optional ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -13236,11 +13236,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Registryul se ține doar dacă sunt >10 autorizații."
+        "text": "Pe baza dispozițiilor curente, registryul se ține doar dacă sunt >10 autorizații și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Registryul se păstrează la domiciliul administratorului."
+        "text": "În aplicarea instrucțiunilor unității, registryul se păstrează la domiciliul administratorului și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -13260,23 +13260,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Accesul se acordă fără angajament, pe încredere."
+        "text": "În aplicarea instrucțiunilor unității, accesul se refuză, dar fără motivare și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Fără semnarea angajamentului de confidențialitate și prezentarea recomandărilor/referențelor, nu se emite autorizația; structura de securitate verifică apoi și prezintă propuneri conducătorului, care decide."
+        "text": "Pe baza dispozițiilor curente, se emite autorizație temporară, fără celelalte formalități urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Se emite autorizație temporară, fără celelalte formalități."
+        "text": "Fără semnarea angajamentului de confidențialitate și prezentarea recomandărilor/referențelor, nu se emite autorizația; structura de securitate verifică apoi și prezintă propuneri conducătorului, care decide."
       },
       {
         "id": "D",
-        "text": "Accesul se refuză, dar fără motivare."
+        "text": "Potrivit reglementării aplicabile, accesul se acordă fără angajament, pe încredere ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 7: pentru eliberarea autorizației, persoana prezintă recomandări/referințe și semnează angajament de confidențialitate; structura de securitate verifică autenticitatea și prezintă propuneri conducătorului. Refuzul angajamentului blochează emiterea autorizației — nu există acces „pe încredere”.",
     "tooltipCorrect": "Fără angajament + referințe: nu se emite autorizația (art. 7)."
@@ -13292,23 +13292,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Niciunul — discuția la cafea nu se pedepsește."
+        "text": "Potrivit reglementării aplicabile, doar cazul (a) — încetarea raporturilor de muncă ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Cazul (c): titularul a încălcat reglementările; conducătorul retrage autorizația, iar structura de securitate o distruge pe proces-verbal."
+        "text": "În aplicarea instrucțiunilor unității, nicio retragere, doar o discuție amicală urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Doar cazul (a) — încetarea raporturilor de muncă."
+        "text": "În aplicarea instrucțiunilor unității, niciunul — discuția la cafea nu se pedepsește ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Nicio retragere, doar o discuție amicală."
+        "text": "Cazul (c): titularul a încălcat reglementările; conducătorul retrage autorizația, iar structura de securitate o distruge pe proces-verbal."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 781/2002 art. 8 prevede retragerea autorizației între altele când titularul a încălcat reglementările (lit. c). Discuția publică despre un document clasificat este încălcare; conducătorul retrage autorizația, iar structura de securitate o distruge pe proces-verbal.",
     "tooltipCorrect": "Încălcare reglementări = caz de retragere (art. 8 lit. c) + distrugere pe PV."
@@ -13324,23 +13324,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "USB-ul nu intră sub regim, fiind suport electronic."
-      },
-      {
-        "id": "B",
         "text": "Regimul se aplică indiferent de suport (art. 1): păstrare/procesare/transmitere electronică cu măsuri de protecție (criptare, control al accesului), iar scoaterea suportului din incintă cere aprobarea conducătorului (principiu art. 4)."
       },
       {
+        "id": "B",
+        "text": "Conform practicii administrative curente, trebuie doar șters la final, fără alte măsuri și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Trebuie doar șters la final, fără alte măsuri."
+        "text": "Conform procedurii interne, se permite pe orice USB, atât timp cât e în geantă și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Se permite pe orice USB, atât timp cât e în geantă."
+        "text": "În temeiul normelor în vigoare, USB-ul nu intră sub regim, fiind suport electronic ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 1 aplică secretelor de serviciu regulile de păstrare, procesare, transmitere, indiferent de suport. Suportul electronic necesită măsuri tehnice (criptare, control acces), iar scoaterea suportului din incintă ține de principiul art. 4 (aprobarea conducătorului). USB necriptat în geantă = risc de compromitere/înstrăinare.",
     "tooltipCorrect": "Regim pe orice suport (art. 1); scoaterea suportului cere aprobare (art. 4)."
@@ -13356,7 +13356,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Autorizația obișnuită, ca pentru orice salariat."
+        "text": "Conform procedurii interne, autorizația obișnuită, ca pentru orice salariat și se raportează conducerii."
       },
       {
         "id": "B",
@@ -13364,11 +13364,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Nicio autorizație, fiindcă e proiect european."
+        "text": "Conform practicii administrative curente, nicio autorizație, fiindcă e proiect european."
       },
       {
         "id": "D",
-        "text": "Doar acordul verbal al conducerii."
+        "text": "În aplicarea măsurilor prevăzute, doar acordul verbal al conducerii și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -13388,23 +13388,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "După opinia personală, fără instrumente."
+        "text": "În aplicarea măsurilor prevăzute, după opinia personală, fără instrumente."
       },
       {
         "id": "B",
-        "text": "După consultarea ghidului de clasificare și a listelor de informații clasificate."
+        "text": "Pe baza dispozițiilor curente, după o căutare pe internet."
       },
       {
         "id": "C",
-        "text": "După o căutare pe internet."
+        "text": "După consultarea ghidului de clasificare și a listelor de informații clasificate."
       },
       {
         "id": "D",
-        "text": "După decizia ad-hoc a secretarului."
+        "text": "Potrivit reglementării aplicabile, după decizia ad-hoc a secretarului."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 585/2002 art. 10: clasificarea se face consultând ghidul (art. 5) și listele (art. 6–7). Aceste instrumente întemeiază decizia și evită clasificarea arbitrară — fie supraevaluare inutilă, fie subevaluare periculoasă.",
     "tooltipCorrect": "Clasificare: consultare ghid + liste (art. 10), nu decizie ad-hoc."
@@ -13420,23 +13420,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lista rămâne nemodificată, decrete niciun instrument."
+        "text": "Potrivit procedurii stabilite, actualizarea se face doar de ISJ, nu prin HG și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Lista cu secrete de stat se aprobă/actualizează prin HG (art. 6), iar nivelurile/termenele se reevaluează periodic (art. 13)."
+        "text": "Potrivit procedurii stabilite, actualizarea este optionale, doar la control ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Actualizarea se face doar de ISJ, nu prin HG."
+        "text": "În aplicarea instrucțiunilor unității, lista rămâne nemodificată, decrete niciun instrument."
       },
       {
         "id": "D",
-        "text": "Actualizarea este optionale, doar la control."
+        "text": "Lista cu secrete de stat se aprobă/actualizează prin HG (art. 6), iar nivelurile/termenele se reevaluează periodic (art. 13)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 585/2002 art. 6: listele cu secrete de stat se aprobă/actualizează prin HG; art. 13: verificare periodică și reevaluare a nivelurilor/termenelor. Niciuna nu se face la nivelul unității prin simplă decizie internă pentru secretele de stat.",
     "tooltipCorrect": "Secrete de stat: actualizare prin HG (art. 6) + reevaluare periodică (art. 13)."
@@ -13452,23 +13452,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Inspectoratul școlar, centralizat."
-      },
-      {
-        "id": "B",
         "text": "Listele cu secrete de serviciu le stabilesc conducătorii unităților (art. 7), deci chiar conducerea grădiniței are această obligație."
       },
       {
+        "id": "B",
+        "text": "Potrivit reglementării aplicabile, ministerul Educației, pt. toate unitățile și se consemnează în evidentă."
+      },
+      {
         "id": "C",
-        "text": "Ministerul Educației, pt. toate unitățile."
+        "text": "În temeiul normelor în vigoare, nimeni; listele sunt facultative și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Nimeni; listele sunt facultative."
+        "text": "Pe baza evaluării de rutină, inspectoratul școlar, centralizat și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 585/2002 art. 7: listele cu secrete de serviciu le stabilesc conducătorii unităților. Nu este atribuția ISJ sau a ministerului; conducerea grădiniței este obligată să întocmească și să actualizeze lista proprie.",
     "tooltipCorrect": "Secret de serviciu → lista de conducătorul unității (art. 7), nu ISJ."
@@ -13484,7 +13484,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Să accepte clasificarea, fără intervenție."
+        "text": "Conform practicii administrative curente, să accepte clasificarea, fără intervenție și se raportează conducerii."
       },
       {
         "id": "B",
@@ -13492,11 +13492,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Să reclasifice unilateral, fără să informeze pe nimeni."
+        "text": "Conform practicii administrative curente, să reclasifice unilateral, fără să informeze pe nimeni urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Să șteargă marcarea, ca documentul să circule liber."
+        "text": "În aplicarea măsurilor prevăzute, să șteargă marcarea, ca documentul să circule liber urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -13516,23 +13516,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "La nivelul celui mai puțin important extras."
+        "text": "Conform practicii administrative curente, la nivelul celui mai puțin important extras și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Conform noului conținut, putând fi superior originalelor (art. 14 alin. 1) — prelucrarea poate ridica nivelul dacă sinteza aduce plus de sensibilitate."
+        "text": "În temeiul normelor în vigoare, la nivelul emițătorului inițial ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Automatic ca nesecret, fiind prelucrare."
+        "text": "Conform noului conținut, putând fi superior originalelor (art. 14 alin. 1) — prelucrarea poate ridica nivelul dacă sinteza aduce plus de sensibilitate."
       },
       {
         "id": "D",
-        "text": "La nivelul emițătorului inițial."
+        "text": "Potrivit procedurii stabilite, automatic ca nesecret, fiind prelucrare și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 585/2002 art. 14 alin. 1: documentul rezultat din prelucrarea informațiilor cu niveluri diferite se clasifică conform noului conținut, putând fi chiar superior originalelor. Sinteza poate agrava sensibilitatea, deci nivelul se stabilește pe conținutul rezultat.",
     "tooltipCorrect": "Prelucrat → nivel după noul conținut, poate fi superior (art. 14 alin. 1)."
@@ -13548,23 +13548,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Clasificarea rămâne valabilă, doar se schimbă titularul."
+        "text": "Potrivit regulamentului intern, se dublează termenul de clasificare și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Se declasifică, deoarece clasificarea a fost atribuită de persoană neîmputernicită prin lege (art. 20 lit. c)."
+        "text": "În temeiul normelor în vigoare, se trece automat la un nivel superior urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Se dublează termenul de clasificare."
+        "text": "Conform procedurii interne, clasificarea rămâne valabilă, doar se schimbă titularul."
       },
       {
         "id": "D",
-        "text": "Se trece automat la un nivel superior."
+        "text": "Se declasifică, deoarece clasificarea a fost atribuită de persoană neîmputernicită prin lege (art. 20 lit. c)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 585/2002 art. 20 lit. c: se declasifică dacă clasificarea a fost atribuită de persoană neîmputernicită prin lege. Clasificarea de secret de stat cere împuternicire legală; fără ea, actul nu produce protecție validă și se declasifică.",
     "tooltipCorrect": "Clasificare de neîmputernicit → declasificare (art. 20 lit. c)."
@@ -13580,23 +13580,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Rămâne clasificat până la termenul inițial, oricare ar fi el."
-      },
-      {
-        "id": "B",
         "text": "Se declasifică, deoarece dezvăluirea nu mai poate prejudicia (art. 20 lit. b)."
       },
       {
+        "id": "B",
+        "text": "Pe baza evaluării de rutină, se reclasifică la un nivel inferior."
+      },
+      {
         "id": "C",
-        "text": "Se reclasifică la un nivel inferior."
+        "text": "Conform practicii administrative curente, se distrug fără declasificare."
       },
       {
         "id": "D",
-        "text": "Se distrug fără declasificare."
+        "text": "Conform procedurii, rămâne clasificat până la termenul inițial, oricare ar fi el."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 585/2002 art. 20 lit. b: se declasifică dacă dezvăluirea nu mai poate prejudicia. Clasificarea se menține doar cât se impune protecția (art. 17); când riscul dispare, declasificarea este procedura corectă.",
     "tooltipCorrect": "Fără prejudiciu posibil → declasificare (art. 20 lit. b)."
@@ -13612,7 +13612,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Automat rămâne clasificat încă 50 de ani."
+        "text": "În aplicarea regulii, automat rămâne clasificat încă 50 de ani."
       },
       {
         "id": "B",
@@ -13624,7 +13624,7 @@ export const questions = [
       },
       {
         "id": "D",
-        "text": "Se declasifică necondiționat la 50 de ani."
+        "text": "Conform procedurii, se declasifică necondiționat la 50 de ani."
       }
     ],
     "correctOptionIds": [
@@ -13644,23 +13644,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Este corect, fiindcă rubricile sunt diferite."
+        "text": "Conform practicii administrative curente, este corect, fiindcă rubricile sunt diferite urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Evidența se ține SEPARAT de cea a documentelor secrete de stat și nesecrete, în REGISTRUL SPECIAL; separarea pe rubrici în același registru nu este suficientă."
+        "text": "Potrivit regulamentului intern, separarea cere doar culoare diferită, nu registru diferit și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Separarea cere doar culoare diferită, nu registru diferit."
+        "text": "Evidența se ține SEPARAT de cea a documentelor secrete de stat și nesecrete, în REGISTRUL SPECIAL; separarea pe rubrici în același registru nu este suficientă."
       },
       {
         "id": "D",
-        "text": "Evidența se ține doar electronic, nu pe hârtie."
+        "text": "Pe baza dispozițiilor curente, evidența se ține doar electronic, nu pe hârtie și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 3: evidența documentelor secrete de serviciu se ține separat, în registrul special, nu doar pe rubrici în registrul general. Amestecarea în același registru, chiar pe rubrici, îngreunează controlul și crește riscul de consultare neautorizată.",
     "tooltipCorrect": "Registrul special, separat (art. 3) — nu rubrici în registrul general."
@@ -13676,23 +13676,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nicio sancțiune, fiindcă este vorba de arhivă."
+        "text": "Potrivit regulamentului intern, se permise dacă distanța este sub 5 km și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Scoaterea fără aprobare este interzisă (art. 4) și contravenție sancționabilă cu avertisment sau amendă (art. 14); procedura corectă: obții aprobarea conducătorului înainte de scoatere și organizezi transportul conform HG (art. 10)."
+        "text": "În aplicarea instrucțiunilor unității, nicio sancțiune, fiindcă este vorba de arhivă ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se permise dacă distanța este sub 5 km."
+        "text": "În aplicarea măsurilor prevăzute, doar dacă arhiva este a unității, nu a județului ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Doar dacă arhiva este a unității, nu a județului."
+        "text": "Scoaterea fără aprobare este interzisă (art. 4) și contravenție sancționabilă cu avertisment sau amendă (art. 14); procedura corectă: obții aprobarea conducătorului înainte de scoatere și organizezi transportul conform HG (art. 10)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 781/2002 art. 4: scoaterea din incintă fără aprobarea conducătorului este interzisă; art. 14: contravenție sancționată cu avertisment sau amendă. Procedura corectă: aprobarea conducătorului înainte de scoatere, plus transport conform HG (art. 10).",
     "tooltipCorrect": "Scoatere fără aprobare = interzisă + contravenție (art. 4, art. 14); transport conform HG (art. 10)."
@@ -13708,23 +13708,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Niciuna, dacă nu postează fotografiile."
-      },
-      {
-        "id": "B",
         "text": "Multiplicare/manipulare neconsemnată (art. 1), reproducere pe suport electronic fără măsuri de protecție, scoatere virtuală din incintă și, dacă imaginile ajung acasă, risc de compromitere (art. 11)."
       },
       {
+        "id": "B",
+        "text": "Pe baza dispozițiilor curente, doar dacă telefonul este personal, nu de serviciu ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Doar dacă se folosesc la concurență."
+        "text": "Pe baza dispozițiilor curente, niciuna, dacă nu postează fotografiile ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Doar dacă telefonul este personal, nu de serviciu."
+        "text": "În aplicarea măsurilor prevăzute, doar dacă se folosesc la concurență ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 1 reglementează multiplicarea/manipularea/reproducerea pe orice suport; fotografierea neautorizată este multiplicare neconsemnată și o formă de scoatere virtuală din incintă, cu risc de compromitere (art. 11) dacă imaginile ajung în afara unității. „De acasă” nu justifică.",
     "tooltipCorrect": "Fotografierea = multiplicare neconsemnată (art. 1) + risc art. 11."
@@ -13740,7 +13740,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Rămâne activă, indiferent de circumstanțe."
+        "text": "Potrivit procedurii stabilite, rămâne activă, indiferent de circumstanțe și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -13748,11 +13748,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Autorizația se transferă automatic înlocuitorului."
+        "text": "Potrivit regulamentului intern, se lasă titularul să o păstreze, fără evidentă ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Se lasă titularul să o păstreze, fără evidentă."
+        "text": "Potrivit regulamentului intern, autorizația se transferă automatic înlocuitorului și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -13772,23 +13772,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Niciunul; emailul intern este sigur."
+        "text": "Pe baza evaluării de rutină, doar dacă sunt și adrese externe urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "Transmiterea este reglementată (art. 1); accesul se acordă doar pe autorizație, celor cu atribuții (art. 6, art. 5 — principiul necesității, HG 585 art. 8). Trimiterea pe listă largă încalcă principiul accesului minimal și creează risc de compromitere."
+        "text": "Pe baza dispozițiilor curente, niciunul; emailul intern este sigur ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Doar dacă sunt și adrese externe."
+        "text": "Transmiterea este reglementată (art. 1); accesul se acordă doar pe autorizație, celor cu atribuții (art. 6, art. 5 — principiul necesității, HG 585 art. 8). Trimiterea pe listă largă încalcă principiul accesului minimal și creează risc de compromitere."
       },
       {
         "id": "D",
-        "text": "Doar dacă emailul este color."
+        "text": "În aplicarea măsurilor prevăzute, doar dacă emailul este color urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 1 reglementează transmiterea; art. 6 și art. 5 condiționează accesul de autorizație și atribuții; HG 585/2002 art. 8 limitează accesul la strictul necesar. Trimiterea pe listă largă, „ca să fie simplu”, încalcă accesul minimal și risipă protecția.",
     "tooltipCorrect": "Acces minimal pe autorizație (art. 5–6, art. 8); lista largă = încălcare."
@@ -13804,23 +13804,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimic; copiile nu se evidentă."
+        "text": "Potrivit regulamentului intern, nimic; copiile nu se evidentă ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "Multiplicarea se consemnează în evidentă (câte copii, pentru cine), iar fiecare copie păstrează marcarea; regulile de multiplicare/manipulare sunt obligatorii (art. 1)."
+        "text": "Potrivit procedurii stabilite, doar copiile se evidentă, nu originalul și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Doar dacă sunt peste 10 copii."
+        "text": "În aplicarea instrucțiunilor unității, doar dacă sunt peste 10 copii și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Doar copiile se evidentă, nu originalul."
+        "text": "Multiplicarea se consemnează în evidentă (câte copii, pentru cine), iar fiecare copie păstrează marcarea; regulile de multiplicare/manipulare sunt obligatorii (art. 1)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 781/2002 art. 1 include regula de multiplicare: numărul de copii se consemnează în evidentă, împreună cu destințion, iar fiecare copie păstrează marcarea „secret de serviciu”. Lipsa evident angajează riscul de copii „libere” și de compromitere.",
     "tooltipCorrect": "Multiplicare consemnată (câte, pentru cine) + marcare pe fiecare copie (art. 1)."
@@ -13836,23 +13836,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Recuperează dosarul și ascunde incidentul."
-      },
-      {
-        "id": "B",
         "text": "Tratează incidentul ca compromitere: conducerea dispune cercetare administrativă (condiții, responsabilități, recuperare/limitare), se informează instituțiile cu atribuții de coordonare/control și, după caz, se adresează instanțelor pentru recuperarea prejudiciilor."
       },
       {
+        "id": "B",
+        "text": "Pe baza evaluării de rutină, recuperează dosarul și ascunde incidentul și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Doar îl reintroduce în evidentă, fără cercetare."
+        "text": "În temeiul normelor în vigoare, doar îl reintroduce în evidentă, fără cercetare și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Refac dosarul din memorie."
+        "text": "Pe baza dispozițiilor curente, refac dosarul din memorie urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 11: în caz de compromitere, conducătorii dispun cercetarea administrativă, informează instituțiile cu atribuții de coordonare/control și se pot adresa instanțelor pt. recuperarea prejudiciilor. Un dosar „tăiat” în hol public este compromitere, chiar dacă a fost recuperat ulterior.",
     "tooltipCorrect": "Compromitere (art. 11): cercetare administrativă + informare + posibil instanță."
@@ -13868,7 +13868,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Unitatea nu are nicio responsabilitate; doar salariatul răspunde."
+        "text": "Potrivit reglementării aplicabile, răspunde doar salariatul, chiar dacă nu a fost instruir urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -13876,11 +13876,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Răspunde doar salariatul, chiar dacă nu a fost instruir."
+        "text": "Potrivit reglementării aplicabile, nimeni nu răspunde dacă este salariat nou ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Nimeni nu răspunde dacă este salariat nou."
+        "text": "În aplicarea măsurilor prevăzute, unitatea nu are nicio responsabilitate; doar salariatul răspunde și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -13900,23 +13900,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "I se deschid toate contractele, fiindcă face achiziții."
+        "text": "Conform procedurii interne, I se deschid toate contractele, fiindcă face achiziții și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "Accesul se acordă doar la informațiile necesare atribuției de achiziții, pe autorizație scrisă (art. 6); dacă nu are atribuții privind anumite contracte, accesul se refuză pt. acele (principiul necesității, art. 8) — „fac achiziții” nu este autorizație generală."
+        "text": "În aplicarea instrucțiunilor unității, accesul se acordă verbal, dacă este urgent urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Accesul se acordă verbal, dacă este urgent."
+        "text": "Accesul se acordă doar la informațiile necesare atribuției de achiziții, pe autorizație scrisă (art. 6); dacă nu are atribuții privind anumite contracte, accesul se refuză pt. acele (principiul necesității, art. 8) — „fac achiziții” nu este autorizație generală."
       },
       {
         "id": "D",
-        "text": "I se refuză tot, fără verificare."
+        "text": "Potrivit regulamentului intern, I se refuză tot, fără verificare și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 6 cere autorizație scrisă; HG 585/2002 art. 8 limitează accesul la informațiile necesare atribuțiilor. Funcția de achiziții NU este autorizație generală pentru orice contract; accesul se calibrează pe necesitate, pe autorizație emisă de conducător.",
     "tooltipCorrect": "Autorizație specifică + doar ce este necesar atribuțiilor (art. 6 + art. 8)."
@@ -13932,23 +13932,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Să lase copia, se va vedea mai târziu."
+        "text": "Potrivit regulamentului intern, să o arunce la coș și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Recuperează copia, marchează corect fiecare pagină (art. 2), consemnează multiplicarea și evaluează riscul de compromitere; dacă a stat liberă, anunță conducerea și, după caz, declanșează cercetare administrativă (art. 11)."
+        "text": "Pe baza evaluării de rutină, să lase copia, se va vedea mai târziu urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Să marcheze doar coperta, nu fiecare pagină."
+        "text": "Pe baza evaluării de rutină, să marcheze doar coperta, nu fiecare pagină urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Să o arunce la coș."
+        "text": "Recuperează copia, marchează corect fiecare pagină (art. 2), consemnează multiplicarea și evaluează riscul de compromitere; dacă a stat liberă, anunță conducerea și, după caz, declanșează cercetare administrativă (art. 11)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 781/2002 art. 2: marcarea pe fiecare pagină; multiplicarea se consemnează (art. 1). O copie cu marcare incompletă lăsată liberă este risc de compromitere (art. 11) — se recuperează, se marchează corect, se consemnează și se evaluează riscul, după caz cercetare administrativă.",
     "tooltipCorrect": "Recuperare + marcare pe fiecare pagină (art. 2) + evidentă; risc → art. 11."
@@ -13964,23 +13964,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Să rămână clasificat, supraevaluarea este permisionă."
-      },
-      {
-        "id": "B",
         "text": "Clasificarea se face doar dacă se impune protecția (art. 17); dacă dezvăluirea nu mai poate prejudicia, se declasifică (art. 20 lit. b). Supraevaluarea „de siguranță” nu este justificată legal."
       },
       {
+        "id": "B",
+        "text": "În temeiul normelor în vigoare, să se reclasifice la un nivel superior ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Să se reclasifice la un nivel superior."
+        "text": "Potrivit procedurii stabilite, să se distrugă imediat și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Să se distrugă imediat."
+        "text": "În aplicarea măsurilor prevăzute, să rămână clasificat, supraevaluarea este permisionă și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 585/2002 art. 17: clasificarea se face doar dacă se impune protecția; art. 20 lit. b: dacă dezvăluirea nu mai poate prejudicia, se declasifică. Menținerea „de siguranță” a unei clasificări inutile este supraevaluare, opozabilă și contestabilă (art. 16–17).",
     "tooltipCorrect": "Doar dacă se impune protecția (art. 17); fără prejudiciu → declasificare (art. 20 lit. b)."
@@ -13996,7 +13996,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Îl lasă pe birou, dacă nu-i al său."
+        "text": "În temeiul normelor în vigoare, îl distruge, ca să nu mai fie problemă și se raportează conducerii."
       },
       {
         "id": "B",
@@ -14004,11 +14004,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Îl distruge, ca să nu mai fie problemă."
+        "text": "Conform procedurii interne, îl lasă pe birou, dacă nu-i al său și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Îl pune la arhivă împreună cu documentele nesecrete."
+        "text": "Conform practicii administrative curente, îl pune la arhivă împreună cu documentele nesecrete urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -14028,23 +14028,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă lotul: 1,4 g sare e sub prag, deci eticheta nu mai contează."
+        "text": "În aplicarea instrucțiunilor unității, acceptă lotul: 1,4 g sare e sub prag, deci eticheta nu mai contează și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Refuză/Suspendă recepția: deși sarea este sub prag, lipsa etichetei conforme încadrează produsul ca aliment neetichetat (Anexa 1 pct. 7) și operatorul trebuie să facă dovada compoziției prin etichetă/specificații/buletin (art. 7); fără dovadă, intră sub interdicția art. 10 din Legea 123/2008."
+        "text": "Pe baza evaluării de rutină, acceptă lotul, dar numai pt. personal, nu pt. copii și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Acceptă lotul și servește biscuiții copiilor, notând only lipsa etichetei."
+        "text": "Refuză/Suspendă recepția: deși sarea este sub prag, lipsa etichetei conforme încadrează produsul ca aliment neetichetat (Anexa 1 pct. 7) și operatorul trebuie să facă dovada compoziției prin etichetă/specificații/buletin (art. 7); fără dovadă, intră sub interdicția art. 10 din Legea 123/2008."
       },
       {
         "id": "D",
-        "text": "Acceptă lotul, dar numai pt. personal, nu pt. copii."
+        "text": "Conform practicii administrative curente, acceptă lotul și servește biscuiții copiilor, notând only lipsa etichetei ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Combinație OM 1563/2008 + Legea 123/2008: pragul de sare (1,5 g/100 g, Anexa 1 pct. 3) NU este singurul filtru — alimentul neetichetat (pct. 7) și lipsa dovezii compoziției (art. 7) îl exclud. În incinta unității, prepararea/comercializarea/distribuția alimentelor din lista nerecomandate sunt interzise (Legea 123/2008 art. 10). Administratorul II nu decide după un singur criteriu.",
     "tooltipCorrect": "Sub prag pt. sare ≠ acceptabil: eticheta lipsă (pct. 7) + dovada compoziției (art. 7) + interdicția art. 10."
@@ -14060,23 +14060,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Anunță personalul să fie atent și lasă copii să se joace."
+        "text": "Pe baza dispozițiilor curente, așteaptă investiția din bugetul viitor ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "(1) Oprește/restrânge accesul copiilor la echipament (prevenire accident — SSM cap. IV comunicare imediată + PSI limitare risc); (2) semnalează și marchează zona; (3) solicită remedierea/înlocuirea; (4) consemnează și anunță conducerea. Întâi se previne accidentul, apoi se remediază."
+        "text": "Pe baza dispozițiilor curente, scoate șurubul singur cu plierul, fără consemnare și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Scoate șurubul singur cu plierul, fără consemnare."
+        "text": "Pe baza dispozițiilor curente, anunță personalul să fie atent și lasă copii să se joace și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Așteaptă investiția din bugetul viitor."
+        "text": "(1) Oprește/restrânge accesul copiilor la echipament (prevenire accident — SSM cap. IV comunicare imediată + PSI limitare risc); (2) semnalează și marchează zona; (3) solicită remedierea/înlocuirea; (4) consemnează și anunță conducerea. Întâi se previne accidentul, apoi se remediază."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Scenariu mixt SSM (Legea 319/2006 cap. IV: comunicare imediată a riscului, NU se lasă locul periculos) + PSI (Legea 307/2006: limitează propagarea, protejare viață). Întâi se oprește accesul și se marchează zona (prevenire accident copii), apoi se remedierează și se consemnează. Dotările periculoase se semnalează conducerii (OM 4143/2022Anexa 2 — rol administrator).",
     "tooltipCorrect": "Întâi oprești accesul (SSM + PSI), marchi zona, remediere, consemnezi, anunți."
@@ -14092,23 +14092,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Anunță copiii și așteaptă un pompier."
-      },
-      {
-        "id": "B",
         "text": "(1) Anunță imediat (posibil incendiu) și acționează conform instructajului fără a-și pune viața în pericol (PSI Secțiunea 1); (2) deconectează/izolează sursele dacă poate face-o în siguranță; (3) mută alimentele din apropierea sursei de căldură/tabloului electric (combustibile lângă sursă = risc PSI) și verifică depozitarea lor corectă ulterior."
       },
       {
+        "id": "B",
+        "text": "În aplicarea măsurilor prevăzute, iese și închide ușa, fără să anunțe și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Stinge cu apă pe tabloul electric."
+        "text": "Potrivit reglementării aplicabile, anunță copiii și așteaptă un pompier și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Iese și închide ușa, fără să anunțe."
+        "text": "În aplicarea instrucțiunilor unității, stinge cu apă pe tabloul electric urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "PSI Legea 307/2006: în caz de incendiu se anunță imediat și se acționează conform instructajului, fără a pune viața în pericol; combustibilele lângă surse de căldură/tablouri electrice sunt interzise (Secțiunea 6 — administrator stabilește responsabilități scrise + menține libere căile/instalațiile). Depozitarea alimentelor lângă tablou electric combină risc PSI cu încălcarea condițiilor de depozitare; NU se stinge cu apă pe electric.",
     "tooltipCorrect": "Anunți + acționezi conform instructajului (fără risc personal) + muți combustibilele din zona sursei; fără apă pe electric."
@@ -14124,7 +14124,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Repari mai întâi scurtcircuitul, apoi te ocupi de document."
+        "text": "Potrivit procedurii stabilite, repari mai întâi scurtcircuitul, apoi te ocupi de document și se raportează conducerii."
       },
       {
         "id": "B",
@@ -14132,11 +14132,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Faci fotocopii și apoi repari."
+        "text": "În aplicarea măsurilor prevăzute, lași totul pe mâine urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Lași totul pe mâine."
+        "text": "Potrivit regulamentului intern, faci fotocopii și apoi repari și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -14156,23 +14156,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lași detergenții; în final, curățărea îi folosește în grup sanitar."
+        "text": "În aplicarea instrucțiunilor unității, doar pune un semn „nu atinge” urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "(1) Mută detergenții într-un spațiu sigur, inaccesibil copiilor, separat și etichetat (OM 4143/2022 Anexa 2: produse de curățenie/substanțe periculoase inaccesibile copiilor); (2) remedierea ușii/încuietorii (acces necontrolat = risc); (3) instruiște personalul pt. manipulare (SSM cap. IV: utilizează corect substanțele, EIP) și consemnează lipsurile."
+        "text": "Potrivit regulamentului intern, lași detergenții; în final, curățărea îi folosește în grup sanitar și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Mută detergenții sub paturile copiilor, mai la îndemână."
+        "text": "(1) Mută detergenții într-un spațiu sigur, inaccesibil copiilor, separat și etichetat (OM 4143/2022 Anexa 2: produse de curățenie/substanțe periculoase inaccesibile copiilor); (2) remedierea ușii/încuietorii (acces necontrolat = risc); (3) instruiște personalul pt. manipulare (SSM cap. IV: utilizează corect substanțele, EIP) și consemnează lipsurile."
       },
       {
         "id": "D",
-        "text": "Doar pune un semn „nu atinge”."
+        "text": "Potrivit reglementării aplicabile, mută detergenții sub paturile copiilor, mai la îndemână ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "OM 4143/2022 Anexa 2: produse de curățenie/substanțe periculoase inaccesibile copiilor, separate și etichetate. Legea 319/2006 cap. IV: lucrătorul utilizează corect substanțele și EIP, anunță riscurile. Combinat: securizarea depozitării + remedierea accesului + instruire + consemnare lipsuri; un semn „nu atinge” nu ține copiii în siguranță.",
     "tooltipCorrect": "Detergenți inaccesibili copii (Anexa 2) + remediere ușă + instruire EIP (SSM) + consemnare."
@@ -14188,23 +14188,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lasă așa, fiind prelungitorul e necesar."
+        "text": "Pe baza evaluării de rutină, pune un stingător suplimentar lângă dulap, în loc să eliberezi ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "(1) Eliberează accesul la stingător (mijloacele de stingere se mențin libere și funcționale — PSI Secțiunea 1/6); (2) elimină prelungitorul supraincărcat (fără improvizații electrice, fără surse de foc necontrolate); (3) mută dulapul în depozit corespunzător (gestiune bunuri) și consemnează."
+        "text": "În temeiul normelor în vigoare, scoate stingătorul, ca să nu mai fie blocat și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Pune un stingător suplimentar lângă dulap, în loc să eliberezi."
+        "text": "În temeiul normelor în vigoare, lasă așa, fiind prelungitorul e necesar urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Scoate stingătorul, ca să nu mai fie blocat."
+        "text": "(1) Eliberează accesul la stingător (mijloacele de stingere se mențin libere și funcționale — PSI Secțiunea 1/6); (2) elimină prelungitorul supraincărcat (fără improvizații electrice, fără surse de foc necontrolate); (3) mută dulapul în depozit corespunzător (gestiune bunuri) și consemnează."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 307/2006: mijloacele de stingere și căile de evacuare se mențin libere și funcționale (Secțiunea 1); fără improvizații electrice sau surse de foc necontrolate (obligația salariatului); administratorul asigură dotarea/funcționarea (Secțiunea 6). OM 4143/2022 Anexa 2: bunurile se gestionează cu inventar, mutări consemnate. Nu se adaugă stingătoare „paralel” și nici nu se elimină cel existent.",
     "tooltipCorrect": "Eliberezi stingătorul + elimini prelungitorul supraincărcat + muți dulapul (consemnat)."
@@ -14220,23 +14220,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Totul este conform; Administrator II doar aprovizionează."
-      },
-      {
-        "id": "B",
         "text": "Tocăturile sunt acceptate NUMAI prin fierbere sau la cuptor (Anexa 2 pct. 6), NU prăjite; cartofii prăjiți și maioneza sunt în lista alimentelor nerecomandate (Anexa 1 pct. 2) și maionezele sunt interzise indiferent de anotimp (Anexa 2 pct. 8); meniurile sunt avizate medical și aprobate de conducător (Legea 123 art. 11) — administratorul semnalează neconformitatea."
       },
       {
+        "id": "B",
+        "text": "În temeiul normelor în vigoare, doar maioneza este problema, tocătura prăjită este acceptabilă ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Doar maioneza este problema, tocătura prăjită este acceptabilă."
+        "text": "În aplicarea măsurilor prevăzute, totul este conform; Administrator II doar aprovizionează și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Este conform dacă se servește cald."
+        "text": "Potrivit reglementării aplicabile, este conform dacă se servește cald și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "OM 1563/2008 Anexa 2: pct. 6 — tocături doar prin fierbere/cuptor; pct. 8 — maioneze interzise indiferent de anotimp. Anexa 1 pct. 2 — grăsimi peste 20 g/100 g (cu criterii de saturate/trans) încadrează cartofii prăjiți ca nerecomandați. Legea 123/2008 art. 11: meniurile avizate medical + aprobate de conducător. Administrator II NU pregătește, dar recepționează/aprovizionează conform și semnalează neconformitatea meniului.",
     "tooltipCorrect": "Tocături doar fierte/cuptor (pct. 6) + maioneză interzisă (pct. 8); cartofi prăjiți = lista pct. 2."
@@ -14252,7 +14252,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimic; alergia se rezolvă la personal medical."
+        "text": "Pe baza evaluării de rutină, pune alunele pe raft pt copii, ca să le aleagă și se raportează conducerii."
       },
       {
         "id": "B",
@@ -14260,11 +14260,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Elimină copilul alergic ca să simplifice."
+        "text": "Potrivit procedurii stabilite, nimic; alergia se rezolvă la personal medical și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Pune alunele pe raft pt copii, ca să le aleagă."
+        "text": "Potrivit reglementării aplicabile, elimină copilul alergic ca să simplifice și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -14284,23 +14284,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Așteaptă fonduri pt reparație; doar pune un prost."
+        "text": "Potrivit reglementării aplicabile, șterge cu mop și lasă prelungitorul și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "(1) Marchează/limitează zona pt a preveni alunecarea (SSM + OM 4143/2022 Anexa 2 — administrator limitează accesul la defecte periculoase); (2) deconectează și ridică prelungitorul din apă (PSI — fără improvizații/surse în apropierea apei, risc electrocutare/incendiu); (3) anunță remedierea și consemnează. Întâi se asigură viața copiilor."
+        "text": "În aplicarea instrucțiunilor unității, trimite copii să meargă prin apă, să se obișnuiască ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Șterge cu mop și lasă prelungitorul."
+        "text": "(1) Marchează/limitează zona pt a preveni alunecarea (SSM + OM 4143/2022 Anexa 2 — administrator limitează accesul la defecte periculoase); (2) deconectează și ridică prelungitorul din apă (PSI — fără improvizații/surse în apropierea apei, risc electrocutare/incendiu); (3) anunță remedierea și consemnează. Întâi se asigură viața copiilor."
       },
       {
         "id": "D",
-        "text": "Trimite copii să meargă prin apă, să se obișnuiască."
+        "text": "Pe baza dispozițiilor curente, așteaptă fonduri pt reparație; doar pune un prost și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Trei acte combinate: SSM (Legea 319/2006 cap. IV — comunicare imediată, NU se lasă locul periculos), PSI (Legea 307/2006 — fără improvizații electrice lângă apă, risc electrocutare/incendiu), dotări (OM 4143/2022 Anexa 2 — administrator limitează accesul la defecte periculoase, semnalează, urmărește remedierea). Întâi se previne accidentul (marcare + deconectare), apoi remediere + consemnare.",
     "tooltipCorrect": "Marchezi/limitezi zona + deconectezi prelungitorul din apă + anunți remediere (SSM+PSI+dotări)."
@@ -14316,23 +14316,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Primește copiii, evenimentele se rezolvă după."
+        "text": "Potrivit reglementării aplicabile, lași copiii să vadă copiatorul, e educativ urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "(1) Recuperează/securizează documentul (marcare incompletă — art. 2; risc compromitere art. 11) și îl înlătură din accesul vizitatorilor; (2) mută/etichetează clorul într-un depozit inaccesibil copiilor (OM 4143/2022 Anexa 2); (3) amână/organizează vizita copiilor astfel încât să nu treacă prin cabinet cu riscuri prezente. Întâi se elimină riscurile pt copii și pt informație."
+        "text": "Potrivit procedurii stabilite, primește copiii, evenimentele se rezolvă după ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Lași copiii să vadă copiatorul, e educativ."
+        "text": "Conform procedurii interne, toarnă clorul în chiuvetă, cu copiii de față ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Toarnă clorul în chiuvetă, cu copiii de față."
+        "text": "(1) Recuperează/securizează documentul (marcare incompletă — art. 2; risc compromitere art. 11) și îl înlătură din accesul vizitatorilor; (2) mută/etichetează clorul într-un depozit inaccesibil copiilor (OM 4143/2022 Anexa 2); (3) amână/organizează vizita copiilor astfel încât să nu treacă prin cabinet cu riscuri prezente. Întâi se elimină riscurile pt copii și pt informație."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Combinație HG 781/2002 (marcare pe fiecare pagină art. 2; compromitere art. 11) cu OM 4143/2022 Anexa 2 (substanțe periculoase inaccesibile copiilor, etichetate, separate). Două riscuri paralele (compromitere info + intoxicare copii). Administrator II securizează documentul, mută/etichetează clorul și organizează vizita fără expunere la riscuri.",
     "tooltipCorrect": "Securizezi documentul (art. 2/11) + muti/etichetezi clorul (Anexa 2) + organizezi vizita copiilor."
@@ -14348,23 +14348,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă lotul (sub praguri) și lasă manipulantul fără EIP."
-      },
-      {
-        "id": "B",
         "text": "Suspendă recepția: sub praguri NU scutește de dovada compoziției (art. 7); fără buletin/specificații nu se face dovada; totodată impune EIP la descărcare (SSM cap. IV — utilizare corectă EIP; cap. V — supraveghere sănătate), instruiește și consemnează; dacă lotul nu se conformează, se refuză."
       },
       {
+        "id": "B",
+        "text": "În aplicarea măsurilor prevăzute, acceptă lotul (sub praguri) și lasă manipulantul fără EIP și se consemnează în evidentă."
+      },
+      {
         "id": "C",
-        "text": "Acceptă lotul și donează surplusul."
+        "text": "În temeiul normelor în vigoare, refuză doar pentru EIP, lotul nu contează urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Refuză doar pentru EIP, lotul nu contează."
+        "text": "În temeiul normelor în vigoare, acceptă lotul și donează surplusul ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "OM 1563/2008: sub praguri (Anexa 1 pct. 3 — sare 1,5 g sau sodiu 0,6 g) NU scutește de art. 7 (dovada compoziției prin etichetă/specificații/buletin). Legea 319/2006 cap. IV: lucrătorul utilizează corect EIP; cap. V: supraveghere sănătate. Administrator II decide integrat: dovada + EIP; fără conformitate, recepția se suspendă/refuză.",
     "tooltipCorrect": "Sub prag ≠ acceptabil fără dovada (art. 7) + EIP obligatoriu la manipulare (SSM)."
@@ -14380,7 +14380,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Niciuna; geanta protejază documentul."
+        "text": "Potrivit reglementării aplicabile, doar dacă este prins în control urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -14388,11 +14388,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Doar dacă este prins în control."
+        "text": "În aplicarea instrucțiunilor unității, niciuna; geanta protejază documentul ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Doar dacă dosarul este prea greu."
+        "text": "Conform procedurii interne, doar dacă dosarul este prea greu urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -14412,23 +14412,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Ochiurile sunt conforme; rația se ignoră."
+        "text": "În aplicarea instrucțiunilor unității, ochiurile sunt conforme; rația se ignoră urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "(1) Ouale se prepară ca OMLETĂ LA CUPTOR, NU ochiuri românești/prăjite (Anexa 2 pct. 6); (2) rațiile se calculează pe baza foilor de alimente pe 10 zile lucrătoare în februarie/mai/octombrie (Anexa 4), se compară cu Tabelul 1, iar depășirea este permisă până la 20% pt anumite grupe (art. 3); semnalează pt ajustare, nu ignoră."
+        "text": "Pe baza dispozițiilor curente, se prepară ochiuri, rația se dublează ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Se prepară ochiuri, rația se dublează."
+        "text": "(1) Ouale se prepară ca OMLETĂ LA CUPTOR, NU ochiuri românești/prăjite (Anexa 2 pct. 6); (2) rațiile se calculează pe baza foilor de alimente pe 10 zile lucrătoare în februarie/mai/octombrie (Anexa 4), se compară cu Tabelul 1, iar depășirea este permisă până la 20% pt anumite grupe (art. 3); semnalează pt ajustare, nu ignoră."
       },
       {
         "id": "D",
-        "text": "Se înlocuiesc ouăle cu dulciuri."
+        "text": "Conform procedurii interne, se înlocuiesc ouăle cu dulciuri urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "OM 1563/2008 Anexa 2 pct. 6: ouăle ca omletă la cuptor, NU ochiuri prăjite. Anexa 4: rațiile se calculează pe 10 zile lucrătoare (feb/mai/oct), compară cu Tabelul 1, depășire permisă până la 20% pt lapte/carne/pește/legume-fructe (art. 3). Administrator II NU prepară, dar recepționează/aprovizionează conform și semnalează neconformitatea + ajustarea rației.",
     "tooltipCorrect": "Ouă omletă la cuptor (pct. 6); rații pe 10 zile + ±20% pt anumite grupe (Anexa 4)."
@@ -14444,23 +14444,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă: e pt personal, nu pt copii."
+        "text": "Pe baza dispozițiilor curente, acceptă: e pt personal, nu pt copii urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "(1) În incinta unității se interzic prepararea/comercializarea/distribuția alimentelor din listă (Legea 123 art. 10); băuturile răcoritoare sunt interzise, cu excepția apei potabile/minerale îmbuteliate (Anexa 1 pct. 4); automatul cu sucuri carbogazoase încalcă, chiar dacă e expus pt personal — incinta unității de învățământ este reglementată ca atare."
+        "text": "Potrivit reglementării aplicabile, acceptă, dar pune un semn „doar pt personal” urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Acceptă, dar pune un semn „doar pt personal”."
+        "text": "În temeiul normelor în vigoare, acceptă doar sucurile, nu și apa și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Acceptă doar sucurile, nu și apa."
+        "text": "(1) În incinta unității se interzic prepararea/comercializarea/distribuția alimentelor din listă (Legea 123 art. 10); băuturile răcoritoare sunt interzise, cu excepția apei potabile/minerale îmbuteliate (Anexa 1 pct. 4); automatul cu sucuri carbogazoase încalcă, chiar dacă e expus pt personal — incinta unității de învățământ este reglementată ca atare."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "OM 1563/2008 Anexa 1 pct. 4: băuturile răcoritoare sunt ORICE tip, cu excepția apei potabile/minerale îmbuteliate; în incinta școlilor se vinde NUMAI apă îmbuteliată. Legea 123/2008 art. 10: în incintă sunt interzise prepararea/comercializarea/distribuția alimentelor din listă. Un automat cu sucuri carbogazoase este neconform indiferent de destinția „personal”, întrucât incinta este cea protejată.",
     "tooltipCorrect": "Sucuri carbogazoase interzise în incintă (pct. 4); doar apă îmbuteliată (art. 10)."
@@ -14476,23 +14476,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Cedează, fiindcă este urgency."
-      },
-      {
-        "id": "B",
         "text": "Refuz pe motiv că accesul se acordă NUMAI pe autorizație scrisă de la conducător (HG 781 art. 6), pt persoane cu atribuții (art. 5); un cadru didactic fără atribuții financiare NU are acces, iar urgența NU înlocuiește autorizația. SSM cap. IV: NU se ocolește procedura din „urgență”."
       },
       {
+        "id": "B",
+        "text": "Pe baza dispozițiilor curente, acceptă, dar numai o singură dată ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Acceptă, dar numai o singură dată."
+        "text": "Pe baza evaluării de rutină, cedează, fiindcă este urgency ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Acceptă dacă acesta promite să nu divulgze."
+        "text": "Pe baza dispozițiilor curente, acceptă dacă acesta promite să nu divulgze și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 6: acces pe autorizație scrisă de la conducător; art. 5: funcții cu acces stabilite de conducător. Un cadru didactic fără atribuții financiare nu intră sub funcțiile cu acces. Legea 319/2006 cap. IV: procedura NU se ocolește invocând „urgență”; refuzul este legal și se dokumentează.",
     "tooltipCorrect": "Acces doar pe autorizație (art. 6), nu verbal; urgența NU scutește procedura."
@@ -14508,7 +14508,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Intrimnă lemnul cu lipici și lasă copiii să se joace."
+        "text": "În temeiul normelor în vigoare, lași așa, lemnul se rotește singur urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -14516,11 +14516,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Lași așa, lemnul se rotește singur."
+        "text": "Potrivit regulamentului intern, scoate lemnul și îl arde în curte urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Scoate lemnul și îl arde în curte."
+        "text": "În aplicarea măsurilor prevăzute, intrimnă lemnul cu lipici și lasă copiii să se joace și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -14540,23 +14540,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar raportezi lipsa laptops; dosarul se rezolvă singur."
+        "text": "Conform procedurii interne, așteaptă să apară dosarul la o inspecție și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "(1) Consemnează lipsurile bunurilor și raportează conducerii pt completare/înlocuire/reparare (OM 4143 Anexa 2); (2) tratează lipsa dosarului cu secret de serviciu ca posibilă compromitere — cercetare administrativă (HG 781 art. 11); (3) dacă a existat autorizație legată de acces, se analizează retragerea (art. 8); (4) distrugerea/retragerea se face pe proces-verbal (art. 8/art. 1)."
+        "text": "Conform procedurii interne, cumpără două laptops pt a nu se vedea lipsa și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Așteaptă să apară dosarul la o inspecție."
+        "text": "(1) Consemnează lipsurile bunurilor și raportează conducerii pt completare/înlocuire/reparare (OM 4143 Anexa 2); (2) tratează lipsa dosarului cu secret de serviciu ca posibilă compromitere — cercetare administrativă (HG 781 art. 11); (3) dacă a existat autorizație legată de acces, se analizează retragerea (art. 8); (4) distrugerea/retragerea se face pe proces-verbal (art. 8/art. 1)."
       },
       {
         "id": "D",
-        "text": "Cumpără două laptops pt a nu se vedea lipsa."
+        "text": "Pe baza evaluării de rutină, doar raportezi lipsa laptops; dosarul se rezolvă singur urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "OM 4143/2022 Anexa 2: lipsurile/degradările se consemnează și se raportează conducerii pt completare. HG 781/2002: lipsa unui dosar cu secret de serviciu este posibilă compromitere — art. 11 cercetare administrativă; art. 8 analiză retragere autorizație dacă e caz; PV pt distrugere/retragere. Două proceduri paralele: gestiune bunuri + protecție info.",
     "tooltipCorrect": "Lipsuri consemnate (Anexa 2) + compromitere art. 11 + retragere PV (art. 8)."
@@ -14572,23 +14572,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Apa este conformă, depozitarea nu contează."
+        "text": "Potrivit procedurii stabilite, apa este conformă, depozitarea nu contează ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "(1) Apa minerală îmbuteliată este conformă (Anexa 1 pct. 4 — excepție de la lista băuturilor nerecomandate); (2) dar depozitarea pt alimente trebuie corectă, separata, evitând contaminarea (OM 4143 Anexa 2), iar lângă boilerul pe gaz NU se depozitează materiale combustibile (cartonul) — PSI Secțiunea 1: fără combustibile lângă surse de căldură; mută și reorganizează depozitarea."
+        "text": "Conform procedurii interne, lasi pe carton, în final apa nu arde ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Renunți la apă, fiindcă e grea de depozitat."
+        "text": "Pe baza dispozițiilor curente, renunți la apă, fiindcă e grea de depozitat urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Lasi pe carton, în final apa nu arde."
+        "text": "(1) Apa minerală îmbuteliată este conformă (Anexa 1 pct. 4 — excepție de la lista băuturilor nerecomandate); (2) dar depozitarea pt alimente trebuie corectă, separata, evitând contaminarea (OM 4143 Anexa 2), iar lângă boilerul pe gaz NU se depozitează materiale combustibile (cartonul) — PSI Secțiunea 1: fără combustibile lângă surse de căldură; mută și reorganizează depozitarea."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "OM 1563/2008 Anexa 1 pct. 4: apa minerală îmbuteliată este excepție conformă. OM 4143/2022 Anexa 2: depozitarea alimentelor cu separare, etichetare, fără contaminare. PSI Legea 307/2006: fără materiale combustibile (carton) lângă surse de căldură/boiler pe gaz. Apa conformă, dar depozitarea creează risc PSI + se depreciază condițiile alimentare; se mută și reorganizează.",
     "tooltipCorrect": "Apă conformă (pct. 4); dar fără carton lângă gaz (PSI) + depozitare corectă (Anexa 2)."
@@ -14604,23 +14604,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Așteaptă vinerea pt a verifica formatul."
-      },
-      {
-        "id": "B",
         "text": "(1) Comunică imediat evenimentul conducătorului locului de muncă (SSM cap. VI — eveniment accident cu vătămare); (2) NU modifică locul evenimentului, cu excepția salvării/sesizării pericolului; (3) cercetare pt cauze (margine ascuțită/masă defectă — OM 4143 Anexa 2: mobilier stabil, fără muchii periculoase, semnalat pt remediere); (4) marchează/limitează accesul și consemnează."
       },
       {
+        "id": "B",
+        "text": "Potrivit procedurii stabilite, așteaptă vinerea pt a verifica formatul urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Repară masa imediat, apoi raportează."
+        "text": "Pe baza dispozițiilor curente, repară masa imediat, apoi raportează și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Dă vina pe educator, fără a verifica mobilierul."
+        "text": "Conform practicii administrative curente, dă vina pe educator, fără a verifica mobilierul ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "SSM Legea 319/2006 cap. VI: evenimentul (accident cu vătămare) se comunică imediat; locul NU se modifică, cu excepția salvării și înlăturării pericolului; se cercetează pt cauze. OM 4143/2022 Anexa 2: mobilier stabil, fără muchii periculoase; defectele se semnalează și se limitează accesul. Întâi comunicare + păstrare loc pt cercetare, apoi remediere.",
     "tooltipCorrect": "Comunicare imediată + NU modifici (decât salvare) + cercetare cauze + marchi masa (Anexa 2)."
@@ -14636,7 +14636,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimic; transparența publică este permisă."
+        "text": "În temeiul normelor în vigoare, este corect dacă blogul are parolă ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -14644,11 +14644,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Este corect dacă blogul are parolă."
+        "text": "Potrivit reglementării aplicabile, este corept dacă se șterge după 30 zile ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Este corept dacă se șterge după 30 zile."
+        "text": "În temeiul normelor în vigoare, nimic; transparența publică este permisă și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -14668,23 +14668,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Predă toate dosarele cu secret de serviciu, ca să coopereze."
+        "text": "Conform practicii administrative curente, predă toate dosarele cu secret de serviciu, ca să coopereze ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "(1) Pun la dispoziție registrele/evidenta accidentelor (SSM cap. VI — raportare/înregistrare; PSI — permite controalele); (2) accesul la secretele de serviciu se acordă doar pe autorizație scrisă de la conducător, după verificare, pt instituțiile cu atribuții de coordonare/control (HG 781 art. 6, art. 11) — cooperează dar în limitele procedurii; nu se predă integral „la cerere generală”."
+        "text": "Conform procedurii interne, refuză toate documentele, fără distinctie și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Refuză toate documentele, fără distinctie."
+        "text": "(1) Pun la dispoziție registrele/evidenta accidentelor (SSM cap. VI — raportare/înregistrare; PSI — permite controalele); (2) accesul la secretele de serviciu se acordă doar pe autorizație scrisă de la conducător, după verificare, pt instituțiile cu atribuții de coordonare/control (HG 781 art. 6, art. 11) — cooperează dar în limitele procedurii; nu se predă integral „la cerere generală”."
       },
       {
         "id": "D",
-        "text": "Predă numai registrele, fără să verifice."
+        "text": "În aplicarea măsurilor prevăzute, predă numai registrele, fără să verifice și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "SSM Legea 319/2006 cap. VI + PSI: înregistrările/raportările accidentelor se pun la dispoziție pt control. HG 781/2002 art. 6 + art. 11: accesul la secret de serviciu pe autorizație, iar instituțiile cu atribuții de coordonare/control se informează în caz de compromitere; cooperare în limitele procedurii, fără predare integrală arbitrară. Distincție pe tip de document.",
     "tooltipCorrect": "Registre accidente disponibile (SSM/PSI); secrete doar pe autorizație (art. 6), nu integral."
@@ -14700,23 +14700,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Incorect? Distribuția prin ISJ este suficientă pt ambele."
+        "text": "În temeiul normelor în vigoare, lista nu se comunică deloc creșelor și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "Legea 123/2008 art. 9: lsp-ul comunică lista tuturor unităților prin inspectoratele școlare județene, MAI PUȚIN creșelor; creșelor li se comunică DIRECT de MSP. Deci pt creșă, comunicarea prin ISJ este incorectă — se cere comunicare directă de la MSP."
+        "text": "Conform practicii administrative curente, incorect? Distribuția prin ISJ este suficientă pt ambele urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Lista nu se comunică deloc creșelor."
+        "text": "Conform practicii administrative curente, lista se comunică doar prin director urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Lista se comunică doar prin director."
+        "text": "Legea 123/2008 art. 9: lsp-ul comunică lista tuturor unităților prin inspectoratele școlare județene, MAI PUȚIN creșelor; creșelor li se comunică DIRECT de MSP. Deci pt creșă, comunicarea prin ISJ este incorectă — se cere comunicare directă de la MSP."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 123/2008 art. 9: MSP întocmește/actualizează lista; inspectoratele școlare județene/București o comunică tuturor unităților, MAI PUȚIN creșelor — creșelor li se comunică DIRECT de MSP. Într-o structură mixtă, comunicarea pt creșă NU se face prin ISJ. OM 4143/2022 Anexa 2 reglementează dotările pt ambele (0–6 ani), dar comunicarea listei are regim distinct.",
     "tooltipCorrect": "Creșelor — direct de MSP (art. 9), NU prin ISJ."
@@ -14732,23 +14732,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Contează doar greutatea praf, 100 g = 100 g lapte."
-      },
-      {
-        "id": "B",
         "text": "(1) Echivalența: 100 g lapte praf integral = 800 ml lapte proaspăt (Anexa 4); verificați conversia pt a asigura rația; (2) recepționezi cu etichetă/specificații/buletin (art. 7), ambalaj integru; (3) depozitare conformă (uscat, etichetat, fără contaminare — OM 4143 Anexa 2); (4) meniul e avizat medical + aprobat de conducător (Legea 123 art. 11)."
       },
       {
+        "id": "B",
+        "text": "Conform practicii administrative curente, refuză laptele praf, preferă doar proaspăt ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Acceptă 100 g = 100 ml direct."
+        "text": "În aplicarea măsurilor prevăzute, acceptă 100 g = 100 ml direct ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Refuză laptele praf, preferă doar proaspăt."
+        "text": "În aplicarea măsurilor prevăzute, contează doar greutatea praf, 100 g = 100 g lapte și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "OM 1563/2008 Anexa 4: 100 g lapte praf integral = 800 ml echivalent lapte proaspăt; echivalențele sunt pt asigurarea rației (Tabel 1). art. 7: dovada compoziției (etichetă/specificații/buletin). OM 4143/2022 Anexa 2: depozitare corectă, etichetată, fără contaminare. Legea 123/2008 art. 11: meniu avizat medical + aprobat de conducător. Laptele praf NU se echivalează 1:1.",
     "tooltipCorrect": "100 g lapte praf integral = 800 ml lapte (Anexa 4); depozitare corectă; meniu avizat (art. 11)."
@@ -14764,19 +14764,19 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da; sunt potriviți pt copii, fiind congelați."
+        "text": "Potrivit regulamentului intern, doar dacă se servesc reci urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "NU: cartofii prăjiți sunt alimenta† nerecomandat (Anexa 1 pct. 2 — grăsimi >20 g/100 g, în cazul prăjirii) și în categoria „foarte crescută” peste 300 kcal/100 g (Anexa 4 Tabel 2); în incintă se interzice distribuirea (Legea 123 art. 10). Aprovizionează cartofi proaspeți pt fierbere/copere."
+        "text": "NU: cartofii prăjiți sunt alimente nerecomandate (Anexa 1 pct. 2 — grăsimi >20 g/100 g, în cazul prăjirii) și în categoria „foarte crescută” peste 300 kcal/100 g (Anexa 4 Tabel 2); în incintă se interzice distribuirea (Legea 123 art. 10). Aprovizionează cartofi proaspeți pt fierbere/copere."
       },
       {
         "id": "C",
-        "text": "Da, dar doar pt adulți, pește copii."
+        "text": "Potrivit procedurii stabilite, da, dar doar pt adulți, pește copii ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Doar dacă se servesc reci."
+        "text": "Potrivit regulamentului intern, da; sunt potriviți pt copii, fiind congelați urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
@@ -14796,23 +14796,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Permisiunea se dă să-l rearmeze singur."
+        "text": "Potrivit reglementării aplicabile, îl lasă expirat, va fi bine ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "(1) Stingătorul expirat NU se folosessște stingător expirat: asigură dotarea/funcționarea mijloacelor de stingere (PSI Secțiunea 6), fără improvizații; (2) rearmanerea self-made este interzisă (NU se improvizează, NU se folosesc surse necontrolate — obligație salariat); (3) solicită verificare/încărcare de firmă autorizată, consemnează în inventar (OM 4143 Anexa 2) și asigură stingător de rezervă în perioada."
+        "text": "Potrivit reglementării aplicabile, permisiunea se dă să-l rearmeze singur și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Îl lasă expirat, va fi bine."
+        "text": "(1) Stingătorul expirat NU se folosessște stingător expirat: asigură dotarea/funcționarea mijloacelor de stingere (PSI Secțiunea 6), fără improvizații; (2) rearmanerea self-made este interzisă (NU se improvizează, NU se folosesc surse necontrolate — obligație salariat); (3) solicită verificare/încărcare de firmă autorizată, consemnează în inventar (OM 4143 Anexa 2) și asigură stingător de rezervă în perioada."
       },
       {
         "id": "D",
-        "text": "Îl reavizează singur, cu un sticker nouu."
+        "text": "Pe baza evaluării de rutină, îl reavizează singur, cu un sticker nouu și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 307/2006 Secțiunea 6: administratorul asigură dotarea/funcționarea mijloacelor de stingere, semnalizare și evacuare, solicită/obține avizele/autorizațiile de securitate la incendiu. Obligația salariatului: NU improvizații. OM 4143/2022 Anexa 2: stingătoare verificate periodically; defectele se consemnează. Reavizare/încărcare de firmă autorizată; NU se „rearmează” manual.",
     "tooltipCorrect": "Stingător expirat → firmă autorizată (PSI Secțiunea 6); fără improvizații; consemnat (Anexa 2)."
@@ -14828,23 +14828,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Doar părintele rspunde pt fotografie."
+        "text": "Conform procedurii interne, nimeni, fiind „din greșeală” și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "(1) Compromitere (art. 11): conducerea dispune cercetare administrativă pt cauze, responsabilități, recuperare/limitare; informează instituțiile cu atribuții de coordonare/control; pt recuperare prejudicii, se poate adresa instanței; (2) răspundere penală/civilă/contravențională/disciplinară pt cei în blame (art. 12), inclusiv salariatul care a lăsat documentul în sala de grupă."
+        "text": "Conform procedurii interne, doar părintele rspunde pt fotografie și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Rspunde doar elevul care a fotografiat, dacă e major."
+        "text": "În aplicarea instrucțiunilor unității, rspunde doar elevul care a fotografiat, dacă e major urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Nimeni, fiind „din greșeală”."
+        "text": "(1) Compromitere (art. 11): conducerea dispune cercetare administrativă pt cauze, responsabilități, recuperare/limitare; informează instituțiile cu atribuții de coordonare/control; pt recuperare prejudicii, se poate adresa instanței; (2) răspundere penală/civilă/contravențională/disciplinară pt cei în blame (art. 12), inclusiv salariatul care a lăsat documentul în sala de grupă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 781/2002 art. 11: compromitere → cercetare administrativă + informare instituții + instanță pt prejudicii. art. 12: răspundere penală/civilă/contravențională/disciplinară. Răspunderea NU se reduce la fotograf; salariatul care a lăsat documentul în sala de grupă și-a încălcat obligațiile, iar părintele pt actul propriu — cercetarea stabilește fiecare.",
     "tooltipCorrect": "Cercetare administrativă (art. 11) + răspunderi multiple (art. 12), nu un singur vinovat."
@@ -14860,23 +14860,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimic, oficiu este o singură arie."
-      },
-      {
-        "id": "B",
         "text": "(1) Separate alimentele de produsele de curățenie (OM 4143 Anexa 2: inaccesibile copii, separate, etichetate; OM 1563 Anexa 1 pct. 7 pt etichete); evitarea contaminării; (2) impune EIP pt manipularea substanțelor (SSM cap. IV — utilizare corectă EIP); (3) instruire + supraveghere sănătate pt riscuri chimice (cap. V); (4) etichetează și consemnează lipsurile."
       },
       {
+        "id": "B",
+        "text": "În temeiul normelor în vigoare, mută produsele cu curtele pe jos ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Mută produsele cu curtele pe jos."
+        "text": "Potrivit procedurii stabilite, lasă personalul fără EIP, c-o să se descurce ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Lasă personalul fără EIP, c-o să se descurce."
+        "text": "În temeiul normelor în vigoare, nimic, oficiu este o singură arie și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "OM 4143/2022 Anexa 2: produse de curățenie/substanțe periculoase separate, etichetate, inaccesibile copii; OM 1563 art. 7 etichetare; separare alimente pt a evita contaminarea. SSM Legea 319/2006 cap. IV: lucrătorul utilizează corect EIP; cap. V: supraveghere sănătate pt riscuri chimice. Pe aceeași masă alimente + detergenți = risc de contaminare și intoxicație; se separă, se etichetează, se instruiește.",
     "tooltipCorrect": "Separi alimente/detergenți (Anexa 2) + EIP (SSM cap. IV) + supraveghere (cap. V)."
@@ -14892,7 +14892,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Refuză toate fructele neambalate, fără excepție."
+        "text": "Conform practicii administrative curente, refuză tot pt că nu au etichetă urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -14900,17 +14900,17 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Refuză doar merele, acceptă bananele."
+        "text": "Pe baza dispozițiilor curente, refuză toate fructele neambalate, fără excepție și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Refuză tot pt că nu au etichetă."
+        "text": "Conform procedurii interne, refuză doar merele, acceptă bananele urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
       "B"
     ],
-    "explanation": "OM 1563/2008 Anexa 1 pct. 6: alimentele neambalate/vrac sunt nerecomandate, dar bananele și citricele sunt excepție. Merele ca atare NU sunt pe lista nerecomandată, dar forma vrac ridică problema alimenta† neambalat; pt copii, se spală și se porționează. Bananele/citricele sunt acceptate direct ca excepție (pct. 6). Administrator II nu refuză fructele ”în bloc”.",
+    "explanation": "OM 1563/2008 Anexa 1 pct. 6: alimentele neambalate/vrac sunt nerecomandate, dar bananele și citricele sunt excepție. Merele ca atare NU sunt pe lista nerecomandată, dar forma vrac ridică problema alimentului neambalat; pt copii, se spală și se porționează. Bananele/citricele sunt acceptate direct ca excepție (pct. 6). Administrator II nu refuză fructele ”în bloc”.",
     "tooltipCorrect": "Banane/citrice = excepție (pct. 6); mereNU sunt nerecomandate, dar se spală/porționează."
   },
   {
@@ -14924,23 +14924,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Se acceptă cola, doar pt sărbătoare."
+        "text": "Potrivit regulamentului intern, se acceptă cola, doar pt sărbătoare și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "(1) Cola e băutură răcoritoare — interzisă în incintă, cu excepția apei îmbuteliate (Anexa 1 pct. 4; Legea 123 art. 10); NU se aprovizionează pt „sărbătoare”; (2) sucurile de fructe naturale pot intra pt gustare, dar pt copilul cu diabet, meniul se adaptează stării de sănătate (Legea 123 art. 11 — meniu avizat medical, adaptat); (3) propune apă/soluție adaptată pt copil; semnalează conducerii ajustarea."
+        "text": "Pe baza dispozițiilor curente, refuză copilul cu diabet la sărbătoare ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Refuză copilul cu diabet la sărbătoare."
+        "text": "(1) Cola e băutură răcoritoare — interzisă în incintă, cu excepția apei îmbuteliate (Anexa 1 pct. 4; Legea 123 art. 10); NU se aprovizionează pt „sărbătoare”; (2) sucurile de fructe naturale pot intra pt gustare, dar pt copilul cu diabet, meniul se adaptează stării de sănătate (Legea 123 art. 11 — meniu avizat medical, adaptat); (3) propune apă/soluție adaptată pt copil; semnalează conducerii ajustarea."
       },
       {
         "id": "D",
-        "text": "Toți beau cola, e doar o zi."
+        "text": "Pe baza dispozițiilor curente, toți beau cola, e doar o zi ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Anexa 1 pct. 4: băuturile răcoritoare sunt interzise, cu excepția apei îmbuteliate; Legea 123/2008 art. 10: în incintă se interzice distribuirea. Legea 123 art. 11: meniul se adaptează stării de sănătate, avizat medical, aprobat de conducător. pt sărbătoare NU se aprovisionează cola; sucul natural se evaluează, iar copilul cu diabet are meniul adaptat.",
     "tooltipCorrect": "Cola interzisă (pct. 4 + art. 10); copil diabetic — meniu adaptat medical (art. 11)."
@@ -14956,23 +14956,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Da, o păstrează, fiind autorizația lui."
+        "text": "Potrivit procedurii stabilite, da, o păstrează, fiind autorizația lui și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "NU: după retragere, structura de securitate distruge autorizația pe bază de PROCES-VERBAL (art. 8). Pe lângă aceasta, dacă fapta constituie compromitere, se declangează cercetare administrativă (art. 11) — pt cauze, responsabilități, recuperare/limitare și se informează instituțiile cu atribuții."
+        "text": "Conform practicii administrative curente, se lasă la dosar, fără distrugere și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Se predă titularului, ca o amintire."
+        "text": "Pe baza dispozițiilor curente, se predă titularului, ca o amintire ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Se lasă la dosar, fără distrugere."
+        "text": "NU: după retragere, structura de securitate distruge autorizația pe bază de PROCES-VERBAL (art. 8). Pe lângă aceasta, dacă fapta constituie compromitere, se declangează cercetare administrativă (art. 11) — pt cauze, responsabilități, recuperare/limitare și se informează instituțiile cu atribuții."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 781/2002 art. 8: după retragere, structura de securitate distruge autorizația pe proces-verbal — NU se păstrează de titular. art. 11: dacă fapta implică compromitere, cercetare administrativă + informare instituții. Procesul-verbal dovedește retragerea și distrugerea, important pt control.",
     "tooltipCorrect": "Distrugere pe PV (art. 8) — nu suvenir; compromitere → cercetare (art. 11)."
@@ -14988,23 +14988,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lasă lenjeria amestecată, pt nr. de copii redus."
-      },
-      {
-        "id": "B",
         "text": "(1) Paturile instabile se semnalează/limitază accesul și se urmărește remedierea (OM 4143 Anexa 2: paturi/saltele individuale, stabile, sigure); (2) separă textilele curate de cele murdare (circuit curat/murdar — Anexa 2) și asigură lenjerie individuală; (3) comunică riscurile (SSM cap. IV; posibil risc de contact/copii cu afecțiuni); (4) consemnează și raportează conducerii pt remediere."
       },
       {
+        "id": "B",
+        "text": "Conform procedurii interne, lasă lenjeria amestecată, pt nr. de copii redus ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Mută copiii pe saltele pe podea."
+        "text": "Pe baza evaluării de rutină, doar spală lenjeria murdară, fără separare urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Doar spală lenjeria murdară, fără separare."
+        "text": "Pe baza evaluării de rutină, mută copiii pe saltele pe podea urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "OM 4143/2022 Anexa 2: dormitorul necesită paturi/saltele curate, stabile, lenjerie individuală, separare circuit curat/murdar, aerisire, spațiu suficient. SSM Legea 319/2006 cap. IV: comunicare imediată a riscurilor (contact cu lenjerie murdară). Paturi instabile + amestec textile = risc igienico-sanitar și accident; se separă, se semnalează, se remediază.",
     "tooltipCorrect": "Paturi remediate (Anexa 2) + circuit curat/murdar separat + comunicare risc (SSM)."
@@ -15020,7 +15020,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Repară toboganul imediat, înainte de orice."
+        "text": "Conform procedurii interne, doar raportează părinților, fără SSM urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -15028,11 +15028,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Doar raportează părinților, fără SSM."
+        "text": "Pe baza evaluării de rutină, repară toboganul imediat, înainte de orice ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Mută copiii într-un loc fără a documenta."
+        "text": "În aplicarea măsurilor prevăzute, mută copiii într-un loc fără a documenta ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -15052,23 +15052,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimic; este doar o copie, important e originalul."
+        "text": "Potrivit reglementării aplicabile, se fac alte 10 copii, ca să acopere urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "(1) Multiplicarea se consemnează în evidentă (art. 1), fiecare copie păstrează marcarea; (2) lipsa unei copii este risc de compromitere, dacă a ajuns la persoană neautorizată — cercetare administrativă (art. 11), informare instituții abilitate, recuperare; (3) se corectează procedura de multiplicare/manipulare și se revede evidenta."
+        "text": "În aplicarea măsurilor prevăzute, se consideră pierderea ca fiind minoră și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Se consideră pierderea ca fiind minoră."
+        "text": "(1) Multiplicarea se consemnează în evidentă (art. 1), fiecare copie păstrează marcarea; (2) lipsa unei copii este risc de compromitere, dacă a ajuns la persoană neautorizată — cercetare administrativă (art. 11), informare instituții abilitate, recuperare; (3) se corectează procedura de multiplicare/manipulare și se revede evidenta."
       },
       {
         "id": "D",
-        "text": "Se fac alte 10 copii, ca să acopere."
+        "text": "Conform practicii administrative curente, nimic; este doar o copie, important e originalul și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 1: multiplicarea se consemnează în evidentă, fiecare copie păstrează marcarea. art. 11: o copie ajunsă la o persoană neautorizată este compromitere — cercetare administrativă, informare, recuperare. O copie are același regim ca originalul pt informația pe care o poartă. Se corectează procedura și se revede evidenta.",
     "tooltipCorrect": "Multiplicare consemnată (art. 1); copie pierdută = compromitere art. 11."
@@ -15084,23 +15084,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lasă, dacă ea este de acord."
+        "text": "În aplicarea instrucțiunilor unității, lasă, dacă ea este de acord urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "(1) Gravida/lăuza este grup sensibil (SSM cap. VII) — angajatorul adaptează măsurile de protecție pt a preveni expunerea la riscuri pt sănătatea ei sau a copilului; (2) reorganizează atribuțiile — NU manipulare chimică agresivă fără adaptare/EIP; (3) detergenții se folosesc cu separat/etichetat/inaccesibil copii (OM 4143 Anexa 2) și dețin EIP pt toți; (4) supraveghere medicală (cap. V) pt gravida."
+        "text": "Potrivit regulamentului intern, îi spune să-și ceară transfer singură urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Îi spune să-și ceară transfer singură."
+        "text": "Conform practicii administrative curente, îi cere să semneze că își asumă urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Îi cere să semneze că își asumă."
+        "text": "(1) Gravida/lăuza este grup sensibil (SSM cap. VII) — angajatorul adaptează măsurile de protecție pt a preveni expunerea la riscuri pt sănătatea ei sau a copilului; (2) reorganizează atribuțiile — NU manipulare chimică agresivă fără adaptare/EIP; (3) detergenții se folosesc cu separat/etichetat/inaccesibil copii (OM 4143 Anexa 2) și dețin EIP pt toți; (4) supraveghere medicală (cap. V) pt gravida."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006 cap. VII: grupuri sensibile (gravide, lăuze, care alăptează) — angajatorul adaptează măsurile de protecție să prevină expunerea la riscuri. cap. V: supraveghere medicală. OM 4143/2022 Anexa 2: detergenții manevrați cu EIP, separați, etichetați. Acordul angajatei NU elimină obligația angajatorului; se reorganizează atribuțiile și se asigură supraveghere.",
     "tooltipCorrect": "Gravida = grup sensibil (cap. VII): adaptare atribuții + EIP + supraveghere (cap. V)."
@@ -15116,23 +15116,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Anunță doar după ce observă cineva."
-      },
-      {
-        "id": "B",
         "text": "(1) Compromitere a informației clasificate (HG 781 art. 11): retrage/șterge de la destinatari, anunță imediat conducerea, cercetare administrativă, informare instituții abilitate; (2) datele medicale intră în protecția datelor sensible, iar meniul adaptat alergei se avizează medical (Legea 123 art. 11) — divulgarea lor creează risc pt copii; (3) consemnează transmiterea și stabilește măsuri pt a nu se repeta (listă restrictivă, criptare)."
       },
       {
+        "id": "B",
+        "text": "Potrivit reglementării aplicabile, anunță doar după ce observă cineva urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Șterge din „Trimise” și atât."
+        "text": "Pe baza evaluării de rutină, trimite din nou, corectat, fără să comunice greșeala și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Trimite din nou, corectat, fără să comunice greșeala."
+        "text": "În temeiul normelor în vigoare, șterge din „Trimise” și atât și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 11: compromitere → cercetare administrativă + informare instituții + recuperare. Datele cu caracter personal și medicale sunt protejate suplimentar; divulgarea pt alergii poate pune în risc siguranța copiilor (Legea 123/2008 art. 11 — meniu avizat medical pt stări de sănătate). „Din greșeală” NU elimină compromiterea; se consemnează și se previne recurența.",
     "tooltipCorrect": "Compromitere (art. 11) + date medicale protejate (art. 11); retragere + cercetare + prevenire."
@@ -15148,7 +15148,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Directorul sancționează, nu Inspecția Sanitară."
+        "text": "Conform practicii administrative curente, doar educatorii sunt sancționați urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -15156,11 +15156,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Doar educatorii sunt sancționați."
+        "text": "În aplicarea măsurilor prevăzute, directorul sancționează, nu Inspecția Sanitară și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Bomboanele sunt permise dacă sunt naturale."
+        "text": "Potrivit reglementării aplicabile, bomboanele sunt permise dacă sunt naturale și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -15180,23 +15180,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Le lași active, convenabil pt întoarcere."
+        "text": "Conform procedurii interne, se transferă către înlocuitori automatic ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "(1) se analizează retractarea pentru titularii al căror post NU mai presupune acces pe perioada concediului (art. 8 lit. b); (2) distrugerea pe proces-verbal pt cei retrași (art. 8); (3) actualizează Registrul pt evidența autorizațiilor (art. 6) și, la întoarcere, se reemite dacă atribuțiile reimpun acces; nu se păstrează „inactiv” pe termen nelimitat."
+        "text": "Conform practicii administrative curente, le lași active, convenabil pt întoarcere urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Se transferă către înlocuitori automatic."
+        "text": "(1) se analizează retractarea pentru titularii al căror post NU mai presupune acces pe perioada concediului (art. 8 lit. b); (2) distrugerea pe proces-verbal pt cei retrași (art. 8); (3) actualizează Registrul pt evidența autorizațiilor (art. 6) și, la întoarcere, se reemite dacă atribuțiile reimpun acces; nu se păstrează „inactiv” pe termen nelimitat."
       },
       {
         "id": "D",
-        "text": "Se șterg din Registru, fără PV."
+        "text": "Conform procedurii interne, se șterg din Registru, fără PV urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 8: retragere când atribuțiile postului NU mai presupun acces; după retragere, distrugere pe PV. art. 6: evidența centralizată în Registru. Titularii inactivi pe concediu prelungit nu trebuie să rămână cu acces „suspendat” doar pe hârtie; se retractă și se reemite la întoarcere dacă se impune. NU se transferă, NU se șterg fără PV.",
     "tooltipCorrect": "Retragere dacă nu mai presupune acces (art. 8) + distrugere PV + actualizare Registru (art. 6)."
@@ -15212,23 +15212,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Cumpără alt laptop pt a nu se vedea lipsa."
+        "text": "Pe baza dispozițiilor curente, lasă cutiile pe hidrant, sunt temporare și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "(1) Consemnează lipsa laptopului, raportează conducerii pt completare/înlocuire (OM 4143 Anexa 2); (2) eliberează imediat hidrantul accesibil pt intervenție (PSI Secțiunea 6 — mijloacele/accesul pt intervenție libere); (3) dacă laptopul conținea date sensibile, procedura suport electronic + posibil compromitere (HG 781 principii); (4) NU se ascunde lipsa și NU se blochează hidranții."
+        "text": "Conform procedurii interne, cumpără alt laptop pt a nu se vedea lipsa urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Lasă cutiile pe hidrant, sunt temporare."
+        "text": "Potrivit regulamentului intern, mută lipsa pe un alt inventar și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Mută lipsa pe un alt inventar."
+        "text": "(1) Consemnează lipsa laptopului, raportează conducerii pt completare/înlocuire (OM 4143 Anexa 2); (2) eliberează imediat hidrantul accesibil pt intervenție (PSI Secțiunea 6 — mijloacele/accesul pt intervenție libere); (3) dacă laptopul conținea date sensibile, procedura suport electronic + posibil compromitere (HG 781 principii); (4) NU se ascunde lipsa și NU se blochează hidranții."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "OM 4143/2022 Anexa 2: lipsurile se consemnează și se raportează conducerii pt completare. Legea 307/2006 Secțiunea 6: administratorul menține libere mijloacele de stingere și accesul pt intervenție; obstrucționarea hidrantului cu cutii este încălcare gravă. Lipsa + date sensibile pe laptop ridică problematic compromiterii (HG 781). Lipsa NU se ascunde.",
     "tooltipCorrect": "Lipsa consemnată (Anexa 2) + hidrant eliberat (PSI) + date sensibile → eventual art. 11."
@@ -15244,23 +15244,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă; donația scutește regula."
-      },
-      {
-        "id": "B",
         "text": "Refuză distribuirea în incintă: sucurile carbogazoase sunt băuturi răcoritoare, interzise în incintă (Anexa 1 pct. 4, excepție doar apă îmbuteliată; Legea 123 art. 10 interzice distribuirea). Donația NU schimbă regimul alimentelor; se poate mulțumi sponsorului și alege o alternativă conformă (apă îmbuteliată, fructe)."
       },
       {
+        "id": "B",
+        "text": "În aplicarea măsurilor prevăzute, acceptă,s dar doar pt personal ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Acceptă,s dar doar pt personal."
+        "text": "Potrivit reglementării aplicabile, acceptă; donația scutește regula și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Acceptă, dar diluată cu apă."
+        "text": "În temeiul normelor în vigoare, acceptă, dar diluată cu apă și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "OM 1563/2008 Anexa 1 pct. 4: băuturile răcoritoare sunt interzise, cu excepția apei îmbuteliate. Legea 123/2008 art. 10: în incintă se interzic prepararea/comercializarea/distribuția alimentelor din listă. Donația nu schimbă regimul; incinta unității rămâne protejată indiferent de sursă. Administrator II NU aprobă distribuția, propune alternativă conformă.",
     "tooltipCorrect": "Sucuri carbogazoase interzise în incintă (pct. 4 + art. 10); donația NU schimbă regimul."
@@ -15276,7 +15276,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lasă, doar pt azi este."
+        "text": "Pe baza dispozițiilor curente, repară stingătorul cu un breloc nou urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -15284,11 +15284,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Mută copii, dar lasă cablul și stingătorul."
+        "text": "Conform practicii administrative curente, lasă, doar pt azi este urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Repară stingătorul cu un breloc nou."
+        "text": "În temeiul normelor în vigoare, mută copii, dar lasă cablul și stingătorul ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -15308,23 +15308,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Niciuna, dacă stingătoarele sunt noi."
+        "text": "În aplicarea măsurilor prevăzute, doar un plan pe perete rezolvă totul urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "(1) Lipsesc dispozițiile scrise prin care se stabilesc responsabilitățile PSI, aduse la cunoștința personalului (Secțiunea 6); (2) lipsesc/elaborează instrucțiunile PSI și instruirea personalului (inclusiv pt practică) privind traseul de evacuare și locul de adunare; (3) fără instruire, salariații NU pot evacua corect copii; Administrator II propune elaborarea instruciunilor + instructaje/exerciții."
+        "text": "Potrivit regulamentului intern, niciuna, dacă stingătoarele sunt noi și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Doar un plan pe perete rezolvă totul."
+        "text": "(1) Lipsesc dispozițiile scrise prin care se stabilesc responsabilitățile PSI, aduse la cunoștința personalului (Secțiunea 6); (2) lipsesc/elaborează instrucțiunile PSI și instruirea personalului (inclusiv pt practică) privind traseul de evacuare și locul de adunare; (3) fără instruire, salariații NU pot evacua corect copii; Administrator II propune elaborarea instruciunilor + instructaje/exerciții."
       },
       {
         "id": "D",
-        "text": "Copiii învață singuri la nevoie."
+        "text": "În aplicarea instrucțiunilor unității, copiii învață singuri la nevoie și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Legea 307/2006 Secțiunea 6: administratorul stabilește responsabilitățile prin DISPOZIȚII SCRISE aduse la cunoștința personalului, elaborează instrucțiunile PSI, verifică dacă personalul le cunoaște/respectă, asigură instructaje/exerciții de evacuare. Lipsa dispozițiilor + a instruirii practic NU permite evacuarea corectă a copiilor; un plan pe perete NU este suficient.",
     "tooltipCorrect": "Dispoziții scrise + instrucțiuni PSI + instruire/exerciții (Secțiunea 6) — obligatorii."
@@ -15340,23 +15340,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Toate sunt conforme, fiind prăjite bine."
+        "text": "Conform procedurii interne, doar crema este problema și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "(1) Tocăturile sunt acceptate NUMAI prin fierbere sau la cuptor (Anexa 2 pct. 6) — chifteluțe prăjite NU sunt conforme; (2) cremele cu ouă și frișcă sunt interzise indiferent de anotimp (pct. 8); (3) Administrator II semnalează conducerii neconformitatea meniului (Legea 123 art. 11 — meniu avizat medical, aprobat de conducător) și propune alternative (chifteluțe la cuptor, fructe pt desert)."
+        "text": "În aplicarea măsurilor prevăzute, acceptă dacă se servesc reci urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Doar crema este problema."
+        "text": "Pe baza evaluării de rutină, toate sunt conforme, fiind prăjite bine ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Acceptă dacă se servesc reci."
+        "text": "(1) Tocăturile sunt acceptate NUMAI prin fierbere sau la cuptor (Anexa 2 pct. 6) — chifteluțe prăjite NU sunt conforme; (2) cremele cu ouă și frișcă sunt interzise indiferent de anotimp (pct. 8); (3) Administrator II semnalează conducerii neconformitatea meniului (Legea 123 art. 11 — meniu avizat medical, aprobat de conducător) și propune alternative (chifteluțe la cuptor, fructe pt desert)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "OM 1563/2008 Anexa 2 pct. 6: tocături doar fierte/cuptor; pct. 8: creme cu ouă și frișcă interzise indiferent de anotimp. Combinația prăjită + cremă reprezintă dublă neconformitate. Meniul se avizează medical și se aprobă de conducător (Legea 123/2008 art. 11). Administrator II NU pregătește, dar semnalează neconformitatea și aprobă alternativa conformă.",
     "tooltipCorrect": "Tocături doar fierte/cuptor (pct. 6) + cremă cu ouă/frișcă interzisă (pct. 8)."
@@ -15372,23 +15372,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimic; curățitorul trebuie să curețe."
-      },
-      {
-        "id": "B",
         "text": "(1) Securizează dulapul încuiat cu acces controlat (HG 781 art. 4/6 — acces pe autorizație); (2) tratează ca risc/compromitere (art. 11) — cercetare administrativă dacă răsfoirea creează expunere; (3) instruiește curățitorul (știind NU are acces, NU trebuie să manipuleze dosare); (4) principiul Anexa 2 (OM 4143): proceduri interne clare pentru curățenie în zone cu documente."
       },
       {
+        "id": "B",
+        "text": "În aplicarea instrucțiunilor unității, demite curățitorul, fără cercetare urmărind respectarea normei."
+      },
+      {
         "id": "C",
-        "text": "Demite curățitorul, fără cercetare."
+        "text": "Conform procedurii interne, lasă descuiat, pt a fi mai operativ urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Lasă descuiat, pt a fi mai operativ."
+        "text": "Potrivit regulamentului intern, nimic; curățitorul trebuie să curețe urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 4/6: acces/scoatere controlată; art. 11: compromitere → cercetare administrativă. Curățitorul fără autorizație nu trebuie să manipuleze dosare — atât procedura unității (instruire, separare curățenie/documnte), cât și securizarea dulapului sunt deficiențe de remediat. OM 4143/2022 Anexa 2: proceduri interne clare. Demiterea fără cercetare NU este remediu.",
     "tooltipCorrect": "Securizezi dulapul (art. 4/6) + cercetare art. 11 + instruiești curățitorul + proceduri interne."
@@ -15404,7 +15404,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Așteaptă primăvara, să se usuce."
+        "text": "Pe baza dispozițiilor curente, așteaptă primăvara, să se usuce ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -15412,11 +15412,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Închide scările pe timp de iarnă."
+        "text": "Potrivit procedurii stabilite, închide scările pe timp de iarnă și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Lasă gheața, e natural."
+        "text": "Potrivit regulamentului intern, lasă gheața, e natural și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -15436,23 +15436,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă, materiale senzoriale sunt toate conforme."
+        "text": "Potrivit procedurii stabilite, le dai copiilor mari, ca să nu se înece cei mici urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "(1) Materialele pt antepreșcolari trebuie să fie adecvate vârstei, sigure, fără risc de înghițire/asfixiere (OM 4143 Anexa 2 — materiale sigure, fără risc; Legea 319 cap. IV — comunicare risc); (2) piesele sub 3 cm reprezintă pericol de înghițire pt antepreșcolari — se refuză/se solicită certificare de siguranță; (3) marcatoarele cu miros puternic pot emite compuși volatali — se verifică eticheta/atestare; (4) recepționezi doar după dovada conformității."
+        "text": "În temeiul normelor în vigoare, acceptă, doar le observi la copii urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Acceptă, doar le observi la copii."
+        "text": "(1) Materialele pt antepreșcolari trebuie să fie adecvate vârstei, sigure, fără risc de înghițire/asfixiere (OM 4143 Anexa 2 — materiale sigure, fără risc; Legea 319 cap. IV — comunicare risc); (2) piesele sub 3 cm reprezintă pericol de înghițire pt antepreșcolari — se refuză/se solicită certificare de siguranță; (3) marcatoarele cu miros puternic pot emite compuși volatali — se verifică eticheta/atestare; (4) recepționezi doar după dovada conformității."
       },
       {
         "id": "D",
-        "text": "Le dai copiilor mari, ca să nu se înece cei mici."
+        "text": "Potrivit procedurii stabilite, acceptă, materiale senzoriale sunt toate conforme urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "OM 4143/2022 Anexa 2: materialele pt antepreșcolari (0–3 ani) trebuie adecvate vârstei, sigure, fără risc de înghițire/asfixiere, fără muchii periculoase, fără compuși volatili cu miros. Legea 319/2006 cap. IV: comunicare risc, NU se utilizează EIP/improvizații. Piesele sub 3 cm pt antepreșcolari = risc de înghițire — se refuză fără certificare; materialele cu miros se verifică (etichetă/atestare).",
     "tooltipCorrect": "Materiale senzoriale pt antepreșcolari: fără piese înghițibile (<3cm), fără compuși volatili (Anexa 2)."
@@ -15468,23 +15468,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă, fiind doar 0,01 g sub prag."
+        "text": "În aplicarea măsurilor prevăzute, acceptă cu excepție, pt că e la margine și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "NU acceptă: deși sarea e sub pragul de 1,5 g/100 g (Anexa 1 pct. 3), lipsa etichetei conforme îl încadrează în aliment neetichetat (pct. 7) și fără dovada compoziției (art. 7); suplimentar, chipsurile sunt ca atare alimente cu sare crescută și risc de încadrare — se solicită etichetă/specificații/buletin, altfel recepția se refuză (Legea 123 art. 10)."
+        "text": "Potrivit reglementării aplicabile, refuză doar pt sare, nu pt etichetă și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Acceptă cu excepție, pt că e la margine."
+        "text": "Potrivit regulamentului intern, acceptă, fiind doar 0,01 g sub prag și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Refuză doar pt sare, nu pt etichetă."
+        "text": "NU acceptă: deși sarea e sub pragul de 1,5 g/100 g (Anexa 1 pct. 3), lipsa etichetei conforme îl încadrează în aliment neetichetat (pct. 7) și fără dovada compoziției (art. 7); suplimentar, chipsurile sunt ca atare alimente cu sare crescută și risc de încadrare — se solicită etichetă/specificații/buletin, altfel recepția se refuză (Legea 123 art. 10)."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "OM 1563/2008 Anexa 1: praguri — sare 1,5 g/100 g (pct. 3), aliment neetichetat (pct. 7); art. 7: dovada compoziției prin etichetă/specificații/buletin. Sub pragul pt sare NU elimină cerința etichetei — un aliment poate fi nerecomandat pe alte criterii (pct. 5 kcal, pct. 2 grăsimi dacă prăjit, pct. 7 etichetă). Legea 123/2008 art. 10 interzice distribuirea în incintă.",
     "tooltipCorrect": "Sub prag sare ≠ acceptabil; lipsă etichetă = pct. 7; art. 7 dovada; art. 10 interzice."
@@ -15500,23 +15500,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Citricele sunt excepție, deci totul e conform, inclusiv pt copil."
-      },
-      {
-        "id": "B",
         "text": "(1) Citricele sunt excepție de la alimentul neambalat/vrac (Anexa 1 pct. 6), suc de portocale proaspăt NU este băutură răcoritoare (Anexa 1 pct. 4 exlude doar ape îmbuteliate — pt suc natural se verifică); (2) pt copilul cu intoleranță, meniul se adaptează stării de sănătate (Legea 123 art. 11 — aviz medical, aprobare conducere); (3) se recepționează cu dovada caracteristicilor și se asigură variantă alternativă pt copil; NU se servesc „identic pt toți”."
       },
       {
+        "id": "B",
+        "text": "Potrivit procedurii stabilite, refuzi citricile, din cauza intoleranței și se consemnează în evidentă."
+      },
+      {
         "id": "C",
-        "text": "Refuzi citricile, din cauza intoleranței."
+        "text": "Potrivit procedurii stabilite, citricele sunt excepție, deci totul e conform, inclusiv pt copil urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Serviezi suc în cutie, indiferent de compoziție."
+        "text": "Conform practicii administrative curente, serviezi suc în cutie, indiferent de compoziție ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "OM 1563/2008 Anexa 1: citricele sunt excepție de la alimentul neambalat (pct. 6). Sucul de fructe proaspăt NU este băutură răcoritoare (pct. 4) — dar se verifică conformitatea. Legea 123/2008 art. 11: meniul se adaptează stării de sănătate, avizat medical, aprobat de conducător. Pt intoleranța la fructoză, copilul are variantă; NU se refuză citricele „în bloc” și NU se servesc identic pt toți.",
     "tooltipCorrect": "Citrice = excepție (pct. 6); suc natural ≠ băutură răcoritoare (pct. 4); copil cu intoleranță → meniu adaptat (art. 11)."
@@ -15532,7 +15532,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Îl pornește, e noutate."
+        "text": "Pe baza evaluării de rutină, îl așază lângă copiator, fiindcă e electric urmărind respectarea normei."
       },
       {
         "id": "B",
@@ -15540,11 +15540,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Lasă personalul să se descurce, fără instruire."
+        "text": "În aplicarea instrucțiunilor unității, îl pornește, e noutate ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Îl așază lângă copiator, fiindcă e electric."
+        "text": "În aplicarea instrucțiunilor unității, lasă personalul să se descurce, fără instruire și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -15564,23 +15564,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Îl lasă să se uite, fiind vizită oficială."
+        "text": "Potrivit procedurii stabilite, îl lasă să se uite, fiind vizită oficială și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "(1) Recuperează/securizează documentul (marcare incompletă — art. 2); (2) accesul cetățeanului străin la informații secrete cere AUTORIZAȚIE SPECIALĂ de acces (art. 9) — NU pe vizita generală; (3) evaluează riscul de compromitere (art. 11) — dacă a văzut informații sensibile, cercetare administrativă + informare instituții; (4) marchează corect paginile, consemnează."
+        "text": "Potrivit regulamentului intern, îi arată tot dosarul, ca act de transparență și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Îi arată tot dosarul, ca act de transparență."
+        "text": "(1) Recuperează/securizează documentul (marcare incompletă — art. 2); (2) accesul cetățeanului străin la informații secrete cere AUTORIZAȚIE SPECIALĂ de acces (art. 9) — NU pe vizita generală; (3) evaluează riscul de compromitere (art. 11) — dacă a văzut informații sensibile, cercetare administrativă + informare instituții; (4) marchează corect paginile, consemnează."
       },
       {
         "id": "D",
-        "text": "Scoate documentul fără să se uite nimeni."
+        "text": "Conform procedurii interne, scoate documentul fără să se uite nimeni ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 781/2002 art. 2: marcare pe fiecare pagină; art. 9: străinul accesează pe autorizație specială, NU în vizită generală; art. 11: compromitere → cercetare administrativă + informare. Vizualizarea accidentală pe copiator liber este risc; se recuperează, se apreciază riscul, se marchează, se consemnează — NU se expune și NU se ascunde incidentul.",
     "tooltipCorrect": "Recuperezi (art. 2) + străin = autorizație specială (art. 9) + eventual cercetare (art. 11)."
@@ -15596,23 +15596,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lasă, nu se vede hidrantul."
+        "text": "Potrivit regulamentului intern, lasă, nu se vede hidrantul și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "(1) Eliberează accesul la hidrant (PSI Secțiunea 1 — mijloacele de stingere și accesul pt intervenție se mențin libere/funcționale); (2) NU amplasează structuri de joacă care înglobează/obstrucționează hidrante; (3) reorganizează curtea — echipamente de joacă în zone fără blocarea acceselor (OM 4143 Anexa 2 — exterior adaptat vârstei, sigur); (4) consemnează și raportează pt remediere."
+        "text": "Conform procedurii interne, demontează hidrantul ca să nu mai deranjeze ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Mută copii pe altă zonă, dar lași hidrantul blocat."
+        "text": "Conform procedurii interne, mută copii pe altă zonă, dar lași hidrantul blocat urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Demontează hidrantul ca să nu mai deranjeze."
+        "text": "(1) Eliberează accesul la hidrant (PSI Secțiunea 1 — mijloacele de stingere și accesul pt intervenție se mențin libere/funcționale); (2) NU amplasează structuri de joacă care înglobează/obstrucționează hidrante; (3) reorganizează curtea — echipamente de joacă în zone fără blocarea acceselor (OM 4143 Anexa 2 — exterior adaptat vârstei, sigur); (4) consemnează și raportează pt remediere."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 307/2006 Secțiunea 1: mijloacele de stingere/accesul pt intervenție se mențin libere și funcționale; NU se blochează hidranții. OM 4143/2022 Anexa 2: spațiul exterior adaptat vârstei, sigur, fără obstrucții periculoase. Înglobarea hidrantului în structură de joacă + blocare cu nisip e dublă încălcare; se eliberează, se reorganizează, NU se demontează hidrantul.",
     "tooltipCorrect": "Eliberezi hidrantul + reorganizezi curtea (PSI + Anexa 2); fără blocări."
@@ -15628,23 +15628,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Nimic, omleta e conformă."
-      },
-      {
-        "id": "B",
         "text": "(1) Omleta la cuptor este conformă ca formă de preparare (Anexa 2 pct. 6); (2) dar cuptorul cu termostat defect = risc SSM (cap. IV — NU se folosesc aparate defecte/nesigure, se anunță) și risc igienico-alimentar (preparare inegală); (3) lipsa EIP termic = încălcare cap. IV (utilizare corectă EIP); (4) oprește cuptorul, solicită reparare, instruiește personalul, consemnează pt inventar/dotări."
       },
       {
+        "id": "B",
+        "text": "Potrivit reglementării aplicabile, permisiunea se dă să continue, omleta trebuie servită și se raportează conducerii."
+      },
+      {
         "id": "C",
-        "text": "Permisiunea se dă să continue, omleta trebuie servită."
+        "text": "Pe baza evaluării de rutină, nimic, omleta e conformă și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Cere să se facă ochiuri în schimb."
+        "text": "Conform procedurii interne, cere să se facă ochiuri în schimb urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "OM 1563/2008 Anexa 2 pct. 6: ouăle ca omletă la cuptor — conform ca formă. Dar aparatul cu termostat defect = risc SSM și igienico-alimentar; Legea 319/2006 cap. IV: NU se utilizează aparate defecte, se anunță; utilizare corectă EIP. Administrator II semnalează, oprește cuptorul, solicită reparare, instruiește; nu schimbă forma de preparare (ochiuri ar fi nonconformă).",
     "tooltipCorrect": "Omletă la cuptor conformă (pct. 6), dar cuptor defect = SSM + EIP lipsă; se oprește și se repară."
@@ -15660,7 +15660,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Niciuna, stick-ul este suport personal."
+        "text": "În aplicarea instrucțiunilor unității, niciuna, stick-ul este suport personal ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -15668,11 +15668,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Este permise dacă stick-ul este încuiat cu parolă."
+        "text": "Conform procedurii interne, este permise dacă stick-ul este încuiat cu parolă urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Doar dacă are mai puțin de 5 documente."
+        "text": "Pe baza evaluării de rutină, doar dacă are mai puțin de 5 documente ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
@@ -15692,23 +15692,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lasă copii să mănânce fără spălare, pt o zi."
+        "text": "Potrivit procedurii stabilite, închide grupul sanitar complet și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "(1) Grupul sanitar trebuie să aibă instalații funcționale (OM 4143 Anexa 2 — apă, săpun, posete/uscător, igienizare); defectul se consemnează și se raportează pt remediere; (2) asigură soluții alternative imediate (apă caldă în carafe, dezinfectant pt mâini) pt igiena copiilor înainte de masă; (3) comunică riscul (SSM cap. IV) — risc igienico-sanitar și de îmbolnăvire; (4) NU se lasă pe termen fără remediere."
+        "text": "Potrivit procedurii stabilite, lasă copii să mănânce fără spălare, pt o zi urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Închide grupul sanitar complet."
+        "text": "(1) Grupul sanitar trebuie să aibă instalații funcționale (OM 4143 Anexa 2 — apă, săpun, posete/uscător, igienizare); defectul se consemnează și se raportează pt remediere; (2) asigură soluții alternative imediate (apă caldă în carafe, dezinfectant pt mâini) pt igiena copiilor înainte de masă; (3) comunică riscul (SSM cap. IV) — risc igienico-sanitar și de îmbolnăvire; (4) NU se lasă pe termen fără remediere."
       },
       {
         "id": "D",
-        "text": "Anunță doar după ce se strică mai tare."
+        "text": "Potrivit procedurii stabilite, anunță doar după ce se strică mai tare și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "OM 4143/2022 Anexa 2: grupul sanitar cu instalații funcționale, săpun, prosoape/uscător, dezinfectare — lipsa apei calde este deficiență ce se consemnează și se remediază. SSM Legea 319/2006 cap. IV: comunicare risc igienico-sanitar. Alternative imediate (carafe, dezinfectant) pt a nu lăsa copii fără igienă; NU se închide grupul și NU se lasă pe termen.",
     "tooltipCorrect": "Instalații funcționale (Anexa 2) + alternative imediate + comunicare risc (SSM)."
@@ -15724,23 +15724,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "I se predă tot registrul pt a se lămuri."
+        "text": "Potrivit regulamentului intern, I se predă tot registrul pt a se lămuri și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "(1) Principiul necesității cunoașterii (HG 585 art. 8) — părintele accesează datele propriului copil, NU pe cele ale celuilalt părinte sau ale altor copii; (2) accesul intern al altor persoane se face pe autorizație (HG 781 art. 6); (3) verifică identitatea și titlul legal, comunică strict datele necesare și justificate; NU se deschide registrul integral."
+        "text": "Conform procedurii interne, I se refuză absolut tot urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "I se refuză absolut tot."
+        "text": "În aplicarea instrucțiunilor unității, I se dau datele celuilalt părinte direct și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "I se dau datele celuilalt părinte direct."
+        "text": "(1) Principiul necesității cunoașterii (HG 585 art. 8) — părintele accesează datele propriului copil, NU pe cele ale celuilalt părinte sau ale altor copii; (2) accesul intern al altor persoane se face pe autorizație (HG 781 art. 6); (3) verifică identitatea și titlul legal, comunică strict datele necesare și justificate; NU se deschide registrul integral."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 585/2002 art. 8: informațiile necesare doar celor cu atribuții; datele celuilalt părinte NU sunt „necessary pt atribuțiile” părintelui solicitant. HG 781/2002 art. 6: accesul intern pe autorizație, nu pe cerere generală. Accesul părintelui se individualizează la datele propriului copil, cu verificarea identității/titlului; NU se deschide registrul integral și NU se comunică date ale terților.",
     "tooltipCorrect": "Acces strict la datele propriului copil (art. 8) + acces intern pe autorizație (art. 6)."
@@ -15756,23 +15756,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Le așază oriunde, important să fie."
-      },
-      {
-        "id": "B",
         "text": "(1) Verifică tipul/capacitatea potrivită pt clasa de incendiu pt copii/săli (PSI Secțiunea 6 — dotarea/funcționarea mijloacelor de stingere); (2) etichetare/atestare conformă de la firmă autorizată; (3) amplasează vizibil și accesibil, NU în dulap încuiat sau ascuns; (4) le include în inventar și programul de verificare periodically (OM 4143 Anexa 2 — inventar, întreținere); (5) instruiște personalul cu locul fiecăruia."
       },
       {
+        "id": "B",
+        "text": "Pe baza evaluării de rutină, le lași în cutii originale, pt a nu se murdări ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Le pune în cancelarie, pt siguranță."
+        "text": "În aplicarea măsurilor prevăzute, le așază oriunde, important să fie și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Le lași în cutii originale, pt a nu se murdări."
+        "text": "În aplicarea măsurilor prevăzute, le pune în cancelarie, pt siguranță și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "Legea 307/2006 Secțiunea 6: asigură dotarea/funcționarea mijloacelor de stingere, semnalizare, evacuare; etichetare de firmă autorizată. OM 4143/2022 Anexa 2: bunurile se inventariază, stingătoarele se verifică periodically, vizibile/accesibile. Stingătoarele NU se pun ascunse/în cancelarie; se amplasează vizibil și se instruiește personalul cu locul fiecăruia.",
     "tooltipCorrect": "Tip potrivit + atestare firmă + amplasare vizibilă/accesibilă + inventar + instruire (PSI + Anexa 2)."
@@ -15788,7 +15788,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Repară suportul înainte de cercetare."
+        "text": "Potrivit procedurii stabilite, repară suportul înainte de cercetare ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -15796,11 +15796,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Mută cuțitul înainte de sosire."
+        "text": "În aplicarea măsurilor prevăzute, mută cuțitul înainte de sosire și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Dă vina pe coleg, fără cercetare."
+        "text": "Potrivit regulamentului intern, dă vina pe coleg, fără cercetare și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -15820,23 +15820,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "O comunică, fiind interesat în ofertă."
+        "text": "Potrivit procedurii stabilite, refuză verbal și nu explică procedura ca măsură curentă de gestiune."
       },
       {
         "id": "B",
-        "text": "(1) Lista furnizorilor/contractelor poate fi secret de serviciu dacă divulgarea prejudiciază unitatea (HG 585 art. 4 alin. 3) și intră la info necesare doar celor cu atribuții (art. 8); (2) accesul pt un terț NU se acordă pe autorizație internă (HG 781 art. 6) — pt achiziții, se aplică procedura de transparenta/officială; (3) NU se comunică pe bază de solicitare liberă; se redirecționează către procedura legală de achiziții."
+        "text": "Potrivit regulamentului intern, O comunică, fiind interesat în ofertă ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Predă lista fără verificări."
+        "text": "(1) Lista furnizorilor/contractelor poate fi secret de serviciu dacă divulgarea prejudiciază unitatea (HG 585 art. 4 alin. 3) și intră la info necesare doar celor cu atribuții (art. 8); (2) accesul pt un terț NU se acordă pe autorizație internă (HG 781 art. 6) — pt achiziții, se aplică procedura de transparenta/officială; (3) NU se comunică pe bază de solicitare liberă; se redirecționează către procedura legală de achiziții."
       },
       {
         "id": "D",
-        "text": "Refuză verbal și nu explică procedura."
+        "text": "În temeiul normelor în vigoare, predă lista fără verificări și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "HG 585/2002 art. 4 alin. 3 + art. 8: lista furnizorilor/contractelor poate fi secret de serviciu pt că divulgarea prejudiciaază unitatea, fiind necesară doar celor cu atribuții. HG 781/2002 art. 6: accesul intern pe autorizație; pt terți, NU se comunică pe solicitare liberă, ci se aplică procedura legală de achiziții/transparentă. Administrator NU predă lista, ci redirecționează către procedură.",
     "tooltipCorrect": "Lista furnizori = potential secret (art. 4/8); terții NU primesc pe solicitare, ci prin procedura achiziții."
@@ -15852,23 +15852,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Le distribuie educaților, pt comoditate."
+        "text": "Conform procedurii interne, le lasă, nu sunt originale și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "(1) Recuperează și securizează ambele copii (HG 781 art. 2 — marcare pe fiecare pagină); (2) consemnează multiplicarea în evidentă (art. 1); (3) evaluează riscul de compromitere — accesibile vizitatorilor = risc art. 11, eventual cercetare administrativă + informare; (4) corectează procedura de multiplicare/manipulare și marchează corect paginile."
+        "text": "În aplicarea măsurilor prevăzute, le distribuie educaților, pt comoditate și se consemnează în evidentă."
       },
       {
         "id": "C",
-        "text": "Le lasă, nu sunt originale."
+        "text": "Conform practicii administrative curente, le aruncă la coș ca măsură curentă de gestiune."
       },
       {
         "id": "D",
-        "text": "Le aruncă la coș."
+        "text": "(1) Recuperează și securizează ambele copii (HG 781 art. 2 — marcare pe fiecare pagină); (2) consemnează multiplicarea în evidentă (art. 1); (3) evaluează riscul de compromitere — accesibile vizitatorilor = risc art. 11, eventual cercetare administrativă + informare; (4) corectează procedura de multiplicare/manipulare și marchează corect paginile."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "HG 781/2002 art. 1: multiplicare consemnată în evidentă; art. 2: marcare pe fiecare pagină. art. 11: compromitere (accesibile vizitatorilor) → cercetare administrativă + informare. Copiile au același regim ca informația pe care o poartă; NU se distribuie „de comoditate”, NU se lasă libere și NU se aruncă — se recuperază, se marchează, se consemnează, se apreciază riscul.",
     "tooltipCorrect": "Recuperezi ambele + marcare (art. 2) + evidentă (art. 1) + eventual cercetare (art. 11)."
@@ -15884,23 +15884,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Acceptă, fiindcă are etichetă."
-      },
-      {
-        "id": "B",
         "text": "(1) art. 7: dovada compoziției prin ETICHETĂ, specificații de la producător sau BULETIN — lipsa specificațiilor/buletinului înseamnă dovada incompletă; (2) ambalaj murdar = risc de contaminare (OM 4143 Anexa 2 — depozitare/corectă, fără contaminare); (3) suspendă/refuză recepția până la dovada completă + ambalaj curat; (4) consemnează și semnalează conducerii; NU se acceptă pe baza etichetei singure cu ambalaj murdar."
       },
       {
+        "id": "B",
+        "text": "Conform practicii administrative curente, acceptă și curăță ambalajul, fără dovada suplimentară ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Acceptă dacă mirosul este bun."
+        "text": "În temeiul normelor în vigoare, acceptă dacă mirosul este bun urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Acceptă și curăță ambalajul, fără dovada suplimentară."
+        "text": "În aplicarea instrucțiunilor unității, acceptă, fiindcă are etichetă urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "OM 1563/2008 art. 7: operatorul face dovada compoziției prin etichetă, specificații de la producător sau buletin de analiză — eticheta singură cu ambalaj murdar NU constituie dovadă completă. OM 4143/2022 Anexa 2: depozitare corectă, fără contaminare. Ambalajul murdar este risc de contaminare; se suspendă/refuză recepția până la dovada completă + ambalaj curat.",
     "tooltipCorrect": "Dovada art. 7 (etichetă + specificații/buletin) + fără contaminare (Anexa 2); suspendă/refuză."
@@ -15916,7 +15916,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lasă lacătul, important este că e încuiată."
+        "text": "Potrivit regulamentului intern, scoate ușa, ca să nu mai fie problemă și se consemnează în evidentă."
       },
       {
         "id": "B",
@@ -15924,11 +15924,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Scoate ușa, ca să nu mai fie problemă."
+        "text": "Potrivit regulamentului intern, trece lacătul pe un alt singur salariat urmărind respectarea normei."
       },
       {
         "id": "D",
-        "text": "Trece lacătul pe un alt singur salariat."
+        "text": "Conform procedurii interne, lasă lacătul, important este că e încuiată și se raportează conducerii."
       }
     ],
     "correctOptionIds": [
@@ -15940,7 +15940,7 @@ export const questions = [
   {
     "id": "SCN-061",
     "section": "Scenarii mixte de examen",
-    "topic": "Meniu 10% rație energetică + progr şcolar",
+    "topic": "Meniu 10% rație energetică + progr școlar",
     "difficulty": "scenario",
     "sourceAct": "Ordinul MS nr. 1563/2008, Anexa 2 pct. (3) reg. 2",
     "type": "single",
@@ -15948,23 +15948,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Este suficient, gustarea nu contează."
+        "text": "Pe baza evaluării de rutină, se lasă, copii mănâncă acasă urmărind respectarea normei."
       },
       {
         "id": "B",
-        "text": "(1) Meniurile asigură aport conform Anexele 3–4, PROPORȚIONAL cu timpul petrecut în colectivitate — ex. program școlar 6 ore → gustare care asigură 10% din rația energetică zilnică (Anexa 2 reg. 2); (2) 5% NU este conform pt 6 ore; (3) meniul se avizează de personal medical și se aprobă de conducător (Legea 123 art. 11); Administrator II semnalează conducerii ajustarea."
+        "text": "În aplicarea instrucțiunilor unității, este suficient, gustarea nu contează și se raportează conducerii."
       },
       {
         "id": "C",
-        "text": "Se dublează cele 5% la 10% ad-hoc."
+        "text": "(1) Meniurile asigură aport conform Anexele 3–4, PROPORȚIONAL cu timpul petrecut în colectivitate — ex. program școlar 6 ore → gustare care asigură 10% din rația energetică zilnică (Anexa 2 reg. 2); (2) 5% NU este conform pt 6 ore; (3) meniul se avizează de personal medical și se aprobă de conducător (Legea 123 art. 11); Administrator II semnalează conducerii ajustarea."
       },
       {
         "id": "D",
-        "text": "Se lasă, copii mănâncă acasă."
+        "text": "În aplicarea instrucțiunilor unității, se dublează cele 5% la 10% ad-hoc ca măsură curentă de gestiune."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "OM 1563/2008 Anexa 2 reg. 2: aportul este proporțional cu timpul petrecut în colectivitate — pt program școlar 6 ore, gustarea asigură 10% din rația energetică zilnică. 5% este sub pragul proporțional. Legea 123/2008 art. 11: meniu avizat medical + aprobat de conducător. Administrator NU ajustează ad-hoc, ci semnalează pt ajustare prin personal medical/conducere.",
     "tooltipCorrect": "10% pt 6 ore (Anexa 2 reg. 2); meniu avizat (art. 11); NU ad-hoc, ci prin medical/conducere."
@@ -15980,23 +15980,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Lasă, dacă acceptă ea."
+        "text": "Pe baza dispozițiilor curente, lasă, dacă acceptă ea și se raportează conducerii."
       },
       {
         "id": "B",
-        "text": "(1) Angajata care alăptează = grup sensibil (SSM cap. VII) — angajatorul adaptează măsurile de protecție să prevină expunerea la riscuri; (2) NU manipulare detergenți agresivi fără adaptare/EIP; (3) NU amplasare lângă centrală pe gaz (PSI Secțiunea 6 — măsuri de protecție, fără surse necontrolate pt grup sensibil); (4) supraveghere medicală (cap. V), reorganizare atribuții, eventual pauze pt alăptat conform legii muncii."
+        "text": "Conform procedurii interne, îi cere să semneze renunțare ca măsură curentă de gestiune."
       },
       {
         "id": "C",
-        "text": "Îi cere să semneze renunțare."
+        "text": "În aplicarea măsurilor prevăzute, O transferă fără să adapteze și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "O transferă fără să adapteze."
+        "text": "(1) Angajata care alăptează = grup sensibil (SSM cap. VII) — angajatorul adaptează măsurile de protecție să prevină expunerea la riscuri; (2) NU manipulare detergenți agresivi fără adaptare/EIP; (3) NU amplasare lângă centrală pe gaz (PSI Secțiunea 6 — măsuri de protecție, fără surse necontrolate pt grup sensibil); (4) supraveghere medicală (cap. V), reorganizare atribuții, eventual pauze pt alăptat conform legii muncii."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "D"
     ],
     "explanation": "Legea 319/2006 cap. VII: grupuri sensibile (care alăptează) — angajatorul adaptează măsurile de protecție; cap. V: supraveghere medicală. PSI Legea 307/2006 Secțiunea 6: măsuri de protecție, fără surse necontrolate. Combinat: reorganizare atribuții (fără detergenți agresivi, fără centrală pe gaz în apropiere), EIP, supraveghere medicală, pauze pt alăptat. Acordul angajatei NU elimină obligația angajatorului.",
     "tooltipCorrect": "Grup sensibil (cap. VII) → adaptare atribuții + EIP + supraveghere (cap. V) + fără surse necontrolate (PSI)."
@@ -16012,23 +16012,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Niciuna, a avut autorizație el."
-      },
-      {
-        "id": "B",
         "text": "(1) Accesul celui de-al doilea trebuia să fie pe autorizație (art. 6) — fără autorizație, primirea/evidența este ilegală; (2) multiplicarea se consemnează în evidentă (art. 1); (3) titularul a încălcat reglementările → caz de RETRAGERE a autorizației (art. 8 lit. c) + distrugere pe PV; (4) riscul de compromitere (art. 11) → cercetare administrativă + informare; (5) NU se reduce la o simplă discuție."
       },
       {
+        "id": "B",
+        "text": "În aplicarea măsurilor prevăzute, doar colegul este vinovat ca măsură curentă de gestiune."
+      },
+      {
         "id": "C",
-        "text": "Doar colegul este vinovat."
+        "text": "Potrivit reglementării aplicabile, se scuza prin „colaborare internă” și se raportează conducerii."
       },
       {
         "id": "D",
-        "text": "Se scuza prin „colaborare internă”."
+        "text": "În aplicarea măsurilor prevăzute, niciuna, a avut autorizație el urmărind respectarea normei."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "A"
     ],
     "explanation": "HG 781/2002 art. 6: acces pe autorizație, nu pe „colaborare internă”; art. 1: multiplicare consemnată; art. 8: încălcarea reglementărilor = caz de retragere a autorizației + distrugere pe PV; art. 11: riscul de compromitere → cercetare administrativă. Cei doi au roluri distincte, dar împreună realizează comunicarea neautorizată — consecințe cumulate, NU se reduce la discuție.",
     "tooltipCorrect": "Acces fără autorizație (art. 6) + multiplicare (art. 1) + retragere (art. 8) + art. 11."
@@ -16044,7 +16044,7 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Mută mai întâi prelungitorul, apoi documentul."
+        "text": "În aplicarea instrucțiunilor unității, repară prelungitorul cu bandă, fără să atingă documentul ca măsură curentă de gestiune."
       },
       {
         "id": "B",
@@ -16052,11 +16052,11 @@ export const questions = [
       },
       {
         "id": "C",
-        "text": "Lasă ambele pe mâine."
+        "text": "În aplicarea măsurilor prevăzute, mută mai întâi prelungitorul, apoi documentul și se consemnează în evidentă."
       },
       {
         "id": "D",
-        "text": "Repară prelungitorul cu bandă, fără să atingă documentul."
+        "text": "În aplicarea instrucțiunilor unității, lasă ambele pe mâine și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
@@ -16076,23 +16076,23 @@ export const questions = [
     "options": [
       {
         "id": "A",
-        "text": "Repară totul în ordine cronologică, fără prioritizare."
+        "text": "Potrivit regulamentului intern, așteaptă o decizie a conducerii pt fiecare și se consemnează în evidentă."
       },
       {
         "id": "B",
-        "text": "(1) Prioritatea ÎNTÂI: riscurile pt viața/siguranța copiilor și personalului (stingător blocat — PSI; detergenți fără EIP — SSM) + securizarea informației (document nemarcat pe copiator — HG 781); (2) apoi recepția lotului (suspendă/refuză fără dovada art. 7 + Legea 123 art. 10); (3) fiecare deficiență se consemnează și se raportează conducerii (OM 4143 Anexa 2 pt dotări/inventar); (4) NU se lasă copiii în preajma riscurilor și NU se amână securizarea informației. Acțiuni în paralel pe fronturi, NU strict secvențial."
+        "text": "În temeiul normelor în vigoare, repară totul în ordine cronologică, fără prioritizare urmărind respectarea normei."
       },
       {
         "id": "C",
-        "text": "Începe cu recepția, fiind cea mai documentată."
+        "text": "(1) Prioritatea ÎNTÂI: riscurile pt viața/siguranța copiilor și personalului (stingător blocat — PSI; detergenți fără EIP — SSM) + securizarea informației (document nemarcat pe copiator — HG 781); (2) apoi recepția lotului (suspendă/refuză fără dovada art. 7 + Legea 123 art. 10); (3) fiecare deficiență se consemnează și se raportează conducerii (OM 4143 Anexa 2 pt dotări/inventar); (4) NU se lasă copiii în preajma riscurilor și NU se amână securizarea informației. Acțiuni în paralel pe fronturi, NU strict secvențial."
       },
       {
         "id": "D",
-        "text": "Așteaptă o decizie a conducerii pt fiecare."
+        "text": "În temeiul normelor în vigoare, începe cu recepția, fiind cea mai documentată și se consemnează în evidentă."
       }
     ],
     "correctOptionIds": [
-      "B"
+      "C"
     ],
     "explanation": "Recapitulare integrată: prioritatea ÎNTÂI viața/siguranța (PSI + SSM) și securitatea informației (HG 781, fiind compromitere potențială), apoi aspectele alimentare (OM 1563 art. 7 + Legea 123 art. 10). Fiecare deficiență se consemnează și se raportează conducerii (OM 4143 Anexa 2 pt gestionare bunuri). Administrator II NU așteaptă decizii pt riscurile imediate și NU lasă copiii în preajma pericolelor; acționează în paralel pe fronturi.",
     "tooltipCorrect": "Întâi viață/siguranță (PSI+SSM) + securitate info (HG 781), apoi recepție (art. 7+10); consemnezi tot."
